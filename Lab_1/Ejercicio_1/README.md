@@ -1,9 +1,16 @@
-## Cómo correr
+# Ejercicio 1
 
-```bash
-source ~/.zprofile && source ~/.zshrc && get_esp32 && idf.py build && idf.py flash -p /dev/<PORT> monitor
+En este ejercicio el entregable es el reporte en `output.pdf`.
 
+## Ejecución
 
-```md
-> Nota: En nuestro caso, el puerto corresponde a /dev/ttyUSB0 (ESP32-CAM) o /dev/ttyACM0 (ESP32-S3).
-s
+En esta carpeta no hay un proyecto ESP-IDF (no existe `main/`, `CMakeLists.txt`, etc.), por lo que **no aplica** `idf.py build/flash/monitor` directamente.
+
+Si necesitas ejecutar firmware en una placa, revisa los ejercicios que sí son proyectos ESP-IDF (por ejemplo `Ejercicio_2/`, `Ejercicio_3/` y `Ejercicio_4/`).
+
+## Nota sobre puertos
+
+En nuestro caso, el puerto correspondió a:
+
+- `/dev/ttyUSB0` (ESP32-CAM)
+- `/dev/ttyACM0` (ESP32-S3)

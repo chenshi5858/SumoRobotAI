@@ -1,0 +1,37 @@
+esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/esp32s3/cam_periph.c.obj: \
+ /home/diegolagos/esp-idf/components/esp_hal_cam/esp32s3/cam_periph.c \
+ /home/diegolagos/esp-idf/components/soc/esp32s3/include/soc/gpio_sig_map.h \
+ /home/diegolagos/esp-idf/components/esp_hal_cam/include/hal/cam_periph.h \
+ /home/diegolagos/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+ /home/diegolagos/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+ /home/diegolagos/esp-idf/components/soc/esp32s3/include/soc/periph_defs.h \
+ /home/diegolagos/esp-idf/components/soc/esp32s3/include/soc/interrupts.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \
+ /home/diegolagos/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/ieeefp.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/picolibc.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_default_types.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_3/build/config/sdkconfig.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_intsup.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_stdint.h \
+ /home/diegolagos/esp-idf/components/esp_hal_cam/esp32s3/include/hal/cam_ll.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h \
+ /home/diegolagos/esp-idf/components/hal/platform_port/include/hal/misc.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/string.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_locale.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/strings.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_types.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_types.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h \
+ /home/diegolagos/esp-idf/components/hal/platform_port/include/hal/assert.h \
+ /home/diegolagos/esp-idf/components/soc/esp32s3/register/soc/lcd_cam_struct.h \
+ /home/diegolagos/esp-idf/components/soc/esp32s3/register/soc/system_struct.h \
+ /home/diegolagos/esp-idf/components/esp_hal_cam/include/hal/cam_types.h \
+ /home/diegolagos/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+ /home/diegolagos/esp-idf/components/hal/include/hal/color_types.h \
+ /home/diegolagos/esp-idf/components/esp_hal_cam/include/hal/cam_ctlr_types.h
