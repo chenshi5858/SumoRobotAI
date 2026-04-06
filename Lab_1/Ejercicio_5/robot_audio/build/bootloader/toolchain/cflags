@@ -1,0 +1,5 @@
+"-specs=/home/diegolagos/esp_projects/robot_audio/build/bootloader/specs/picolibc.specs"
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero

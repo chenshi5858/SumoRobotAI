@@ -1,0 +1,7 @@
+Command: make -j 14 all
+/home/diegolagos/esp_projects/robot_audio/main/main.c:43:14: warning: 'window' defined but not used [-Wunused-variable]
+   43 | static float window[FFT_SIZE];
+      |              ^~~~~~
+/home/diegolagos/esp_projects/robot_audio/main/main.c:42:14: warning: 'fft_input' defined but not used [-Wunused-variable]
+   42 | static float fft_input[FFT_SIZE * 2];
+      |              ^~~~~~~~~

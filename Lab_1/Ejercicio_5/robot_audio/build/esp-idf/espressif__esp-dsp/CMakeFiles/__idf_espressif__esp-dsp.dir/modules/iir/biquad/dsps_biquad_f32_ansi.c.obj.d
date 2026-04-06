@@ -1,0 +1,37 @@
+esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_f32_ansi.c.obj: \
+ /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/iir/biquad/dsps_biquad_f32_ansi.c \
+ /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/iir/include/dsps_biquad.h \
+ /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_err.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \
+ /home/diegolagos/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/ieeefp.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/picolibc.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_default_types.h \
+ /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_intsup.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_stdint.h \
+ /home/diegolagos/esp-idf/components/esp_common/include/esp_err.h \
+ /home/diegolagos/esp-idf/components/esp_libc/platform_include/stdio.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdio.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdarg.h \
+ /home/diegolagos/esp-idf/components/esp_libc/platform_include/sys/lock.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_types.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_types.h \
+ /home/diegolagos/esp-idf/components/esp_libc/platform_include/assert.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/stdlib.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/alloca.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_locale.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_wait.h \
+ /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/assert.h \
+ /home/diegolagos/esp-idf/components/esp_common/include/esp_compiler.h \
+ /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_err_codes.h \
+ /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/iir/include/dsps_biquad_platform.h \
+ /home/diegolagos/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+ /home/diegolagos/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h
