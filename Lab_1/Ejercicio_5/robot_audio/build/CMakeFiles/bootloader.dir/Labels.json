@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/diegolagos/esp_projects/robot_audio/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/home/diegolagos/esp_projects/robot_audio/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/home/diegolagos/esp_projects/robot_audio/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/home/diegolagos/esp_projects/robot_audio/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "/home/diegolagos/esp_projects/robot_audio/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/home/diegolagos/esp_projects/robot_audio/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/home/diegolagos/esp_projects/robot_audio/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/home/diegolagos/esp_projects/robot_audio/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/home/diegolagos/esp_projects/robot_audio/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/home/diegolagos/esp_projects/robot_audio/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

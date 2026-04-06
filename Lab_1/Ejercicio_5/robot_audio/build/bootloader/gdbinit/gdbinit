@@ -1,0 +1,2 @@
+source /home/diegolagos/esp_projects/robot_audio/build/bootloader/gdbinit/symbols
+source /home/diegolagos/esp_projects/robot_audio/build/bootloader/gdbinit/connect
