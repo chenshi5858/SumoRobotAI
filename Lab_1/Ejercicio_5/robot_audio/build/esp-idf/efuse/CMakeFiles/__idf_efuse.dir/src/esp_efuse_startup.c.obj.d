@@ -1,6 +1,6 @@
 esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_startup.c.obj: \
  /home/diegolagos/esp-idf/components/efuse/src/esp_efuse_startup.c \
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h \
  /home/diegolagos/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/diegolagos/esp-idf/components/soc/include/soc/soc_caps_eval.h \
  /home/diegolagos/esp-idf/components/soc/include/soc/chip_revision.h \

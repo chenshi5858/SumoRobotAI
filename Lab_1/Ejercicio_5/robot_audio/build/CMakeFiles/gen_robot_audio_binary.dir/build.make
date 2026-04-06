@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/diegolagos/esp_projects/robot_audio
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build
 
 # Utility rule file for gen_robot_audio_binary.
 
@@ -69,10 +69,10 @@ include CMakeFiles/gen_robot_audio_binary.dir/progress.make
 CMakeFiles/gen_robot_audio_binary: .bin_timestamp
 
 .bin_timestamp: robot_audio.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/diegolagos/esp_projects/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
-	/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python -m esptool --chip esp32s3 elf2image --flash-mode dio --flash-freq 80m --flash-size 2MB --elf-sha256-offset 0xb0 --min-rev-full 0 --max-rev-full 99 -o /home/diegolagos/esp_projects/robot_audio/build/robot_audio.bin /home/diegolagos/esp_projects/robot_audio/build/robot_audio.elf
-	/usr/bin/cmake -E echo "Generated /home/diegolagos/esp_projects/robot_audio/build/robot_audio.bin"
-	/usr/bin/cmake -E md5sum /home/diegolagos/esp_projects/robot_audio/build/robot_audio.bin > /home/diegolagos/esp_projects/robot_audio/build/.bin_timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
+	/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python -m esptool --chip esp32s3 elf2image --flash-mode dio --flash-freq 80m --flash-size 2MB --elf-sha256-offset 0xb0 --min-rev-full 0 --max-rev-full 99 -o /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/robot_audio.bin /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/robot_audio.elf
+	/usr/bin/cmake -E echo "Generated /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/robot_audio.bin"
+	/usr/bin/cmake -E md5sum /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/robot_audio.bin > /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/.bin_timestamp
 
 gen_robot_audio_binary: .bin_timestamp
 gen_robot_audio_binary: CMakeFiles/gen_robot_audio_binary
@@ -88,6 +88,6 @@ CMakeFiles/gen_robot_audio_binary.dir/clean:
 .PHONY : CMakeFiles/gen_robot_audio_binary.dir/clean
 
 CMakeFiles/gen_robot_audio_binary.dir/depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp_projects/robot_audio /home/diegolagos/esp_projects/robot_audio /home/diegolagos/esp_projects/robot_audio/build /home/diegolagos/esp_projects/robot_audio/build /home/diegolagos/esp_projects/robot_audio/build/CMakeFiles/gen_robot_audio_binary.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles/gen_robot_audio_binary.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/gen_robot_audio_binary.dir/depend
 

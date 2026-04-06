@@ -1,7 +1,7 @@
 esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/kalman/ekf_imu13states/ekf_imu13states.cpp.obj: \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/kalman/ekf_imu13states/ekf_imu13states.cpp \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/kalman/ekf_imu13states/include/ekf_imu13states.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/kalman/ekf/include/ekf.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/kalman/ekf_imu13states/ekf_imu13states.cpp \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/kalman/ekf_imu13states/include/ekf_imu13states.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/kalman/ekf/include/ekf.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
@@ -11,14 +11,14 @@ esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/kalma
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/picolibc.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_default_types.h \
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_intsup.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_stdint.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/math.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/math.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/include/mat.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/include/mat.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/iostream \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/bits/requires_hosted.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/xtensa-esp-elf/include/c++/15.2.0/xtensa-esp-elf/esp32s3/no-rtti/bits/c++config.h \

@@ -3,6 +3,7 @@
 
 esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/esp_spiffs.c.obj
  /home/diegolagos/esp-idf/components/spiffs/esp_spiffs.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/esp_app_format.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/esp_flash_partitions.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/esp_image_format.h
@@ -155,10 +156,10 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/esp_spiffs.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/time.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/unistd.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/utime.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_cache.c.obj
  /home/diegolagos/esp-idf/components/spiffs/spiffs/src/spiffs_cache.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_compiler.h
@@ -227,10 +228,10 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_cache.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/unistd.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/unistd.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_check.c.obj
  /home/diegolagos/esp-idf/components/spiffs/spiffs/src/spiffs_check.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_compiler.h
@@ -299,10 +300,10 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_check.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/unistd.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/unistd.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_gc.c.obj
  /home/diegolagos/esp-idf/components/spiffs/spiffs/src/spiffs_gc.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_compiler.h
@@ -371,10 +372,10 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_gc.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/unistd.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/unistd.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_hydrogen.c.obj
  /home/diegolagos/esp-idf/components/spiffs/spiffs/src/spiffs_hydrogen.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_compiler.h
@@ -443,10 +444,10 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_hydrogen.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/unistd.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/unistd.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_nucleus.c.obj
  /home/diegolagos/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_compiler.h
@@ -515,10 +516,10 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_nucleus.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/unistd.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/unistd.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs_api.c.obj
  /home/diegolagos/esp-idf/components/spiffs/spiffs_api.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_blockdev/include/esp_blockdev.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
@@ -645,5 +646,4 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs_api.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/unistd.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/unistd.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 

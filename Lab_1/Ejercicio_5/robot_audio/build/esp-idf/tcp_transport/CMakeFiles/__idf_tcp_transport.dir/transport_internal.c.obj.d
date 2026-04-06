@@ -2,7 +2,7 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_internal.c.ob
  /home/diegolagos/esp-idf/components/tcp_transport/transport_internal.c \
  /home/diegolagos/esp-idf/components/tcp_transport/private_include/esp_transport_internal.h \
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/sys/time.h \
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/time.h \
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \

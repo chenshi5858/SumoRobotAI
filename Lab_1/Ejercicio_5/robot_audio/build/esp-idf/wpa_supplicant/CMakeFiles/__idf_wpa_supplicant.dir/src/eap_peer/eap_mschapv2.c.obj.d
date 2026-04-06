@@ -1,7 +1,7 @@
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_mschapv2.c.obj: \
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c \
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa.h \
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h \
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/utils/common.h \
  /home/diegolagos/esp-idf/components/wpa_supplicant/port/include/os.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h \

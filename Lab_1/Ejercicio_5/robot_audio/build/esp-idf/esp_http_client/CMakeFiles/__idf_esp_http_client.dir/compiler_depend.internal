@@ -3,6 +3,7 @@
 
 esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/esp_http_client.c.obj
  /home/diegolagos/esp-idf/components/esp_http_client/esp_http_client.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp-tls/esp_tls.h
  /home/diegolagos/esp-idf/components/esp-tls/esp_tls_errors.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
@@ -257,10 +258,10 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/esp_http_client.c.o
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/unistd.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/time.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/unistd.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.obj
  /home/diegolagos/esp-idf/components/esp_http_client/lib/http_auth.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp-tls/esp-tls-crypto/esp_tls_crypto.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
@@ -491,10 +492,10 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/unistd.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/time.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/unistd.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.obj
  /home/diegolagos/esp-idf/components/esp_http_client/lib/http_header.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_check.h
@@ -563,10 +564,10 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.o
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/time.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.obj
  /home/diegolagos/esp-idf/components/esp_http_client/lib/http_utils.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_check.h
@@ -633,5 +634,4 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.ob
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/time.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 

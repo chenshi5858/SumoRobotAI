@@ -3,6 +3,7 @@
 
 esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.obj
  /home/diegolagos/esp-idf/components/esp_https_server/src/https_server.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp-tls/esp_tls.h
  /home/diegolagos/esp-idf/components/esp-tls/esp_tls_errors.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
@@ -249,5 +250,4 @@ esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/unistd.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/time.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/unistd.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 

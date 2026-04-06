@@ -1,7 +1,7 @@
 esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_fird_init_s16.c.obj: \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/fir/fixed/dsps_fird_init_s16.c \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/fir/include/dsps_fir.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_err.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/fir/fixed/dsps_fird_init_s16.c \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/fir/include/dsps_fir.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_err.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
@@ -11,7 +11,7 @@ esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/f
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/picolibc.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_default_types.h \
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_intsup.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_stdint.h \
@@ -31,13 +31,13 @@ esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/f
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_wait.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/assert.h \
  /home/diegolagos/esp-idf/components/esp_common/include/esp_compiler.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_err_codes.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/fir/include/dsps_fir_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_err_codes.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/fir/include/dsps_fir_platform.h \
  /home/diegolagos/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
  /home/diegolagos/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_common.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_common.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_err.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_err.h \
  /home/diegolagos/esp-idf/components/esp_common/include/esp_idf_version.h \
  /home/diegolagos/esp-idf/components/esp_hw_support/include/esp_cpu.h \
  /home/diegolagos/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
@@ -67,12 +67,12 @@ esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/f
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/string.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/strings.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_tests.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/esp_dsp.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_common.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_types.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_tests.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/esp_dsp.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_common.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_types.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/dotprod/include/dsps_dotprod.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/dotprod/include/dsps_dotprod.h \
  /home/diegolagos/esp-idf/components/log/include/esp_log.h \
  /home/diegolagos/esp-idf/components/esp_rom/include/esp_rom_sys.h \
  /home/diegolagos/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
@@ -88,58 +88,58 @@ esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/f
  /home/diegolagos/esp-idf/components/esp_common/include/esp_macros.h \
  /home/diegolagos/esp-idf/components/log/include/esp_log_attr.h \
  /home/diegolagos/esp-idf/components/log/include/esp_private/log_attr.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/dotprod/include/dsps_dotprod_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/include/dsps_math.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/add/include/dsps_add.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/add/include/dsps_add_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/sub/include/dsps_sub.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/sub/include/dsps_sub_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/mul/include/dsps_mul.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/mul/include/dsps_mul_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/addc/include/dsps_addc.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/addc/include/dsps_addc_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/mulc/include/dsps_mulc.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/mulc/include/dsps_mulc_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/sqrt/include/dsps_sqrt.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/fir/include/dsps_resampler.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/fir/include/dsps_fir.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/iir/include/dsps_biquad.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/iir/include/dsps_biquad_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/iir/include/dsps_biquad_gen.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/windows/include/dsps_wind.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/windows/hann/include/dsps_wind_hann.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/windows/blackman/include/dsps_wind_blackman.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/windows/blackman_harris/include/dsps_wind_blackman_harris.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/windows/blackman_nuttall/include/dsps_wind_blackman_nuttall.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/windows/nuttall/include/dsps_wind_nuttall.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/windows/flat_top/include/dsps_wind_flat_top.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/conv/include/dsps_conv.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/conv/include/dsps_conv_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/conv/include/dsps_corr.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/support/include/dsps_d_gen.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/support/include/dsps_h_gen.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/support/include/dsps_tone_gen.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/support/include/dsps_snr.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/support/include/dsps_sfdr.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/fft/include/dsps_fft2r.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/fft/include/dsps_fft_tables.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/fft/include/dsps_fft2r_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/fft/include/dsps_fft4r.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/fft/include/dsps_fft4r_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/dct/include/dsps_dct.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/include/dspm_matrix.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/add/include/dspm_add.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/add/include/dspm_add_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/addc/include/dspm_addc.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/addc/include/dspm_addc_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/mul/include/dspm_mult.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/mul/include/dspm_mult_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/mulc/include/dspm_mulc.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/mulc/include/dspm_mulc_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/sub/include/dspm_sub.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/sub/include/dspm_sub_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/support/include/dsps_view.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/dotprod/include/dspi_dotprod.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_types.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/dotprod/include/dspi_dotprod_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/conv/include/dspi_conv.h
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/dotprod/include/dsps_dotprod_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/include/dsps_math.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/add/include/dsps_add.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/add/include/dsps_add_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/sub/include/dsps_sub.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/sub/include/dsps_sub_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/mul/include/dsps_mul.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/mul/include/dsps_mul_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/addc/include/dsps_addc.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/addc/include/dsps_addc_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/mulc/include/dsps_mulc.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/mulc/include/dsps_mulc_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/sqrt/include/dsps_sqrt.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/fir/include/dsps_resampler.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/fir/include/dsps_fir.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/iir/include/dsps_biquad.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/iir/include/dsps_biquad_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/iir/include/dsps_biquad_gen.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/windows/include/dsps_wind.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/windows/hann/include/dsps_wind_hann.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/windows/blackman/include/dsps_wind_blackman.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/windows/blackman_harris/include/dsps_wind_blackman_harris.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/windows/blackman_nuttall/include/dsps_wind_blackman_nuttall.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/windows/nuttall/include/dsps_wind_nuttall.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/windows/flat_top/include/dsps_wind_flat_top.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/conv/include/dsps_conv.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/conv/include/dsps_conv_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/conv/include/dsps_corr.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/support/include/dsps_d_gen.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/support/include/dsps_h_gen.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/support/include/dsps_tone_gen.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/support/include/dsps_snr.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/support/include/dsps_sfdr.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/fft/include/dsps_fft2r.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/fft/include/dsps_fft_tables.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/fft/include/dsps_fft2r_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/fft/include/dsps_fft4r.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/fft/include/dsps_fft4r_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/dct/include/dsps_dct.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/include/dspm_matrix.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/add/include/dspm_add.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/add/include/dspm_add_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/addc/include/dspm_addc.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/addc/include/dspm_addc_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/mul/include/dspm_mult.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/mul/include/dspm_mult_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/mulc/include/dspm_mulc.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/mulc/include/dspm_mulc_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/sub/include/dspm_sub.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/sub/include/dspm_sub_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/support/include/dsps_view.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/dotprod/include/dspi_dotprod.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_types.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/dotprod/include/dspi_dotprod_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/conv/include/dspi_conv.h

@@ -1,7 +1,7 @@
 esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fird_f32_ansi.c.obj: \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/fir/float/dsps_fird_f32_ansi.c \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/fir/include/dsps_fir.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_err.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/fir/float/dsps_fird_f32_ansi.c \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/fir/include/dsps_fir.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_err.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
@@ -11,7 +11,7 @@ esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/f
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/picolibc.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_default_types.h \
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_intsup.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_stdint.h \
@@ -31,13 +31,13 @@ esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/f
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_wait.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/assert.h \
  /home/diegolagos/esp-idf/components/esp_common/include/esp_compiler.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_err_codes.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/fir/include/dsps_fir_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_err_codes.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/fir/include/dsps_fir_platform.h \
  /home/diegolagos/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
  /home/diegolagos/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_common.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_common.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_err.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_err.h \
  /home/diegolagos/esp-idf/components/esp_common/include/esp_idf_version.h \
  /home/diegolagos/esp-idf/components/esp_hw_support/include/esp_cpu.h \
  /home/diegolagos/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \

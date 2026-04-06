@@ -1,6 +1,6 @@
 esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_cache_esp32s2_esp32s3.c.obj: \
  /home/diegolagos/esp-idf/components/esp_rom/patches/esp_rom_cache_esp32s2_esp32s3.c \
- /home/diegolagos/esp_projects/robot_audio/build/bootloader/config/sdkconfig.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/config/sdkconfig.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \

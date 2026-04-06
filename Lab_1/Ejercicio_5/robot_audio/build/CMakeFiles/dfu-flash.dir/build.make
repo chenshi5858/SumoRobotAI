@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/diegolagos/esp_projects/robot_audio
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build
 
 # Utility rule file for dfu-flash.
 
@@ -67,7 +67,7 @@ include CMakeFiles/dfu-flash.dir/compiler_depend.make
 include CMakeFiles/dfu-flash.dir/progress.make
 
 CMakeFiles/dfu-flash:
-	/usr/bin/cmake -D ESP_DFU_BIN="/home/diegolagos/esp_projects/robot_audio/build/dfu.bin" -D ESP_DFU_PID="9" -P /home/diegolagos/esp-idf/tools/cmake/run_dfu_util.cmake
+	/usr/bin/cmake -D ESP_DFU_BIN="/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/dfu.bin" -D ESP_DFU_PID="9" -P /home/diegolagos/esp-idf/tools/cmake/run_dfu_util.cmake
 
 dfu-flash: CMakeFiles/dfu-flash
 dfu-flash: CMakeFiles/dfu-flash.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/dfu-flash.dir/clean:
 .PHONY : CMakeFiles/dfu-flash.dir/clean
 
 CMakeFiles/dfu-flash.dir/depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp_projects/robot_audio /home/diegolagos/esp_projects/robot_audio /home/diegolagos/esp_projects/robot_audio/build /home/diegolagos/esp_projects/robot_audio/build /home/diegolagos/esp_projects/robot_audio/build/CMakeFiles/dfu-flash.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles/dfu-flash.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/dfu-flash.dir/depend
 

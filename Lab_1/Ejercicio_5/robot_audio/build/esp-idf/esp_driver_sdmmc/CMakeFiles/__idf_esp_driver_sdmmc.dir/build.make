@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/diegolagos/esp_projects/robot_audio
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build
 
 # Include any dependencies generated for this target.
 include esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/depend.make
@@ -72,58 +72,58 @@ include esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/flags.mak
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.obj: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/flags.make
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.obj: /home/diegolagos/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_transaction.c
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.obj: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diegolagos/esp_projects/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.obj"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.obj -MF CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.obj.d -o CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.obj -c /home/diegolagos/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_transaction.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.obj"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.obj -MF CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.obj.d -o CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.obj -c /home/diegolagos/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_transaction.c
 
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.i"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diegolagos/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_transaction.c > CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diegolagos/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_transaction.c > CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.i
 
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.s"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diegolagos/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_transaction.c -o CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diegolagos/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_transaction.c -o CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.s
 
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.obj: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/flags.make
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.obj: /home/diegolagos/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_host.c
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.obj: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diegolagos/esp_projects/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.obj"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.obj -MF CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.obj.d -o CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.obj -c /home/diegolagos/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_host.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.obj"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.obj -MF CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.obj.d -o CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.obj -c /home/diegolagos/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_host.c
 
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.i"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diegolagos/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_host.c > CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diegolagos/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_host.c > CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.i
 
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.s"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diegolagos/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_host.c -o CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diegolagos/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_host.c -o CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.s
 
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.obj: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/flags.make
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.obj: /home/diegolagos/esp-idf/components/esp_driver_sdmmc/src/sd_host_sdmmc.c
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.obj: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diegolagos/esp_projects/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.obj"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.obj -MF CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.obj.d -o CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.obj -c /home/diegolagos/esp-idf/components/esp_driver_sdmmc/src/sd_host_sdmmc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.obj"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.obj -MF CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.obj.d -o CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.obj -c /home/diegolagos/esp-idf/components/esp_driver_sdmmc/src/sd_host_sdmmc.c
 
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.i"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diegolagos/esp-idf/components/esp_driver_sdmmc/src/sd_host_sdmmc.c > CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diegolagos/esp-idf/components/esp_driver_sdmmc/src/sd_host_sdmmc.c > CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.i
 
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.s"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diegolagos/esp-idf/components/esp_driver_sdmmc/src/sd_host_sdmmc.c -o CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diegolagos/esp-idf/components/esp_driver_sdmmc/src/sd_host_sdmmc.c -o CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.s
 
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/flags.make
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj: /home/diegolagos/esp-idf/components/esp_driver_sdmmc/src/sd_trans_sdmmc.c
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diegolagos/esp_projects/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj -MF CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj.d -o CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj -c /home/diegolagos/esp-idf/components/esp_driver_sdmmc/src/sd_trans_sdmmc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj -MF CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj.d -o CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj -c /home/diegolagos/esp-idf/components/esp_driver_sdmmc/src/sd_trans_sdmmc.c
 
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.i"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diegolagos/esp-idf/components/esp_driver_sdmmc/src/sd_trans_sdmmc.c > CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diegolagos/esp-idf/components/esp_driver_sdmmc/src/sd_trans_sdmmc.c > CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.i
 
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.s"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diegolagos/esp-idf/components/esp_driver_sdmmc/src/sd_trans_sdmmc.c -o CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_sdmmc && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diegolagos/esp-idf/components/esp_driver_sdmmc/src/sd_trans_sdmmc.c -o CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.s
 
 # Object files for target __idf_esp_driver_sdmmc
 __idf_esp_driver_sdmmc_OBJECTS = \
@@ -141,19 +141,19 @@ esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a: esp-idf/esp_driver_sdmmc/CMakeFi
 esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj
 esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make
 esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/diegolagos/esp_projects/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libesp_driver_sdmmc.a"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_sdmmc && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_driver_sdmmc.dir/cmake_clean_target.cmake
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_sdmmc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_driver_sdmmc.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libesp_driver_sdmmc.a"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_sdmmc && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_driver_sdmmc.dir/cmake_clean_target.cmake
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_sdmmc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_driver_sdmmc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build: esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
 .PHONY : esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build
 
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/clean:
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_sdmmc && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_driver_sdmmc.dir/cmake_clean.cmake
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_sdmmc && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_driver_sdmmc.dir/cmake_clean.cmake
 .PHONY : esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/clean
 
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp_projects/robot_audio /home/diegolagos/esp-idf/components/esp_driver_sdmmc /home/diegolagos/esp_projects/robot_audio/build /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_sdmmc /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio /home/diegolagos/esp-idf/components/esp_driver_sdmmc /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_sdmmc /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/depend
 

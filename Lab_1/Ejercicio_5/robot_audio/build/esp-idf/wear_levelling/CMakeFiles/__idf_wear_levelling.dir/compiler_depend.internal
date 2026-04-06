@@ -3,6 +3,7 @@
 
 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/BDL_Access.cpp.obj
  /home/diegolagos/esp-idf/components/wear_levelling/BDL_Access.cpp
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_blockdev/include/esp_blockdev.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
@@ -57,10 +58,10 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/BDL_Access.cpp.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.obj
  /home/diegolagos/esp-idf/components/wear_levelling/Partition.cpp
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_blockdev/include/esp_blockdev.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
@@ -116,10 +117,10 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.obj
  /home/diegolagos/esp-idf/components/wear_levelling/SPI_Flash.cpp
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_blockdev/include/esp_blockdev.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
@@ -180,10 +181,10 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.obj
  /home/diegolagos/esp-idf/components/wear_levelling/WL_Ext_Perf.cpp
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_compiler.h
@@ -241,10 +242,10 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.obj
  /home/diegolagos/esp-idf/components/wear_levelling/WL_Ext_Safe.cpp
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_compiler.h
@@ -303,10 +304,10 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.obj
  /home/diegolagos/esp-idf/components/wear_levelling/WL_Flash.cpp
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_compiler.h
@@ -364,10 +365,10 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.obj
  /home/diegolagos/esp-idf/components/wear_levelling/crc32.cpp
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/sys/cdefs.h
  /home/diegolagos/esp-idf/components/esp_rom/include/esp_rom_crc.h
  /home/diegolagos/esp-idf/components/wear_levelling/crc32.h
@@ -382,10 +383,10 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.obj
  /home/diegolagos/esp-idf/components/wear_levelling/wear_levelling.cpp
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_blockdev/include/esp_blockdev.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
@@ -455,10 +456,10 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.ob
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/bits/version.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/new
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/pstl/pstl_config.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wl_blockdev.cpp.obj
  /home/diegolagos/esp-idf/components/wear_levelling/wl_blockdev.cpp
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_blockdev/include/esp_blockdev.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
@@ -528,5 +529,4 @@ esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wl_blockdev.cpp.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/bits/version.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/new
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/pstl/pstl_config.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 

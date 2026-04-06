@@ -1,6 +1,6 @@
 esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_gpio.c.obj: \
  /home/diegolagos/esp-idf/components/esp_rom/patches/esp_rom_gpio.c \
- /home/diegolagos/esp_projects/robot_audio/build/bootloader/config/sdkconfig.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/config/sdkconfig.h \
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h \
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h \
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/assert.h \

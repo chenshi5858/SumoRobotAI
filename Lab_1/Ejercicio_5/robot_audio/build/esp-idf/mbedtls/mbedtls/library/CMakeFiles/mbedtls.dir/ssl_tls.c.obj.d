@@ -5,7 +5,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls.c.obj: \
  /home/diegolagos/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h \
  /home/diegolagos/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_config.h \
  /home/diegolagos/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h \
  /home/diegolagos/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/diegolagos/esp-idf/components/soc/include/soc/soc_caps_eval.h \
  /home/diegolagos/esp-idf/components/mbedtls/port/include/esp_mem.h \

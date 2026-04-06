@@ -3,6 +3,7 @@
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls-bignum.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-bignum.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -210,10 +211,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls-ec.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-ec.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -429,10 +430,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls-rsa.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-rsa.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -654,10 +655,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/time.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -874,10 +875,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/fastpbkdf2.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpbkdf2.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1078,10 +1079,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/time.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/fastpsk.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpsk.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1136,10 +1137,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/tls_mbedtls.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/tls_mbedtls.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1393,10 +1394,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/unistd.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/time.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/unistd.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_common.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_common.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1553,10 +1554,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_eap_client.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_eap_client.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1795,10 +1796,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/time.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_hostap.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_hostap.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -1958,10 +1959,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_owe.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_owe.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -2105,10 +2106,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa2_api_port.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa2_api_port.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_compiler.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_err.h
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/assert.h
@@ -2139,10 +2140,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa3.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa3.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -2294,10 +2295,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa_main.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa_main.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -2473,10 +2474,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpas_glue.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpas_glue.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -2624,10 +2625,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wps.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wps.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -2790,10 +2791,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/eloop.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/port/eloop.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -2934,10 +2935,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/eloop.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/os_xtensa.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/port/os_xtensa.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -3097,10 +3098,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/os_xtensa.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/unistd.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/unistd.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ap_config.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/ap/ap_config.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -3249,10 +3250,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ap_config.c.ob
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/comeback_token.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/ap/comeback_token.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -3399,10 +3400,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/comeback_token
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_11.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/ap/ieee802_11.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -3557,10 +3558,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_11.c.o
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_1x.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/ap/ieee802_1x.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -3716,10 +3717,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_1x.c.o
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/pmksa_cache_auth.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/ap/pmksa_cache_auth.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -3867,10 +3868,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/pmksa_cache_au
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/sta_info.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/ap/sta_info.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -4026,10 +4027,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/sta_info.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/ap/wpa_auth.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -4196,10 +4197,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth_ie.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/ap/wpa_auth_ie.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -4346,10 +4347,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth_ie.c.
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/dragonfly.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/common/dragonfly.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -4489,10 +4490,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/dragonfly.
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/ieee802_11_common.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/common/ieee802_11_common.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -4636,10 +4637,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/ieee802_11
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/sae.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/common/sae.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -4787,10 +4788,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/sae.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/sae_pk.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/common/sae_pk.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -4940,10 +4941,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/sae_pk.c.o
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/wpa_common.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/common/wpa_common.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -5093,10 +5094,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/wpa_common
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-ccm.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/crypto/aes-ccm.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -5235,10 +5236,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-ccm.c.
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-gcm.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/crypto/aes-gcm.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -5377,10 +5378,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-gcm.c.
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-siv.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/crypto/aes-siv.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -5520,10 +5521,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-siv.c.
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-unwrap.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/crypto/aes-unwrap.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -5662,10 +5663,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-unwrap
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-wrap.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/crypto/aes-wrap.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -5804,10 +5805,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-wrap.c
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/ccmp.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/crypto/ccmp.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -5947,10 +5948,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/ccmp.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/crypto_ops.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/crypto/crypto_ops.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -6094,10 +6095,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/crypto_ops
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/des-internal.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/crypto/des-internal.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -6236,10 +6237,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/des-intern
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/dh_group5.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/crypto/dh_group5.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -6378,10 +6379,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/dh_group5.
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/dh_groups.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/crypto/dh_groups.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -6521,10 +6522,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/dh_groups.
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/md4-internal.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/crypto/md4-internal.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -6662,10 +6663,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/md4-intern
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/ms_funcs.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/crypto/ms_funcs.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -6805,10 +6806,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/ms_funcs.c
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/rc4.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/crypto/rc4.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -6946,10 +6947,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/rc4.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-prf.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/crypto/sha1-prf.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -7088,10 +7089,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-prf.c
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tlsprf.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/crypto/sha1-tlsprf.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -7230,10 +7231,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tlspr
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tprf.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/crypto/sha1-tprf.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -7372,10 +7373,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tprf.
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-kdf.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/crypto/sha256-kdf.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -7513,10 +7514,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-kdf
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-prf.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/crypto/sha256-prf.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -7655,10 +7656,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-prf
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-tlsprf.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/crypto/sha256-tlsprf.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -7796,10 +7797,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-tls
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha384-prf.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/crypto/sha384-prf.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -7938,10 +7939,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha384-prf
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha384-tlsprf.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/crypto/sha384-tlsprf.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -8079,10 +8080,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha384-tls
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_common/eap_wsc_common.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/eap_common/eap_wsc_common.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -8225,10 +8226,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_common/eap_ws
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/chap.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/eap_peer/chap.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -8367,10 +8368,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/chap.c.o
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/eap_peer/eap.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -8527,10 +8528,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap.c.ob
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_common.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/eap_peer/eap_common.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -8669,10 +8670,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_comm
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -8823,10 +8824,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast_common.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_common.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -8968,10 +8969,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast_pac.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_pac.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -9116,10 +9117,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_mschapv2.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -9273,10 +9274,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_msch
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_peap.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -9425,10 +9426,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_peap
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_peap_common.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap_common.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -9567,10 +9568,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_peap
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_tls.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -9716,10 +9717,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_tls.
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_tls_common.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls_common.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -9866,10 +9867,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_tls_
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_ttls.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/eap_peer/eap_ttls.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -10020,10 +10021,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_ttls
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/mschapv2.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/eap_peer/mschapv2.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -10162,10 +10163,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/mschapv2
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/pmksa_cache.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/rsn_supp/pmksa_cache.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -10311,10 +10312,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/pmksa_ca
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/wpa.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -10475,10 +10476,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/wpa.c.ob
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/wpa_ie.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_ie.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -10623,10 +10624,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/wpa_ie.c
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/base64.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/utils/base64.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -10749,10 +10750,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/base64.c.ob
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/bitfield.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/utils/bitfield.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -10890,10 +10891,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/bitfield.c.
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/common.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/utils/common.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -11033,10 +11034,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/common.c.ob
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/time.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/ext_password.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/utils/ext_password.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -11175,10 +11176,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/ext_passwor
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/json.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/utils/json.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -11317,10 +11318,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/json.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/uuid.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/utils/uuid.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -11458,10 +11459,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/uuid.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/wpa_debug.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/utils/wpa_debug.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -11598,10 +11599,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/wpa_debug.c
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/wpabuf.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/utils/wpabuf.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -11738,10 +11739,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/wpabuf.c.ob
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/wps/wps.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -11885,10 +11886,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_build.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/wps/wps_attr_build.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -12035,10 +12036,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_buil
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_parse.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -12179,10 +12180,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_pars
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_process.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/wps/wps_attr_process.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -12325,10 +12326,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_proc
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_common.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/wps/wps_common.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -12480,10 +12481,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_common.c.
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_dev_attr.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -12626,10 +12627,10 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_dev_attr.
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_enrollee.c.obj
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/wps/wps_enrollee.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -12779,5 +12780,4 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_enrollee.
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/types.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 

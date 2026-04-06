@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/diegolagos/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build/bootloader
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader
 
 # Include any dependencies generated for this target.
 include esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/depend.make
@@ -72,16 +72,16 @@ include esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/flags.mak
 esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.obj: esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/flags.make
 esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.obj: /home/diegolagos/esp-idf/components/esp_hal_security/mpu_hal.c
 esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.obj: esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diegolagos/esp_projects/robot_audio/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.obj"
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader/esp-idf/esp_hal_security && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.obj -MF CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.obj.d -o CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.obj -c /home/diegolagos/esp-idf/components/esp_hal_security/mpu_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.obj"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/esp-idf/esp_hal_security && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.obj -MF CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.obj.d -o CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.obj -c /home/diegolagos/esp-idf/components/esp_hal_security/mpu_hal.c
 
 esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.i"
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader/esp-idf/esp_hal_security && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diegolagos/esp-idf/components/esp_hal_security/mpu_hal.c > CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/esp-idf/esp_hal_security && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diegolagos/esp-idf/components/esp_hal_security/mpu_hal.c > CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.i
 
 esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.s"
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader/esp-idf/esp_hal_security && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diegolagos/esp-idf/components/esp_hal_security/mpu_hal.c -o CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/esp-idf/esp_hal_security && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diegolagos/esp-idf/components/esp_hal_security/mpu_hal.c -o CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.s
 
 # Object files for target __idf_esp_hal_security
 __idf_esp_hal_security_OBJECTS = \
@@ -93,19 +93,19 @@ __idf_esp_hal_security_EXTERNAL_OBJECTS =
 esp-idf/esp_hal_security/libesp_hal_security.a: esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/mpu_hal.c.obj
 esp-idf/esp_hal_security/libesp_hal_security.a: esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build.make
 esp-idf/esp_hal_security/libesp_hal_security.a: esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/diegolagos/esp_projects/robot_audio/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libesp_hal_security.a"
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader/esp-idf/esp_hal_security && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hal_security.dir/cmake_clean_target.cmake
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader/esp-idf/esp_hal_security && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_hal_security.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libesp_hal_security.a"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/esp-idf/esp_hal_security && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hal_security.dir/cmake_clean_target.cmake
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/esp-idf/esp_hal_security && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_hal_security.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build: esp-idf/esp_hal_security/libesp_hal_security.a
 .PHONY : esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/build
 
 esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/clean:
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader/esp-idf/esp_hal_security && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hal_security.dir/cmake_clean.cmake
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/esp-idf/esp_hal_security && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_hal_security.dir/cmake_clean.cmake
 .PHONY : esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/clean
 
 esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/esp-idf/components/esp_hal_security /home/diegolagos/esp_projects/robot_audio/build/bootloader /home/diegolagos/esp_projects/robot_audio/build/bootloader/esp-idf/esp_hal_security /home/diegolagos/esp_projects/robot_audio/build/bootloader/esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/esp-idf/components/esp_hal_security /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/esp-idf/esp_hal_security /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/esp_hal_security/CMakeFiles/__idf_esp_hal_security.dir/depend
 

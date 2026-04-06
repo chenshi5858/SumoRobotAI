@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/diegolagos/esp_projects/robot_audio
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build
 
 # Utility rule file for save-defconfig.
 
@@ -67,8 +67,8 @@ include CMakeFiles/save-defconfig.dir/compiler_depend.make
 include CMakeFiles/save-defconfig.dir/progress.make
 
 CMakeFiles/save-defconfig:
-	/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/diegolagos/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /home/diegolagos/esp_projects/robot_audio/build/config.env
-	/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /home/diegolagos/esp-idf/Kconfig --sdkconfig-rename /home/diegolagos/esp-idf/sdkconfig.rename --config /home/diegolagos/esp_projects/robot_audio/sdkconfig --env IDF_MINIMAL_BUILD=n --env-file /home/diegolagos/esp_projects/robot_audio/build/config.env --dont-write-deprecated --output savedefconfig /home/diegolagos/esp_projects/robot_audio/sdkconfig.defaults --env KCONFIG_REPORT_VERBOSITY=default
+	/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/diegolagos/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config.env
+	/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /home/diegolagos/esp-idf/Kconfig --sdkconfig-rename /home/diegolagos/esp-idf/sdkconfig.rename --config /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/sdkconfig --env IDF_MINIMAL_BUILD=n --env-file /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config.env --dont-write-deprecated --output savedefconfig /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/sdkconfig.defaults --env KCONFIG_REPORT_VERBOSITY=default
 
 save-defconfig: CMakeFiles/save-defconfig
 save-defconfig: CMakeFiles/save-defconfig.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/save-defconfig.dir/clean:
 .PHONY : CMakeFiles/save-defconfig.dir/clean
 
 CMakeFiles/save-defconfig.dir/depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp_projects/robot_audio /home/diegolagos/esp_projects/robot_audio /home/diegolagos/esp_projects/robot_audio/build /home/diegolagos/esp_projects/robot_audio/build /home/diegolagos/esp_projects/robot_audio/build/CMakeFiles/save-defconfig.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles/save-defconfig.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/save-defconfig.dir/depend
 

@@ -3,6 +3,7 @@
 
 esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/constants.pb-c.c.obj
  /home/diegolagos/esp-idf/components/protocomm/proto-c/constants.pb-c.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/sys/cdefs.h
  /home/diegolagos/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h
@@ -27,10 +28,10 @@ esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/constants.pb-c.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec0.pb-c.c.obj
  /home/diegolagos/esp-idf/components/protocomm/proto-c/sec0.pb-c.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/sys/cdefs.h
  /home/diegolagos/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h
@@ -56,10 +57,10 @@ esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec0.pb-c.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec1.pb-c.c.obj
  /home/diegolagos/esp-idf/components/protocomm/proto-c/sec1.pb-c.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/sys/cdefs.h
  /home/diegolagos/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h
@@ -85,10 +86,10 @@ esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec1.pb-c.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec2.pb-c.c.obj
  /home/diegolagos/esp-idf/components/protocomm/proto-c/sec2.pb-c.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/sys/cdefs.h
  /home/diegolagos/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h
@@ -114,10 +115,10 @@ esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec2.pb-c.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/session.pb-c.c.obj
  /home/diegolagos/esp-idf/components/protocomm/proto-c/session.pb-c.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/assert.h
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/sys/cdefs.h
  /home/diegolagos/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h
@@ -146,10 +147,10 @@ esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/session.pb-c.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/common/protocomm.c.obj
  /home/diegolagos/esp-idf/components/protocomm/src/common/protocomm.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -261,10 +262,10 @@ esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/common/protocomm.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/queue.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp.c.obj
  /home/diegolagos/esp-idf/components/protocomm/src/crypto/srp6a/esp_srp.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_check.h
@@ -384,10 +385,10 @@ esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp_mpi.c.obj
  /home/diegolagos/esp-idf/components/protocomm/src/crypto/srp6a/esp_srp_mpi.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_hw_support/include/esp_random.h
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/stdio.h
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/sys/cdefs.h
@@ -439,10 +440,10 @@ esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp_mpi.c.
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security2.c.obj
  /home/diegolagos/esp-idf/components/protocomm/src/security/security2.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -629,10 +630,10 @@ esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security2.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_console.c.obj
  /home/diegolagos/esp-idf/components/protocomm/src/transports/protocomm_console.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/console/esp_console.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
@@ -783,10 +784,10 @@ esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_consol
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/unistd.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/unistd.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/utime.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_httpd.c.obj
  /home/diegolagos/esp-idf/components/protocomm/src/transports/protocomm_httpd.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
@@ -960,5 +961,4 @@ esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_httpd.
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/unistd.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/time.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/unistd.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 

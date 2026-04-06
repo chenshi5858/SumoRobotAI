@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/diegolagos/esp_projects/robot_audio
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build
 
 # Utility rule file for refresh-config.
 
@@ -67,8 +67,8 @@ include CMakeFiles/refresh-config.dir/compiler_depend.make
 include CMakeFiles/refresh-config.dir/progress.make
 
 CMakeFiles/refresh-config:
-	/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/diegolagos/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /home/diegolagos/esp_projects/robot_audio/build/config.env
-	/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /home/diegolagos/esp-idf/Kconfig --sdkconfig-rename /home/diegolagos/esp-idf/sdkconfig.rename --config /home/diegolagos/esp_projects/robot_audio/sdkconfig --env IDF_MINIMAL_BUILD=n --env-file /home/diegolagos/esp_projects/robot_audio/build/config.env --env IDF_TARGET=esp32s3 --env IDF_TOOLCHAIN=gcc --env IDF_ENV_FPGA= --env IDF_INIT_VERSION=6.1.0 --output config /home/diegolagos/esp_projects/robot_audio/sdkconfig
+	/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/diegolagos/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config.env
+	/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /home/diegolagos/esp-idf/Kconfig --sdkconfig-rename /home/diegolagos/esp-idf/sdkconfig.rename --config /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/sdkconfig --env IDF_MINIMAL_BUILD=n --env-file /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config.env --env IDF_TARGET=esp32s3 --env IDF_TOOLCHAIN=gcc --env IDF_ENV_FPGA= --env IDF_INIT_VERSION=6.1.0 --output config /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/sdkconfig
 
 refresh-config: CMakeFiles/refresh-config
 refresh-config: CMakeFiles/refresh-config.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/refresh-config.dir/clean:
 .PHONY : CMakeFiles/refresh-config.dir/clean
 
 CMakeFiles/refresh-config.dir/depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp_projects/robot_audio /home/diegolagos/esp_projects/robot_audio /home/diegolagos/esp_projects/robot_audio/build /home/diegolagos/esp_projects/robot_audio/build /home/diegolagos/esp_projects/robot_audio/build/CMakeFiles/refresh-config.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles/refresh-config.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/refresh-config.dir/depend
 

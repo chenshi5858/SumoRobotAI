@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/diegolagos/esp-idf/components/esp_gdbstub/src/port/xtensa/gdbstub-entry.S" "/home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/gdbstub-entry.S.obj"
-  "/home/diegolagos/esp-idf/components/esp_gdbstub/src/port/xtensa/xt_debugexception.S" "/home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/xt_debugexception.S.obj"
+  "/home/diegolagos/esp-idf/components/esp_gdbstub/src/port/xtensa/gdbstub-entry.S" "/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/gdbstub-entry.S.obj"
+  "/home/diegolagos/esp-idf/components/esp_gdbstub/src/port/xtensa/xt_debugexception.S" "/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/xt_debugexception.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 

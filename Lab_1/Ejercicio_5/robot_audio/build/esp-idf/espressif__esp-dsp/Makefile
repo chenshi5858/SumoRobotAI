@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/diegolagos/esp_projects/robot_audio
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/diegolagos/esp_projects/robot_audio/build/CMakeFiles /home/diegolagos/esp_projects/robot_audio/build/esp-idf/espressif__esp-dsp//CMakeFiles/progress.marks
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/espressif__esp-dsp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/diegolagos/esp_projects/robot_audio/build/CMakeFiles 0
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/espressif__esp-dsp//CMakeFiles/progress.marks
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/espressif__esp-dsp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/espressif__esp-dsp/clean
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/espressif__esp-dsp/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/espressif__esp-dsp/preinstall
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/espressif__esp-dsp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/espressif__esp-dsp/preinstall
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/espressif__esp-dsp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/rule:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/rule
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/rule
 .PHONY : esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_espressif__esp-dsp: esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif_
 
 # fast build rule for target.
 __idf_espressif__esp-dsp/fast:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build
 .PHONY : __idf_espressif__esp-dsp/fast
 
 modules/common/misc/aes3_tie_log.obj: modules/common/misc/aes3_tie_log.c.obj
@@ -180,7 +180,7 @@ modules/common/misc/aes3_tie_log.obj: modules/common/misc/aes3_tie_log.c.obj
 
 # target to build an object file
 modules/common/misc/aes3_tie_log.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/common/misc/aes3_tie_log.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/common/misc/aes3_tie_log.c.obj
 .PHONY : modules/common/misc/aes3_tie_log.c.obj
 
 modules/common/misc/aes3_tie_log.i: modules/common/misc/aes3_tie_log.c.i
@@ -188,7 +188,7 @@ modules/common/misc/aes3_tie_log.i: modules/common/misc/aes3_tie_log.c.i
 
 # target to preprocess a source file
 modules/common/misc/aes3_tie_log.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/common/misc/aes3_tie_log.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/common/misc/aes3_tie_log.c.i
 .PHONY : modules/common/misc/aes3_tie_log.c.i
 
 modules/common/misc/aes3_tie_log.s: modules/common/misc/aes3_tie_log.c.s
@@ -196,7 +196,7 @@ modules/common/misc/aes3_tie_log.s: modules/common/misc/aes3_tie_log.c.s
 
 # target to generate assembly for a file
 modules/common/misc/aes3_tie_log.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/common/misc/aes3_tie_log.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/common/misc/aes3_tie_log.c.s
 .PHONY : modules/common/misc/aes3_tie_log.c.s
 
 modules/common/misc/dsps_pwroftwo.obj: modules/common/misc/dsps_pwroftwo.cpp.obj
@@ -204,7 +204,7 @@ modules/common/misc/dsps_pwroftwo.obj: modules/common/misc/dsps_pwroftwo.cpp.obj
 
 # target to build an object file
 modules/common/misc/dsps_pwroftwo.cpp.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/common/misc/dsps_pwroftwo.cpp.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/common/misc/dsps_pwroftwo.cpp.obj
 .PHONY : modules/common/misc/dsps_pwroftwo.cpp.obj
 
 modules/common/misc/dsps_pwroftwo.i: modules/common/misc/dsps_pwroftwo.cpp.i
@@ -212,7 +212,7 @@ modules/common/misc/dsps_pwroftwo.i: modules/common/misc/dsps_pwroftwo.cpp.i
 
 # target to preprocess a source file
 modules/common/misc/dsps_pwroftwo.cpp.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/common/misc/dsps_pwroftwo.cpp.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/common/misc/dsps_pwroftwo.cpp.i
 .PHONY : modules/common/misc/dsps_pwroftwo.cpp.i
 
 modules/common/misc/dsps_pwroftwo.s: modules/common/misc/dsps_pwroftwo.cpp.s
@@ -220,7 +220,7 @@ modules/common/misc/dsps_pwroftwo.s: modules/common/misc/dsps_pwroftwo.cpp.s
 
 # target to generate assembly for a file
 modules/common/misc/dsps_pwroftwo.cpp.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/common/misc/dsps_pwroftwo.cpp.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/common/misc/dsps_pwroftwo.cpp.s
 .PHONY : modules/common/misc/dsps_pwroftwo.cpp.s
 
 modules/conv/float/dspi_conv_f32_ansi.obj: modules/conv/float/dspi_conv_f32_ansi.c.obj
@@ -228,7 +228,7 @@ modules/conv/float/dspi_conv_f32_ansi.obj: modules/conv/float/dspi_conv_f32_ansi
 
 # target to build an object file
 modules/conv/float/dspi_conv_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dspi_conv_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dspi_conv_f32_ansi.c.obj
 .PHONY : modules/conv/float/dspi_conv_f32_ansi.c.obj
 
 modules/conv/float/dspi_conv_f32_ansi.i: modules/conv/float/dspi_conv_f32_ansi.c.i
@@ -236,7 +236,7 @@ modules/conv/float/dspi_conv_f32_ansi.i: modules/conv/float/dspi_conv_f32_ansi.c
 
 # target to preprocess a source file
 modules/conv/float/dspi_conv_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dspi_conv_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dspi_conv_f32_ansi.c.i
 .PHONY : modules/conv/float/dspi_conv_f32_ansi.c.i
 
 modules/conv/float/dspi_conv_f32_ansi.s: modules/conv/float/dspi_conv_f32_ansi.c.s
@@ -244,7 +244,7 @@ modules/conv/float/dspi_conv_f32_ansi.s: modules/conv/float/dspi_conv_f32_ansi.c
 
 # target to generate assembly for a file
 modules/conv/float/dspi_conv_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dspi_conv_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dspi_conv_f32_ansi.c.s
 .PHONY : modules/conv/float/dspi_conv_f32_ansi.c.s
 
 modules/conv/float/dsps_ccorr_f32_ae32.obj: modules/conv/float/dsps_ccorr_f32_ae32.S.obj
@@ -252,7 +252,7 @@ modules/conv/float/dsps_ccorr_f32_ae32.obj: modules/conv/float/dsps_ccorr_f32_ae
 
 # target to build an object file
 modules/conv/float/dsps_ccorr_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_ccorr_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_ccorr_f32_ae32.S.obj
 .PHONY : modules/conv/float/dsps_ccorr_f32_ae32.S.obj
 
 modules/conv/float/dsps_ccorr_f32_ansi.obj: modules/conv/float/dsps_ccorr_f32_ansi.c.obj
@@ -260,7 +260,7 @@ modules/conv/float/dsps_ccorr_f32_ansi.obj: modules/conv/float/dsps_ccorr_f32_an
 
 # target to build an object file
 modules/conv/float/dsps_ccorr_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_ccorr_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_ccorr_f32_ansi.c.obj
 .PHONY : modules/conv/float/dsps_ccorr_f32_ansi.c.obj
 
 modules/conv/float/dsps_ccorr_f32_ansi.i: modules/conv/float/dsps_ccorr_f32_ansi.c.i
@@ -268,7 +268,7 @@ modules/conv/float/dsps_ccorr_f32_ansi.i: modules/conv/float/dsps_ccorr_f32_ansi
 
 # target to preprocess a source file
 modules/conv/float/dsps_ccorr_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_ccorr_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_ccorr_f32_ansi.c.i
 .PHONY : modules/conv/float/dsps_ccorr_f32_ansi.c.i
 
 modules/conv/float/dsps_ccorr_f32_ansi.s: modules/conv/float/dsps_ccorr_f32_ansi.c.s
@@ -276,7 +276,7 @@ modules/conv/float/dsps_ccorr_f32_ansi.s: modules/conv/float/dsps_ccorr_f32_ansi
 
 # target to generate assembly for a file
 modules/conv/float/dsps_ccorr_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_ccorr_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_ccorr_f32_ansi.c.s
 .PHONY : modules/conv/float/dsps_ccorr_f32_ansi.c.s
 
 modules/conv/float/dsps_conv_f32_ae32.obj: modules/conv/float/dsps_conv_f32_ae32.S.obj
@@ -284,7 +284,7 @@ modules/conv/float/dsps_conv_f32_ae32.obj: modules/conv/float/dsps_conv_f32_ae32
 
 # target to build an object file
 modules/conv/float/dsps_conv_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_conv_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_conv_f32_ae32.S.obj
 .PHONY : modules/conv/float/dsps_conv_f32_ae32.S.obj
 
 modules/conv/float/dsps_conv_f32_ansi.obj: modules/conv/float/dsps_conv_f32_ansi.c.obj
@@ -292,7 +292,7 @@ modules/conv/float/dsps_conv_f32_ansi.obj: modules/conv/float/dsps_conv_f32_ansi
 
 # target to build an object file
 modules/conv/float/dsps_conv_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_conv_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_conv_f32_ansi.c.obj
 .PHONY : modules/conv/float/dsps_conv_f32_ansi.c.obj
 
 modules/conv/float/dsps_conv_f32_ansi.i: modules/conv/float/dsps_conv_f32_ansi.c.i
@@ -300,7 +300,7 @@ modules/conv/float/dsps_conv_f32_ansi.i: modules/conv/float/dsps_conv_f32_ansi.c
 
 # target to preprocess a source file
 modules/conv/float/dsps_conv_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_conv_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_conv_f32_ansi.c.i
 .PHONY : modules/conv/float/dsps_conv_f32_ansi.c.i
 
 modules/conv/float/dsps_conv_f32_ansi.s: modules/conv/float/dsps_conv_f32_ansi.c.s
@@ -308,7 +308,7 @@ modules/conv/float/dsps_conv_f32_ansi.s: modules/conv/float/dsps_conv_f32_ansi.c
 
 # target to generate assembly for a file
 modules/conv/float/dsps_conv_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_conv_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_conv_f32_ansi.c.s
 .PHONY : modules/conv/float/dsps_conv_f32_ansi.c.s
 
 modules/conv/float/dsps_corr_f32_ae32.obj: modules/conv/float/dsps_corr_f32_ae32.S.obj
@@ -316,7 +316,7 @@ modules/conv/float/dsps_corr_f32_ae32.obj: modules/conv/float/dsps_corr_f32_ae32
 
 # target to build an object file
 modules/conv/float/dsps_corr_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_corr_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_corr_f32_ae32.S.obj
 .PHONY : modules/conv/float/dsps_corr_f32_ae32.S.obj
 
 modules/conv/float/dsps_corr_f32_ansi.obj: modules/conv/float/dsps_corr_f32_ansi.c.obj
@@ -324,7 +324,7 @@ modules/conv/float/dsps_corr_f32_ansi.obj: modules/conv/float/dsps_corr_f32_ansi
 
 # target to build an object file
 modules/conv/float/dsps_corr_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_corr_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_corr_f32_ansi.c.obj
 .PHONY : modules/conv/float/dsps_corr_f32_ansi.c.obj
 
 modules/conv/float/dsps_corr_f32_ansi.i: modules/conv/float/dsps_corr_f32_ansi.c.i
@@ -332,7 +332,7 @@ modules/conv/float/dsps_corr_f32_ansi.i: modules/conv/float/dsps_corr_f32_ansi.c
 
 # target to preprocess a source file
 modules/conv/float/dsps_corr_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_corr_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_corr_f32_ansi.c.i
 .PHONY : modules/conv/float/dsps_corr_f32_ansi.c.i
 
 modules/conv/float/dsps_corr_f32_ansi.s: modules/conv/float/dsps_corr_f32_ansi.c.s
@@ -340,7 +340,7 @@ modules/conv/float/dsps_corr_f32_ansi.s: modules/conv/float/dsps_corr_f32_ansi.c
 
 # target to generate assembly for a file
 modules/conv/float/dsps_corr_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_corr_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/conv/float/dsps_corr_f32_ansi.c.s
 .PHONY : modules/conv/float/dsps_corr_f32_ansi.c.s
 
 modules/dct/float/dsps_dct_f32.obj: modules/dct/float/dsps_dct_f32.c.obj
@@ -348,7 +348,7 @@ modules/dct/float/dsps_dct_f32.obj: modules/dct/float/dsps_dct_f32.c.obj
 
 # target to build an object file
 modules/dct/float/dsps_dct_f32.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dct/float/dsps_dct_f32.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dct/float/dsps_dct_f32.c.obj
 .PHONY : modules/dct/float/dsps_dct_f32.c.obj
 
 modules/dct/float/dsps_dct_f32.i: modules/dct/float/dsps_dct_f32.c.i
@@ -356,7 +356,7 @@ modules/dct/float/dsps_dct_f32.i: modules/dct/float/dsps_dct_f32.c.i
 
 # target to preprocess a source file
 modules/dct/float/dsps_dct_f32.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dct/float/dsps_dct_f32.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dct/float/dsps_dct_f32.c.i
 .PHONY : modules/dct/float/dsps_dct_f32.c.i
 
 modules/dct/float/dsps_dct_f32.s: modules/dct/float/dsps_dct_f32.c.s
@@ -364,7 +364,7 @@ modules/dct/float/dsps_dct_f32.s: modules/dct/float/dsps_dct_f32.c.s
 
 # target to generate assembly for a file
 modules/dct/float/dsps_dct_f32.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dct/float/dsps_dct_f32.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dct/float/dsps_dct_f32.c.s
 .PHONY : modules/dct/float/dsps_dct_f32.c.s
 
 modules/dct/float/dsps_dctiv_f32.obj: modules/dct/float/dsps_dctiv_f32.c.obj
@@ -372,7 +372,7 @@ modules/dct/float/dsps_dctiv_f32.obj: modules/dct/float/dsps_dctiv_f32.c.obj
 
 # target to build an object file
 modules/dct/float/dsps_dctiv_f32.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dct/float/dsps_dctiv_f32.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dct/float/dsps_dctiv_f32.c.obj
 .PHONY : modules/dct/float/dsps_dctiv_f32.c.obj
 
 modules/dct/float/dsps_dctiv_f32.i: modules/dct/float/dsps_dctiv_f32.c.i
@@ -380,7 +380,7 @@ modules/dct/float/dsps_dctiv_f32.i: modules/dct/float/dsps_dctiv_f32.c.i
 
 # target to preprocess a source file
 modules/dct/float/dsps_dctiv_f32.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dct/float/dsps_dctiv_f32.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dct/float/dsps_dctiv_f32.c.i
 .PHONY : modules/dct/float/dsps_dctiv_f32.c.i
 
 modules/dct/float/dsps_dctiv_f32.s: modules/dct/float/dsps_dctiv_f32.c.s
@@ -388,7 +388,7 @@ modules/dct/float/dsps_dctiv_f32.s: modules/dct/float/dsps_dctiv_f32.c.s
 
 # target to generate assembly for a file
 modules/dct/float/dsps_dctiv_f32.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dct/float/dsps_dctiv_f32.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dct/float/dsps_dctiv_f32.c.s
 .PHONY : modules/dct/float/dsps_dctiv_f32.c.s
 
 modules/dct/float/dsps_dstiv_f32.obj: modules/dct/float/dsps_dstiv_f32.c.obj
@@ -396,7 +396,7 @@ modules/dct/float/dsps_dstiv_f32.obj: modules/dct/float/dsps_dstiv_f32.c.obj
 
 # target to build an object file
 modules/dct/float/dsps_dstiv_f32.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dct/float/dsps_dstiv_f32.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dct/float/dsps_dstiv_f32.c.obj
 .PHONY : modules/dct/float/dsps_dstiv_f32.c.obj
 
 modules/dct/float/dsps_dstiv_f32.i: modules/dct/float/dsps_dstiv_f32.c.i
@@ -404,7 +404,7 @@ modules/dct/float/dsps_dstiv_f32.i: modules/dct/float/dsps_dstiv_f32.c.i
 
 # target to preprocess a source file
 modules/dct/float/dsps_dstiv_f32.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dct/float/dsps_dstiv_f32.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dct/float/dsps_dstiv_f32.c.i
 .PHONY : modules/dct/float/dsps_dstiv_f32.c.i
 
 modules/dct/float/dsps_dstiv_f32.s: modules/dct/float/dsps_dstiv_f32.c.s
@@ -412,7 +412,7 @@ modules/dct/float/dsps_dstiv_f32.s: modules/dct/float/dsps_dstiv_f32.c.s
 
 # target to generate assembly for a file
 modules/dct/float/dsps_dstiv_f32.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dct/float/dsps_dstiv_f32.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dct/float/dsps_dstiv_f32.c.s
 .PHONY : modules/dct/float/dsps_dstiv_f32.c.s
 
 modules/dotprod/fixed/dspi_dotprod_off_s16_aes3.obj: modules/dotprod/fixed/dspi_dotprod_off_s16_aes3.S.obj
@@ -420,7 +420,7 @@ modules/dotprod/fixed/dspi_dotprod_off_s16_aes3.obj: modules/dotprod/fixed/dspi_
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_off_s16_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_s16_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_s16_aes3.S.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_off_s16_aes3.S.obj
 
 modules/dotprod/fixed/dspi_dotprod_off_s16_ansi.obj: modules/dotprod/fixed/dspi_dotprod_off_s16_ansi.c.obj
@@ -428,7 +428,7 @@ modules/dotprod/fixed/dspi_dotprod_off_s16_ansi.obj: modules/dotprod/fixed/dspi_
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_off_s16_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_s16_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_s16_ansi.c.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_off_s16_ansi.c.obj
 
 modules/dotprod/fixed/dspi_dotprod_off_s16_ansi.i: modules/dotprod/fixed/dspi_dotprod_off_s16_ansi.c.i
@@ -436,7 +436,7 @@ modules/dotprod/fixed/dspi_dotprod_off_s16_ansi.i: modules/dotprod/fixed/dspi_do
 
 # target to preprocess a source file
 modules/dotprod/fixed/dspi_dotprod_off_s16_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_s16_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_s16_ansi.c.i
 .PHONY : modules/dotprod/fixed/dspi_dotprod_off_s16_ansi.c.i
 
 modules/dotprod/fixed/dspi_dotprod_off_s16_ansi.s: modules/dotprod/fixed/dspi_dotprod_off_s16_ansi.c.s
@@ -444,7 +444,7 @@ modules/dotprod/fixed/dspi_dotprod_off_s16_ansi.s: modules/dotprod/fixed/dspi_do
 
 # target to generate assembly for a file
 modules/dotprod/fixed/dspi_dotprod_off_s16_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_s16_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_s16_ansi.c.s
 .PHONY : modules/dotprod/fixed/dspi_dotprod_off_s16_ansi.c.s
 
 modules/dotprod/fixed/dspi_dotprod_off_s16_arp4.obj: modules/dotprod/fixed/dspi_dotprod_off_s16_arp4.S.obj
@@ -452,7 +452,7 @@ modules/dotprod/fixed/dspi_dotprod_off_s16_arp4.obj: modules/dotprod/fixed/dspi_
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_off_s16_arp4.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_s16_arp4.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_s16_arp4.S.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_off_s16_arp4.S.obj
 
 modules/dotprod/fixed/dspi_dotprod_off_s8_aes3.obj: modules/dotprod/fixed/dspi_dotprod_off_s8_aes3.S.obj
@@ -460,7 +460,7 @@ modules/dotprod/fixed/dspi_dotprod_off_s8_aes3.obj: modules/dotprod/fixed/dspi_d
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_off_s8_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_s8_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_s8_aes3.S.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_off_s8_aes3.S.obj
 
 modules/dotprod/fixed/dspi_dotprod_off_s8_ansi.obj: modules/dotprod/fixed/dspi_dotprod_off_s8_ansi.c.obj
@@ -468,7 +468,7 @@ modules/dotprod/fixed/dspi_dotprod_off_s8_ansi.obj: modules/dotprod/fixed/dspi_d
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_off_s8_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_s8_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_s8_ansi.c.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_off_s8_ansi.c.obj
 
 modules/dotprod/fixed/dspi_dotprod_off_s8_ansi.i: modules/dotprod/fixed/dspi_dotprod_off_s8_ansi.c.i
@@ -476,7 +476,7 @@ modules/dotprod/fixed/dspi_dotprod_off_s8_ansi.i: modules/dotprod/fixed/dspi_dot
 
 # target to preprocess a source file
 modules/dotprod/fixed/dspi_dotprod_off_s8_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_s8_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_s8_ansi.c.i
 .PHONY : modules/dotprod/fixed/dspi_dotprod_off_s8_ansi.c.i
 
 modules/dotprod/fixed/dspi_dotprod_off_s8_ansi.s: modules/dotprod/fixed/dspi_dotprod_off_s8_ansi.c.s
@@ -484,7 +484,7 @@ modules/dotprod/fixed/dspi_dotprod_off_s8_ansi.s: modules/dotprod/fixed/dspi_dot
 
 # target to generate assembly for a file
 modules/dotprod/fixed/dspi_dotprod_off_s8_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_s8_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_s8_ansi.c.s
 .PHONY : modules/dotprod/fixed/dspi_dotprod_off_s8_ansi.c.s
 
 modules/dotprod/fixed/dspi_dotprod_off_s8_arp4.obj: modules/dotprod/fixed/dspi_dotprod_off_s8_arp4.S.obj
@@ -492,7 +492,7 @@ modules/dotprod/fixed/dspi_dotprod_off_s8_arp4.obj: modules/dotprod/fixed/dspi_d
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_off_s8_arp4.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_s8_arp4.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_s8_arp4.S.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_off_s8_arp4.S.obj
 
 modules/dotprod/fixed/dspi_dotprod_off_u16_aes3.obj: modules/dotprod/fixed/dspi_dotprod_off_u16_aes3.S.obj
@@ -500,7 +500,7 @@ modules/dotprod/fixed/dspi_dotprod_off_u16_aes3.obj: modules/dotprod/fixed/dspi_
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_off_u16_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_u16_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_u16_aes3.S.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_off_u16_aes3.S.obj
 
 modules/dotprod/fixed/dspi_dotprod_off_u16_ansi.obj: modules/dotprod/fixed/dspi_dotprod_off_u16_ansi.c.obj
@@ -508,7 +508,7 @@ modules/dotprod/fixed/dspi_dotprod_off_u16_ansi.obj: modules/dotprod/fixed/dspi_
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_off_u16_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_u16_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_u16_ansi.c.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_off_u16_ansi.c.obj
 
 modules/dotprod/fixed/dspi_dotprod_off_u16_ansi.i: modules/dotprod/fixed/dspi_dotprod_off_u16_ansi.c.i
@@ -516,7 +516,7 @@ modules/dotprod/fixed/dspi_dotprod_off_u16_ansi.i: modules/dotprod/fixed/dspi_do
 
 # target to preprocess a source file
 modules/dotprod/fixed/dspi_dotprod_off_u16_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_u16_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_u16_ansi.c.i
 .PHONY : modules/dotprod/fixed/dspi_dotprod_off_u16_ansi.c.i
 
 modules/dotprod/fixed/dspi_dotprod_off_u16_ansi.s: modules/dotprod/fixed/dspi_dotprod_off_u16_ansi.c.s
@@ -524,7 +524,7 @@ modules/dotprod/fixed/dspi_dotprod_off_u16_ansi.s: modules/dotprod/fixed/dspi_do
 
 # target to generate assembly for a file
 modules/dotprod/fixed/dspi_dotprod_off_u16_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_u16_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_u16_ansi.c.s
 .PHONY : modules/dotprod/fixed/dspi_dotprod_off_u16_ansi.c.s
 
 modules/dotprod/fixed/dspi_dotprod_off_u16_arp4.obj: modules/dotprod/fixed/dspi_dotprod_off_u16_arp4.S.obj
@@ -532,7 +532,7 @@ modules/dotprod/fixed/dspi_dotprod_off_u16_arp4.obj: modules/dotprod/fixed/dspi_
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_off_u16_arp4.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_u16_arp4.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_u16_arp4.S.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_off_u16_arp4.S.obj
 
 modules/dotprod/fixed/dspi_dotprod_off_u8_aes3.obj: modules/dotprod/fixed/dspi_dotprod_off_u8_aes3.S.obj
@@ -540,7 +540,7 @@ modules/dotprod/fixed/dspi_dotprod_off_u8_aes3.obj: modules/dotprod/fixed/dspi_d
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_off_u8_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_u8_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_u8_aes3.S.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_off_u8_aes3.S.obj
 
 modules/dotprod/fixed/dspi_dotprod_off_u8_ansi.obj: modules/dotprod/fixed/dspi_dotprod_off_u8_ansi.c.obj
@@ -548,7 +548,7 @@ modules/dotprod/fixed/dspi_dotprod_off_u8_ansi.obj: modules/dotprod/fixed/dspi_d
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_off_u8_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_u8_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_u8_ansi.c.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_off_u8_ansi.c.obj
 
 modules/dotprod/fixed/dspi_dotprod_off_u8_ansi.i: modules/dotprod/fixed/dspi_dotprod_off_u8_ansi.c.i
@@ -556,7 +556,7 @@ modules/dotprod/fixed/dspi_dotprod_off_u8_ansi.i: modules/dotprod/fixed/dspi_dot
 
 # target to preprocess a source file
 modules/dotprod/fixed/dspi_dotprod_off_u8_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_u8_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_u8_ansi.c.i
 .PHONY : modules/dotprod/fixed/dspi_dotprod_off_u8_ansi.c.i
 
 modules/dotprod/fixed/dspi_dotprod_off_u8_ansi.s: modules/dotprod/fixed/dspi_dotprod_off_u8_ansi.c.s
@@ -564,7 +564,7 @@ modules/dotprod/fixed/dspi_dotprod_off_u8_ansi.s: modules/dotprod/fixed/dspi_dot
 
 # target to generate assembly for a file
 modules/dotprod/fixed/dspi_dotprod_off_u8_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_u8_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_u8_ansi.c.s
 .PHONY : modules/dotprod/fixed/dspi_dotprod_off_u8_ansi.c.s
 
 modules/dotprod/fixed/dspi_dotprod_off_u8_arp4.obj: modules/dotprod/fixed/dspi_dotprod_off_u8_arp4.S.obj
@@ -572,7 +572,7 @@ modules/dotprod/fixed/dspi_dotprod_off_u8_arp4.obj: modules/dotprod/fixed/dspi_d
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_off_u8_arp4.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_u8_arp4.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_off_u8_arp4.S.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_off_u8_arp4.S.obj
 
 modules/dotprod/fixed/dspi_dotprod_s16_aes3.obj: modules/dotprod/fixed/dspi_dotprod_s16_aes3.S.obj
@@ -580,7 +580,7 @@ modules/dotprod/fixed/dspi_dotprod_s16_aes3.obj: modules/dotprod/fixed/dspi_dotp
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_s16_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_s16_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_s16_aes3.S.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_s16_aes3.S.obj
 
 modules/dotprod/fixed/dspi_dotprod_s16_ansi.obj: modules/dotprod/fixed/dspi_dotprod_s16_ansi.c.obj
@@ -588,7 +588,7 @@ modules/dotprod/fixed/dspi_dotprod_s16_ansi.obj: modules/dotprod/fixed/dspi_dotp
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_s16_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_s16_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_s16_ansi.c.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_s16_ansi.c.obj
 
 modules/dotprod/fixed/dspi_dotprod_s16_ansi.i: modules/dotprod/fixed/dspi_dotprod_s16_ansi.c.i
@@ -596,7 +596,7 @@ modules/dotprod/fixed/dspi_dotprod_s16_ansi.i: modules/dotprod/fixed/dspi_dotpro
 
 # target to preprocess a source file
 modules/dotprod/fixed/dspi_dotprod_s16_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_s16_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_s16_ansi.c.i
 .PHONY : modules/dotprod/fixed/dspi_dotprod_s16_ansi.c.i
 
 modules/dotprod/fixed/dspi_dotprod_s16_ansi.s: modules/dotprod/fixed/dspi_dotprod_s16_ansi.c.s
@@ -604,7 +604,7 @@ modules/dotprod/fixed/dspi_dotprod_s16_ansi.s: modules/dotprod/fixed/dspi_dotpro
 
 # target to generate assembly for a file
 modules/dotprod/fixed/dspi_dotprod_s16_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_s16_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_s16_ansi.c.s
 .PHONY : modules/dotprod/fixed/dspi_dotprod_s16_ansi.c.s
 
 modules/dotprod/fixed/dspi_dotprod_s16_arp4.obj: modules/dotprod/fixed/dspi_dotprod_s16_arp4.S.obj
@@ -612,7 +612,7 @@ modules/dotprod/fixed/dspi_dotprod_s16_arp4.obj: modules/dotprod/fixed/dspi_dotp
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_s16_arp4.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_s16_arp4.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_s16_arp4.S.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_s16_arp4.S.obj
 
 modules/dotprod/fixed/dspi_dotprod_s8_aes3.obj: modules/dotprod/fixed/dspi_dotprod_s8_aes3.S.obj
@@ -620,7 +620,7 @@ modules/dotprod/fixed/dspi_dotprod_s8_aes3.obj: modules/dotprod/fixed/dspi_dotpr
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_s8_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_s8_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_s8_aes3.S.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_s8_aes3.S.obj
 
 modules/dotprod/fixed/dspi_dotprod_s8_ansi.obj: modules/dotprod/fixed/dspi_dotprod_s8_ansi.c.obj
@@ -628,7 +628,7 @@ modules/dotprod/fixed/dspi_dotprod_s8_ansi.obj: modules/dotprod/fixed/dspi_dotpr
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_s8_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_s8_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_s8_ansi.c.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_s8_ansi.c.obj
 
 modules/dotprod/fixed/dspi_dotprod_s8_ansi.i: modules/dotprod/fixed/dspi_dotprod_s8_ansi.c.i
@@ -636,7 +636,7 @@ modules/dotprod/fixed/dspi_dotprod_s8_ansi.i: modules/dotprod/fixed/dspi_dotprod
 
 # target to preprocess a source file
 modules/dotprod/fixed/dspi_dotprod_s8_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_s8_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_s8_ansi.c.i
 .PHONY : modules/dotprod/fixed/dspi_dotprod_s8_ansi.c.i
 
 modules/dotprod/fixed/dspi_dotprod_s8_ansi.s: modules/dotprod/fixed/dspi_dotprod_s8_ansi.c.s
@@ -644,7 +644,7 @@ modules/dotprod/fixed/dspi_dotprod_s8_ansi.s: modules/dotprod/fixed/dspi_dotprod
 
 # target to generate assembly for a file
 modules/dotprod/fixed/dspi_dotprod_s8_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_s8_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_s8_ansi.c.s
 .PHONY : modules/dotprod/fixed/dspi_dotprod_s8_ansi.c.s
 
 modules/dotprod/fixed/dspi_dotprod_s8_arp4.obj: modules/dotprod/fixed/dspi_dotprod_s8_arp4.S.obj
@@ -652,7 +652,7 @@ modules/dotprod/fixed/dspi_dotprod_s8_arp4.obj: modules/dotprod/fixed/dspi_dotpr
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_s8_arp4.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_s8_arp4.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_s8_arp4.S.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_s8_arp4.S.obj
 
 modules/dotprod/fixed/dspi_dotprod_u16_aes3.obj: modules/dotprod/fixed/dspi_dotprod_u16_aes3.S.obj
@@ -660,7 +660,7 @@ modules/dotprod/fixed/dspi_dotprod_u16_aes3.obj: modules/dotprod/fixed/dspi_dotp
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_u16_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_u16_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_u16_aes3.S.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_u16_aes3.S.obj
 
 modules/dotprod/fixed/dspi_dotprod_u16_ansi.obj: modules/dotprod/fixed/dspi_dotprod_u16_ansi.c.obj
@@ -668,7 +668,7 @@ modules/dotprod/fixed/dspi_dotprod_u16_ansi.obj: modules/dotprod/fixed/dspi_dotp
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_u16_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_u16_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_u16_ansi.c.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_u16_ansi.c.obj
 
 modules/dotprod/fixed/dspi_dotprod_u16_ansi.i: modules/dotprod/fixed/dspi_dotprod_u16_ansi.c.i
@@ -676,7 +676,7 @@ modules/dotprod/fixed/dspi_dotprod_u16_ansi.i: modules/dotprod/fixed/dspi_dotpro
 
 # target to preprocess a source file
 modules/dotprod/fixed/dspi_dotprod_u16_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_u16_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_u16_ansi.c.i
 .PHONY : modules/dotprod/fixed/dspi_dotprod_u16_ansi.c.i
 
 modules/dotprod/fixed/dspi_dotprod_u16_ansi.s: modules/dotprod/fixed/dspi_dotprod_u16_ansi.c.s
@@ -684,7 +684,7 @@ modules/dotprod/fixed/dspi_dotprod_u16_ansi.s: modules/dotprod/fixed/dspi_dotpro
 
 # target to generate assembly for a file
 modules/dotprod/fixed/dspi_dotprod_u16_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_u16_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_u16_ansi.c.s
 .PHONY : modules/dotprod/fixed/dspi_dotprod_u16_ansi.c.s
 
 modules/dotprod/fixed/dspi_dotprod_u16_arp4.obj: modules/dotprod/fixed/dspi_dotprod_u16_arp4.S.obj
@@ -692,7 +692,7 @@ modules/dotprod/fixed/dspi_dotprod_u16_arp4.obj: modules/dotprod/fixed/dspi_dotp
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_u16_arp4.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_u16_arp4.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_u16_arp4.S.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_u16_arp4.S.obj
 
 modules/dotprod/fixed/dspi_dotprod_u8_aes3.obj: modules/dotprod/fixed/dspi_dotprod_u8_aes3.S.obj
@@ -700,7 +700,7 @@ modules/dotprod/fixed/dspi_dotprod_u8_aes3.obj: modules/dotprod/fixed/dspi_dotpr
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_u8_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_u8_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_u8_aes3.S.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_u8_aes3.S.obj
 
 modules/dotprod/fixed/dspi_dotprod_u8_ansi.obj: modules/dotprod/fixed/dspi_dotprod_u8_ansi.c.obj
@@ -708,7 +708,7 @@ modules/dotprod/fixed/dspi_dotprod_u8_ansi.obj: modules/dotprod/fixed/dspi_dotpr
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_u8_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_u8_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_u8_ansi.c.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_u8_ansi.c.obj
 
 modules/dotprod/fixed/dspi_dotprod_u8_ansi.i: modules/dotprod/fixed/dspi_dotprod_u8_ansi.c.i
@@ -716,7 +716,7 @@ modules/dotprod/fixed/dspi_dotprod_u8_ansi.i: modules/dotprod/fixed/dspi_dotprod
 
 # target to preprocess a source file
 modules/dotprod/fixed/dspi_dotprod_u8_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_u8_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_u8_ansi.c.i
 .PHONY : modules/dotprod/fixed/dspi_dotprod_u8_ansi.c.i
 
 modules/dotprod/fixed/dspi_dotprod_u8_ansi.s: modules/dotprod/fixed/dspi_dotprod_u8_ansi.c.s
@@ -724,7 +724,7 @@ modules/dotprod/fixed/dspi_dotprod_u8_ansi.s: modules/dotprod/fixed/dspi_dotprod
 
 # target to generate assembly for a file
 modules/dotprod/fixed/dspi_dotprod_u8_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_u8_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_u8_ansi.c.s
 .PHONY : modules/dotprod/fixed/dspi_dotprod_u8_ansi.c.s
 
 modules/dotprod/fixed/dspi_dotprod_u8_arp4.obj: modules/dotprod/fixed/dspi_dotprod_u8_arp4.S.obj
@@ -732,7 +732,7 @@ modules/dotprod/fixed/dspi_dotprod_u8_arp4.obj: modules/dotprod/fixed/dspi_dotpr
 
 # target to build an object file
 modules/dotprod/fixed/dspi_dotprod_u8_arp4.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_u8_arp4.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dspi_dotprod_u8_arp4.S.obj
 .PHONY : modules/dotprod/fixed/dspi_dotprod_u8_arp4.S.obj
 
 modules/dotprod/fixed/dsps_dotprod_s16_ae32.obj: modules/dotprod/fixed/dsps_dotprod_s16_ae32.S.obj
@@ -740,7 +740,7 @@ modules/dotprod/fixed/dsps_dotprod_s16_ae32.obj: modules/dotprod/fixed/dsps_dotp
 
 # target to build an object file
 modules/dotprod/fixed/dsps_dotprod_s16_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dsps_dotprod_s16_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dsps_dotprod_s16_ae32.S.obj
 .PHONY : modules/dotprod/fixed/dsps_dotprod_s16_ae32.S.obj
 
 modules/dotprod/fixed/dsps_dotprod_s16_ansi.obj: modules/dotprod/fixed/dsps_dotprod_s16_ansi.c.obj
@@ -748,7 +748,7 @@ modules/dotprod/fixed/dsps_dotprod_s16_ansi.obj: modules/dotprod/fixed/dsps_dotp
 
 # target to build an object file
 modules/dotprod/fixed/dsps_dotprod_s16_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dsps_dotprod_s16_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dsps_dotprod_s16_ansi.c.obj
 .PHONY : modules/dotprod/fixed/dsps_dotprod_s16_ansi.c.obj
 
 modules/dotprod/fixed/dsps_dotprod_s16_ansi.i: modules/dotprod/fixed/dsps_dotprod_s16_ansi.c.i
@@ -756,7 +756,7 @@ modules/dotprod/fixed/dsps_dotprod_s16_ansi.i: modules/dotprod/fixed/dsps_dotpro
 
 # target to preprocess a source file
 modules/dotprod/fixed/dsps_dotprod_s16_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dsps_dotprod_s16_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dsps_dotprod_s16_ansi.c.i
 .PHONY : modules/dotprod/fixed/dsps_dotprod_s16_ansi.c.i
 
 modules/dotprod/fixed/dsps_dotprod_s16_ansi.s: modules/dotprod/fixed/dsps_dotprod_s16_ansi.c.s
@@ -764,7 +764,7 @@ modules/dotprod/fixed/dsps_dotprod_s16_ansi.s: modules/dotprod/fixed/dsps_dotpro
 
 # target to generate assembly for a file
 modules/dotprod/fixed/dsps_dotprod_s16_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dsps_dotprod_s16_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dsps_dotprod_s16_ansi.c.s
 .PHONY : modules/dotprod/fixed/dsps_dotprod_s16_ansi.c.s
 
 modules/dotprod/fixed/dsps_dotprod_s16_arp4.obj: modules/dotprod/fixed/dsps_dotprod_s16_arp4.S.obj
@@ -772,7 +772,7 @@ modules/dotprod/fixed/dsps_dotprod_s16_arp4.obj: modules/dotprod/fixed/dsps_dotp
 
 # target to build an object file
 modules/dotprod/fixed/dsps_dotprod_s16_arp4.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dsps_dotprod_s16_arp4.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dsps_dotprod_s16_arp4.S.obj
 .PHONY : modules/dotprod/fixed/dsps_dotprod_s16_arp4.S.obj
 
 modules/dotprod/fixed/dsps_dotprod_s16_m_ae32.obj: modules/dotprod/fixed/dsps_dotprod_s16_m_ae32.S.obj
@@ -780,7 +780,7 @@ modules/dotprod/fixed/dsps_dotprod_s16_m_ae32.obj: modules/dotprod/fixed/dsps_do
 
 # target to build an object file
 modules/dotprod/fixed/dsps_dotprod_s16_m_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dsps_dotprod_s16_m_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/fixed/dsps_dotprod_s16_m_ae32.S.obj
 .PHONY : modules/dotprod/fixed/dsps_dotprod_s16_m_ae32.S.obj
 
 modules/dotprod/float/dspi_dotprod_f32_ansi.obj: modules/dotprod/float/dspi_dotprod_f32_ansi.c.obj
@@ -788,7 +788,7 @@ modules/dotprod/float/dspi_dotprod_f32_ansi.obj: modules/dotprod/float/dspi_dotp
 
 # target to build an object file
 modules/dotprod/float/dspi_dotprod_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dspi_dotprod_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dspi_dotprod_f32_ansi.c.obj
 .PHONY : modules/dotprod/float/dspi_dotprod_f32_ansi.c.obj
 
 modules/dotprod/float/dspi_dotprod_f32_ansi.i: modules/dotprod/float/dspi_dotprod_f32_ansi.c.i
@@ -796,7 +796,7 @@ modules/dotprod/float/dspi_dotprod_f32_ansi.i: modules/dotprod/float/dspi_dotpro
 
 # target to preprocess a source file
 modules/dotprod/float/dspi_dotprod_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dspi_dotprod_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dspi_dotprod_f32_ansi.c.i
 .PHONY : modules/dotprod/float/dspi_dotprod_f32_ansi.c.i
 
 modules/dotprod/float/dspi_dotprod_f32_ansi.s: modules/dotprod/float/dspi_dotprod_f32_ansi.c.s
@@ -804,7 +804,7 @@ modules/dotprod/float/dspi_dotprod_f32_ansi.s: modules/dotprod/float/dspi_dotpro
 
 # target to generate assembly for a file
 modules/dotprod/float/dspi_dotprod_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dspi_dotprod_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dspi_dotprod_f32_ansi.c.s
 .PHONY : modules/dotprod/float/dspi_dotprod_f32_ansi.c.s
 
 modules/dotprod/float/dspi_dotprod_off_f32_ansi.obj: modules/dotprod/float/dspi_dotprod_off_f32_ansi.c.obj
@@ -812,7 +812,7 @@ modules/dotprod/float/dspi_dotprod_off_f32_ansi.obj: modules/dotprod/float/dspi_
 
 # target to build an object file
 modules/dotprod/float/dspi_dotprod_off_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dspi_dotprod_off_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dspi_dotprod_off_f32_ansi.c.obj
 .PHONY : modules/dotprod/float/dspi_dotprod_off_f32_ansi.c.obj
 
 modules/dotprod/float/dspi_dotprod_off_f32_ansi.i: modules/dotprod/float/dspi_dotprod_off_f32_ansi.c.i
@@ -820,7 +820,7 @@ modules/dotprod/float/dspi_dotprod_off_f32_ansi.i: modules/dotprod/float/dspi_do
 
 # target to preprocess a source file
 modules/dotprod/float/dspi_dotprod_off_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dspi_dotprod_off_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dspi_dotprod_off_f32_ansi.c.i
 .PHONY : modules/dotprod/float/dspi_dotprod_off_f32_ansi.c.i
 
 modules/dotprod/float/dspi_dotprod_off_f32_ansi.s: modules/dotprod/float/dspi_dotprod_off_f32_ansi.c.s
@@ -828,7 +828,7 @@ modules/dotprod/float/dspi_dotprod_off_f32_ansi.s: modules/dotprod/float/dspi_do
 
 # target to generate assembly for a file
 modules/dotprod/float/dspi_dotprod_off_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dspi_dotprod_off_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dspi_dotprod_off_f32_ansi.c.s
 .PHONY : modules/dotprod/float/dspi_dotprod_off_f32_ansi.c.s
 
 modules/dotprod/float/dsps_dotprod_f32_ae32.obj: modules/dotprod/float/dsps_dotprod_f32_ae32.S.obj
@@ -836,7 +836,7 @@ modules/dotprod/float/dsps_dotprod_f32_ae32.obj: modules/dotprod/float/dsps_dotp
 
 # target to build an object file
 modules/dotprod/float/dsps_dotprod_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprod_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprod_f32_ae32.S.obj
 .PHONY : modules/dotprod/float/dsps_dotprod_f32_ae32.S.obj
 
 modules/dotprod/float/dsps_dotprod_f32_aes3.obj: modules/dotprod/float/dsps_dotprod_f32_aes3.S.obj
@@ -844,7 +844,7 @@ modules/dotprod/float/dsps_dotprod_f32_aes3.obj: modules/dotprod/float/dsps_dotp
 
 # target to build an object file
 modules/dotprod/float/dsps_dotprod_f32_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprod_f32_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprod_f32_aes3.S.obj
 .PHONY : modules/dotprod/float/dsps_dotprod_f32_aes3.S.obj
 
 modules/dotprod/float/dsps_dotprod_f32_ansi.obj: modules/dotprod/float/dsps_dotprod_f32_ansi.c.obj
@@ -852,7 +852,7 @@ modules/dotprod/float/dsps_dotprod_f32_ansi.obj: modules/dotprod/float/dsps_dotp
 
 # target to build an object file
 modules/dotprod/float/dsps_dotprod_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprod_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprod_f32_ansi.c.obj
 .PHONY : modules/dotprod/float/dsps_dotprod_f32_ansi.c.obj
 
 modules/dotprod/float/dsps_dotprod_f32_ansi.i: modules/dotprod/float/dsps_dotprod_f32_ansi.c.i
@@ -860,7 +860,7 @@ modules/dotprod/float/dsps_dotprod_f32_ansi.i: modules/dotprod/float/dsps_dotpro
 
 # target to preprocess a source file
 modules/dotprod/float/dsps_dotprod_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprod_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprod_f32_ansi.c.i
 .PHONY : modules/dotprod/float/dsps_dotprod_f32_ansi.c.i
 
 modules/dotprod/float/dsps_dotprod_f32_ansi.s: modules/dotprod/float/dsps_dotprod_f32_ansi.c.s
@@ -868,7 +868,7 @@ modules/dotprod/float/dsps_dotprod_f32_ansi.s: modules/dotprod/float/dsps_dotpro
 
 # target to generate assembly for a file
 modules/dotprod/float/dsps_dotprod_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprod_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprod_f32_ansi.c.s
 .PHONY : modules/dotprod/float/dsps_dotprod_f32_ansi.c.s
 
 modules/dotprod/float/dsps_dotprod_f32_arp4.obj: modules/dotprod/float/dsps_dotprod_f32_arp4.S.obj
@@ -876,7 +876,7 @@ modules/dotprod/float/dsps_dotprod_f32_arp4.obj: modules/dotprod/float/dsps_dotp
 
 # target to build an object file
 modules/dotprod/float/dsps_dotprod_f32_arp4.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprod_f32_arp4.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprod_f32_arp4.S.obj
 .PHONY : modules/dotprod/float/dsps_dotprod_f32_arp4.S.obj
 
 modules/dotprod/float/dsps_dotprod_f32_m_ae32.obj: modules/dotprod/float/dsps_dotprod_f32_m_ae32.S.obj
@@ -884,7 +884,7 @@ modules/dotprod/float/dsps_dotprod_f32_m_ae32.obj: modules/dotprod/float/dsps_do
 
 # target to build an object file
 modules/dotprod/float/dsps_dotprod_f32_m_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprod_f32_m_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprod_f32_m_ae32.S.obj
 .PHONY : modules/dotprod/float/dsps_dotprod_f32_m_ae32.S.obj
 
 modules/dotprod/float/dsps_dotprode_f32_ae32.obj: modules/dotprod/float/dsps_dotprode_f32_ae32.S.obj
@@ -892,7 +892,7 @@ modules/dotprod/float/dsps_dotprode_f32_ae32.obj: modules/dotprod/float/dsps_dot
 
 # target to build an object file
 modules/dotprod/float/dsps_dotprode_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprode_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprode_f32_ae32.S.obj
 .PHONY : modules/dotprod/float/dsps_dotprode_f32_ae32.S.obj
 
 modules/dotprod/float/dsps_dotprode_f32_ansi.obj: modules/dotprod/float/dsps_dotprode_f32_ansi.c.obj
@@ -900,7 +900,7 @@ modules/dotprod/float/dsps_dotprode_f32_ansi.obj: modules/dotprod/float/dsps_dot
 
 # target to build an object file
 modules/dotprod/float/dsps_dotprode_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprode_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprode_f32_ansi.c.obj
 .PHONY : modules/dotprod/float/dsps_dotprode_f32_ansi.c.obj
 
 modules/dotprod/float/dsps_dotprode_f32_ansi.i: modules/dotprod/float/dsps_dotprode_f32_ansi.c.i
@@ -908,7 +908,7 @@ modules/dotprod/float/dsps_dotprode_f32_ansi.i: modules/dotprod/float/dsps_dotpr
 
 # target to preprocess a source file
 modules/dotprod/float/dsps_dotprode_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprode_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprode_f32_ansi.c.i
 .PHONY : modules/dotprod/float/dsps_dotprode_f32_ansi.c.i
 
 modules/dotprod/float/dsps_dotprode_f32_ansi.s: modules/dotprod/float/dsps_dotprode_f32_ansi.c.s
@@ -916,7 +916,7 @@ modules/dotprod/float/dsps_dotprode_f32_ansi.s: modules/dotprod/float/dsps_dotpr
 
 # target to generate assembly for a file
 modules/dotprod/float/dsps_dotprode_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprode_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprode_f32_ansi.c.s
 .PHONY : modules/dotprod/float/dsps_dotprode_f32_ansi.c.s
 
 modules/dotprod/float/dsps_dotprode_f32_arp4.obj: modules/dotprod/float/dsps_dotprode_f32_arp4.S.obj
@@ -924,7 +924,7 @@ modules/dotprod/float/dsps_dotprode_f32_arp4.obj: modules/dotprod/float/dsps_dot
 
 # target to build an object file
 modules/dotprod/float/dsps_dotprode_f32_arp4.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprode_f32_arp4.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprode_f32_arp4.S.obj
 .PHONY : modules/dotprod/float/dsps_dotprode_f32_arp4.S.obj
 
 modules/dotprod/float/dsps_dotprode_f32_m_ae32.obj: modules/dotprod/float/dsps_dotprode_f32_m_ae32.S.obj
@@ -932,7 +932,7 @@ modules/dotprod/float/dsps_dotprode_f32_m_ae32.obj: modules/dotprod/float/dsps_d
 
 # target to build an object file
 modules/dotprod/float/dsps_dotprode_f32_m_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprode_f32_m_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/dotprod/float/dsps_dotprode_f32_m_ae32.S.obj
 .PHONY : modules/dotprod/float/dsps_dotprode_f32_m_ae32.S.obj
 
 modules/fft/fixed/dsps_fft2r_sc16_ae32.obj: modules/fft/fixed/dsps_fft2r_sc16_ae32.S.obj
@@ -940,7 +940,7 @@ modules/fft/fixed/dsps_fft2r_sc16_ae32.obj: modules/fft/fixed/dsps_fft2r_sc16_ae
 
 # target to build an object file
 modules/fft/fixed/dsps_fft2r_sc16_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/fixed/dsps_fft2r_sc16_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/fixed/dsps_fft2r_sc16_ae32.S.obj
 .PHONY : modules/fft/fixed/dsps_fft2r_sc16_ae32.S.obj
 
 modules/fft/fixed/dsps_fft2r_sc16_aes3.obj: modules/fft/fixed/dsps_fft2r_sc16_aes3.S.obj
@@ -948,7 +948,7 @@ modules/fft/fixed/dsps_fft2r_sc16_aes3.obj: modules/fft/fixed/dsps_fft2r_sc16_ae
 
 # target to build an object file
 modules/fft/fixed/dsps_fft2r_sc16_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/fixed/dsps_fft2r_sc16_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/fixed/dsps_fft2r_sc16_aes3.S.obj
 .PHONY : modules/fft/fixed/dsps_fft2r_sc16_aes3.S.obj
 
 modules/fft/fixed/dsps_fft2r_sc16_ansi.obj: modules/fft/fixed/dsps_fft2r_sc16_ansi.c.obj
@@ -956,7 +956,7 @@ modules/fft/fixed/dsps_fft2r_sc16_ansi.obj: modules/fft/fixed/dsps_fft2r_sc16_an
 
 # target to build an object file
 modules/fft/fixed/dsps_fft2r_sc16_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/fixed/dsps_fft2r_sc16_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/fixed/dsps_fft2r_sc16_ansi.c.obj
 .PHONY : modules/fft/fixed/dsps_fft2r_sc16_ansi.c.obj
 
 modules/fft/fixed/dsps_fft2r_sc16_ansi.i: modules/fft/fixed/dsps_fft2r_sc16_ansi.c.i
@@ -964,7 +964,7 @@ modules/fft/fixed/dsps_fft2r_sc16_ansi.i: modules/fft/fixed/dsps_fft2r_sc16_ansi
 
 # target to preprocess a source file
 modules/fft/fixed/dsps_fft2r_sc16_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/fixed/dsps_fft2r_sc16_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/fixed/dsps_fft2r_sc16_ansi.c.i
 .PHONY : modules/fft/fixed/dsps_fft2r_sc16_ansi.c.i
 
 modules/fft/fixed/dsps_fft2r_sc16_ansi.s: modules/fft/fixed/dsps_fft2r_sc16_ansi.c.s
@@ -972,7 +972,7 @@ modules/fft/fixed/dsps_fft2r_sc16_ansi.s: modules/fft/fixed/dsps_fft2r_sc16_ansi
 
 # target to generate assembly for a file
 modules/fft/fixed/dsps_fft2r_sc16_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/fixed/dsps_fft2r_sc16_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/fixed/dsps_fft2r_sc16_ansi.c.s
 .PHONY : modules/fft/fixed/dsps_fft2r_sc16_ansi.c.s
 
 modules/fft/fixed/dsps_fft2r_sc16_arp4.obj: modules/fft/fixed/dsps_fft2r_sc16_arp4.S.obj
@@ -980,7 +980,7 @@ modules/fft/fixed/dsps_fft2r_sc16_arp4.obj: modules/fft/fixed/dsps_fft2r_sc16_ar
 
 # target to build an object file
 modules/fft/fixed/dsps_fft2r_sc16_arp4.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/fixed/dsps_fft2r_sc16_arp4.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/fixed/dsps_fft2r_sc16_arp4.S.obj
 .PHONY : modules/fft/fixed/dsps_fft2r_sc16_arp4.S.obj
 
 modules/fft/float/dsps_bit_rev_lookup_fc32_aes3.obj: modules/fft/float/dsps_bit_rev_lookup_fc32_aes3.S.obj
@@ -988,7 +988,7 @@ modules/fft/float/dsps_bit_rev_lookup_fc32_aes3.obj: modules/fft/float/dsps_bit_
 
 # target to build an object file
 modules/fft/float/dsps_bit_rev_lookup_fc32_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_bit_rev_lookup_fc32_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_bit_rev_lookup_fc32_aes3.S.obj
 .PHONY : modules/fft/float/dsps_bit_rev_lookup_fc32_aes3.S.obj
 
 modules/fft/float/dsps_fft2r_bitrev_tables_fc32.obj: modules/fft/float/dsps_fft2r_bitrev_tables_fc32.c.obj
@@ -996,7 +996,7 @@ modules/fft/float/dsps_fft2r_bitrev_tables_fc32.obj: modules/fft/float/dsps_fft2
 
 # target to build an object file
 modules/fft/float/dsps_fft2r_bitrev_tables_fc32.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_bitrev_tables_fc32.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_bitrev_tables_fc32.c.obj
 .PHONY : modules/fft/float/dsps_fft2r_bitrev_tables_fc32.c.obj
 
 modules/fft/float/dsps_fft2r_bitrev_tables_fc32.i: modules/fft/float/dsps_fft2r_bitrev_tables_fc32.c.i
@@ -1004,7 +1004,7 @@ modules/fft/float/dsps_fft2r_bitrev_tables_fc32.i: modules/fft/float/dsps_fft2r_
 
 # target to preprocess a source file
 modules/fft/float/dsps_fft2r_bitrev_tables_fc32.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_bitrev_tables_fc32.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_bitrev_tables_fc32.c.i
 .PHONY : modules/fft/float/dsps_fft2r_bitrev_tables_fc32.c.i
 
 modules/fft/float/dsps_fft2r_bitrev_tables_fc32.s: modules/fft/float/dsps_fft2r_bitrev_tables_fc32.c.s
@@ -1012,7 +1012,7 @@ modules/fft/float/dsps_fft2r_bitrev_tables_fc32.s: modules/fft/float/dsps_fft2r_
 
 # target to generate assembly for a file
 modules/fft/float/dsps_fft2r_bitrev_tables_fc32.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_bitrev_tables_fc32.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_bitrev_tables_fc32.c.s
 .PHONY : modules/fft/float/dsps_fft2r_bitrev_tables_fc32.c.s
 
 modules/fft/float/dsps_fft2r_fc32_ae32.obj: modules/fft/float/dsps_fft2r_fc32_ae32.c.obj
@@ -1020,7 +1020,7 @@ modules/fft/float/dsps_fft2r_fc32_ae32.obj: modules/fft/float/dsps_fft2r_fc32_ae
 
 # target to build an object file
 modules/fft/float/dsps_fft2r_fc32_ae32.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_fc32_ae32.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_fc32_ae32.c.obj
 .PHONY : modules/fft/float/dsps_fft2r_fc32_ae32.c.obj
 
 modules/fft/float/dsps_fft2r_fc32_ae32.i: modules/fft/float/dsps_fft2r_fc32_ae32.c.i
@@ -1028,7 +1028,7 @@ modules/fft/float/dsps_fft2r_fc32_ae32.i: modules/fft/float/dsps_fft2r_fc32_ae32
 
 # target to preprocess a source file
 modules/fft/float/dsps_fft2r_fc32_ae32.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_fc32_ae32.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_fc32_ae32.c.i
 .PHONY : modules/fft/float/dsps_fft2r_fc32_ae32.c.i
 
 modules/fft/float/dsps_fft2r_fc32_ae32.s: modules/fft/float/dsps_fft2r_fc32_ae32.c.s
@@ -1036,7 +1036,7 @@ modules/fft/float/dsps_fft2r_fc32_ae32.s: modules/fft/float/dsps_fft2r_fc32_ae32
 
 # target to generate assembly for a file
 modules/fft/float/dsps_fft2r_fc32_ae32.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_fc32_ae32.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_fc32_ae32.c.s
 .PHONY : modules/fft/float/dsps_fft2r_fc32_ae32.c.s
 
 modules/fft/float/dsps_fft2r_fc32_ae32_.obj: modules/fft/float/dsps_fft2r_fc32_ae32_.S.obj
@@ -1044,7 +1044,7 @@ modules/fft/float/dsps_fft2r_fc32_ae32_.obj: modules/fft/float/dsps_fft2r_fc32_a
 
 # target to build an object file
 modules/fft/float/dsps_fft2r_fc32_ae32_.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_fc32_ae32_.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_fc32_ae32_.S.obj
 .PHONY : modules/fft/float/dsps_fft2r_fc32_ae32_.S.obj
 
 modules/fft/float/dsps_fft2r_fc32_aes3_.obj: modules/fft/float/dsps_fft2r_fc32_aes3_.S.obj
@@ -1052,7 +1052,7 @@ modules/fft/float/dsps_fft2r_fc32_aes3_.obj: modules/fft/float/dsps_fft2r_fc32_a
 
 # target to build an object file
 modules/fft/float/dsps_fft2r_fc32_aes3_.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_fc32_aes3_.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_fc32_aes3_.S.obj
 .PHONY : modules/fft/float/dsps_fft2r_fc32_aes3_.S.obj
 
 modules/fft/float/dsps_fft2r_fc32_ansi.obj: modules/fft/float/dsps_fft2r_fc32_ansi.c.obj
@@ -1060,7 +1060,7 @@ modules/fft/float/dsps_fft2r_fc32_ansi.obj: modules/fft/float/dsps_fft2r_fc32_an
 
 # target to build an object file
 modules/fft/float/dsps_fft2r_fc32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_fc32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_fc32_ansi.c.obj
 .PHONY : modules/fft/float/dsps_fft2r_fc32_ansi.c.obj
 
 modules/fft/float/dsps_fft2r_fc32_ansi.i: modules/fft/float/dsps_fft2r_fc32_ansi.c.i
@@ -1068,7 +1068,7 @@ modules/fft/float/dsps_fft2r_fc32_ansi.i: modules/fft/float/dsps_fft2r_fc32_ansi
 
 # target to preprocess a source file
 modules/fft/float/dsps_fft2r_fc32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_fc32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_fc32_ansi.c.i
 .PHONY : modules/fft/float/dsps_fft2r_fc32_ansi.c.i
 
 modules/fft/float/dsps_fft2r_fc32_ansi.s: modules/fft/float/dsps_fft2r_fc32_ansi.c.s
@@ -1076,7 +1076,7 @@ modules/fft/float/dsps_fft2r_fc32_ansi.s: modules/fft/float/dsps_fft2r_fc32_ansi
 
 # target to generate assembly for a file
 modules/fft/float/dsps_fft2r_fc32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_fc32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_fc32_ansi.c.s
 .PHONY : modules/fft/float/dsps_fft2r_fc32_ansi.c.s
 
 modules/fft/float/dsps_fft2r_fc32_arp4.obj: modules/fft/float/dsps_fft2r_fc32_arp4.S.obj
@@ -1084,7 +1084,7 @@ modules/fft/float/dsps_fft2r_fc32_arp4.obj: modules/fft/float/dsps_fft2r_fc32_ar
 
 # target to build an object file
 modules/fft/float/dsps_fft2r_fc32_arp4.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_fc32_arp4.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft2r_fc32_arp4.S.obj
 .PHONY : modules/fft/float/dsps_fft2r_fc32_arp4.S.obj
 
 modules/fft/float/dsps_fft4r_bitrev_tables_fc32.obj: modules/fft/float/dsps_fft4r_bitrev_tables_fc32.c.obj
@@ -1092,7 +1092,7 @@ modules/fft/float/dsps_fft4r_bitrev_tables_fc32.obj: modules/fft/float/dsps_fft4
 
 # target to build an object file
 modules/fft/float/dsps_fft4r_bitrev_tables_fc32.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_bitrev_tables_fc32.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_bitrev_tables_fc32.c.obj
 .PHONY : modules/fft/float/dsps_fft4r_bitrev_tables_fc32.c.obj
 
 modules/fft/float/dsps_fft4r_bitrev_tables_fc32.i: modules/fft/float/dsps_fft4r_bitrev_tables_fc32.c.i
@@ -1100,7 +1100,7 @@ modules/fft/float/dsps_fft4r_bitrev_tables_fc32.i: modules/fft/float/dsps_fft4r_
 
 # target to preprocess a source file
 modules/fft/float/dsps_fft4r_bitrev_tables_fc32.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_bitrev_tables_fc32.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_bitrev_tables_fc32.c.i
 .PHONY : modules/fft/float/dsps_fft4r_bitrev_tables_fc32.c.i
 
 modules/fft/float/dsps_fft4r_bitrev_tables_fc32.s: modules/fft/float/dsps_fft4r_bitrev_tables_fc32.c.s
@@ -1108,7 +1108,7 @@ modules/fft/float/dsps_fft4r_bitrev_tables_fc32.s: modules/fft/float/dsps_fft4r_
 
 # target to generate assembly for a file
 modules/fft/float/dsps_fft4r_bitrev_tables_fc32.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_bitrev_tables_fc32.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_bitrev_tables_fc32.c.s
 .PHONY : modules/fft/float/dsps_fft4r_bitrev_tables_fc32.c.s
 
 modules/fft/float/dsps_fft4r_fc32_ae32.obj: modules/fft/float/dsps_fft4r_fc32_ae32.c.obj
@@ -1116,7 +1116,7 @@ modules/fft/float/dsps_fft4r_fc32_ae32.obj: modules/fft/float/dsps_fft4r_fc32_ae
 
 # target to build an object file
 modules/fft/float/dsps_fft4r_fc32_ae32.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_fc32_ae32.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_fc32_ae32.c.obj
 .PHONY : modules/fft/float/dsps_fft4r_fc32_ae32.c.obj
 
 modules/fft/float/dsps_fft4r_fc32_ae32.i: modules/fft/float/dsps_fft4r_fc32_ae32.c.i
@@ -1124,7 +1124,7 @@ modules/fft/float/dsps_fft4r_fc32_ae32.i: modules/fft/float/dsps_fft4r_fc32_ae32
 
 # target to preprocess a source file
 modules/fft/float/dsps_fft4r_fc32_ae32.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_fc32_ae32.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_fc32_ae32.c.i
 .PHONY : modules/fft/float/dsps_fft4r_fc32_ae32.c.i
 
 modules/fft/float/dsps_fft4r_fc32_ae32.s: modules/fft/float/dsps_fft4r_fc32_ae32.c.s
@@ -1132,7 +1132,7 @@ modules/fft/float/dsps_fft4r_fc32_ae32.s: modules/fft/float/dsps_fft4r_fc32_ae32
 
 # target to generate assembly for a file
 modules/fft/float/dsps_fft4r_fc32_ae32.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_fc32_ae32.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_fc32_ae32.c.s
 .PHONY : modules/fft/float/dsps_fft4r_fc32_ae32.c.s
 
 modules/fft/float/dsps_fft4r_fc32_ae32_.obj: modules/fft/float/dsps_fft4r_fc32_ae32_.S.obj
@@ -1140,7 +1140,7 @@ modules/fft/float/dsps_fft4r_fc32_ae32_.obj: modules/fft/float/dsps_fft4r_fc32_a
 
 # target to build an object file
 modules/fft/float/dsps_fft4r_fc32_ae32_.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_fc32_ae32_.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_fc32_ae32_.S.obj
 .PHONY : modules/fft/float/dsps_fft4r_fc32_ae32_.S.obj
 
 modules/fft/float/dsps_fft4r_fc32_aes3_.obj: modules/fft/float/dsps_fft4r_fc32_aes3_.S.obj
@@ -1148,7 +1148,7 @@ modules/fft/float/dsps_fft4r_fc32_aes3_.obj: modules/fft/float/dsps_fft4r_fc32_a
 
 # target to build an object file
 modules/fft/float/dsps_fft4r_fc32_aes3_.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_fc32_aes3_.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_fc32_aes3_.S.obj
 .PHONY : modules/fft/float/dsps_fft4r_fc32_aes3_.S.obj
 
 modules/fft/float/dsps_fft4r_fc32_ansi.obj: modules/fft/float/dsps_fft4r_fc32_ansi.c.obj
@@ -1156,7 +1156,7 @@ modules/fft/float/dsps_fft4r_fc32_ansi.obj: modules/fft/float/dsps_fft4r_fc32_an
 
 # target to build an object file
 modules/fft/float/dsps_fft4r_fc32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_fc32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_fc32_ansi.c.obj
 .PHONY : modules/fft/float/dsps_fft4r_fc32_ansi.c.obj
 
 modules/fft/float/dsps_fft4r_fc32_ansi.i: modules/fft/float/dsps_fft4r_fc32_ansi.c.i
@@ -1164,7 +1164,7 @@ modules/fft/float/dsps_fft4r_fc32_ansi.i: modules/fft/float/dsps_fft4r_fc32_ansi
 
 # target to preprocess a source file
 modules/fft/float/dsps_fft4r_fc32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_fc32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_fc32_ansi.c.i
 .PHONY : modules/fft/float/dsps_fft4r_fc32_ansi.c.i
 
 modules/fft/float/dsps_fft4r_fc32_ansi.s: modules/fft/float/dsps_fft4r_fc32_ansi.c.s
@@ -1172,7 +1172,7 @@ modules/fft/float/dsps_fft4r_fc32_ansi.s: modules/fft/float/dsps_fft4r_fc32_ansi
 
 # target to generate assembly for a file
 modules/fft/float/dsps_fft4r_fc32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_fc32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_fc32_ansi.c.s
 .PHONY : modules/fft/float/dsps_fft4r_fc32_ansi.c.s
 
 modules/fft/float/dsps_fft4r_fc32_arp4.obj: modules/fft/float/dsps_fft4r_fc32_arp4.S.obj
@@ -1180,7 +1180,7 @@ modules/fft/float/dsps_fft4r_fc32_arp4.obj: modules/fft/float/dsps_fft4r_fc32_ar
 
 # target to build an object file
 modules/fft/float/dsps_fft4r_fc32_arp4.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_fc32_arp4.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fft/float/dsps_fft4r_fc32_arp4.S.obj
 .PHONY : modules/fft/float/dsps_fft4r_fc32_arp4.S.obj
 
 modules/fir/fixed/dsps_fir_s16_m_ae32.obj: modules/fir/fixed/dsps_fir_s16_m_ae32.S.obj
@@ -1188,7 +1188,7 @@ modules/fir/fixed/dsps_fir_s16_m_ae32.obj: modules/fir/fixed/dsps_fir_s16_m_ae32
 
 # target to build an object file
 modules/fir/fixed/dsps_fir_s16_m_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_fir_s16_m_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_fir_s16_m_ae32.S.obj
 .PHONY : modules/fir/fixed/dsps_fir_s16_m_ae32.S.obj
 
 modules/fir/fixed/dsps_fird_init_s16.obj: modules/fir/fixed/dsps_fird_init_s16.c.obj
@@ -1196,7 +1196,7 @@ modules/fir/fixed/dsps_fird_init_s16.obj: modules/fir/fixed/dsps_fird_init_s16.c
 
 # target to build an object file
 modules/fir/fixed/dsps_fird_init_s16.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_fird_init_s16.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_fird_init_s16.c.obj
 .PHONY : modules/fir/fixed/dsps_fird_init_s16.c.obj
 
 modules/fir/fixed/dsps_fird_init_s16.i: modules/fir/fixed/dsps_fird_init_s16.c.i
@@ -1204,7 +1204,7 @@ modules/fir/fixed/dsps_fird_init_s16.i: modules/fir/fixed/dsps_fird_init_s16.c.i
 
 # target to preprocess a source file
 modules/fir/fixed/dsps_fird_init_s16.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_fird_init_s16.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_fird_init_s16.c.i
 .PHONY : modules/fir/fixed/dsps_fird_init_s16.c.i
 
 modules/fir/fixed/dsps_fird_init_s16.s: modules/fir/fixed/dsps_fird_init_s16.c.s
@@ -1212,7 +1212,7 @@ modules/fir/fixed/dsps_fird_init_s16.s: modules/fir/fixed/dsps_fird_init_s16.c.s
 
 # target to generate assembly for a file
 modules/fir/fixed/dsps_fird_init_s16.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_fird_init_s16.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_fird_init_s16.c.s
 .PHONY : modules/fir/fixed/dsps_fird_init_s16.c.s
 
 modules/fir/fixed/dsps_fird_s16_ae32.obj: modules/fir/fixed/dsps_fird_s16_ae32.S.obj
@@ -1220,7 +1220,7 @@ modules/fir/fixed/dsps_fird_s16_ae32.obj: modules/fir/fixed/dsps_fird_s16_ae32.S
 
 # target to build an object file
 modules/fir/fixed/dsps_fird_s16_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_fird_s16_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_fird_s16_ae32.S.obj
 .PHONY : modules/fir/fixed/dsps_fird_s16_ae32.S.obj
 
 modules/fir/fixed/dsps_fird_s16_aes3.obj: modules/fir/fixed/dsps_fird_s16_aes3.S.obj
@@ -1228,7 +1228,7 @@ modules/fir/fixed/dsps_fird_s16_aes3.obj: modules/fir/fixed/dsps_fird_s16_aes3.S
 
 # target to build an object file
 modules/fir/fixed/dsps_fird_s16_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_fird_s16_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_fird_s16_aes3.S.obj
 .PHONY : modules/fir/fixed/dsps_fird_s16_aes3.S.obj
 
 modules/fir/fixed/dsps_fird_s16_ansi.obj: modules/fir/fixed/dsps_fird_s16_ansi.c.obj
@@ -1236,7 +1236,7 @@ modules/fir/fixed/dsps_fird_s16_ansi.obj: modules/fir/fixed/dsps_fird_s16_ansi.c
 
 # target to build an object file
 modules/fir/fixed/dsps_fird_s16_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_fird_s16_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_fird_s16_ansi.c.obj
 .PHONY : modules/fir/fixed/dsps_fird_s16_ansi.c.obj
 
 modules/fir/fixed/dsps_fird_s16_ansi.i: modules/fir/fixed/dsps_fird_s16_ansi.c.i
@@ -1244,7 +1244,7 @@ modules/fir/fixed/dsps_fird_s16_ansi.i: modules/fir/fixed/dsps_fird_s16_ansi.c.i
 
 # target to preprocess a source file
 modules/fir/fixed/dsps_fird_s16_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_fird_s16_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_fird_s16_ansi.c.i
 .PHONY : modules/fir/fixed/dsps_fird_s16_ansi.c.i
 
 modules/fir/fixed/dsps_fird_s16_ansi.s: modules/fir/fixed/dsps_fird_s16_ansi.c.s
@@ -1252,7 +1252,7 @@ modules/fir/fixed/dsps_fird_s16_ansi.s: modules/fir/fixed/dsps_fird_s16_ansi.c.s
 
 # target to generate assembly for a file
 modules/fir/fixed/dsps_fird_s16_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_fird_s16_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_fird_s16_ansi.c.s
 .PHONY : modules/fir/fixed/dsps_fird_s16_ansi.c.s
 
 modules/fir/fixed/dsps_fird_s16_arp4.obj: modules/fir/fixed/dsps_fird_s16_arp4.S.obj
@@ -1260,7 +1260,7 @@ modules/fir/fixed/dsps_fird_s16_arp4.obj: modules/fir/fixed/dsps_fird_s16_arp4.S
 
 # target to build an object file
 modules/fir/fixed/dsps_fird_s16_arp4.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_fird_s16_arp4.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_fird_s16_arp4.S.obj
 .PHONY : modules/fir/fixed/dsps_fird_s16_arp4.S.obj
 
 modules/fir/fixed/dsps_firmr_init_s16.obj: modules/fir/fixed/dsps_firmr_init_s16.c.obj
@@ -1268,7 +1268,7 @@ modules/fir/fixed/dsps_firmr_init_s16.obj: modules/fir/fixed/dsps_firmr_init_s16
 
 # target to build an object file
 modules/fir/fixed/dsps_firmr_init_s16.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_firmr_init_s16.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_firmr_init_s16.c.obj
 .PHONY : modules/fir/fixed/dsps_firmr_init_s16.c.obj
 
 modules/fir/fixed/dsps_firmr_init_s16.i: modules/fir/fixed/dsps_firmr_init_s16.c.i
@@ -1276,7 +1276,7 @@ modules/fir/fixed/dsps_firmr_init_s16.i: modules/fir/fixed/dsps_firmr_init_s16.c
 
 # target to preprocess a source file
 modules/fir/fixed/dsps_firmr_init_s16.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_firmr_init_s16.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_firmr_init_s16.c.i
 .PHONY : modules/fir/fixed/dsps_firmr_init_s16.c.i
 
 modules/fir/fixed/dsps_firmr_init_s16.s: modules/fir/fixed/dsps_firmr_init_s16.c.s
@@ -1284,7 +1284,7 @@ modules/fir/fixed/dsps_firmr_init_s16.s: modules/fir/fixed/dsps_firmr_init_s16.c
 
 # target to generate assembly for a file
 modules/fir/fixed/dsps_firmr_init_s16.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_firmr_init_s16.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_firmr_init_s16.c.s
 .PHONY : modules/fir/fixed/dsps_firmr_init_s16.c.s
 
 modules/fir/fixed/dsps_firmr_s16_ansi.obj: modules/fir/fixed/dsps_firmr_s16_ansi.c.obj
@@ -1292,7 +1292,7 @@ modules/fir/fixed/dsps_firmr_s16_ansi.obj: modules/fir/fixed/dsps_firmr_s16_ansi
 
 # target to build an object file
 modules/fir/fixed/dsps_firmr_s16_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_firmr_s16_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_firmr_s16_ansi.c.obj
 .PHONY : modules/fir/fixed/dsps_firmr_s16_ansi.c.obj
 
 modules/fir/fixed/dsps_firmr_s16_ansi.i: modules/fir/fixed/dsps_firmr_s16_ansi.c.i
@@ -1300,7 +1300,7 @@ modules/fir/fixed/dsps_firmr_s16_ansi.i: modules/fir/fixed/dsps_firmr_s16_ansi.c
 
 # target to preprocess a source file
 modules/fir/fixed/dsps_firmr_s16_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_firmr_s16_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_firmr_s16_ansi.c.i
 .PHONY : modules/fir/fixed/dsps_firmr_s16_ansi.c.i
 
 modules/fir/fixed/dsps_firmr_s16_ansi.s: modules/fir/fixed/dsps_firmr_s16_ansi.c.s
@@ -1308,7 +1308,7 @@ modules/fir/fixed/dsps_firmr_s16_ansi.s: modules/fir/fixed/dsps_firmr_s16_ansi.c
 
 # target to generate assembly for a file
 modules/fir/fixed/dsps_firmr_s16_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_firmr_s16_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/fixed/dsps_firmr_s16_ansi.c.s
 .PHONY : modules/fir/fixed/dsps_firmr_s16_ansi.c.s
 
 modules/fir/float/dsps_fir_f32_ae32.obj: modules/fir/float/dsps_fir_f32_ae32.S.obj
@@ -1316,7 +1316,7 @@ modules/fir/float/dsps_fir_f32_ae32.obj: modules/fir/float/dsps_fir_f32_ae32.S.o
 
 # target to build an object file
 modules/fir/float/dsps_fir_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fir_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fir_f32_ae32.S.obj
 .PHONY : modules/fir/float/dsps_fir_f32_ae32.S.obj
 
 modules/fir/float/dsps_fir_f32_aes3.obj: modules/fir/float/dsps_fir_f32_aes3.S.obj
@@ -1324,7 +1324,7 @@ modules/fir/float/dsps_fir_f32_aes3.obj: modules/fir/float/dsps_fir_f32_aes3.S.o
 
 # target to build an object file
 modules/fir/float/dsps_fir_f32_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fir_f32_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fir_f32_aes3.S.obj
 .PHONY : modules/fir/float/dsps_fir_f32_aes3.S.obj
 
 modules/fir/float/dsps_fir_f32_ansi.obj: modules/fir/float/dsps_fir_f32_ansi.c.obj
@@ -1332,7 +1332,7 @@ modules/fir/float/dsps_fir_f32_ansi.obj: modules/fir/float/dsps_fir_f32_ansi.c.o
 
 # target to build an object file
 modules/fir/float/dsps_fir_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fir_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fir_f32_ansi.c.obj
 .PHONY : modules/fir/float/dsps_fir_f32_ansi.c.obj
 
 modules/fir/float/dsps_fir_f32_ansi.i: modules/fir/float/dsps_fir_f32_ansi.c.i
@@ -1340,7 +1340,7 @@ modules/fir/float/dsps_fir_f32_ansi.i: modules/fir/float/dsps_fir_f32_ansi.c.i
 
 # target to preprocess a source file
 modules/fir/float/dsps_fir_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fir_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fir_f32_ansi.c.i
 .PHONY : modules/fir/float/dsps_fir_f32_ansi.c.i
 
 modules/fir/float/dsps_fir_f32_ansi.s: modules/fir/float/dsps_fir_f32_ansi.c.s
@@ -1348,7 +1348,7 @@ modules/fir/float/dsps_fir_f32_ansi.s: modules/fir/float/dsps_fir_f32_ansi.c.s
 
 # target to generate assembly for a file
 modules/fir/float/dsps_fir_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fir_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fir_f32_ansi.c.s
 .PHONY : modules/fir/float/dsps_fir_f32_ansi.c.s
 
 modules/fir/float/dsps_fir_init_f32.obj: modules/fir/float/dsps_fir_init_f32.c.obj
@@ -1356,7 +1356,7 @@ modules/fir/float/dsps_fir_init_f32.obj: modules/fir/float/dsps_fir_init_f32.c.o
 
 # target to build an object file
 modules/fir/float/dsps_fir_init_f32.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fir_init_f32.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fir_init_f32.c.obj
 .PHONY : modules/fir/float/dsps_fir_init_f32.c.obj
 
 modules/fir/float/dsps_fir_init_f32.i: modules/fir/float/dsps_fir_init_f32.c.i
@@ -1364,7 +1364,7 @@ modules/fir/float/dsps_fir_init_f32.i: modules/fir/float/dsps_fir_init_f32.c.i
 
 # target to preprocess a source file
 modules/fir/float/dsps_fir_init_f32.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fir_init_f32.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fir_init_f32.c.i
 .PHONY : modules/fir/float/dsps_fir_init_f32.c.i
 
 modules/fir/float/dsps_fir_init_f32.s: modules/fir/float/dsps_fir_init_f32.c.s
@@ -1372,7 +1372,7 @@ modules/fir/float/dsps_fir_init_f32.s: modules/fir/float/dsps_fir_init_f32.c.s
 
 # target to generate assembly for a file
 modules/fir/float/dsps_fir_init_f32.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fir_init_f32.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fir_init_f32.c.s
 .PHONY : modules/fir/float/dsps_fir_init_f32.c.s
 
 modules/fir/float/dsps_fird_f32_ae32.obj: modules/fir/float/dsps_fird_f32_ae32.S.obj
@@ -1380,7 +1380,7 @@ modules/fir/float/dsps_fird_f32_ae32.obj: modules/fir/float/dsps_fird_f32_ae32.S
 
 # target to build an object file
 modules/fir/float/dsps_fird_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fird_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fird_f32_ae32.S.obj
 .PHONY : modules/fir/float/dsps_fird_f32_ae32.S.obj
 
 modules/fir/float/dsps_fird_f32_aes3.obj: modules/fir/float/dsps_fird_f32_aes3.S.obj
@@ -1388,7 +1388,7 @@ modules/fir/float/dsps_fird_f32_aes3.obj: modules/fir/float/dsps_fird_f32_aes3.S
 
 # target to build an object file
 modules/fir/float/dsps_fird_f32_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fird_f32_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fird_f32_aes3.S.obj
 .PHONY : modules/fir/float/dsps_fird_f32_aes3.S.obj
 
 modules/fir/float/dsps_fird_f32_ansi.obj: modules/fir/float/dsps_fird_f32_ansi.c.obj
@@ -1396,7 +1396,7 @@ modules/fir/float/dsps_fird_f32_ansi.obj: modules/fir/float/dsps_fird_f32_ansi.c
 
 # target to build an object file
 modules/fir/float/dsps_fird_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fird_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fird_f32_ansi.c.obj
 .PHONY : modules/fir/float/dsps_fird_f32_ansi.c.obj
 
 modules/fir/float/dsps_fird_f32_ansi.i: modules/fir/float/dsps_fird_f32_ansi.c.i
@@ -1404,7 +1404,7 @@ modules/fir/float/dsps_fird_f32_ansi.i: modules/fir/float/dsps_fird_f32_ansi.c.i
 
 # target to preprocess a source file
 modules/fir/float/dsps_fird_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fird_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fird_f32_ansi.c.i
 .PHONY : modules/fir/float/dsps_fird_f32_ansi.c.i
 
 modules/fir/float/dsps_fird_f32_ansi.s: modules/fir/float/dsps_fird_f32_ansi.c.s
@@ -1412,7 +1412,7 @@ modules/fir/float/dsps_fird_f32_ansi.s: modules/fir/float/dsps_fird_f32_ansi.c.s
 
 # target to generate assembly for a file
 modules/fir/float/dsps_fird_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fird_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fird_f32_ansi.c.s
 .PHONY : modules/fir/float/dsps_fird_f32_ansi.c.s
 
 modules/fir/float/dsps_fird_f32_arp4.obj: modules/fir/float/dsps_fird_f32_arp4.S.obj
@@ -1420,7 +1420,7 @@ modules/fir/float/dsps_fird_f32_arp4.obj: modules/fir/float/dsps_fird_f32_arp4.S
 
 # target to build an object file
 modules/fir/float/dsps_fird_f32_arp4.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fird_f32_arp4.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fird_f32_arp4.S.obj
 .PHONY : modules/fir/float/dsps_fird_f32_arp4.S.obj
 
 modules/fir/float/dsps_fird_init_f32.obj: modules/fir/float/dsps_fird_init_f32.c.obj
@@ -1428,7 +1428,7 @@ modules/fir/float/dsps_fird_init_f32.obj: modules/fir/float/dsps_fird_init_f32.c
 
 # target to build an object file
 modules/fir/float/dsps_fird_init_f32.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fird_init_f32.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fird_init_f32.c.obj
 .PHONY : modules/fir/float/dsps_fird_init_f32.c.obj
 
 modules/fir/float/dsps_fird_init_f32.i: modules/fir/float/dsps_fird_init_f32.c.i
@@ -1436,7 +1436,7 @@ modules/fir/float/dsps_fird_init_f32.i: modules/fir/float/dsps_fird_init_f32.c.i
 
 # target to preprocess a source file
 modules/fir/float/dsps_fird_init_f32.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fird_init_f32.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fird_init_f32.c.i
 .PHONY : modules/fir/float/dsps_fird_init_f32.c.i
 
 modules/fir/float/dsps_fird_init_f32.s: modules/fir/float/dsps_fird_init_f32.c.s
@@ -1444,7 +1444,7 @@ modules/fir/float/dsps_fird_init_f32.s: modules/fir/float/dsps_fird_init_f32.c.s
 
 # target to generate assembly for a file
 modules/fir/float/dsps_fird_init_f32.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fird_init_f32.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_fird_init_f32.c.s
 .PHONY : modules/fir/float/dsps_fird_init_f32.c.s
 
 modules/fir/float/dsps_firmr_f32_ansi.obj: modules/fir/float/dsps_firmr_f32_ansi.c.obj
@@ -1452,7 +1452,7 @@ modules/fir/float/dsps_firmr_f32_ansi.obj: modules/fir/float/dsps_firmr_f32_ansi
 
 # target to build an object file
 modules/fir/float/dsps_firmr_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_firmr_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_firmr_f32_ansi.c.obj
 .PHONY : modules/fir/float/dsps_firmr_f32_ansi.c.obj
 
 modules/fir/float/dsps_firmr_f32_ansi.i: modules/fir/float/dsps_firmr_f32_ansi.c.i
@@ -1460,7 +1460,7 @@ modules/fir/float/dsps_firmr_f32_ansi.i: modules/fir/float/dsps_firmr_f32_ansi.c
 
 # target to preprocess a source file
 modules/fir/float/dsps_firmr_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_firmr_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_firmr_f32_ansi.c.i
 .PHONY : modules/fir/float/dsps_firmr_f32_ansi.c.i
 
 modules/fir/float/dsps_firmr_f32_ansi.s: modules/fir/float/dsps_firmr_f32_ansi.c.s
@@ -1468,7 +1468,7 @@ modules/fir/float/dsps_firmr_f32_ansi.s: modules/fir/float/dsps_firmr_f32_ansi.c
 
 # target to generate assembly for a file
 modules/fir/float/dsps_firmr_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_firmr_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_firmr_f32_ansi.c.s
 .PHONY : modules/fir/float/dsps_firmr_f32_ansi.c.s
 
 modules/fir/float/dsps_firmr_init_f32.obj: modules/fir/float/dsps_firmr_init_f32.c.obj
@@ -1476,7 +1476,7 @@ modules/fir/float/dsps_firmr_init_f32.obj: modules/fir/float/dsps_firmr_init_f32
 
 # target to build an object file
 modules/fir/float/dsps_firmr_init_f32.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_firmr_init_f32.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_firmr_init_f32.c.obj
 .PHONY : modules/fir/float/dsps_firmr_init_f32.c.obj
 
 modules/fir/float/dsps_firmr_init_f32.i: modules/fir/float/dsps_firmr_init_f32.c.i
@@ -1484,7 +1484,7 @@ modules/fir/float/dsps_firmr_init_f32.i: modules/fir/float/dsps_firmr_init_f32.c
 
 # target to preprocess a source file
 modules/fir/float/dsps_firmr_init_f32.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_firmr_init_f32.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_firmr_init_f32.c.i
 .PHONY : modules/fir/float/dsps_firmr_init_f32.c.i
 
 modules/fir/float/dsps_firmr_init_f32.s: modules/fir/float/dsps_firmr_init_f32.c.s
@@ -1492,7 +1492,7 @@ modules/fir/float/dsps_firmr_init_f32.s: modules/fir/float/dsps_firmr_init_f32.c
 
 # target to generate assembly for a file
 modules/fir/float/dsps_firmr_init_f32.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_firmr_init_f32.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/float/dsps_firmr_init_f32.c.s
 .PHONY : modules/fir/float/dsps_firmr_init_f32.c.s
 
 modules/fir/resampler/dsps_resampler_mr.obj: modules/fir/resampler/dsps_resampler_mr.c.obj
@@ -1500,7 +1500,7 @@ modules/fir/resampler/dsps_resampler_mr.obj: modules/fir/resampler/dsps_resample
 
 # target to build an object file
 modules/fir/resampler/dsps_resampler_mr.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/resampler/dsps_resampler_mr.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/resampler/dsps_resampler_mr.c.obj
 .PHONY : modules/fir/resampler/dsps_resampler_mr.c.obj
 
 modules/fir/resampler/dsps_resampler_mr.i: modules/fir/resampler/dsps_resampler_mr.c.i
@@ -1508,7 +1508,7 @@ modules/fir/resampler/dsps_resampler_mr.i: modules/fir/resampler/dsps_resampler_
 
 # target to preprocess a source file
 modules/fir/resampler/dsps_resampler_mr.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/resampler/dsps_resampler_mr.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/resampler/dsps_resampler_mr.c.i
 .PHONY : modules/fir/resampler/dsps_resampler_mr.c.i
 
 modules/fir/resampler/dsps_resampler_mr.s: modules/fir/resampler/dsps_resampler_mr.c.s
@@ -1516,7 +1516,7 @@ modules/fir/resampler/dsps_resampler_mr.s: modules/fir/resampler/dsps_resampler_
 
 # target to generate assembly for a file
 modules/fir/resampler/dsps_resampler_mr.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/resampler/dsps_resampler_mr.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/resampler/dsps_resampler_mr.c.s
 .PHONY : modules/fir/resampler/dsps_resampler_mr.c.s
 
 modules/fir/resampler/dsps_resampler_ph.obj: modules/fir/resampler/dsps_resampler_ph.c.obj
@@ -1524,7 +1524,7 @@ modules/fir/resampler/dsps_resampler_ph.obj: modules/fir/resampler/dsps_resample
 
 # target to build an object file
 modules/fir/resampler/dsps_resampler_ph.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/resampler/dsps_resampler_ph.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/resampler/dsps_resampler_ph.c.obj
 .PHONY : modules/fir/resampler/dsps_resampler_ph.c.obj
 
 modules/fir/resampler/dsps_resampler_ph.i: modules/fir/resampler/dsps_resampler_ph.c.i
@@ -1532,7 +1532,7 @@ modules/fir/resampler/dsps_resampler_ph.i: modules/fir/resampler/dsps_resampler_
 
 # target to preprocess a source file
 modules/fir/resampler/dsps_resampler_ph.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/resampler/dsps_resampler_ph.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/resampler/dsps_resampler_ph.c.i
 .PHONY : modules/fir/resampler/dsps_resampler_ph.c.i
 
 modules/fir/resampler/dsps_resampler_ph.s: modules/fir/resampler/dsps_resampler_ph.c.s
@@ -1540,7 +1540,7 @@ modules/fir/resampler/dsps_resampler_ph.s: modules/fir/resampler/dsps_resampler_
 
 # target to generate assembly for a file
 modules/fir/resampler/dsps_resampler_ph.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/resampler/dsps_resampler_ph.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/fir/resampler/dsps_resampler_ph.c.s
 .PHONY : modules/fir/resampler/dsps_resampler_ph.c.s
 
 modules/iir/biquad/dsps_biquad_f32_ae32.obj: modules/iir/biquad/dsps_biquad_f32_ae32.S.obj
@@ -1548,7 +1548,7 @@ modules/iir/biquad/dsps_biquad_f32_ae32.obj: modules/iir/biquad/dsps_biquad_f32_
 
 # target to build an object file
 modules/iir/biquad/dsps_biquad_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_f32_ae32.S.obj
 .PHONY : modules/iir/biquad/dsps_biquad_f32_ae32.S.obj
 
 modules/iir/biquad/dsps_biquad_f32_aes3.obj: modules/iir/biquad/dsps_biquad_f32_aes3.S.obj
@@ -1556,7 +1556,7 @@ modules/iir/biquad/dsps_biquad_f32_aes3.obj: modules/iir/biquad/dsps_biquad_f32_
 
 # target to build an object file
 modules/iir/biquad/dsps_biquad_f32_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_f32_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_f32_aes3.S.obj
 .PHONY : modules/iir/biquad/dsps_biquad_f32_aes3.S.obj
 
 modules/iir/biquad/dsps_biquad_f32_ansi.obj: modules/iir/biquad/dsps_biquad_f32_ansi.c.obj
@@ -1564,7 +1564,7 @@ modules/iir/biquad/dsps_biquad_f32_ansi.obj: modules/iir/biquad/dsps_biquad_f32_
 
 # target to build an object file
 modules/iir/biquad/dsps_biquad_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_f32_ansi.c.obj
 .PHONY : modules/iir/biquad/dsps_biquad_f32_ansi.c.obj
 
 modules/iir/biquad/dsps_biquad_f32_ansi.i: modules/iir/biquad/dsps_biquad_f32_ansi.c.i
@@ -1572,7 +1572,7 @@ modules/iir/biquad/dsps_biquad_f32_ansi.i: modules/iir/biquad/dsps_biquad_f32_an
 
 # target to preprocess a source file
 modules/iir/biquad/dsps_biquad_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_f32_ansi.c.i
 .PHONY : modules/iir/biquad/dsps_biquad_f32_ansi.c.i
 
 modules/iir/biquad/dsps_biquad_f32_ansi.s: modules/iir/biquad/dsps_biquad_f32_ansi.c.s
@@ -1580,7 +1580,7 @@ modules/iir/biquad/dsps_biquad_f32_ansi.s: modules/iir/biquad/dsps_biquad_f32_an
 
 # target to generate assembly for a file
 modules/iir/biquad/dsps_biquad_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_f32_ansi.c.s
 .PHONY : modules/iir/biquad/dsps_biquad_f32_ansi.c.s
 
 modules/iir/biquad/dsps_biquad_f32_arp4.obj: modules/iir/biquad/dsps_biquad_f32_arp4.S.obj
@@ -1588,7 +1588,7 @@ modules/iir/biquad/dsps_biquad_f32_arp4.obj: modules/iir/biquad/dsps_biquad_f32_
 
 # target to build an object file
 modules/iir/biquad/dsps_biquad_f32_arp4.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_f32_arp4.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_f32_arp4.S.obj
 .PHONY : modules/iir/biquad/dsps_biquad_f32_arp4.S.obj
 
 modules/iir/biquad/dsps_biquad_gen_f32.obj: modules/iir/biquad/dsps_biquad_gen_f32.c.obj
@@ -1596,7 +1596,7 @@ modules/iir/biquad/dsps_biquad_gen_f32.obj: modules/iir/biquad/dsps_biquad_gen_f
 
 # target to build an object file
 modules/iir/biquad/dsps_biquad_gen_f32.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_gen_f32.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_gen_f32.c.obj
 .PHONY : modules/iir/biquad/dsps_biquad_gen_f32.c.obj
 
 modules/iir/biquad/dsps_biquad_gen_f32.i: modules/iir/biquad/dsps_biquad_gen_f32.c.i
@@ -1604,7 +1604,7 @@ modules/iir/biquad/dsps_biquad_gen_f32.i: modules/iir/biquad/dsps_biquad_gen_f32
 
 # target to preprocess a source file
 modules/iir/biquad/dsps_biquad_gen_f32.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_gen_f32.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_gen_f32.c.i
 .PHONY : modules/iir/biquad/dsps_biquad_gen_f32.c.i
 
 modules/iir/biquad/dsps_biquad_gen_f32.s: modules/iir/biquad/dsps_biquad_gen_f32.c.s
@@ -1612,7 +1612,7 @@ modules/iir/biquad/dsps_biquad_gen_f32.s: modules/iir/biquad/dsps_biquad_gen_f32
 
 # target to generate assembly for a file
 modules/iir/biquad/dsps_biquad_gen_f32.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_gen_f32.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_gen_f32.c.s
 .PHONY : modules/iir/biquad/dsps_biquad_gen_f32.c.s
 
 modules/iir/biquad/dsps_biquad_sf32_ae32.obj: modules/iir/biquad/dsps_biquad_sf32_ae32.S.obj
@@ -1620,7 +1620,7 @@ modules/iir/biquad/dsps_biquad_sf32_ae32.obj: modules/iir/biquad/dsps_biquad_sf3
 
 # target to build an object file
 modules/iir/biquad/dsps_biquad_sf32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_sf32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_sf32_ae32.S.obj
 .PHONY : modules/iir/biquad/dsps_biquad_sf32_ae32.S.obj
 
 modules/iir/biquad/dsps_biquad_sf32_ansi.obj: modules/iir/biquad/dsps_biquad_sf32_ansi.c.obj
@@ -1628,7 +1628,7 @@ modules/iir/biquad/dsps_biquad_sf32_ansi.obj: modules/iir/biquad/dsps_biquad_sf3
 
 # target to build an object file
 modules/iir/biquad/dsps_biquad_sf32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_sf32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_sf32_ansi.c.obj
 .PHONY : modules/iir/biquad/dsps_biquad_sf32_ansi.c.obj
 
 modules/iir/biquad/dsps_biquad_sf32_ansi.i: modules/iir/biquad/dsps_biquad_sf32_ansi.c.i
@@ -1636,7 +1636,7 @@ modules/iir/biquad/dsps_biquad_sf32_ansi.i: modules/iir/biquad/dsps_biquad_sf32_
 
 # target to preprocess a source file
 modules/iir/biquad/dsps_biquad_sf32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_sf32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_sf32_ansi.c.i
 .PHONY : modules/iir/biquad/dsps_biquad_sf32_ansi.c.i
 
 modules/iir/biquad/dsps_biquad_sf32_ansi.s: modules/iir/biquad/dsps_biquad_sf32_ansi.c.s
@@ -1644,7 +1644,7 @@ modules/iir/biquad/dsps_biquad_sf32_ansi.s: modules/iir/biquad/dsps_biquad_sf32_
 
 # target to generate assembly for a file
 modules/iir/biquad/dsps_biquad_sf32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_sf32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_sf32_ansi.c.s
 .PHONY : modules/iir/biquad/dsps_biquad_sf32_ansi.c.s
 
 modules/iir/biquad/dsps_biquad_sf32_arp4.obj: modules/iir/biquad/dsps_biquad_sf32_arp4.S.obj
@@ -1652,7 +1652,7 @@ modules/iir/biquad/dsps_biquad_sf32_arp4.obj: modules/iir/biquad/dsps_biquad_sf3
 
 # target to build an object file
 modules/iir/biquad/dsps_biquad_sf32_arp4.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_sf32_arp4.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/iir/biquad/dsps_biquad_sf32_arp4.S.obj
 .PHONY : modules/iir/biquad/dsps_biquad_sf32_arp4.S.obj
 
 modules/kalman/ekf/common/ekf.obj: modules/kalman/ekf/common/ekf.cpp.obj
@@ -1660,7 +1660,7 @@ modules/kalman/ekf/common/ekf.obj: modules/kalman/ekf/common/ekf.cpp.obj
 
 # target to build an object file
 modules/kalman/ekf/common/ekf.cpp.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/kalman/ekf/common/ekf.cpp.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/kalman/ekf/common/ekf.cpp.obj
 .PHONY : modules/kalman/ekf/common/ekf.cpp.obj
 
 modules/kalman/ekf/common/ekf.i: modules/kalman/ekf/common/ekf.cpp.i
@@ -1668,7 +1668,7 @@ modules/kalman/ekf/common/ekf.i: modules/kalman/ekf/common/ekf.cpp.i
 
 # target to preprocess a source file
 modules/kalman/ekf/common/ekf.cpp.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/kalman/ekf/common/ekf.cpp.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/kalman/ekf/common/ekf.cpp.i
 .PHONY : modules/kalman/ekf/common/ekf.cpp.i
 
 modules/kalman/ekf/common/ekf.s: modules/kalman/ekf/common/ekf.cpp.s
@@ -1676,7 +1676,7 @@ modules/kalman/ekf/common/ekf.s: modules/kalman/ekf/common/ekf.cpp.s
 
 # target to generate assembly for a file
 modules/kalman/ekf/common/ekf.cpp.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/kalman/ekf/common/ekf.cpp.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/kalman/ekf/common/ekf.cpp.s
 .PHONY : modules/kalman/ekf/common/ekf.cpp.s
 
 modules/kalman/ekf_imu13states/ekf_imu13states.obj: modules/kalman/ekf_imu13states/ekf_imu13states.cpp.obj
@@ -1684,7 +1684,7 @@ modules/kalman/ekf_imu13states/ekf_imu13states.obj: modules/kalman/ekf_imu13stat
 
 # target to build an object file
 modules/kalman/ekf_imu13states/ekf_imu13states.cpp.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/kalman/ekf_imu13states/ekf_imu13states.cpp.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/kalman/ekf_imu13states/ekf_imu13states.cpp.obj
 .PHONY : modules/kalman/ekf_imu13states/ekf_imu13states.cpp.obj
 
 modules/kalman/ekf_imu13states/ekf_imu13states.i: modules/kalman/ekf_imu13states/ekf_imu13states.cpp.i
@@ -1692,7 +1692,7 @@ modules/kalman/ekf_imu13states/ekf_imu13states.i: modules/kalman/ekf_imu13states
 
 # target to preprocess a source file
 modules/kalman/ekf_imu13states/ekf_imu13states.cpp.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/kalman/ekf_imu13states/ekf_imu13states.cpp.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/kalman/ekf_imu13states/ekf_imu13states.cpp.i
 .PHONY : modules/kalman/ekf_imu13states/ekf_imu13states.cpp.i
 
 modules/kalman/ekf_imu13states/ekf_imu13states.s: modules/kalman/ekf_imu13states/ekf_imu13states.cpp.s
@@ -1700,7 +1700,7 @@ modules/kalman/ekf_imu13states/ekf_imu13states.s: modules/kalman/ekf_imu13states
 
 # target to generate assembly for a file
 modules/kalman/ekf_imu13states/ekf_imu13states.cpp.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/kalman/ekf_imu13states/ekf_imu13states.cpp.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/kalman/ekf_imu13states/ekf_imu13states.cpp.s
 .PHONY : modules/kalman/ekf_imu13states/ekf_imu13states.cpp.s
 
 modules/math/add/fixed/dsps_add_s16_ae32.obj: modules/math/add/fixed/dsps_add_s16_ae32.S.obj
@@ -1708,7 +1708,7 @@ modules/math/add/fixed/dsps_add_s16_ae32.obj: modules/math/add/fixed/dsps_add_s1
 
 # target to build an object file
 modules/math/add/fixed/dsps_add_s16_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/fixed/dsps_add_s16_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/fixed/dsps_add_s16_ae32.S.obj
 .PHONY : modules/math/add/fixed/dsps_add_s16_ae32.S.obj
 
 modules/math/add/fixed/dsps_add_s16_aes3.obj: modules/math/add/fixed/dsps_add_s16_aes3.S.obj
@@ -1716,7 +1716,7 @@ modules/math/add/fixed/dsps_add_s16_aes3.obj: modules/math/add/fixed/dsps_add_s1
 
 # target to build an object file
 modules/math/add/fixed/dsps_add_s16_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/fixed/dsps_add_s16_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/fixed/dsps_add_s16_aes3.S.obj
 .PHONY : modules/math/add/fixed/dsps_add_s16_aes3.S.obj
 
 modules/math/add/fixed/dsps_add_s16_ansi.obj: modules/math/add/fixed/dsps_add_s16_ansi.c.obj
@@ -1724,7 +1724,7 @@ modules/math/add/fixed/dsps_add_s16_ansi.obj: modules/math/add/fixed/dsps_add_s1
 
 # target to build an object file
 modules/math/add/fixed/dsps_add_s16_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/fixed/dsps_add_s16_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/fixed/dsps_add_s16_ansi.c.obj
 .PHONY : modules/math/add/fixed/dsps_add_s16_ansi.c.obj
 
 modules/math/add/fixed/dsps_add_s16_ansi.i: modules/math/add/fixed/dsps_add_s16_ansi.c.i
@@ -1732,7 +1732,7 @@ modules/math/add/fixed/dsps_add_s16_ansi.i: modules/math/add/fixed/dsps_add_s16_
 
 # target to preprocess a source file
 modules/math/add/fixed/dsps_add_s16_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/fixed/dsps_add_s16_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/fixed/dsps_add_s16_ansi.c.i
 .PHONY : modules/math/add/fixed/dsps_add_s16_ansi.c.i
 
 modules/math/add/fixed/dsps_add_s16_ansi.s: modules/math/add/fixed/dsps_add_s16_ansi.c.s
@@ -1740,7 +1740,7 @@ modules/math/add/fixed/dsps_add_s16_ansi.s: modules/math/add/fixed/dsps_add_s16_
 
 # target to generate assembly for a file
 modules/math/add/fixed/dsps_add_s16_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/fixed/dsps_add_s16_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/fixed/dsps_add_s16_ansi.c.s
 .PHONY : modules/math/add/fixed/dsps_add_s16_ansi.c.s
 
 modules/math/add/fixed/dsps_add_s8_aes3.obj: modules/math/add/fixed/dsps_add_s8_aes3.S.obj
@@ -1748,7 +1748,7 @@ modules/math/add/fixed/dsps_add_s8_aes3.obj: modules/math/add/fixed/dsps_add_s8_
 
 # target to build an object file
 modules/math/add/fixed/dsps_add_s8_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/fixed/dsps_add_s8_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/fixed/dsps_add_s8_aes3.S.obj
 .PHONY : modules/math/add/fixed/dsps_add_s8_aes3.S.obj
 
 modules/math/add/fixed/dsps_add_s8_ansi.obj: modules/math/add/fixed/dsps_add_s8_ansi.c.obj
@@ -1756,7 +1756,7 @@ modules/math/add/fixed/dsps_add_s8_ansi.obj: modules/math/add/fixed/dsps_add_s8_
 
 # target to build an object file
 modules/math/add/fixed/dsps_add_s8_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/fixed/dsps_add_s8_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/fixed/dsps_add_s8_ansi.c.obj
 .PHONY : modules/math/add/fixed/dsps_add_s8_ansi.c.obj
 
 modules/math/add/fixed/dsps_add_s8_ansi.i: modules/math/add/fixed/dsps_add_s8_ansi.c.i
@@ -1764,7 +1764,7 @@ modules/math/add/fixed/dsps_add_s8_ansi.i: modules/math/add/fixed/dsps_add_s8_an
 
 # target to preprocess a source file
 modules/math/add/fixed/dsps_add_s8_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/fixed/dsps_add_s8_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/fixed/dsps_add_s8_ansi.c.i
 .PHONY : modules/math/add/fixed/dsps_add_s8_ansi.c.i
 
 modules/math/add/fixed/dsps_add_s8_ansi.s: modules/math/add/fixed/dsps_add_s8_ansi.c.s
@@ -1772,7 +1772,7 @@ modules/math/add/fixed/dsps_add_s8_ansi.s: modules/math/add/fixed/dsps_add_s8_an
 
 # target to generate assembly for a file
 modules/math/add/fixed/dsps_add_s8_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/fixed/dsps_add_s8_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/fixed/dsps_add_s8_ansi.c.s
 .PHONY : modules/math/add/fixed/dsps_add_s8_ansi.c.s
 
 modules/math/add/float/dsps_add_f32_ae32.obj: modules/math/add/float/dsps_add_f32_ae32.S.obj
@@ -1780,7 +1780,7 @@ modules/math/add/float/dsps_add_f32_ae32.obj: modules/math/add/float/dsps_add_f3
 
 # target to build an object file
 modules/math/add/float/dsps_add_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/float/dsps_add_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/float/dsps_add_f32_ae32.S.obj
 .PHONY : modules/math/add/float/dsps_add_f32_ae32.S.obj
 
 modules/math/add/float/dsps_add_f32_ansi.obj: modules/math/add/float/dsps_add_f32_ansi.c.obj
@@ -1788,7 +1788,7 @@ modules/math/add/float/dsps_add_f32_ansi.obj: modules/math/add/float/dsps_add_f3
 
 # target to build an object file
 modules/math/add/float/dsps_add_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/float/dsps_add_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/float/dsps_add_f32_ansi.c.obj
 .PHONY : modules/math/add/float/dsps_add_f32_ansi.c.obj
 
 modules/math/add/float/dsps_add_f32_ansi.i: modules/math/add/float/dsps_add_f32_ansi.c.i
@@ -1796,7 +1796,7 @@ modules/math/add/float/dsps_add_f32_ansi.i: modules/math/add/float/dsps_add_f32_
 
 # target to preprocess a source file
 modules/math/add/float/dsps_add_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/float/dsps_add_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/float/dsps_add_f32_ansi.c.i
 .PHONY : modules/math/add/float/dsps_add_f32_ansi.c.i
 
 modules/math/add/float/dsps_add_f32_ansi.s: modules/math/add/float/dsps_add_f32_ansi.c.s
@@ -1804,7 +1804,7 @@ modules/math/add/float/dsps_add_f32_ansi.s: modules/math/add/float/dsps_add_f32_
 
 # target to generate assembly for a file
 modules/math/add/float/dsps_add_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/float/dsps_add_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/add/float/dsps_add_f32_ansi.c.s
 .PHONY : modules/math/add/float/dsps_add_f32_ansi.c.s
 
 modules/math/addc/float/dsps_addc_f32_ae32.obj: modules/math/addc/float/dsps_addc_f32_ae32.S.obj
@@ -1812,7 +1812,7 @@ modules/math/addc/float/dsps_addc_f32_ae32.obj: modules/math/addc/float/dsps_add
 
 # target to build an object file
 modules/math/addc/float/dsps_addc_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/addc/float/dsps_addc_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/addc/float/dsps_addc_f32_ae32.S.obj
 .PHONY : modules/math/addc/float/dsps_addc_f32_ae32.S.obj
 
 modules/math/addc/float/dsps_addc_f32_ansi.obj: modules/math/addc/float/dsps_addc_f32_ansi.c.obj
@@ -1820,7 +1820,7 @@ modules/math/addc/float/dsps_addc_f32_ansi.obj: modules/math/addc/float/dsps_add
 
 # target to build an object file
 modules/math/addc/float/dsps_addc_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/addc/float/dsps_addc_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/addc/float/dsps_addc_f32_ansi.c.obj
 .PHONY : modules/math/addc/float/dsps_addc_f32_ansi.c.obj
 
 modules/math/addc/float/dsps_addc_f32_ansi.i: modules/math/addc/float/dsps_addc_f32_ansi.c.i
@@ -1828,7 +1828,7 @@ modules/math/addc/float/dsps_addc_f32_ansi.i: modules/math/addc/float/dsps_addc_
 
 # target to preprocess a source file
 modules/math/addc/float/dsps_addc_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/addc/float/dsps_addc_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/addc/float/dsps_addc_f32_ansi.c.i
 .PHONY : modules/math/addc/float/dsps_addc_f32_ansi.c.i
 
 modules/math/addc/float/dsps_addc_f32_ansi.s: modules/math/addc/float/dsps_addc_f32_ansi.c.s
@@ -1836,7 +1836,7 @@ modules/math/addc/float/dsps_addc_f32_ansi.s: modules/math/addc/float/dsps_addc_
 
 # target to generate assembly for a file
 modules/math/addc/float/dsps_addc_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/addc/float/dsps_addc_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/addc/float/dsps_addc_f32_ansi.c.s
 .PHONY : modules/math/addc/float/dsps_addc_f32_ansi.c.s
 
 modules/math/mul/fixed/dsps_mul_s16_ae32.obj: modules/math/mul/fixed/dsps_mul_s16_ae32.S.obj
@@ -1844,7 +1844,7 @@ modules/math/mul/fixed/dsps_mul_s16_ae32.obj: modules/math/mul/fixed/dsps_mul_s1
 
 # target to build an object file
 modules/math/mul/fixed/dsps_mul_s16_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/fixed/dsps_mul_s16_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/fixed/dsps_mul_s16_ae32.S.obj
 .PHONY : modules/math/mul/fixed/dsps_mul_s16_ae32.S.obj
 
 modules/math/mul/fixed/dsps_mul_s16_aes3.obj: modules/math/mul/fixed/dsps_mul_s16_aes3.S.obj
@@ -1852,7 +1852,7 @@ modules/math/mul/fixed/dsps_mul_s16_aes3.obj: modules/math/mul/fixed/dsps_mul_s1
 
 # target to build an object file
 modules/math/mul/fixed/dsps_mul_s16_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/fixed/dsps_mul_s16_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/fixed/dsps_mul_s16_aes3.S.obj
 .PHONY : modules/math/mul/fixed/dsps_mul_s16_aes3.S.obj
 
 modules/math/mul/fixed/dsps_mul_s16_ansi.obj: modules/math/mul/fixed/dsps_mul_s16_ansi.c.obj
@@ -1860,7 +1860,7 @@ modules/math/mul/fixed/dsps_mul_s16_ansi.obj: modules/math/mul/fixed/dsps_mul_s1
 
 # target to build an object file
 modules/math/mul/fixed/dsps_mul_s16_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/fixed/dsps_mul_s16_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/fixed/dsps_mul_s16_ansi.c.obj
 .PHONY : modules/math/mul/fixed/dsps_mul_s16_ansi.c.obj
 
 modules/math/mul/fixed/dsps_mul_s16_ansi.i: modules/math/mul/fixed/dsps_mul_s16_ansi.c.i
@@ -1868,7 +1868,7 @@ modules/math/mul/fixed/dsps_mul_s16_ansi.i: modules/math/mul/fixed/dsps_mul_s16_
 
 # target to preprocess a source file
 modules/math/mul/fixed/dsps_mul_s16_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/fixed/dsps_mul_s16_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/fixed/dsps_mul_s16_ansi.c.i
 .PHONY : modules/math/mul/fixed/dsps_mul_s16_ansi.c.i
 
 modules/math/mul/fixed/dsps_mul_s16_ansi.s: modules/math/mul/fixed/dsps_mul_s16_ansi.c.s
@@ -1876,7 +1876,7 @@ modules/math/mul/fixed/dsps_mul_s16_ansi.s: modules/math/mul/fixed/dsps_mul_s16_
 
 # target to generate assembly for a file
 modules/math/mul/fixed/dsps_mul_s16_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/fixed/dsps_mul_s16_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/fixed/dsps_mul_s16_ansi.c.s
 .PHONY : modules/math/mul/fixed/dsps_mul_s16_ansi.c.s
 
 modules/math/mul/fixed/dsps_mul_s8_aes3.obj: modules/math/mul/fixed/dsps_mul_s8_aes3.S.obj
@@ -1884,7 +1884,7 @@ modules/math/mul/fixed/dsps_mul_s8_aes3.obj: modules/math/mul/fixed/dsps_mul_s8_
 
 # target to build an object file
 modules/math/mul/fixed/dsps_mul_s8_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/fixed/dsps_mul_s8_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/fixed/dsps_mul_s8_aes3.S.obj
 .PHONY : modules/math/mul/fixed/dsps_mul_s8_aes3.S.obj
 
 modules/math/mul/fixed/dsps_mul_s8_ansi.obj: modules/math/mul/fixed/dsps_mul_s8_ansi.c.obj
@@ -1892,7 +1892,7 @@ modules/math/mul/fixed/dsps_mul_s8_ansi.obj: modules/math/mul/fixed/dsps_mul_s8_
 
 # target to build an object file
 modules/math/mul/fixed/dsps_mul_s8_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/fixed/dsps_mul_s8_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/fixed/dsps_mul_s8_ansi.c.obj
 .PHONY : modules/math/mul/fixed/dsps_mul_s8_ansi.c.obj
 
 modules/math/mul/fixed/dsps_mul_s8_ansi.i: modules/math/mul/fixed/dsps_mul_s8_ansi.c.i
@@ -1900,7 +1900,7 @@ modules/math/mul/fixed/dsps_mul_s8_ansi.i: modules/math/mul/fixed/dsps_mul_s8_an
 
 # target to preprocess a source file
 modules/math/mul/fixed/dsps_mul_s8_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/fixed/dsps_mul_s8_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/fixed/dsps_mul_s8_ansi.c.i
 .PHONY : modules/math/mul/fixed/dsps_mul_s8_ansi.c.i
 
 modules/math/mul/fixed/dsps_mul_s8_ansi.s: modules/math/mul/fixed/dsps_mul_s8_ansi.c.s
@@ -1908,7 +1908,7 @@ modules/math/mul/fixed/dsps_mul_s8_ansi.s: modules/math/mul/fixed/dsps_mul_s8_an
 
 # target to generate assembly for a file
 modules/math/mul/fixed/dsps_mul_s8_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/fixed/dsps_mul_s8_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/fixed/dsps_mul_s8_ansi.c.s
 .PHONY : modules/math/mul/fixed/dsps_mul_s8_ansi.c.s
 
 modules/math/mul/float/dsps_mul_f32_ae32.obj: modules/math/mul/float/dsps_mul_f32_ae32.S.obj
@@ -1916,7 +1916,7 @@ modules/math/mul/float/dsps_mul_f32_ae32.obj: modules/math/mul/float/dsps_mul_f3
 
 # target to build an object file
 modules/math/mul/float/dsps_mul_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/float/dsps_mul_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/float/dsps_mul_f32_ae32.S.obj
 .PHONY : modules/math/mul/float/dsps_mul_f32_ae32.S.obj
 
 modules/math/mul/float/dsps_mul_f32_ansi.obj: modules/math/mul/float/dsps_mul_f32_ansi.c.obj
@@ -1924,7 +1924,7 @@ modules/math/mul/float/dsps_mul_f32_ansi.obj: modules/math/mul/float/dsps_mul_f3
 
 # target to build an object file
 modules/math/mul/float/dsps_mul_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/float/dsps_mul_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/float/dsps_mul_f32_ansi.c.obj
 .PHONY : modules/math/mul/float/dsps_mul_f32_ansi.c.obj
 
 modules/math/mul/float/dsps_mul_f32_ansi.i: modules/math/mul/float/dsps_mul_f32_ansi.c.i
@@ -1932,7 +1932,7 @@ modules/math/mul/float/dsps_mul_f32_ansi.i: modules/math/mul/float/dsps_mul_f32_
 
 # target to preprocess a source file
 modules/math/mul/float/dsps_mul_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/float/dsps_mul_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/float/dsps_mul_f32_ansi.c.i
 .PHONY : modules/math/mul/float/dsps_mul_f32_ansi.c.i
 
 modules/math/mul/float/dsps_mul_f32_ansi.s: modules/math/mul/float/dsps_mul_f32_ansi.c.s
@@ -1940,7 +1940,7 @@ modules/math/mul/float/dsps_mul_f32_ansi.s: modules/math/mul/float/dsps_mul_f32_
 
 # target to generate assembly for a file
 modules/math/mul/float/dsps_mul_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/float/dsps_mul_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mul/float/dsps_mul_f32_ansi.c.s
 .PHONY : modules/math/mul/float/dsps_mul_f32_ansi.c.s
 
 modules/math/mulc/fixed/dsps_mulc_s16_ae32.obj: modules/math/mulc/fixed/dsps_mulc_s16_ae32.S.obj
@@ -1948,7 +1948,7 @@ modules/math/mulc/fixed/dsps_mulc_s16_ae32.obj: modules/math/mulc/fixed/dsps_mul
 
 # target to build an object file
 modules/math/mulc/fixed/dsps_mulc_s16_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mulc/fixed/dsps_mulc_s16_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mulc/fixed/dsps_mulc_s16_ae32.S.obj
 .PHONY : modules/math/mulc/fixed/dsps_mulc_s16_ae32.S.obj
 
 modules/math/mulc/fixed/dsps_mulc_s16_ansi.obj: modules/math/mulc/fixed/dsps_mulc_s16_ansi.c.obj
@@ -1956,7 +1956,7 @@ modules/math/mulc/fixed/dsps_mulc_s16_ansi.obj: modules/math/mulc/fixed/dsps_mul
 
 # target to build an object file
 modules/math/mulc/fixed/dsps_mulc_s16_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mulc/fixed/dsps_mulc_s16_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mulc/fixed/dsps_mulc_s16_ansi.c.obj
 .PHONY : modules/math/mulc/fixed/dsps_mulc_s16_ansi.c.obj
 
 modules/math/mulc/fixed/dsps_mulc_s16_ansi.i: modules/math/mulc/fixed/dsps_mulc_s16_ansi.c.i
@@ -1964,7 +1964,7 @@ modules/math/mulc/fixed/dsps_mulc_s16_ansi.i: modules/math/mulc/fixed/dsps_mulc_
 
 # target to preprocess a source file
 modules/math/mulc/fixed/dsps_mulc_s16_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mulc/fixed/dsps_mulc_s16_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mulc/fixed/dsps_mulc_s16_ansi.c.i
 .PHONY : modules/math/mulc/fixed/dsps_mulc_s16_ansi.c.i
 
 modules/math/mulc/fixed/dsps_mulc_s16_ansi.s: modules/math/mulc/fixed/dsps_mulc_s16_ansi.c.s
@@ -1972,7 +1972,7 @@ modules/math/mulc/fixed/dsps_mulc_s16_ansi.s: modules/math/mulc/fixed/dsps_mulc_
 
 # target to generate assembly for a file
 modules/math/mulc/fixed/dsps_mulc_s16_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mulc/fixed/dsps_mulc_s16_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mulc/fixed/dsps_mulc_s16_ansi.c.s
 .PHONY : modules/math/mulc/fixed/dsps_mulc_s16_ansi.c.s
 
 modules/math/mulc/float/dsps_mulc_f32_ae32.obj: modules/math/mulc/float/dsps_mulc_f32_ae32.S.obj
@@ -1980,7 +1980,7 @@ modules/math/mulc/float/dsps_mulc_f32_ae32.obj: modules/math/mulc/float/dsps_mul
 
 # target to build an object file
 modules/math/mulc/float/dsps_mulc_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mulc/float/dsps_mulc_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mulc/float/dsps_mulc_f32_ae32.S.obj
 .PHONY : modules/math/mulc/float/dsps_mulc_f32_ae32.S.obj
 
 modules/math/mulc/float/dsps_mulc_f32_ansi.obj: modules/math/mulc/float/dsps_mulc_f32_ansi.c.obj
@@ -1988,7 +1988,7 @@ modules/math/mulc/float/dsps_mulc_f32_ansi.obj: modules/math/mulc/float/dsps_mul
 
 # target to build an object file
 modules/math/mulc/float/dsps_mulc_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mulc/float/dsps_mulc_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mulc/float/dsps_mulc_f32_ansi.c.obj
 .PHONY : modules/math/mulc/float/dsps_mulc_f32_ansi.c.obj
 
 modules/math/mulc/float/dsps_mulc_f32_ansi.i: modules/math/mulc/float/dsps_mulc_f32_ansi.c.i
@@ -1996,7 +1996,7 @@ modules/math/mulc/float/dsps_mulc_f32_ansi.i: modules/math/mulc/float/dsps_mulc_
 
 # target to preprocess a source file
 modules/math/mulc/float/dsps_mulc_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mulc/float/dsps_mulc_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mulc/float/dsps_mulc_f32_ansi.c.i
 .PHONY : modules/math/mulc/float/dsps_mulc_f32_ansi.c.i
 
 modules/math/mulc/float/dsps_mulc_f32_ansi.s: modules/math/mulc/float/dsps_mulc_f32_ansi.c.s
@@ -2004,7 +2004,7 @@ modules/math/mulc/float/dsps_mulc_f32_ansi.s: modules/math/mulc/float/dsps_mulc_
 
 # target to generate assembly for a file
 modules/math/mulc/float/dsps_mulc_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mulc/float/dsps_mulc_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/mulc/float/dsps_mulc_f32_ansi.c.s
 .PHONY : modules/math/mulc/float/dsps_mulc_f32_ansi.c.s
 
 modules/math/sqrt/float/dsps_sqrt_f32_ansi.obj: modules/math/sqrt/float/dsps_sqrt_f32_ansi.c.obj
@@ -2012,7 +2012,7 @@ modules/math/sqrt/float/dsps_sqrt_f32_ansi.obj: modules/math/sqrt/float/dsps_sqr
 
 # target to build an object file
 modules/math/sqrt/float/dsps_sqrt_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sqrt/float/dsps_sqrt_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sqrt/float/dsps_sqrt_f32_ansi.c.obj
 .PHONY : modules/math/sqrt/float/dsps_sqrt_f32_ansi.c.obj
 
 modules/math/sqrt/float/dsps_sqrt_f32_ansi.i: modules/math/sqrt/float/dsps_sqrt_f32_ansi.c.i
@@ -2020,7 +2020,7 @@ modules/math/sqrt/float/dsps_sqrt_f32_ansi.i: modules/math/sqrt/float/dsps_sqrt_
 
 # target to preprocess a source file
 modules/math/sqrt/float/dsps_sqrt_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sqrt/float/dsps_sqrt_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sqrt/float/dsps_sqrt_f32_ansi.c.i
 .PHONY : modules/math/sqrt/float/dsps_sqrt_f32_ansi.c.i
 
 modules/math/sqrt/float/dsps_sqrt_f32_ansi.s: modules/math/sqrt/float/dsps_sqrt_f32_ansi.c.s
@@ -2028,7 +2028,7 @@ modules/math/sqrt/float/dsps_sqrt_f32_ansi.s: modules/math/sqrt/float/dsps_sqrt_
 
 # target to generate assembly for a file
 modules/math/sqrt/float/dsps_sqrt_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sqrt/float/dsps_sqrt_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sqrt/float/dsps_sqrt_f32_ansi.c.s
 .PHONY : modules/math/sqrt/float/dsps_sqrt_f32_ansi.c.s
 
 modules/math/sub/fixed/dsps_sub_s16_ae32.obj: modules/math/sub/fixed/dsps_sub_s16_ae32.S.obj
@@ -2036,7 +2036,7 @@ modules/math/sub/fixed/dsps_sub_s16_ae32.obj: modules/math/sub/fixed/dsps_sub_s1
 
 # target to build an object file
 modules/math/sub/fixed/dsps_sub_s16_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/fixed/dsps_sub_s16_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/fixed/dsps_sub_s16_ae32.S.obj
 .PHONY : modules/math/sub/fixed/dsps_sub_s16_ae32.S.obj
 
 modules/math/sub/fixed/dsps_sub_s16_aes3.obj: modules/math/sub/fixed/dsps_sub_s16_aes3.S.obj
@@ -2044,7 +2044,7 @@ modules/math/sub/fixed/dsps_sub_s16_aes3.obj: modules/math/sub/fixed/dsps_sub_s1
 
 # target to build an object file
 modules/math/sub/fixed/dsps_sub_s16_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/fixed/dsps_sub_s16_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/fixed/dsps_sub_s16_aes3.S.obj
 .PHONY : modules/math/sub/fixed/dsps_sub_s16_aes3.S.obj
 
 modules/math/sub/fixed/dsps_sub_s16_ansi.obj: modules/math/sub/fixed/dsps_sub_s16_ansi.c.obj
@@ -2052,7 +2052,7 @@ modules/math/sub/fixed/dsps_sub_s16_ansi.obj: modules/math/sub/fixed/dsps_sub_s1
 
 # target to build an object file
 modules/math/sub/fixed/dsps_sub_s16_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/fixed/dsps_sub_s16_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/fixed/dsps_sub_s16_ansi.c.obj
 .PHONY : modules/math/sub/fixed/dsps_sub_s16_ansi.c.obj
 
 modules/math/sub/fixed/dsps_sub_s16_ansi.i: modules/math/sub/fixed/dsps_sub_s16_ansi.c.i
@@ -2060,7 +2060,7 @@ modules/math/sub/fixed/dsps_sub_s16_ansi.i: modules/math/sub/fixed/dsps_sub_s16_
 
 # target to preprocess a source file
 modules/math/sub/fixed/dsps_sub_s16_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/fixed/dsps_sub_s16_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/fixed/dsps_sub_s16_ansi.c.i
 .PHONY : modules/math/sub/fixed/dsps_sub_s16_ansi.c.i
 
 modules/math/sub/fixed/dsps_sub_s16_ansi.s: modules/math/sub/fixed/dsps_sub_s16_ansi.c.s
@@ -2068,7 +2068,7 @@ modules/math/sub/fixed/dsps_sub_s16_ansi.s: modules/math/sub/fixed/dsps_sub_s16_
 
 # target to generate assembly for a file
 modules/math/sub/fixed/dsps_sub_s16_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/fixed/dsps_sub_s16_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/fixed/dsps_sub_s16_ansi.c.s
 .PHONY : modules/math/sub/fixed/dsps_sub_s16_ansi.c.s
 
 modules/math/sub/fixed/dsps_sub_s8_aes3.obj: modules/math/sub/fixed/dsps_sub_s8_aes3.S.obj
@@ -2076,7 +2076,7 @@ modules/math/sub/fixed/dsps_sub_s8_aes3.obj: modules/math/sub/fixed/dsps_sub_s8_
 
 # target to build an object file
 modules/math/sub/fixed/dsps_sub_s8_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/fixed/dsps_sub_s8_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/fixed/dsps_sub_s8_aes3.S.obj
 .PHONY : modules/math/sub/fixed/dsps_sub_s8_aes3.S.obj
 
 modules/math/sub/fixed/dsps_sub_s8_ansi.obj: modules/math/sub/fixed/dsps_sub_s8_ansi.c.obj
@@ -2084,7 +2084,7 @@ modules/math/sub/fixed/dsps_sub_s8_ansi.obj: modules/math/sub/fixed/dsps_sub_s8_
 
 # target to build an object file
 modules/math/sub/fixed/dsps_sub_s8_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/fixed/dsps_sub_s8_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/fixed/dsps_sub_s8_ansi.c.obj
 .PHONY : modules/math/sub/fixed/dsps_sub_s8_ansi.c.obj
 
 modules/math/sub/fixed/dsps_sub_s8_ansi.i: modules/math/sub/fixed/dsps_sub_s8_ansi.c.i
@@ -2092,7 +2092,7 @@ modules/math/sub/fixed/dsps_sub_s8_ansi.i: modules/math/sub/fixed/dsps_sub_s8_an
 
 # target to preprocess a source file
 modules/math/sub/fixed/dsps_sub_s8_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/fixed/dsps_sub_s8_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/fixed/dsps_sub_s8_ansi.c.i
 .PHONY : modules/math/sub/fixed/dsps_sub_s8_ansi.c.i
 
 modules/math/sub/fixed/dsps_sub_s8_ansi.s: modules/math/sub/fixed/dsps_sub_s8_ansi.c.s
@@ -2100,7 +2100,7 @@ modules/math/sub/fixed/dsps_sub_s8_ansi.s: modules/math/sub/fixed/dsps_sub_s8_an
 
 # target to generate assembly for a file
 modules/math/sub/fixed/dsps_sub_s8_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/fixed/dsps_sub_s8_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/fixed/dsps_sub_s8_ansi.c.s
 .PHONY : modules/math/sub/fixed/dsps_sub_s8_ansi.c.s
 
 modules/math/sub/float/dsps_sub_f32_ae32.obj: modules/math/sub/float/dsps_sub_f32_ae32.S.obj
@@ -2108,7 +2108,7 @@ modules/math/sub/float/dsps_sub_f32_ae32.obj: modules/math/sub/float/dsps_sub_f3
 
 # target to build an object file
 modules/math/sub/float/dsps_sub_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/float/dsps_sub_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/float/dsps_sub_f32_ae32.S.obj
 .PHONY : modules/math/sub/float/dsps_sub_f32_ae32.S.obj
 
 modules/math/sub/float/dsps_sub_f32_ansi.obj: modules/math/sub/float/dsps_sub_f32_ansi.c.obj
@@ -2116,7 +2116,7 @@ modules/math/sub/float/dsps_sub_f32_ansi.obj: modules/math/sub/float/dsps_sub_f3
 
 # target to build an object file
 modules/math/sub/float/dsps_sub_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/float/dsps_sub_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/float/dsps_sub_f32_ansi.c.obj
 .PHONY : modules/math/sub/float/dsps_sub_f32_ansi.c.obj
 
 modules/math/sub/float/dsps_sub_f32_ansi.i: modules/math/sub/float/dsps_sub_f32_ansi.c.i
@@ -2124,7 +2124,7 @@ modules/math/sub/float/dsps_sub_f32_ansi.i: modules/math/sub/float/dsps_sub_f32_
 
 # target to preprocess a source file
 modules/math/sub/float/dsps_sub_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/float/dsps_sub_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/float/dsps_sub_f32_ansi.c.i
 .PHONY : modules/math/sub/float/dsps_sub_f32_ansi.c.i
 
 modules/math/sub/float/dsps_sub_f32_ansi.s: modules/math/sub/float/dsps_sub_f32_ansi.c.s
@@ -2132,7 +2132,7 @@ modules/math/sub/float/dsps_sub_f32_ansi.s: modules/math/sub/float/dsps_sub_f32_
 
 # target to generate assembly for a file
 modules/math/sub/float/dsps_sub_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/float/dsps_sub_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/math/sub/float/dsps_sub_f32_ansi.c.s
 .PHONY : modules/math/sub/float/dsps_sub_f32_ansi.c.s
 
 modules/matrix/add/float/dspm_add_f32_ae32.obj: modules/matrix/add/float/dspm_add_f32_ae32.S.obj
@@ -2140,7 +2140,7 @@ modules/matrix/add/float/dspm_add_f32_ae32.obj: modules/matrix/add/float/dspm_ad
 
 # target to build an object file
 modules/matrix/add/float/dspm_add_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/add/float/dspm_add_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/add/float/dspm_add_f32_ae32.S.obj
 .PHONY : modules/matrix/add/float/dspm_add_f32_ae32.S.obj
 
 modules/matrix/add/float/dspm_add_f32_ansi.obj: modules/matrix/add/float/dspm_add_f32_ansi.c.obj
@@ -2148,7 +2148,7 @@ modules/matrix/add/float/dspm_add_f32_ansi.obj: modules/matrix/add/float/dspm_ad
 
 # target to build an object file
 modules/matrix/add/float/dspm_add_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/add/float/dspm_add_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/add/float/dspm_add_f32_ansi.c.obj
 .PHONY : modules/matrix/add/float/dspm_add_f32_ansi.c.obj
 
 modules/matrix/add/float/dspm_add_f32_ansi.i: modules/matrix/add/float/dspm_add_f32_ansi.c.i
@@ -2156,7 +2156,7 @@ modules/matrix/add/float/dspm_add_f32_ansi.i: modules/matrix/add/float/dspm_add_
 
 # target to preprocess a source file
 modules/matrix/add/float/dspm_add_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/add/float/dspm_add_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/add/float/dspm_add_f32_ansi.c.i
 .PHONY : modules/matrix/add/float/dspm_add_f32_ansi.c.i
 
 modules/matrix/add/float/dspm_add_f32_ansi.s: modules/matrix/add/float/dspm_add_f32_ansi.c.s
@@ -2164,7 +2164,7 @@ modules/matrix/add/float/dspm_add_f32_ansi.s: modules/matrix/add/float/dspm_add_
 
 # target to generate assembly for a file
 modules/matrix/add/float/dspm_add_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/add/float/dspm_add_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/add/float/dspm_add_f32_ansi.c.s
 .PHONY : modules/matrix/add/float/dspm_add_f32_ansi.c.s
 
 modules/matrix/addc/float/dspm_addc_f32_ae32.obj: modules/matrix/addc/float/dspm_addc_f32_ae32.S.obj
@@ -2172,7 +2172,7 @@ modules/matrix/addc/float/dspm_addc_f32_ae32.obj: modules/matrix/addc/float/dspm
 
 # target to build an object file
 modules/matrix/addc/float/dspm_addc_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/addc/float/dspm_addc_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/addc/float/dspm_addc_f32_ae32.S.obj
 .PHONY : modules/matrix/addc/float/dspm_addc_f32_ae32.S.obj
 
 modules/matrix/addc/float/dspm_addc_f32_ansi.obj: modules/matrix/addc/float/dspm_addc_f32_ansi.c.obj
@@ -2180,7 +2180,7 @@ modules/matrix/addc/float/dspm_addc_f32_ansi.obj: modules/matrix/addc/float/dspm
 
 # target to build an object file
 modules/matrix/addc/float/dspm_addc_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/addc/float/dspm_addc_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/addc/float/dspm_addc_f32_ansi.c.obj
 .PHONY : modules/matrix/addc/float/dspm_addc_f32_ansi.c.obj
 
 modules/matrix/addc/float/dspm_addc_f32_ansi.i: modules/matrix/addc/float/dspm_addc_f32_ansi.c.i
@@ -2188,7 +2188,7 @@ modules/matrix/addc/float/dspm_addc_f32_ansi.i: modules/matrix/addc/float/dspm_a
 
 # target to preprocess a source file
 modules/matrix/addc/float/dspm_addc_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/addc/float/dspm_addc_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/addc/float/dspm_addc_f32_ansi.c.i
 .PHONY : modules/matrix/addc/float/dspm_addc_f32_ansi.c.i
 
 modules/matrix/addc/float/dspm_addc_f32_ansi.s: modules/matrix/addc/float/dspm_addc_f32_ansi.c.s
@@ -2196,7 +2196,7 @@ modules/matrix/addc/float/dspm_addc_f32_ansi.s: modules/matrix/addc/float/dspm_a
 
 # target to generate assembly for a file
 modules/matrix/addc/float/dspm_addc_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/addc/float/dspm_addc_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/addc/float/dspm_addc_f32_ansi.c.s
 .PHONY : modules/matrix/addc/float/dspm_addc_f32_ansi.c.s
 
 modules/matrix/mat/mat.obj: modules/matrix/mat/mat.cpp.obj
@@ -2204,7 +2204,7 @@ modules/matrix/mat/mat.obj: modules/matrix/mat/mat.cpp.obj
 
 # target to build an object file
 modules/matrix/mat/mat.cpp.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mat/mat.cpp.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mat/mat.cpp.obj
 .PHONY : modules/matrix/mat/mat.cpp.obj
 
 modules/matrix/mat/mat.i: modules/matrix/mat/mat.cpp.i
@@ -2212,7 +2212,7 @@ modules/matrix/mat/mat.i: modules/matrix/mat/mat.cpp.i
 
 # target to preprocess a source file
 modules/matrix/mat/mat.cpp.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mat/mat.cpp.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mat/mat.cpp.i
 .PHONY : modules/matrix/mat/mat.cpp.i
 
 modules/matrix/mat/mat.s: modules/matrix/mat/mat.cpp.s
@@ -2220,7 +2220,7 @@ modules/matrix/mat/mat.s: modules/matrix/mat/mat.cpp.s
 
 # target to generate assembly for a file
 modules/matrix/mat/mat.cpp.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mat/mat.cpp.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mat/mat.cpp.s
 .PHONY : modules/matrix/mat/mat.cpp.s
 
 modules/matrix/mul/fixed/dspm_mult_s16_ae32.obj: modules/matrix/mul/fixed/dspm_mult_s16_ae32.S.obj
@@ -2228,7 +2228,7 @@ modules/matrix/mul/fixed/dspm_mult_s16_ae32.obj: modules/matrix/mul/fixed/dspm_m
 
 # target to build an object file
 modules/matrix/mul/fixed/dspm_mult_s16_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/fixed/dspm_mult_s16_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/fixed/dspm_mult_s16_ae32.S.obj
 .PHONY : modules/matrix/mul/fixed/dspm_mult_s16_ae32.S.obj
 
 modules/matrix/mul/fixed/dspm_mult_s16_aes3.obj: modules/matrix/mul/fixed/dspm_mult_s16_aes3.S.obj
@@ -2236,7 +2236,7 @@ modules/matrix/mul/fixed/dspm_mult_s16_aes3.obj: modules/matrix/mul/fixed/dspm_m
 
 # target to build an object file
 modules/matrix/mul/fixed/dspm_mult_s16_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/fixed/dspm_mult_s16_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/fixed/dspm_mult_s16_aes3.S.obj
 .PHONY : modules/matrix/mul/fixed/dspm_mult_s16_aes3.S.obj
 
 modules/matrix/mul/fixed/dspm_mult_s16_ansi.obj: modules/matrix/mul/fixed/dspm_mult_s16_ansi.c.obj
@@ -2244,7 +2244,7 @@ modules/matrix/mul/fixed/dspm_mult_s16_ansi.obj: modules/matrix/mul/fixed/dspm_m
 
 # target to build an object file
 modules/matrix/mul/fixed/dspm_mult_s16_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/fixed/dspm_mult_s16_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/fixed/dspm_mult_s16_ansi.c.obj
 .PHONY : modules/matrix/mul/fixed/dspm_mult_s16_ansi.c.obj
 
 modules/matrix/mul/fixed/dspm_mult_s16_ansi.i: modules/matrix/mul/fixed/dspm_mult_s16_ansi.c.i
@@ -2252,7 +2252,7 @@ modules/matrix/mul/fixed/dspm_mult_s16_ansi.i: modules/matrix/mul/fixed/dspm_mul
 
 # target to preprocess a source file
 modules/matrix/mul/fixed/dspm_mult_s16_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/fixed/dspm_mult_s16_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/fixed/dspm_mult_s16_ansi.c.i
 .PHONY : modules/matrix/mul/fixed/dspm_mult_s16_ansi.c.i
 
 modules/matrix/mul/fixed/dspm_mult_s16_ansi.s: modules/matrix/mul/fixed/dspm_mult_s16_ansi.c.s
@@ -2260,7 +2260,7 @@ modules/matrix/mul/fixed/dspm_mult_s16_ansi.s: modules/matrix/mul/fixed/dspm_mul
 
 # target to generate assembly for a file
 modules/matrix/mul/fixed/dspm_mult_s16_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/fixed/dspm_mult_s16_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/fixed/dspm_mult_s16_ansi.c.s
 .PHONY : modules/matrix/mul/fixed/dspm_mult_s16_ansi.c.s
 
 modules/matrix/mul/fixed/dspm_mult_s16_arp4.obj: modules/matrix/mul/fixed/dspm_mult_s16_arp4.S.obj
@@ -2268,7 +2268,7 @@ modules/matrix/mul/fixed/dspm_mult_s16_arp4.obj: modules/matrix/mul/fixed/dspm_m
 
 # target to build an object file
 modules/matrix/mul/fixed/dspm_mult_s16_arp4.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/fixed/dspm_mult_s16_arp4.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/fixed/dspm_mult_s16_arp4.S.obj
 .PHONY : modules/matrix/mul/fixed/dspm_mult_s16_arp4.S.obj
 
 modules/matrix/mul/fixed/dspm_mult_s16_m_ae32.obj: modules/matrix/mul/fixed/dspm_mult_s16_m_ae32.S.obj
@@ -2276,7 +2276,7 @@ modules/matrix/mul/fixed/dspm_mult_s16_m_ae32.obj: modules/matrix/mul/fixed/dspm
 
 # target to build an object file
 modules/matrix/mul/fixed/dspm_mult_s16_m_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/fixed/dspm_mult_s16_m_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/fixed/dspm_mult_s16_m_ae32.S.obj
 .PHONY : modules/matrix/mul/fixed/dspm_mult_s16_m_ae32.S.obj
 
 modules/matrix/mul/fixed/dspm_mult_s16_m_ae32_vector.obj: modules/matrix/mul/fixed/dspm_mult_s16_m_ae32_vector.S.obj
@@ -2284,7 +2284,7 @@ modules/matrix/mul/fixed/dspm_mult_s16_m_ae32_vector.obj: modules/matrix/mul/fix
 
 # target to build an object file
 modules/matrix/mul/fixed/dspm_mult_s16_m_ae32_vector.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/fixed/dspm_mult_s16_m_ae32_vector.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/fixed/dspm_mult_s16_m_ae32_vector.S.obj
 .PHONY : modules/matrix/mul/fixed/dspm_mult_s16_m_ae32_vector.S.obj
 
 modules/matrix/mul/float/dspm_mult_3x3x1_f32_ae32.obj: modules/matrix/mul/float/dspm_mult_3x3x1_f32_ae32.S.obj
@@ -2292,7 +2292,7 @@ modules/matrix/mul/float/dspm_mult_3x3x1_f32_ae32.obj: modules/matrix/mul/float/
 
 # target to build an object file
 modules/matrix/mul/float/dspm_mult_3x3x1_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_3x3x1_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_3x3x1_f32_ae32.S.obj
 .PHONY : modules/matrix/mul/float/dspm_mult_3x3x1_f32_ae32.S.obj
 
 modules/matrix/mul/float/dspm_mult_3x3x3_f32_ae32.obj: modules/matrix/mul/float/dspm_mult_3x3x3_f32_ae32.S.obj
@@ -2300,7 +2300,7 @@ modules/matrix/mul/float/dspm_mult_3x3x3_f32_ae32.obj: modules/matrix/mul/float/
 
 # target to build an object file
 modules/matrix/mul/float/dspm_mult_3x3x3_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_3x3x3_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_3x3x3_f32_ae32.S.obj
 .PHONY : modules/matrix/mul/float/dspm_mult_3x3x3_f32_ae32.S.obj
 
 modules/matrix/mul/float/dspm_mult_4x4x1_f32_ae32.obj: modules/matrix/mul/float/dspm_mult_4x4x1_f32_ae32.S.obj
@@ -2308,7 +2308,7 @@ modules/matrix/mul/float/dspm_mult_4x4x1_f32_ae32.obj: modules/matrix/mul/float/
 
 # target to build an object file
 modules/matrix/mul/float/dspm_mult_4x4x1_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_4x4x1_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_4x4x1_f32_ae32.S.obj
 .PHONY : modules/matrix/mul/float/dspm_mult_4x4x1_f32_ae32.S.obj
 
 modules/matrix/mul/float/dspm_mult_4x4x4_f32_ae32.obj: modules/matrix/mul/float/dspm_mult_4x4x4_f32_ae32.S.obj
@@ -2316,7 +2316,7 @@ modules/matrix/mul/float/dspm_mult_4x4x4_f32_ae32.obj: modules/matrix/mul/float/
 
 # target to build an object file
 modules/matrix/mul/float/dspm_mult_4x4x4_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_4x4x4_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_4x4x4_f32_ae32.S.obj
 .PHONY : modules/matrix/mul/float/dspm_mult_4x4x4_f32_ae32.S.obj
 
 modules/matrix/mul/float/dspm_mult_ex_f32_ae32.obj: modules/matrix/mul/float/dspm_mult_ex_f32_ae32.S.obj
@@ -2324,7 +2324,7 @@ modules/matrix/mul/float/dspm_mult_ex_f32_ae32.obj: modules/matrix/mul/float/dsp
 
 # target to build an object file
 modules/matrix/mul/float/dspm_mult_ex_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_ex_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_ex_f32_ae32.S.obj
 .PHONY : modules/matrix/mul/float/dspm_mult_ex_f32_ae32.S.obj
 
 modules/matrix/mul/float/dspm_mult_ex_f32_aes3.obj: modules/matrix/mul/float/dspm_mult_ex_f32_aes3.S.obj
@@ -2332,7 +2332,7 @@ modules/matrix/mul/float/dspm_mult_ex_f32_aes3.obj: modules/matrix/mul/float/dsp
 
 # target to build an object file
 modules/matrix/mul/float/dspm_mult_ex_f32_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_ex_f32_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_ex_f32_aes3.S.obj
 .PHONY : modules/matrix/mul/float/dspm_mult_ex_f32_aes3.S.obj
 
 modules/matrix/mul/float/dspm_mult_ex_f32_ansi.obj: modules/matrix/mul/float/dspm_mult_ex_f32_ansi.c.obj
@@ -2340,7 +2340,7 @@ modules/matrix/mul/float/dspm_mult_ex_f32_ansi.obj: modules/matrix/mul/float/dsp
 
 # target to build an object file
 modules/matrix/mul/float/dspm_mult_ex_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_ex_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_ex_f32_ansi.c.obj
 .PHONY : modules/matrix/mul/float/dspm_mult_ex_f32_ansi.c.obj
 
 modules/matrix/mul/float/dspm_mult_ex_f32_ansi.i: modules/matrix/mul/float/dspm_mult_ex_f32_ansi.c.i
@@ -2348,7 +2348,7 @@ modules/matrix/mul/float/dspm_mult_ex_f32_ansi.i: modules/matrix/mul/float/dspm_
 
 # target to preprocess a source file
 modules/matrix/mul/float/dspm_mult_ex_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_ex_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_ex_f32_ansi.c.i
 .PHONY : modules/matrix/mul/float/dspm_mult_ex_f32_ansi.c.i
 
 modules/matrix/mul/float/dspm_mult_ex_f32_ansi.s: modules/matrix/mul/float/dspm_mult_ex_f32_ansi.c.s
@@ -2356,7 +2356,7 @@ modules/matrix/mul/float/dspm_mult_ex_f32_ansi.s: modules/matrix/mul/float/dspm_
 
 # target to generate assembly for a file
 modules/matrix/mul/float/dspm_mult_ex_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_ex_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_ex_f32_ansi.c.s
 .PHONY : modules/matrix/mul/float/dspm_mult_ex_f32_ansi.c.s
 
 modules/matrix/mul/float/dspm_mult_ex_f32_arp4.obj: modules/matrix/mul/float/dspm_mult_ex_f32_arp4.S.obj
@@ -2364,7 +2364,7 @@ modules/matrix/mul/float/dspm_mult_ex_f32_arp4.obj: modules/matrix/mul/float/dsp
 
 # target to build an object file
 modules/matrix/mul/float/dspm_mult_ex_f32_arp4.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_ex_f32_arp4.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_ex_f32_arp4.S.obj
 .PHONY : modules/matrix/mul/float/dspm_mult_ex_f32_arp4.S.obj
 
 modules/matrix/mul/float/dspm_mult_f32_ae32.obj: modules/matrix/mul/float/dspm_mult_f32_ae32.S.obj
@@ -2372,7 +2372,7 @@ modules/matrix/mul/float/dspm_mult_f32_ae32.obj: modules/matrix/mul/float/dspm_m
 
 # target to build an object file
 modules/matrix/mul/float/dspm_mult_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_f32_ae32.S.obj
 .PHONY : modules/matrix/mul/float/dspm_mult_f32_ae32.S.obj
 
 modules/matrix/mul/float/dspm_mult_f32_aes3.obj: modules/matrix/mul/float/dspm_mult_f32_aes3.S.obj
@@ -2380,7 +2380,7 @@ modules/matrix/mul/float/dspm_mult_f32_aes3.obj: modules/matrix/mul/float/dspm_m
 
 # target to build an object file
 modules/matrix/mul/float/dspm_mult_f32_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_f32_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_f32_aes3.S.obj
 .PHONY : modules/matrix/mul/float/dspm_mult_f32_aes3.S.obj
 
 modules/matrix/mul/float/dspm_mult_f32_ansi.obj: modules/matrix/mul/float/dspm_mult_f32_ansi.c.obj
@@ -2388,7 +2388,7 @@ modules/matrix/mul/float/dspm_mult_f32_ansi.obj: modules/matrix/mul/float/dspm_m
 
 # target to build an object file
 modules/matrix/mul/float/dspm_mult_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_f32_ansi.c.obj
 .PHONY : modules/matrix/mul/float/dspm_mult_f32_ansi.c.obj
 
 modules/matrix/mul/float/dspm_mult_f32_ansi.i: modules/matrix/mul/float/dspm_mult_f32_ansi.c.i
@@ -2396,7 +2396,7 @@ modules/matrix/mul/float/dspm_mult_f32_ansi.i: modules/matrix/mul/float/dspm_mul
 
 # target to preprocess a source file
 modules/matrix/mul/float/dspm_mult_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_f32_ansi.c.i
 .PHONY : modules/matrix/mul/float/dspm_mult_f32_ansi.c.i
 
 modules/matrix/mul/float/dspm_mult_f32_ansi.s: modules/matrix/mul/float/dspm_mult_f32_ansi.c.s
@@ -2404,7 +2404,7 @@ modules/matrix/mul/float/dspm_mult_f32_ansi.s: modules/matrix/mul/float/dspm_mul
 
 # target to generate assembly for a file
 modules/matrix/mul/float/dspm_mult_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_f32_ansi.c.s
 .PHONY : modules/matrix/mul/float/dspm_mult_f32_ansi.c.s
 
 modules/matrix/mul/float/dspm_mult_f32_arp4.obj: modules/matrix/mul/float/dspm_mult_f32_arp4.S.obj
@@ -2412,7 +2412,7 @@ modules/matrix/mul/float/dspm_mult_f32_arp4.obj: modules/matrix/mul/float/dspm_m
 
 # target to build an object file
 modules/matrix/mul/float/dspm_mult_f32_arp4.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_f32_arp4.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mul/float/dspm_mult_f32_arp4.S.obj
 .PHONY : modules/matrix/mul/float/dspm_mult_f32_arp4.S.obj
 
 modules/matrix/mulc/float/dspm_mulc_f32_ae32.obj: modules/matrix/mulc/float/dspm_mulc_f32_ae32.S.obj
@@ -2420,7 +2420,7 @@ modules/matrix/mulc/float/dspm_mulc_f32_ae32.obj: modules/matrix/mulc/float/dspm
 
 # target to build an object file
 modules/matrix/mulc/float/dspm_mulc_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mulc/float/dspm_mulc_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mulc/float/dspm_mulc_f32_ae32.S.obj
 .PHONY : modules/matrix/mulc/float/dspm_mulc_f32_ae32.S.obj
 
 modules/matrix/mulc/float/dspm_mulc_f32_ansi.obj: modules/matrix/mulc/float/dspm_mulc_f32_ansi.c.obj
@@ -2428,7 +2428,7 @@ modules/matrix/mulc/float/dspm_mulc_f32_ansi.obj: modules/matrix/mulc/float/dspm
 
 # target to build an object file
 modules/matrix/mulc/float/dspm_mulc_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mulc/float/dspm_mulc_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mulc/float/dspm_mulc_f32_ansi.c.obj
 .PHONY : modules/matrix/mulc/float/dspm_mulc_f32_ansi.c.obj
 
 modules/matrix/mulc/float/dspm_mulc_f32_ansi.i: modules/matrix/mulc/float/dspm_mulc_f32_ansi.c.i
@@ -2436,7 +2436,7 @@ modules/matrix/mulc/float/dspm_mulc_f32_ansi.i: modules/matrix/mulc/float/dspm_m
 
 # target to preprocess a source file
 modules/matrix/mulc/float/dspm_mulc_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mulc/float/dspm_mulc_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mulc/float/dspm_mulc_f32_ansi.c.i
 .PHONY : modules/matrix/mulc/float/dspm_mulc_f32_ansi.c.i
 
 modules/matrix/mulc/float/dspm_mulc_f32_ansi.s: modules/matrix/mulc/float/dspm_mulc_f32_ansi.c.s
@@ -2444,7 +2444,7 @@ modules/matrix/mulc/float/dspm_mulc_f32_ansi.s: modules/matrix/mulc/float/dspm_m
 
 # target to generate assembly for a file
 modules/matrix/mulc/float/dspm_mulc_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mulc/float/dspm_mulc_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mulc/float/dspm_mulc_f32_ansi.c.s
 .PHONY : modules/matrix/mulc/float/dspm_mulc_f32_ansi.c.s
 
 modules/matrix/sub/float/dspm_sub_f32_ae32.obj: modules/matrix/sub/float/dspm_sub_f32_ae32.S.obj
@@ -2452,7 +2452,7 @@ modules/matrix/sub/float/dspm_sub_f32_ae32.obj: modules/matrix/sub/float/dspm_su
 
 # target to build an object file
 modules/matrix/sub/float/dspm_sub_f32_ae32.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/sub/float/dspm_sub_f32_ae32.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/sub/float/dspm_sub_f32_ae32.S.obj
 .PHONY : modules/matrix/sub/float/dspm_sub_f32_ae32.S.obj
 
 modules/matrix/sub/float/dspm_sub_f32_ansi.obj: modules/matrix/sub/float/dspm_sub_f32_ansi.c.obj
@@ -2460,7 +2460,7 @@ modules/matrix/sub/float/dspm_sub_f32_ansi.obj: modules/matrix/sub/float/dspm_su
 
 # target to build an object file
 modules/matrix/sub/float/dspm_sub_f32_ansi.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/sub/float/dspm_sub_f32_ansi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/sub/float/dspm_sub_f32_ansi.c.obj
 .PHONY : modules/matrix/sub/float/dspm_sub_f32_ansi.c.obj
 
 modules/matrix/sub/float/dspm_sub_f32_ansi.i: modules/matrix/sub/float/dspm_sub_f32_ansi.c.i
@@ -2468,7 +2468,7 @@ modules/matrix/sub/float/dspm_sub_f32_ansi.i: modules/matrix/sub/float/dspm_sub_
 
 # target to preprocess a source file
 modules/matrix/sub/float/dspm_sub_f32_ansi.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/sub/float/dspm_sub_f32_ansi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/sub/float/dspm_sub_f32_ansi.c.i
 .PHONY : modules/matrix/sub/float/dspm_sub_f32_ansi.c.i
 
 modules/matrix/sub/float/dspm_sub_f32_ansi.s: modules/matrix/sub/float/dspm_sub_f32_ansi.c.s
@@ -2476,7 +2476,7 @@ modules/matrix/sub/float/dspm_sub_f32_ansi.s: modules/matrix/sub/float/dspm_sub_
 
 # target to generate assembly for a file
 modules/matrix/sub/float/dspm_sub_f32_ansi.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/sub/float/dspm_sub_f32_ansi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/sub/float/dspm_sub_f32_ansi.c.s
 .PHONY : modules/matrix/sub/float/dspm_sub_f32_ansi.c.s
 
 modules/support/cplx_gen/dsps_cplx_gen.obj: modules/support/cplx_gen/dsps_cplx_gen.S.obj
@@ -2484,7 +2484,7 @@ modules/support/cplx_gen/dsps_cplx_gen.obj: modules/support/cplx_gen/dsps_cplx_g
 
 # target to build an object file
 modules/support/cplx_gen/dsps_cplx_gen.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/cplx_gen/dsps_cplx_gen.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/cplx_gen/dsps_cplx_gen.S.obj
 .PHONY : modules/support/cplx_gen/dsps_cplx_gen.S.obj
 
 modules/support/cplx_gen/dsps_cplx_gen.obj: modules/support/cplx_gen/dsps_cplx_gen.c.obj
@@ -2492,7 +2492,7 @@ modules/support/cplx_gen/dsps_cplx_gen.obj: modules/support/cplx_gen/dsps_cplx_g
 
 # target to build an object file
 modules/support/cplx_gen/dsps_cplx_gen.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/cplx_gen/dsps_cplx_gen.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/cplx_gen/dsps_cplx_gen.c.obj
 .PHONY : modules/support/cplx_gen/dsps_cplx_gen.c.obj
 
 modules/support/cplx_gen/dsps_cplx_gen.i: modules/support/cplx_gen/dsps_cplx_gen.c.i
@@ -2500,7 +2500,7 @@ modules/support/cplx_gen/dsps_cplx_gen.i: modules/support/cplx_gen/dsps_cplx_gen
 
 # target to preprocess a source file
 modules/support/cplx_gen/dsps_cplx_gen.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/cplx_gen/dsps_cplx_gen.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/cplx_gen/dsps_cplx_gen.c.i
 .PHONY : modules/support/cplx_gen/dsps_cplx_gen.c.i
 
 modules/support/cplx_gen/dsps_cplx_gen.s: modules/support/cplx_gen/dsps_cplx_gen.c.s
@@ -2508,7 +2508,7 @@ modules/support/cplx_gen/dsps_cplx_gen.s: modules/support/cplx_gen/dsps_cplx_gen
 
 # target to generate assembly for a file
 modules/support/cplx_gen/dsps_cplx_gen.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/cplx_gen/dsps_cplx_gen.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/cplx_gen/dsps_cplx_gen.c.s
 .PHONY : modules/support/cplx_gen/dsps_cplx_gen.c.s
 
 modules/support/cplx_gen/dsps_cplx_gen_init.obj: modules/support/cplx_gen/dsps_cplx_gen_init.c.obj
@@ -2516,7 +2516,7 @@ modules/support/cplx_gen/dsps_cplx_gen_init.obj: modules/support/cplx_gen/dsps_c
 
 # target to build an object file
 modules/support/cplx_gen/dsps_cplx_gen_init.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/cplx_gen/dsps_cplx_gen_init.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/cplx_gen/dsps_cplx_gen_init.c.obj
 .PHONY : modules/support/cplx_gen/dsps_cplx_gen_init.c.obj
 
 modules/support/cplx_gen/dsps_cplx_gen_init.i: modules/support/cplx_gen/dsps_cplx_gen_init.c.i
@@ -2524,7 +2524,7 @@ modules/support/cplx_gen/dsps_cplx_gen_init.i: modules/support/cplx_gen/dsps_cpl
 
 # target to preprocess a source file
 modules/support/cplx_gen/dsps_cplx_gen_init.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/cplx_gen/dsps_cplx_gen_init.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/cplx_gen/dsps_cplx_gen_init.c.i
 .PHONY : modules/support/cplx_gen/dsps_cplx_gen_init.c.i
 
 modules/support/cplx_gen/dsps_cplx_gen_init.s: modules/support/cplx_gen/dsps_cplx_gen_init.c.s
@@ -2532,7 +2532,7 @@ modules/support/cplx_gen/dsps_cplx_gen_init.s: modules/support/cplx_gen/dsps_cpl
 
 # target to generate assembly for a file
 modules/support/cplx_gen/dsps_cplx_gen_init.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/cplx_gen/dsps_cplx_gen_init.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/cplx_gen/dsps_cplx_gen_init.c.s
 .PHONY : modules/support/cplx_gen/dsps_cplx_gen_init.c.s
 
 modules/support/mem/esp32s3/dsps_memcpy_aes3.obj: modules/support/mem/esp32s3/dsps_memcpy_aes3.S.obj
@@ -2540,7 +2540,7 @@ modules/support/mem/esp32s3/dsps_memcpy_aes3.obj: modules/support/mem/esp32s3/ds
 
 # target to build an object file
 modules/support/mem/esp32s3/dsps_memcpy_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/mem/esp32s3/dsps_memcpy_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/mem/esp32s3/dsps_memcpy_aes3.S.obj
 .PHONY : modules/support/mem/esp32s3/dsps_memcpy_aes3.S.obj
 
 modules/support/mem/esp32s3/dsps_memset_aes3.obj: modules/support/mem/esp32s3/dsps_memset_aes3.S.obj
@@ -2548,7 +2548,7 @@ modules/support/mem/esp32s3/dsps_memset_aes3.obj: modules/support/mem/esp32s3/ds
 
 # target to build an object file
 modules/support/mem/esp32s3/dsps_memset_aes3.S.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/mem/esp32s3/dsps_memset_aes3.S.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/mem/esp32s3/dsps_memset_aes3.S.obj
 .PHONY : modules/support/mem/esp32s3/dsps_memset_aes3.S.obj
 
 modules/support/misc/dsps_d_gen.obj: modules/support/misc/dsps_d_gen.c.obj
@@ -2556,7 +2556,7 @@ modules/support/misc/dsps_d_gen.obj: modules/support/misc/dsps_d_gen.c.obj
 
 # target to build an object file
 modules/support/misc/dsps_d_gen.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/misc/dsps_d_gen.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/misc/dsps_d_gen.c.obj
 .PHONY : modules/support/misc/dsps_d_gen.c.obj
 
 modules/support/misc/dsps_d_gen.i: modules/support/misc/dsps_d_gen.c.i
@@ -2564,7 +2564,7 @@ modules/support/misc/dsps_d_gen.i: modules/support/misc/dsps_d_gen.c.i
 
 # target to preprocess a source file
 modules/support/misc/dsps_d_gen.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/misc/dsps_d_gen.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/misc/dsps_d_gen.c.i
 .PHONY : modules/support/misc/dsps_d_gen.c.i
 
 modules/support/misc/dsps_d_gen.s: modules/support/misc/dsps_d_gen.c.s
@@ -2572,7 +2572,7 @@ modules/support/misc/dsps_d_gen.s: modules/support/misc/dsps_d_gen.c.s
 
 # target to generate assembly for a file
 modules/support/misc/dsps_d_gen.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/misc/dsps_d_gen.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/misc/dsps_d_gen.c.s
 .PHONY : modules/support/misc/dsps_d_gen.c.s
 
 modules/support/misc/dsps_h_gen.obj: modules/support/misc/dsps_h_gen.c.obj
@@ -2580,7 +2580,7 @@ modules/support/misc/dsps_h_gen.obj: modules/support/misc/dsps_h_gen.c.obj
 
 # target to build an object file
 modules/support/misc/dsps_h_gen.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/misc/dsps_h_gen.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/misc/dsps_h_gen.c.obj
 .PHONY : modules/support/misc/dsps_h_gen.c.obj
 
 modules/support/misc/dsps_h_gen.i: modules/support/misc/dsps_h_gen.c.i
@@ -2588,7 +2588,7 @@ modules/support/misc/dsps_h_gen.i: modules/support/misc/dsps_h_gen.c.i
 
 # target to preprocess a source file
 modules/support/misc/dsps_h_gen.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/misc/dsps_h_gen.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/misc/dsps_h_gen.c.i
 .PHONY : modules/support/misc/dsps_h_gen.c.i
 
 modules/support/misc/dsps_h_gen.s: modules/support/misc/dsps_h_gen.c.s
@@ -2596,7 +2596,7 @@ modules/support/misc/dsps_h_gen.s: modules/support/misc/dsps_h_gen.c.s
 
 # target to generate assembly for a file
 modules/support/misc/dsps_h_gen.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/misc/dsps_h_gen.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/misc/dsps_h_gen.c.s
 .PHONY : modules/support/misc/dsps_h_gen.c.s
 
 modules/support/misc/dsps_tone_gen.obj: modules/support/misc/dsps_tone_gen.c.obj
@@ -2604,7 +2604,7 @@ modules/support/misc/dsps_tone_gen.obj: modules/support/misc/dsps_tone_gen.c.obj
 
 # target to build an object file
 modules/support/misc/dsps_tone_gen.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/misc/dsps_tone_gen.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/misc/dsps_tone_gen.c.obj
 .PHONY : modules/support/misc/dsps_tone_gen.c.obj
 
 modules/support/misc/dsps_tone_gen.i: modules/support/misc/dsps_tone_gen.c.i
@@ -2612,7 +2612,7 @@ modules/support/misc/dsps_tone_gen.i: modules/support/misc/dsps_tone_gen.c.i
 
 # target to preprocess a source file
 modules/support/misc/dsps_tone_gen.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/misc/dsps_tone_gen.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/misc/dsps_tone_gen.c.i
 .PHONY : modules/support/misc/dsps_tone_gen.c.i
 
 modules/support/misc/dsps_tone_gen.s: modules/support/misc/dsps_tone_gen.c.s
@@ -2620,7 +2620,7 @@ modules/support/misc/dsps_tone_gen.s: modules/support/misc/dsps_tone_gen.c.s
 
 # target to generate assembly for a file
 modules/support/misc/dsps_tone_gen.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/misc/dsps_tone_gen.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/misc/dsps_tone_gen.c.s
 .PHONY : modules/support/misc/dsps_tone_gen.c.s
 
 modules/support/sfdr/float/dsps_sfdr_f32.obj: modules/support/sfdr/float/dsps_sfdr_f32.cpp.obj
@@ -2628,7 +2628,7 @@ modules/support/sfdr/float/dsps_sfdr_f32.obj: modules/support/sfdr/float/dsps_sf
 
 # target to build an object file
 modules/support/sfdr/float/dsps_sfdr_f32.cpp.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/sfdr/float/dsps_sfdr_f32.cpp.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/sfdr/float/dsps_sfdr_f32.cpp.obj
 .PHONY : modules/support/sfdr/float/dsps_sfdr_f32.cpp.obj
 
 modules/support/sfdr/float/dsps_sfdr_f32.i: modules/support/sfdr/float/dsps_sfdr_f32.cpp.i
@@ -2636,7 +2636,7 @@ modules/support/sfdr/float/dsps_sfdr_f32.i: modules/support/sfdr/float/dsps_sfdr
 
 # target to preprocess a source file
 modules/support/sfdr/float/dsps_sfdr_f32.cpp.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/sfdr/float/dsps_sfdr_f32.cpp.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/sfdr/float/dsps_sfdr_f32.cpp.i
 .PHONY : modules/support/sfdr/float/dsps_sfdr_f32.cpp.i
 
 modules/support/sfdr/float/dsps_sfdr_f32.s: modules/support/sfdr/float/dsps_sfdr_f32.cpp.s
@@ -2644,7 +2644,7 @@ modules/support/sfdr/float/dsps_sfdr_f32.s: modules/support/sfdr/float/dsps_sfdr
 
 # target to generate assembly for a file
 modules/support/sfdr/float/dsps_sfdr_f32.cpp.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/sfdr/float/dsps_sfdr_f32.cpp.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/sfdr/float/dsps_sfdr_f32.cpp.s
 .PHONY : modules/support/sfdr/float/dsps_sfdr_f32.cpp.s
 
 modules/support/snr/float/dsps_snr_f32.obj: modules/support/snr/float/dsps_snr_f32.cpp.obj
@@ -2652,7 +2652,7 @@ modules/support/snr/float/dsps_snr_f32.obj: modules/support/snr/float/dsps_snr_f
 
 # target to build an object file
 modules/support/snr/float/dsps_snr_f32.cpp.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/snr/float/dsps_snr_f32.cpp.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/snr/float/dsps_snr_f32.cpp.obj
 .PHONY : modules/support/snr/float/dsps_snr_f32.cpp.obj
 
 modules/support/snr/float/dsps_snr_f32.i: modules/support/snr/float/dsps_snr_f32.cpp.i
@@ -2660,7 +2660,7 @@ modules/support/snr/float/dsps_snr_f32.i: modules/support/snr/float/dsps_snr_f32
 
 # target to preprocess a source file
 modules/support/snr/float/dsps_snr_f32.cpp.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/snr/float/dsps_snr_f32.cpp.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/snr/float/dsps_snr_f32.cpp.i
 .PHONY : modules/support/snr/float/dsps_snr_f32.cpp.i
 
 modules/support/snr/float/dsps_snr_f32.s: modules/support/snr/float/dsps_snr_f32.cpp.s
@@ -2668,7 +2668,7 @@ modules/support/snr/float/dsps_snr_f32.s: modules/support/snr/float/dsps_snr_f32
 
 # target to generate assembly for a file
 modules/support/snr/float/dsps_snr_f32.cpp.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/snr/float/dsps_snr_f32.cpp.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/snr/float/dsps_snr_f32.cpp.s
 .PHONY : modules/support/snr/float/dsps_snr_f32.cpp.s
 
 modules/support/view/dsps_view.obj: modules/support/view/dsps_view.cpp.obj
@@ -2676,7 +2676,7 @@ modules/support/view/dsps_view.obj: modules/support/view/dsps_view.cpp.obj
 
 # target to build an object file
 modules/support/view/dsps_view.cpp.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/view/dsps_view.cpp.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/view/dsps_view.cpp.obj
 .PHONY : modules/support/view/dsps_view.cpp.obj
 
 modules/support/view/dsps_view.i: modules/support/view/dsps_view.cpp.i
@@ -2684,7 +2684,7 @@ modules/support/view/dsps_view.i: modules/support/view/dsps_view.cpp.i
 
 # target to preprocess a source file
 modules/support/view/dsps_view.cpp.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/view/dsps_view.cpp.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/view/dsps_view.cpp.i
 .PHONY : modules/support/view/dsps_view.cpp.i
 
 modules/support/view/dsps_view.s: modules/support/view/dsps_view.cpp.s
@@ -2692,7 +2692,7 @@ modules/support/view/dsps_view.s: modules/support/view/dsps_view.cpp.s
 
 # target to generate assembly for a file
 modules/support/view/dsps_view.cpp.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/view/dsps_view.cpp.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/support/view/dsps_view.cpp.s
 .PHONY : modules/support/view/dsps_view.cpp.s
 
 modules/windows/blackman/float/dsps_wind_blackman_f32.obj: modules/windows/blackman/float/dsps_wind_blackman_f32.c.obj
@@ -2700,7 +2700,7 @@ modules/windows/blackman/float/dsps_wind_blackman_f32.obj: modules/windows/black
 
 # target to build an object file
 modules/windows/blackman/float/dsps_wind_blackman_f32.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/blackman/float/dsps_wind_blackman_f32.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/blackman/float/dsps_wind_blackman_f32.c.obj
 .PHONY : modules/windows/blackman/float/dsps_wind_blackman_f32.c.obj
 
 modules/windows/blackman/float/dsps_wind_blackman_f32.i: modules/windows/blackman/float/dsps_wind_blackman_f32.c.i
@@ -2708,7 +2708,7 @@ modules/windows/blackman/float/dsps_wind_blackman_f32.i: modules/windows/blackma
 
 # target to preprocess a source file
 modules/windows/blackman/float/dsps_wind_blackman_f32.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/blackman/float/dsps_wind_blackman_f32.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/blackman/float/dsps_wind_blackman_f32.c.i
 .PHONY : modules/windows/blackman/float/dsps_wind_blackman_f32.c.i
 
 modules/windows/blackman/float/dsps_wind_blackman_f32.s: modules/windows/blackman/float/dsps_wind_blackman_f32.c.s
@@ -2716,7 +2716,7 @@ modules/windows/blackman/float/dsps_wind_blackman_f32.s: modules/windows/blackma
 
 # target to generate assembly for a file
 modules/windows/blackman/float/dsps_wind_blackman_f32.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/blackman/float/dsps_wind_blackman_f32.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/blackman/float/dsps_wind_blackman_f32.c.s
 .PHONY : modules/windows/blackman/float/dsps_wind_blackman_f32.c.s
 
 modules/windows/blackman_harris/float/dsps_wind_blackman_harris_f32.obj: modules/windows/blackman_harris/float/dsps_wind_blackman_harris_f32.c.obj
@@ -2724,7 +2724,7 @@ modules/windows/blackman_harris/float/dsps_wind_blackman_harris_f32.obj: modules
 
 # target to build an object file
 modules/windows/blackman_harris/float/dsps_wind_blackman_harris_f32.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/blackman_harris/float/dsps_wind_blackman_harris_f32.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/blackman_harris/float/dsps_wind_blackman_harris_f32.c.obj
 .PHONY : modules/windows/blackman_harris/float/dsps_wind_blackman_harris_f32.c.obj
 
 modules/windows/blackman_harris/float/dsps_wind_blackman_harris_f32.i: modules/windows/blackman_harris/float/dsps_wind_blackman_harris_f32.c.i
@@ -2732,7 +2732,7 @@ modules/windows/blackman_harris/float/dsps_wind_blackman_harris_f32.i: modules/w
 
 # target to preprocess a source file
 modules/windows/blackman_harris/float/dsps_wind_blackman_harris_f32.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/blackman_harris/float/dsps_wind_blackman_harris_f32.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/blackman_harris/float/dsps_wind_blackman_harris_f32.c.i
 .PHONY : modules/windows/blackman_harris/float/dsps_wind_blackman_harris_f32.c.i
 
 modules/windows/blackman_harris/float/dsps_wind_blackman_harris_f32.s: modules/windows/blackman_harris/float/dsps_wind_blackman_harris_f32.c.s
@@ -2740,7 +2740,7 @@ modules/windows/blackman_harris/float/dsps_wind_blackman_harris_f32.s: modules/w
 
 # target to generate assembly for a file
 modules/windows/blackman_harris/float/dsps_wind_blackman_harris_f32.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/blackman_harris/float/dsps_wind_blackman_harris_f32.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/blackman_harris/float/dsps_wind_blackman_harris_f32.c.s
 .PHONY : modules/windows/blackman_harris/float/dsps_wind_blackman_harris_f32.c.s
 
 modules/windows/blackman_nuttall/float/dsps_wind_blackman_nuttall_f32.obj: modules/windows/blackman_nuttall/float/dsps_wind_blackman_nuttall_f32.c.obj
@@ -2748,7 +2748,7 @@ modules/windows/blackman_nuttall/float/dsps_wind_blackman_nuttall_f32.obj: modul
 
 # target to build an object file
 modules/windows/blackman_nuttall/float/dsps_wind_blackman_nuttall_f32.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/blackman_nuttall/float/dsps_wind_blackman_nuttall_f32.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/blackman_nuttall/float/dsps_wind_blackman_nuttall_f32.c.obj
 .PHONY : modules/windows/blackman_nuttall/float/dsps_wind_blackman_nuttall_f32.c.obj
 
 modules/windows/blackman_nuttall/float/dsps_wind_blackman_nuttall_f32.i: modules/windows/blackman_nuttall/float/dsps_wind_blackman_nuttall_f32.c.i
@@ -2756,7 +2756,7 @@ modules/windows/blackman_nuttall/float/dsps_wind_blackman_nuttall_f32.i: modules
 
 # target to preprocess a source file
 modules/windows/blackman_nuttall/float/dsps_wind_blackman_nuttall_f32.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/blackman_nuttall/float/dsps_wind_blackman_nuttall_f32.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/blackman_nuttall/float/dsps_wind_blackman_nuttall_f32.c.i
 .PHONY : modules/windows/blackman_nuttall/float/dsps_wind_blackman_nuttall_f32.c.i
 
 modules/windows/blackman_nuttall/float/dsps_wind_blackman_nuttall_f32.s: modules/windows/blackman_nuttall/float/dsps_wind_blackman_nuttall_f32.c.s
@@ -2764,7 +2764,7 @@ modules/windows/blackman_nuttall/float/dsps_wind_blackman_nuttall_f32.s: modules
 
 # target to generate assembly for a file
 modules/windows/blackman_nuttall/float/dsps_wind_blackman_nuttall_f32.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/blackman_nuttall/float/dsps_wind_blackman_nuttall_f32.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/blackman_nuttall/float/dsps_wind_blackman_nuttall_f32.c.s
 .PHONY : modules/windows/blackman_nuttall/float/dsps_wind_blackman_nuttall_f32.c.s
 
 modules/windows/flat_top/float/dsps_wind_flat_top_f32.obj: modules/windows/flat_top/float/dsps_wind_flat_top_f32.c.obj
@@ -2772,7 +2772,7 @@ modules/windows/flat_top/float/dsps_wind_flat_top_f32.obj: modules/windows/flat_
 
 # target to build an object file
 modules/windows/flat_top/float/dsps_wind_flat_top_f32.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/flat_top/float/dsps_wind_flat_top_f32.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/flat_top/float/dsps_wind_flat_top_f32.c.obj
 .PHONY : modules/windows/flat_top/float/dsps_wind_flat_top_f32.c.obj
 
 modules/windows/flat_top/float/dsps_wind_flat_top_f32.i: modules/windows/flat_top/float/dsps_wind_flat_top_f32.c.i
@@ -2780,7 +2780,7 @@ modules/windows/flat_top/float/dsps_wind_flat_top_f32.i: modules/windows/flat_to
 
 # target to preprocess a source file
 modules/windows/flat_top/float/dsps_wind_flat_top_f32.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/flat_top/float/dsps_wind_flat_top_f32.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/flat_top/float/dsps_wind_flat_top_f32.c.i
 .PHONY : modules/windows/flat_top/float/dsps_wind_flat_top_f32.c.i
 
 modules/windows/flat_top/float/dsps_wind_flat_top_f32.s: modules/windows/flat_top/float/dsps_wind_flat_top_f32.c.s
@@ -2788,7 +2788,7 @@ modules/windows/flat_top/float/dsps_wind_flat_top_f32.s: modules/windows/flat_to
 
 # target to generate assembly for a file
 modules/windows/flat_top/float/dsps_wind_flat_top_f32.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/flat_top/float/dsps_wind_flat_top_f32.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/flat_top/float/dsps_wind_flat_top_f32.c.s
 .PHONY : modules/windows/flat_top/float/dsps_wind_flat_top_f32.c.s
 
 modules/windows/hann/float/dsps_wind_hann_f32.obj: modules/windows/hann/float/dsps_wind_hann_f32.c.obj
@@ -2796,7 +2796,7 @@ modules/windows/hann/float/dsps_wind_hann_f32.obj: modules/windows/hann/float/ds
 
 # target to build an object file
 modules/windows/hann/float/dsps_wind_hann_f32.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/hann/float/dsps_wind_hann_f32.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/hann/float/dsps_wind_hann_f32.c.obj
 .PHONY : modules/windows/hann/float/dsps_wind_hann_f32.c.obj
 
 modules/windows/hann/float/dsps_wind_hann_f32.i: modules/windows/hann/float/dsps_wind_hann_f32.c.i
@@ -2804,7 +2804,7 @@ modules/windows/hann/float/dsps_wind_hann_f32.i: modules/windows/hann/float/dsps
 
 # target to preprocess a source file
 modules/windows/hann/float/dsps_wind_hann_f32.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/hann/float/dsps_wind_hann_f32.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/hann/float/dsps_wind_hann_f32.c.i
 .PHONY : modules/windows/hann/float/dsps_wind_hann_f32.c.i
 
 modules/windows/hann/float/dsps_wind_hann_f32.s: modules/windows/hann/float/dsps_wind_hann_f32.c.s
@@ -2812,7 +2812,7 @@ modules/windows/hann/float/dsps_wind_hann_f32.s: modules/windows/hann/float/dsps
 
 # target to generate assembly for a file
 modules/windows/hann/float/dsps_wind_hann_f32.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/hann/float/dsps_wind_hann_f32.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/hann/float/dsps_wind_hann_f32.c.s
 .PHONY : modules/windows/hann/float/dsps_wind_hann_f32.c.s
 
 modules/windows/nuttall/float/dsps_wind_nuttall_f32.obj: modules/windows/nuttall/float/dsps_wind_nuttall_f32.c.obj
@@ -2820,7 +2820,7 @@ modules/windows/nuttall/float/dsps_wind_nuttall_f32.obj: modules/windows/nuttall
 
 # target to build an object file
 modules/windows/nuttall/float/dsps_wind_nuttall_f32.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/nuttall/float/dsps_wind_nuttall_f32.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/nuttall/float/dsps_wind_nuttall_f32.c.obj
 .PHONY : modules/windows/nuttall/float/dsps_wind_nuttall_f32.c.obj
 
 modules/windows/nuttall/float/dsps_wind_nuttall_f32.i: modules/windows/nuttall/float/dsps_wind_nuttall_f32.c.i
@@ -2828,7 +2828,7 @@ modules/windows/nuttall/float/dsps_wind_nuttall_f32.i: modules/windows/nuttall/f
 
 # target to preprocess a source file
 modules/windows/nuttall/float/dsps_wind_nuttall_f32.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/nuttall/float/dsps_wind_nuttall_f32.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/nuttall/float/dsps_wind_nuttall_f32.c.i
 .PHONY : modules/windows/nuttall/float/dsps_wind_nuttall_f32.c.i
 
 modules/windows/nuttall/float/dsps_wind_nuttall_f32.s: modules/windows/nuttall/float/dsps_wind_nuttall_f32.c.s
@@ -2836,7 +2836,7 @@ modules/windows/nuttall/float/dsps_wind_nuttall_f32.s: modules/windows/nuttall/f
 
 # target to generate assembly for a file
 modules/windows/nuttall/float/dsps_wind_nuttall_f32.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/nuttall/float/dsps_wind_nuttall_f32.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/build.make esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/windows/nuttall/float/dsps_wind_nuttall_f32.c.s
 .PHONY : modules/windows/nuttall/float/dsps_wind_nuttall_f32.c.s
 
 # Help Target
@@ -3196,6 +3196,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -2,7 +2,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tprf.
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/crypto/sha1-tprf.c \
  /home/diegolagos/esp-idf/components/wpa_supplicant/src/utils/includes.h \
  /home/diegolagos/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h \
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h \
  /home/diegolagos/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h \
  /home/diegolagos/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h \

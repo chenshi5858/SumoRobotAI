@@ -39241,7 +39241,7 @@
                         ],
                         "depends_on": null,
                         "help": "An ANSI C version could be used for verification and debug purpose,\nor for chips where an optimized version is not available.",
-                        "id": "component-config-dsp-library-dsp-optimization-home-diegolagos-esp_projects-robot_audio-managed_components-espressif__esp-dsp-Kconfig-9",
+                        "id": "component-config-dsp-library-dsp-optimization-home-diegolagos-Rep_SE_202601_grupo_Diego_Santiago_Chen-Lab_1-Ejercicio_5-robot_audio-managed_components-espressif__esp-dsp-Kconfig-9",
                         "name": "DSP_OPTIMIZATION",
                         "title": "DSP Optimization",
                         "type": "choice"
@@ -39331,7 +39331,7 @@
                         ],
                         "depends_on": null,
                         "help": "This is default FFT size for internal usage.",
-                        "id": "component-config-dsp-library-maximum-fft-length-home-diegolagos-esp_projects-robot_audio-managed_components-espressif__esp-dsp-Kconfig-29",
+                        "id": "component-config-dsp-library-maximum-fft-length-home-diegolagos-Rep_SE_202601_grupo_Diego_Santiago_Chen-Lab_1-Ejercicio_5-robot_audio-managed_components-espressif__esp-dsp-Kconfig-29",
                         "name": "DSP_MAX_FFT_SIZE",
                         "title": "Maximum FFT length",
                         "type": "choice"
@@ -39348,7 +39348,7 @@
                     }
                 ],
                 "depends_on": null,
-                "id": "component-config-dsp-library-home-diegolagos-esp_projects-robot_audio-managed_components-espressif__esp-dsp-Kconfig-1",
+                "id": "component-config-dsp-library-home-diegolagos-Rep_SE_202601_grupo_Diego_Santiago_Chen-Lab_1-Ejercicio_5-robot_audio-managed_components-espressif__esp-dsp-Kconfig-1",
                 "title": "DSP Library",
                 "type": "menu"
             },

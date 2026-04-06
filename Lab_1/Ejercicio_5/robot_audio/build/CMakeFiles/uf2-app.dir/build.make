@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/diegolagos/esp_projects/robot_audio
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build
 
 # Utility rule file for uf2-app.
 
@@ -67,7 +67,7 @@ include CMakeFiles/uf2-app.dir/compiler_depend.make
 include CMakeFiles/uf2-app.dir/progress.make
 
 CMakeFiles/uf2-app:
-	/usr/bin/cmake -D IDF_PATH=/home/diegolagos/esp-idf -D "UF2_CMD=/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python;/home/diegolagos/esp-idf/tools/mkuf2.py;write;--chip;esp32s3" -D "UF2_ARGS=--json;/home/diegolagos/esp_projects/robot_audio/build/flasher_args.json;-o;/home/diegolagos/esp_projects/robot_audio/build/uf2-app.bin;--bin;app" -P /home/diegolagos/esp-idf/tools/cmake/run_uf2_cmds.cmake
+	/usr/bin/cmake -D IDF_PATH=/home/diegolagos/esp-idf -D "UF2_CMD=/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python;/home/diegolagos/esp-idf/tools/mkuf2.py;write;--chip;esp32s3" -D "UF2_ARGS=--json;/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/flasher_args.json;-o;/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/uf2-app.bin;--bin;app" -P /home/diegolagos/esp-idf/tools/cmake/run_uf2_cmds.cmake
 
 uf2-app: CMakeFiles/uf2-app
 uf2-app: CMakeFiles/uf2-app.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/uf2-app.dir/clean:
 .PHONY : CMakeFiles/uf2-app.dir/clean
 
 CMakeFiles/uf2-app.dir/depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp_projects/robot_audio /home/diegolagos/esp_projects/robot_audio /home/diegolagos/esp_projects/robot_audio/build /home/diegolagos/esp_projects/robot_audio/build /home/diegolagos/esp_projects/robot_audio/build/CMakeFiles/uf2-app.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles/uf2-app.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uf2-app.dir/depend
 

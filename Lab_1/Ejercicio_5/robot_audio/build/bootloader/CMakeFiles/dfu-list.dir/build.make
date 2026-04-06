@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/diegolagos/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build/bootloader
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader
 
 # Utility rule file for dfu-list.
 
@@ -82,6 +82,6 @@ CMakeFiles/dfu-list.dir/clean:
 .PHONY : CMakeFiles/dfu-list.dir/clean
 
 CMakeFiles/dfu-list.dir/depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/esp_projects/robot_audio/build/bootloader /home/diegolagos/esp_projects/robot_audio/build/bootloader /home/diegolagos/esp_projects/robot_audio/build/bootloader/CMakeFiles/dfu-list.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/CMakeFiles/dfu-list.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/dfu-list.dir/depend
 

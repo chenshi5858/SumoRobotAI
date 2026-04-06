@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/diegolagos/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build/bootloader
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader
 
 # Utility rule file for confserver.
 
@@ -67,8 +67,8 @@ include CMakeFiles/confserver.dir/compiler_depend.make
 include CMakeFiles/confserver.dir/progress.make
 
 CMakeFiles/confserver:
-	/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/diegolagos/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /home/diegolagos/esp_projects/robot_audio/build/bootloader/config.env
-	/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python -m kconfserver --env-file /home/diegolagos/esp_projects/robot_audio/build/bootloader/config.env --kconfig /home/diegolagos/esp-idf/Kconfig --sdkconfig-rename /home/diegolagos/esp-idf/sdkconfig.rename --config /home/diegolagos/esp_projects/robot_audio/sdkconfig --env KCONFIG_REPORT_VERBOSITY=default
+	/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/diegolagos/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/config.env
+	/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python -m kconfserver --env-file /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/config.env --kconfig /home/diegolagos/esp-idf/Kconfig --sdkconfig-rename /home/diegolagos/esp-idf/sdkconfig.rename --config /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/sdkconfig --env KCONFIG_REPORT_VERBOSITY=default
 
 confserver: CMakeFiles/confserver
 confserver: CMakeFiles/confserver.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/confserver.dir/clean:
 .PHONY : CMakeFiles/confserver.dir/clean
 
 CMakeFiles/confserver.dir/depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/esp_projects/robot_audio/build/bootloader /home/diegolagos/esp_projects/robot_audio/build/bootloader /home/diegolagos/esp_projects/robot_audio/build/bootloader/CMakeFiles/confserver.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/CMakeFiles/confserver.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/confserver.dir/depend
 

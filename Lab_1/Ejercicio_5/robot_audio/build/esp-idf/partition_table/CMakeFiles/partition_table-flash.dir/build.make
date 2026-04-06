@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/diegolagos/esp_projects/robot_audio
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build
 
 # Utility rule file for partition_table-flash.
 
@@ -67,8 +67,8 @@ include esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/compiler_de
 include esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/progress.make
 
 esp-idf/partition_table/CMakeFiles/partition_table-flash:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/diegolagos/esp_projects/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Warning: command \"partition_table-flash\" is deprecated. Have you wanted to run \"partition-table-flash\" instead?"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/partition_table && /usr/bin/cmake -E echo 
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Warning: command \"partition_table-flash\" is deprecated. Have you wanted to run \"partition-table-flash\" instead?"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/partition_table && /usr/bin/cmake -E echo 
 
 partition_table-flash: esp-idf/partition_table/CMakeFiles/partition_table-flash
 partition_table-flash: esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/build.make
@@ -79,10 +79,10 @@ esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/build: partition_ta
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/build
 
 esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/clean:
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition_table-flash.dir/cmake_clean.cmake
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition_table-flash.dir/cmake_clean.cmake
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/clean
 
 esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp_projects/robot_audio /home/diegolagos/esp-idf/components/partition_table /home/diegolagos/esp_projects/robot_audio/build /home/diegolagos/esp_projects/robot_audio/build/esp-idf/partition_table /home/diegolagos/esp_projects/robot_audio/build/esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio /home/diegolagos/esp-idf/components/partition_table /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/partition_table /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/depend
 

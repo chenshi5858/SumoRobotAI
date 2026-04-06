@@ -2,7 +2,7 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ffunicode.c.obj: \
  /home/diegolagos/esp-idf/components/fatfs/src/ffunicode.c \
  /home/diegolagos/esp-idf/components/fatfs/src/ff.h \
  /home/diegolagos/esp-idf/components/fatfs/src/ffconf.h \
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/param.h \
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \

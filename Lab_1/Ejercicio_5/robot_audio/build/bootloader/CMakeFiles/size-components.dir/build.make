@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/diegolagos/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build/bootloader
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader
 
 # Utility rule file for size-components.
 
@@ -67,7 +67,7 @@ include CMakeFiles/size-components.dir/compiler_depend.make
 include CMakeFiles/size-components.dir/progress.make
 
 CMakeFiles/size-components: bootloader.map
-	/usr/bin/cmake -D "IDF_SIZE_TOOL=/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python;-m;esp_idf_size" -D IDF_SIZE_MODE=--archives -D MAP_FILE=/home/diegolagos/esp_projects/robot_audio/build/bootloader/bootloader.map -D OUTPUT_JSON= -P /home/diegolagos/esp-idf/tools/cmake/run_size_tool.cmake
+	/usr/bin/cmake -D "IDF_SIZE_TOOL=/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python;-m;esp_idf_size" -D IDF_SIZE_MODE=--archives -D MAP_FILE=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/bootloader.map -D OUTPUT_JSON= -P /home/diegolagos/esp-idf/tools/cmake/run_size_tool.cmake
 
 size-components: CMakeFiles/size-components
 size-components: CMakeFiles/size-components.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/size-components.dir/clean:
 .PHONY : CMakeFiles/size-components.dir/clean
 
 CMakeFiles/size-components.dir/depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/esp_projects/robot_audio/build/bootloader /home/diegolagos/esp_projects/robot_audio/build/bootloader /home/diegolagos/esp_projects/robot_audio/build/bootloader/CMakeFiles/size-components.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/CMakeFiles/size-components.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/size-components.dir/depend
 

@@ -1,6 +1,6 @@
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/CMakeFiles/tfpsacrypto.dir/home/diegolagos/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.obj: \
  /home/diegolagos/esp-idf/components/mbedtls/port/aes/esp_aes_common.c \
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h \
  /home/diegolagos/esp-idf/components/mbedtls/port/aes/include/esp_aes_internal.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h \
  /home/diegolagos/esp-idf/components/mbedtls/port/include/aes/esp_aes.h \

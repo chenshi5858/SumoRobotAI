@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/diegolagos/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build/bootloader
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader
 
 # Utility rule file for efuse-custom-table.
 
@@ -74,10 +74,10 @@ esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/build: efuse-custom-table
 .PHONY : esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/build
 
 esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/clean:
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse-custom-table.dir/cmake_clean.cmake
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse-custom-table.dir/cmake_clean.cmake
 .PHONY : esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/clean
 
 esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/esp-idf/components/efuse /home/diegolagos/esp_projects/robot_audio/build/bootloader /home/diegolagos/esp_projects/robot_audio/build/bootloader/esp-idf/efuse /home/diegolagos/esp_projects/robot_audio/build/bootloader/esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/esp-idf/components/efuse /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/esp-idf/efuse /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/depend
 

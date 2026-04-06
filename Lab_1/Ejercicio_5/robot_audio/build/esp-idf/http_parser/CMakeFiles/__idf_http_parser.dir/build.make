@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/diegolagos/esp_projects/robot_audio
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build
 
 # Include any dependencies generated for this target.
 include esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/depend.make
@@ -72,16 +72,16 @@ include esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/flags.make
 esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj: esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/flags.make
 esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj: /home/diegolagos/esp-idf/components/http_parser/http_parser.c
 esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj: esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diegolagos/esp_projects/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/http_parser && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj -MF CMakeFiles/__idf_http_parser.dir/http_parser.c.obj.d -o CMakeFiles/__idf_http_parser.dir/http_parser.c.obj -c /home/diegolagos/esp-idf/components/http_parser/http_parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/http_parser && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj -MF CMakeFiles/__idf_http_parser.dir/http_parser.c.obj.d -o CMakeFiles/__idf_http_parser.dir/http_parser.c.obj -c /home/diegolagos/esp-idf/components/http_parser/http_parser.c
 
 esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_http_parser.dir/http_parser.c.i"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/http_parser && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diegolagos/esp-idf/components/http_parser/http_parser.c > CMakeFiles/__idf_http_parser.dir/http_parser.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/http_parser && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diegolagos/esp-idf/components/http_parser/http_parser.c > CMakeFiles/__idf_http_parser.dir/http_parser.c.i
 
 esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_http_parser.dir/http_parser.c.s"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/http_parser && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diegolagos/esp-idf/components/http_parser/http_parser.c -o CMakeFiles/__idf_http_parser.dir/http_parser.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/http_parser && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diegolagos/esp-idf/components/http_parser/http_parser.c -o CMakeFiles/__idf_http_parser.dir/http_parser.c.s
 
 # Object files for target __idf_http_parser
 __idf_http_parser_OBJECTS = \
@@ -93,19 +93,19 @@ __idf_http_parser_EXTERNAL_OBJECTS =
 esp-idf/http_parser/libhttp_parser.a: esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj
 esp-idf/http_parser/libhttp_parser.a: esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/build.make
 esp-idf/http_parser/libhttp_parser.a: esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/diegolagos/esp_projects/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libhttp_parser.a"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/http_parser && $(CMAKE_COMMAND) -P CMakeFiles/__idf_http_parser.dir/cmake_clean_target.cmake
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/http_parser && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_http_parser.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libhttp_parser.a"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/http_parser && $(CMAKE_COMMAND) -P CMakeFiles/__idf_http_parser.dir/cmake_clean_target.cmake
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/http_parser && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_http_parser.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/build: esp-idf/http_parser/libhttp_parser.a
 .PHONY : esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/build
 
 esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/clean:
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/http_parser && $(CMAKE_COMMAND) -P CMakeFiles/__idf_http_parser.dir/cmake_clean.cmake
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/http_parser && $(CMAKE_COMMAND) -P CMakeFiles/__idf_http_parser.dir/cmake_clean.cmake
 .PHONY : esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/clean
 
 esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp_projects/robot_audio /home/diegolagos/esp-idf/components/http_parser /home/diegolagos/esp_projects/robot_audio/build /home/diegolagos/esp_projects/robot_audio/build/esp-idf/http_parser /home/diegolagos/esp_projects/robot_audio/build/esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio /home/diegolagos/esp-idf/components/http_parser /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/http_parser /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/depend
 

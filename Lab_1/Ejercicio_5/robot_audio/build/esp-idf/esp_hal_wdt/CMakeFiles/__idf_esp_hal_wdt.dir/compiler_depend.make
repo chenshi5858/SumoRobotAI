@@ -4,6 +4,7 @@
 esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/esp32s3/mwdt_periph.c.obj: /home/diegolagos/esp-idf/components/esp_hal_wdt/esp32s3/mwdt_periph.c
 
 esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/rom_patch.c.obj: /home/diegolagos/esp-idf/components/esp_hal_wdt/rom_patch.c \
+  config/sdkconfig.h \
   /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h \
   /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h \
   /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h \
@@ -64,10 +65,10 @@ esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/rom_patch.c.obj: /home/dieg
   /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
   /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h \
   /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
-  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h
+  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
 
 esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/xt_wdt_hal.c.obj: /home/diegolagos/esp-idf/components/esp_hal_wdt/xt_wdt_hal.c \
+  config/sdkconfig.h \
   /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h \
   /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h \
   /home/diegolagos/esp-idf/components/esp_hal_wdt/esp32s3/include/hal/xt_wdt_ll.h \
@@ -104,8 +105,7 @@ esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/xt_wdt_hal.c.obj: /home/die
   /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
   /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h \
   /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
-  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h \
-  config/sdkconfig.h
+  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
 
 
 /home/diegolagos/esp-idf/components/esp_hal_wdt/include/hal/xt_wdt_hal.h:
@@ -156,6 +156,12 @@ esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/xt_wdt_hal.c.obj: /home/die
 
 /home/diegolagos/esp-idf/components/soc/esp32s3/register/soc/timer_group_reg.h:
 
+/home/diegolagos/esp-idf/components/esp_libc/platform_include/sys/cdefs.h:
+
+/home/diegolagos/esp-idf/components/esp_rom/esp32s3/esp_rom_caps.h:
+
+/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/ieeefp.h:
+
 /home/diegolagos/esp-idf/components/esp_hal_wdt/rom_patch.c:
 
 /home/diegolagos/esp-idf/components/soc/esp32s3/register/soc/timer_group_struct.h:
@@ -178,21 +184,19 @@ esp-idf/esp_hal_wdt/CMakeFiles/__idf_esp_hal_wdt.dir/xt_wdt_hal.c.obj: /home/die
 
 /home/diegolagos/esp-idf/components/esp_hal_wdt/include/hal/wdt_hal.h:
 
-config/sdkconfig.h:
-
-/home/diegolagos/esp-idf/components/esp_hal_timg/esp32s3/include/hal/timg_ll.h:
-
 /home/diegolagos/esp-idf/components/soc/esp32s3/include/soc/efuse_defs.h:
 
 /home/diegolagos/esp-idf/components/esp_hal_wdt/esp32s3/include/hal/rwdt_ll.h:
 
 /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_intsup.h:
 
-/home/diegolagos/esp-idf/components/esp_rom/esp32s3/esp_rom_caps.h:
+/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_wait.h:
 
-/home/diegolagos/esp-idf/components/esp_libc/platform_include/sys/cdefs.h:
+/home/diegolagos/esp-idf/components/esp_hal_wdt/include/hal/wdt_types.h:
 
-/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/ieeefp.h:
+/home/diegolagos/esp-idf/components/esp_hal_timg/esp32s3/include/hal/timg_ll.h:
+
+config/sdkconfig.h:
 
 /home/diegolagos/esp-idf/components/esp_libc/platform_include/assert.h:
 
@@ -221,10 +225,6 @@ config/sdkconfig.h:
 /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h:
 
 /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_default_types.h:
-
-/home/diegolagos/esp-idf/components/esp_hal_wdt/include/hal/wdt_types.h:
-
-/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_wait.h:
 
 /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h:
 

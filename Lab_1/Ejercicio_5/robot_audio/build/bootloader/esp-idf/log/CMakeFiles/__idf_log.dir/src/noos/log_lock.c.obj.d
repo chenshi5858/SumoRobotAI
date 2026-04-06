@@ -1,7 +1,7 @@
 esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_lock.c.obj: \
  /home/diegolagos/esp-idf/components/log/src/noos/log_lock.c \
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/assert.h \
- /home/diegolagos/esp_projects/robot_audio/build/bootloader/config/sdkconfig.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/config/sdkconfig.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h \
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \

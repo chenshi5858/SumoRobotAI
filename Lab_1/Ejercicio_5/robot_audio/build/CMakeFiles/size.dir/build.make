@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/diegolagos/esp_projects/robot_audio
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build
 
 # Utility rule file for size.
 
@@ -67,7 +67,7 @@ include CMakeFiles/size.dir/compiler_depend.make
 include CMakeFiles/size.dir/progress.make
 
 CMakeFiles/size: robot_audio.map
-	/usr/bin/cmake -D "IDF_SIZE_TOOL=/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python;-m;esp_idf_size" -D MAP_FILE=/home/diegolagos/esp_projects/robot_audio/build/robot_audio.map -D OUTPUT_JSON= -P /home/diegolagos/esp-idf/tools/cmake/run_size_tool.cmake
+	/usr/bin/cmake -D "IDF_SIZE_TOOL=/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python;-m;esp_idf_size" -D MAP_FILE=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/robot_audio.map -D OUTPUT_JSON= -P /home/diegolagos/esp-idf/tools/cmake/run_size_tool.cmake
 
 size: CMakeFiles/size
 size: CMakeFiles/size.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/size.dir/clean:
 .PHONY : CMakeFiles/size.dir/clean
 
 CMakeFiles/size.dir/depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp_projects/robot_audio /home/diegolagos/esp_projects/robot_audio /home/diegolagos/esp_projects/robot_audio/build /home/diegolagos/esp_projects/robot_audio/build /home/diegolagos/esp_projects/robot_audio/build/CMakeFiles/size.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles/size.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/size.dir/depend
 

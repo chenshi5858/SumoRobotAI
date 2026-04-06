@@ -1,7 +1,7 @@
 esp-idf/esp_hal_mspi/CMakeFiles/__idf_esp_hal_mspi.dir/spi_flash_hal_iram.c.obj: \
  /home/diegolagos/esp-idf/components/esp_hal_mspi/spi_flash_hal_iram.c \
  /home/diegolagos/esp-idf/components/hal/platform_port/include/hal/config.h \
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h \
  /home/diegolagos/esp-idf/components/esp_hal_mspi/include/hal/spi_flash_hal.h \
  /home/diegolagos/esp-idf/components/esp_hal_mspi/esp32s3/include/hal/spi_flash_ll.h \
  /home/diegolagos/esp-idf/components/esp_hal_mspi/esp32s3/include/hal/gpspi_flash_ll.h \

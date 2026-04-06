@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/diegolagos/esp_projects/robot_audio/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/include/cmake_install.cmake")
-  include("/home/diegolagos/esp_projects/robot_audio/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/cmake_install.cmake")
-  include("/home/diegolagos/esp_projects/robot_audio/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/cmake_install.cmake")
-  include("/home/diegolagos/esp_projects/robot_audio/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/pkgconfig/cmake_install.cmake")
+  include("/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/include/cmake_install.cmake")
+  include("/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/cmake_install.cmake")
+  include("/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/cmake_install.cmake")
+  include("/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/pkgconfig/cmake_install.cmake")
 
 endif()
 
