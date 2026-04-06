@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/diegolagos/esp-idf")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/diegolagos/esp_projects/robot_audio/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/diegolagos/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build/bootloader
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader
 
 # Utility rule file for efuse_test_table.
 
@@ -67,7 +67,7 @@ include esp-idf/efuse/CMakeFiles/efuse_test_table.dir/compiler_depend.make
 include esp-idf/efuse/CMakeFiles/efuse_test_table.dir/progress.make
 
 esp-idf/efuse/CMakeFiles/efuse_test_table:
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader/esp-idf/efuse && /home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/diegolagos/esp-idf/components/efuse/efuse_table_gen.py /home/diegolagos/esp-idf/components/efuse/test/esp_efuse_test_table.csv -t esp32s3 --max_blk_len 256
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/esp-idf/efuse && /home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/diegolagos/esp-idf/components/efuse/efuse_table_gen.py /home/diegolagos/esp-idf/components/efuse/test/esp_efuse_test_table.csv -t esp32s3 --max_blk_len 256
 
 efuse_test_table: esp-idf/efuse/CMakeFiles/efuse_test_table
 efuse_test_table: esp-idf/efuse/CMakeFiles/efuse_test_table.dir/build.make
@@ -78,10 +78,10 @@ esp-idf/efuse/CMakeFiles/efuse_test_table.dir/build: efuse_test_table
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_test_table.dir/build
 
 esp-idf/efuse/CMakeFiles/efuse_test_table.dir/clean:
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse_test_table.dir/cmake_clean.cmake
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse_test_table.dir/cmake_clean.cmake
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_test_table.dir/clean
 
 esp-idf/efuse/CMakeFiles/efuse_test_table.dir/depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/esp-idf/components/efuse /home/diegolagos/esp_projects/robot_audio/build/bootloader /home/diegolagos/esp_projects/robot_audio/build/bootloader/esp-idf/efuse /home/diegolagos/esp_projects/robot_audio/build/bootloader/esp-idf/efuse/CMakeFiles/efuse_test_table.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/esp-idf/components/efuse /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/esp-idf/efuse /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/esp-idf/efuse/CMakeFiles/efuse_test_table.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_test_table.dir/depend
 

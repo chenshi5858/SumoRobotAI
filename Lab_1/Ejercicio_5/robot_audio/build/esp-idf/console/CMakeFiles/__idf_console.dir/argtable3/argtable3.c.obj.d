@@ -2,7 +2,7 @@ esp-idf/console/CMakeFiles/__idf_console.dir/argtable3/argtable3.c.obj: \
  /home/diegolagos/esp-idf/components/console/argtable3/argtable3.c \
  /home/diegolagos/esp-idf/components/console/private_include/console_stdio_private.h \
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/stdio.h \
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/picolibc.h \

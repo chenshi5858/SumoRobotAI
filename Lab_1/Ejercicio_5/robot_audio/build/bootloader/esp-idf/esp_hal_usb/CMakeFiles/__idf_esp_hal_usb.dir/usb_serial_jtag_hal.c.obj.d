@@ -3,7 +3,7 @@ esp-idf/esp_hal_usb/CMakeFiles/__idf_esp_hal_usb.dir/usb_serial_jtag_hal.c.obj: 
  /home/diegolagos/esp-idf/components/esp_hal_usb/esp32s3/include/hal/usb_serial_jtag_ll.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h \
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h \
- /home/diegolagos/esp_projects/robot_audio/build/bootloader/config/sdkconfig.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/config/sdkconfig.h \
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h \
  /home/diegolagos/esp-idf/components/esp_libc/platform_include/assert.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h \

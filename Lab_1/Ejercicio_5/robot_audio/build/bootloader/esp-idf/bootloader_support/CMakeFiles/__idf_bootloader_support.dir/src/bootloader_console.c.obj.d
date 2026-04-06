@@ -1,6 +1,6 @@
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console.c.obj: \
  /home/diegolagos/esp-idf/components/bootloader_support/src/bootloader_console.c \
- /home/diegolagos/esp_projects/robot_audio/build/bootloader/config/sdkconfig.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/config/sdkconfig.h \
  /home/diegolagos/esp-idf/components/bootloader_support/private_include/bootloader_console.h \
  /home/diegolagos/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/diegolagos/esp-idf/components/soc/include/soc/soc_caps_eval.h \

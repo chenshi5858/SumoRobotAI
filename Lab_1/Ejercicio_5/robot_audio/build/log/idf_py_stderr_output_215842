@@ -1,4 +1,4 @@
-Command: cmake -G Unix Makefiles -B /home/diegolagos/esp_projects/robot_audio/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python -DESP_PLATFORM=1 -DIDF_TARGET=esp32s3 -DCCACHE_ENABLE=False /home/diegolagos/esp_projects/robot_audio
+Command: cmake -G Unix Makefiles -B /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio
 Configuration Report               
  ───────────────────────────────── 
    Parser Version: 1               

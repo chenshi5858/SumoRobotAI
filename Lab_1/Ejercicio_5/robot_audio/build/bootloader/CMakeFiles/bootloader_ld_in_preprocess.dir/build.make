@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/diegolagos/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build/bootloader
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader
 
 # Utility rule file for bootloader_ld_in_preprocess.
 
@@ -70,8 +70,8 @@ CMakeFiles/bootloader_ld_in_preprocess: ld/bootloader.ld
 
 ld/bootloader.ld: /home/diegolagos/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.ld.in
 ld/bootloader.ld: config/sdkconfig.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/diegolagos/esp_projects/robot_audio/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Preprocessing linker script /home/diegolagos/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.ld.in -> /home/diegolagos/esp_projects/robot_audio/build/bootloader/ld/bootloader.ld"
-	/usr/bin/cmake -DCC=/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -DSOURCE=/home/diegolagos/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.ld.in -DTARGET=/home/diegolagos/esp_projects/robot_audio/build/bootloader/ld/bootloader.ld "-DCFLAGS=-I\"/home/diegolagos/esp_projects/robot_audio/build/bootloader/config\" -I\"/home/diegolagos/esp-idf/components/bootloader/subproject/main/ld\"" -P /home/diegolagos/esp-idf/tools/cmake/linker_script_preprocessor.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Preprocessing linker script /home/diegolagos/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.ld.in -> /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/ld/bootloader.ld"
+	/usr/bin/cmake -DCC=/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -DSOURCE=/home/diegolagos/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.ld.in -DTARGET=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/ld/bootloader.ld "-DCFLAGS=-I\"/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/config\" -I\"/home/diegolagos/esp-idf/components/bootloader/subproject/main/ld\"" -P /home/diegolagos/esp-idf/tools/cmake/linker_script_preprocessor.cmake
 
 bootloader_ld_in_preprocess: CMakeFiles/bootloader_ld_in_preprocess
 bootloader_ld_in_preprocess: ld/bootloader.ld
@@ -87,6 +87,6 @@ CMakeFiles/bootloader_ld_in_preprocess.dir/clean:
 .PHONY : CMakeFiles/bootloader_ld_in_preprocess.dir/clean
 
 CMakeFiles/bootloader_ld_in_preprocess.dir/depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/esp_projects/robot_audio/build/bootloader /home/diegolagos/esp_projects/robot_audio/build/bootloader /home/diegolagos/esp_projects/robot_audio/build/bootloader/CMakeFiles/bootloader_ld_in_preprocess.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/CMakeFiles/bootloader_ld_in_preprocess.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/bootloader_ld_in_preprocess.dir/depend
 

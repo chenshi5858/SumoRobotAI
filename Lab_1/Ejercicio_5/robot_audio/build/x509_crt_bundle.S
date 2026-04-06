@@ -1,4 +1,4 @@
-/* * Data converted from /home/diegolagos/esp_projects/robot_audio/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

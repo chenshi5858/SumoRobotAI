@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/diegolagos/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers_asm.S" "/home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/debug_helpers_asm.S.obj"
-  "/home/diegolagos/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S" "/home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_handler.S.obj"
-  "/home/diegolagos/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_routines.S" "/home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_routines.S.obj"
-  "/home/diegolagos/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack_asm.S" "/home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/expression_with_stack_asm.S.obj"
-  "/home/diegolagos/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S" "/home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/panic_handler_asm.S.obj"
-  "/home/diegolagos/esp-idf/components/esp_system/port/soc/esp32s3/highint_hdl.S" "/home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32s3/highint_hdl.S.obj"
+  "/home/diegolagos/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers_asm.S" "/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/debug_helpers_asm.S.obj"
+  "/home/diegolagos/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S" "/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_handler.S.obj"
+  "/home/diegolagos/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_routines.S" "/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_routines.S.obj"
+  "/home/diegolagos/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack_asm.S" "/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/expression_with_stack_asm.S.obj"
+  "/home/diegolagos/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S" "/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/panic_handler_asm.S.obj"
+  "/home/diegolagos/esp-idf/components/esp_system/port/soc/esp32s3/highint_hdl.S" "/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32s3/highint_hdl.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 

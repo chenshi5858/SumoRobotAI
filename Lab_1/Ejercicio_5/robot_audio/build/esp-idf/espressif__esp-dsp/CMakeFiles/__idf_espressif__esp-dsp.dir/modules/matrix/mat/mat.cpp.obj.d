@@ -1,5 +1,5 @@
 esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matrix/mat/mat.cpp.obj: \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/mat/mat.cpp \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/mat/mat.cpp \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/stdexcept \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/exception \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/xtensa-esp-elf/include/c++/15.2.0/xtensa-esp-elf/esp32s3/no-rtti/bits/c++config.h \
@@ -34,7 +34,7 @@ esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matri
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/picolibc.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_default_types.h \
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_intsup.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_stdint.h \
@@ -120,7 +120,7 @@ esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matri
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/string.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/strings.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/include/mat.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/include/mat.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/iostream \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/ostream \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/bits/ostream.h \
@@ -220,34 +220,34 @@ esp-idf/espressif__esp-dsp/CMakeFiles/__idf_espressif__esp-dsp.dir/modules/matri
  /home/diegolagos/esp-idf/components/log/include/esp_log_attr.h \
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h \
  /home/diegolagos/esp-idf/components/log/include/esp_private/log_attr.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/include/dsps_math.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/add/include/dsps_add.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_err.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/include/dsps_math.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/add/include/dsps_add.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_err.h \
  /home/diegolagos/esp-idf/components/esp_common/include/esp_err.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_err_codes.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/add/include/dsps_add_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/common/include/dsp_err_codes.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/add/include/dsps_add_platform.h \
  /home/diegolagos/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
  /home/diegolagos/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/sub/include/dsps_sub.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/sub/include/dsps_sub_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/mul/include/dsps_mul.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/mul/include/dsps_mul_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/addc/include/dsps_addc.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/addc/include/dsps_addc_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/mulc/include/dsps_mulc.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/mulc/include/dsps_mulc_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/math/sqrt/include/dsps_sqrt.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/include/dspm_matrix.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/add/include/dspm_add.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/add/include/dspm_add_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/addc/include/dspm_addc.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/addc/include/dspm_addc_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/mul/include/dspm_mult.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/mul/include/dspm_mult_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/mulc/include/dspm_mulc.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/mulc/include/dspm_mulc_platform.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/sub/include/dspm_sub.h \
- /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/sub/include/dspm_sub_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/sub/include/dsps_sub.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/sub/include/dsps_sub_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/mul/include/dsps_mul.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/mul/include/dsps_mul_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/addc/include/dsps_addc.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/addc/include/dsps_addc_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/mulc/include/dsps_mulc.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/mulc/include/dsps_mulc_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/math/sqrt/include/dsps_sqrt.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/include/dspm_matrix.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/add/include/dspm_add.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/add/include/dspm_add_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/addc/include/dspm_addc.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/addc/include/dspm_addc_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/mul/include/dspm_mult.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/mul/include/dspm_mult_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/mulc/include/dspm_mulc.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/mulc/include/dspm_mulc_platform.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/sub/include/dspm_sub.h \
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp/modules/matrix/sub/include/dspm_sub_platform.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/math.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/math.h \
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/cmath \

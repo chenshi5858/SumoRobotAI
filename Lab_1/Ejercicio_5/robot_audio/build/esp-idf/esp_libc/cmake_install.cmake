@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_libc/src/port/cmake_install.cmake")
+  include("/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_libc/src/port/cmake_install.cmake")
 endif()
 

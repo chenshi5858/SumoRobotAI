@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/diegolagos/esp_projects/robot_audio
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build
 
 # Utility rule file for encrypted-partition-table-flash.
 
@@ -67,9 +67,9 @@ include esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/c
 include esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/progress.make
 
 esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash:
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/partition_table && /usr/bin/cmake -E echo "Error: The target encrypted-partition-table-flash requires"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/partition_table && /usr/bin/cmake -E echo "CONFIG_SECURE_FLASH_ENCRYPTION_MODE_DEVELOPMENT to be enabled."
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/partition_table && /usr/bin/cmake -E env "FAIL_MESSAGE=Failed executing target (see errors on lines above)" /usr/bin/cmake -P /home/diegolagos/esp-idf/tools/cmake/scripts/fail.cmake
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/partition_table && /usr/bin/cmake -E echo "Error: The target encrypted-partition-table-flash requires"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/partition_table && /usr/bin/cmake -E echo "CONFIG_SECURE_FLASH_ENCRYPTION_MODE_DEVELOPMENT to be enabled."
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/partition_table && /usr/bin/cmake -E env "FAIL_MESSAGE=Failed executing target (see errors on lines above)" /usr/bin/cmake -P /home/diegolagos/esp-idf/tools/cmake/scripts/fail.cmake
 
 encrypted-partition-table-flash: esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash
 encrypted-partition-table-flash: esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/build.make
@@ -80,10 +80,10 @@ esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/build: en
 .PHONY : esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/build
 
 esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/clean:
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/encrypted-partition-table-flash.dir/cmake_clean.cmake
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/encrypted-partition-table-flash.dir/cmake_clean.cmake
 .PHONY : esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/clean
 
 esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp_projects/robot_audio /home/diegolagos/esp-idf/components/partition_table /home/diegolagos/esp_projects/robot_audio/build /home/diegolagos/esp_projects/robot_audio/build/esp-idf/partition_table /home/diegolagos/esp_projects/robot_audio/build/esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio /home/diegolagos/esp-idf/components/partition_table /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/partition_table /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/partition_table/CMakeFiles/encrypted-partition-table-flash.dir/depend
 

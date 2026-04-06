@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/diegolagos/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build/bootloader
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader && $(CMAKE_COMMAND) -E cmake_progress_start /home/diegolagos/esp_projects/robot_audio/build/bootloader/CMakeFiles /home/diegolagos/esp_projects/robot_audio/build/bootloader/esp-idf/esp_system//CMakeFiles/progress.marks
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_system/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/diegolagos/esp_projects/robot_audio/build/bootloader/CMakeFiles 0
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader && $(CMAKE_COMMAND) -E cmake_progress_start /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/CMakeFiles /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/esp-idf/esp_system//CMakeFiles/progress.marks
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_system/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_system/clean
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_system/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_system/preinstall
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_system/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_system/preinstall
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_system/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/rule:
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/rule
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/rule
 .PHONY : esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ __idf_esp_system: esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/rule
 
 # fast build rule for target.
 __idf_esp_system/fast:
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build
 .PHONY : __idf_esp_system/fast
 
 esp_err.obj: esp_err.c.obj
@@ -135,7 +135,7 @@ esp_err.obj: esp_err.c.obj
 
 # target to build an object file
 esp_err.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj
 .PHONY : esp_err.c.obj
 
 esp_err.i: esp_err.c.i
@@ -143,7 +143,7 @@ esp_err.i: esp_err.c.i
 
 # target to preprocess a source file
 esp_err.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.i
 .PHONY : esp_err.c.i
 
 esp_err.s: esp_err.c.s
@@ -151,7 +151,7 @@ esp_err.s: esp_err.c.s
 
 # target to generate assembly for a file
 esp_err.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader && $(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.s
 .PHONY : esp_err.c.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/diegolagos/esp_projects/robot_audio/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

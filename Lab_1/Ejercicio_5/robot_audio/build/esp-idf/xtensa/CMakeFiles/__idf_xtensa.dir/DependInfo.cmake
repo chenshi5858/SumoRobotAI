@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/diegolagos/esp-idf/components/xtensa/xtensa_context.S" "/home/diegolagos/esp_projects/robot_audio/build/esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_context.S.obj"
-  "/home/diegolagos/esp-idf/components/xtensa/xtensa_intr_asm.S" "/home/diegolagos/esp_projects/robot_audio/build/esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_intr_asm.S.obj"
-  "/home/diegolagos/esp-idf/components/xtensa/xtensa_vectors.S" "/home/diegolagos/esp_projects/robot_audio/build/esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_vectors.S.obj"
+  "/home/diegolagos/esp-idf/components/xtensa/xtensa_context.S" "/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_context.S.obj"
+  "/home/diegolagos/esp-idf/components/xtensa/xtensa_intr_asm.S" "/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_intr_asm.S.obj"
+  "/home/diegolagos/esp-idf/components/xtensa/xtensa_vectors.S" "/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_vectors.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 

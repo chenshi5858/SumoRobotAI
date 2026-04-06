@@ -3,6 +3,7 @@
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash.c.obj
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_priv.h
@@ -103,10 +104,10 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_fl
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/param.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32s3.c.obj
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32s3.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_config.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h
@@ -218,10 +219,10 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_fl
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/param.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/flash_qio_mode.c.obj
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/src/flash_qio_mode.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_config.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h
@@ -321,10 +322,10 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_fl
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/param.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_init.c.obj
  /home/diegolagos/esp-idf/components/bootloader_support/src/bootloader_clock_init.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
  /home/diegolagos/esp-idf/components/esp_hw_support/port/esp32s3/include/soc/rtc.h
@@ -377,10 +378,10 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj
  /home/diegolagos/esp-idf/components/bootloader_support/src/bootloader_common.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_priv.h
@@ -490,10 +491,10 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/param.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj
  /home/diegolagos/esp-idf/components/bootloader_support/src/bootloader_common_loader.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_priv.h
@@ -601,10 +602,10 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/param.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_efuse.c.obj
  /home/diegolagos/esp-idf/components/bootloader_support/src/bootloader_efuse.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/bootloader_common.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/esp_app_format.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/esp_flash_partitions.h
@@ -660,10 +661,10 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_mem.c.obj
  /home/diegolagos/esp-idf/components/bootloader_support/src/bootloader_mem.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/bootloader_mem.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
@@ -722,10 +723,10 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random.c.obj
  /home/diegolagos/esp-idf/components/bootloader_support/src/bootloader_random.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/bootloader_random.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
@@ -811,10 +812,10 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32s3.c.obj
  /home/diegolagos/esp-idf/components/bootloader_support/src/bootloader_random_esp32s3.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/bootloader_random.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
@@ -884,10 +885,10 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_sha.c.obj
  /home/diegolagos/esp-idf/components/bootloader_support/src/bootloader_sha.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_priv.h
@@ -1026,10 +1027,10 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/param.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj
  /home/diegolagos/esp-idf/components/bootloader_support/src/bootloader_utility.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_priv.h
@@ -1184,10 +1185,10 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloade
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/param.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32s3/secure_boot_secure_features.c.obj
  /home/diegolagos/esp-idf/components/bootloader_support/src/esp32s3/secure_boot_secure_features.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/esp_app_format.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/esp_flash_partitions.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/esp_image_format.h
@@ -1263,10 +1264,10 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32s3/s
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj
  /home/diegolagos/esp-idf/components/bootloader_support/src/esp_image_format.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_override.h
  /home/diegolagos/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_priv.h
@@ -1407,10 +1408,10 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/param.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_encrypt.c.obj
  /home/diegolagos/esp-idf/components/bootloader_support/src/flash_encrypt.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/esp_app_format.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/esp_flash_encrypt.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/esp_flash_partitions.h
@@ -1494,10 +1495,10 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_enc
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_partitions.c.obj
  /home/diegolagos/esp-idf/components/bootloader_support/src/flash_partitions.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/esp_flash_partitions.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
  /home/diegolagos/esp-idf/components/esp_common/include/esp_attr.h
@@ -1554,10 +1555,10 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_par
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_boot.c.obj
  /home/diegolagos/esp-idf/components/bootloader_support/src/secure_boot.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/esp_app_format.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/esp_flash_partitions.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/esp_image_format.h
@@ -1635,5 +1636,4 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_bo
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 

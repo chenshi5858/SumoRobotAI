@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/diegolagos/esp_projects/robot_audio
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/robot_audio.elf.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/robot_audio.elf.dir/flags.make
 CMakeFiles/robot_audio.elf.dir/project_elf_src_esp32s3.c.obj: CMakeFiles/robot_audio.elf.dir/flags.make
 CMakeFiles/robot_audio.elf.dir/project_elf_src_esp32s3.c.obj: project_elf_src_esp32s3.c
 CMakeFiles/robot_audio.elf.dir/project_elf_src_esp32s3.c.obj: CMakeFiles/robot_audio.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diegolagos/esp_projects/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/robot_audio.elf.dir/project_elf_src_esp32s3.c.obj"
-	/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/robot_audio.elf.dir/project_elf_src_esp32s3.c.obj -MF CMakeFiles/robot_audio.elf.dir/project_elf_src_esp32s3.c.obj.d -o CMakeFiles/robot_audio.elf.dir/project_elf_src_esp32s3.c.obj -c /home/diegolagos/esp_projects/robot_audio/build/project_elf_src_esp32s3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/robot_audio.elf.dir/project_elf_src_esp32s3.c.obj"
+	/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/robot_audio.elf.dir/project_elf_src_esp32s3.c.obj -MF CMakeFiles/robot_audio.elf.dir/project_elf_src_esp32s3.c.obj.d -o CMakeFiles/robot_audio.elf.dir/project_elf_src_esp32s3.c.obj -c /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/project_elf_src_esp32s3.c
 
 CMakeFiles/robot_audio.elf.dir/project_elf_src_esp32s3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/robot_audio.elf.dir/project_elf_src_esp32s3.c.i"
-	/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diegolagos/esp_projects/robot_audio/build/project_elf_src_esp32s3.c > CMakeFiles/robot_audio.elf.dir/project_elf_src_esp32s3.c.i
+	/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/project_elf_src_esp32s3.c > CMakeFiles/robot_audio.elf.dir/project_elf_src_esp32s3.c.i
 
 CMakeFiles/robot_audio.elf.dir/project_elf_src_esp32s3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/robot_audio.elf.dir/project_elf_src_esp32s3.c.s"
-	/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diegolagos/esp_projects/robot_audio/build/project_elf_src_esp32s3.c -o CMakeFiles/robot_audio.elf.dir/project_elf_src_esp32s3.c.s
+	/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/project_elf_src_esp32s3.c -o CMakeFiles/robot_audio.elf.dir/project_elf_src_esp32s3.c.s
 
 # Object files for target robot_audio.elf
 robot_audio_elf_OBJECTS = \
@@ -222,6 +222,7 @@ robot_audio.elf: esp-idf/sdmmc/libsdmmc.a
 robot_audio.elf: esp-idf/esp_hal_sd/libesp_hal_sd.a
 robot_audio.elf: esp-idf/wear_levelling/libwear_levelling.a
 robot_audio.elf: esp-idf/esp_driver_spi/libesp_driver_spi.a
+robot_audio.elf: esp-idf/spiffs/libspiffs.a
 robot_audio.elf: esp-idf/espressif__esp-dsp/libespressif__esp-dsp.a
 robot_audio.elf: esp-idf/xtensa/libxtensa.a
 robot_audio.elf: esp-idf/esp_stdio/libesp_stdio.a
@@ -659,7 +660,7 @@ robot_audio.elf: /home/diegolagos/esp-idf/components/soc/esp32s3/ld/esp32s3.peri
 robot_audio.elf: /home/diegolagos/esp-idf/components/esp_hal_regi2c/esp32s3/rom.regi2c.ld
 robot_audio.elf: esp-idf/esp_system/ld/sections.ld
 robot_audio.elf: CMakeFiles/robot_audio.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/diegolagos/esp_projects/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable robot_audio.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable robot_audio.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/robot_audio.elf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -671,6 +672,6 @@ CMakeFiles/robot_audio.elf.dir/clean:
 .PHONY : CMakeFiles/robot_audio.elf.dir/clean
 
 CMakeFiles/robot_audio.elf.dir/depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp_projects/robot_audio /home/diegolagos/esp_projects/robot_audio /home/diegolagos/esp_projects/robot_audio/build /home/diegolagos/esp_projects/robot_audio/build /home/diegolagos/esp_projects/robot_audio/build/CMakeFiles/robot_audio.elf.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles/robot_audio.elf.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/robot_audio.elf.dir/depend
 

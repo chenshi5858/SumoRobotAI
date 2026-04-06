@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/diegolagos/esp-idf/components/esp_rom/patches/esp_rom_cache_writeback_esp32s3.S" "/home/diegolagos/esp_projects/robot_audio/build/bootloader/esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_cache_writeback_esp32s3.S.obj"
-  "/home/diegolagos/esp-idf/components/esp_rom/patches/esp_rom_longjmp.S" "/home/diegolagos/esp_projects/robot_audio/build/bootloader/esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj"
+  "/home/diegolagos/esp-idf/components/esp_rom/patches/esp_rom_cache_writeback_esp32s3.S" "/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_cache_writeback_esp32s3.S.obj"
+  "/home/diegolagos/esp-idf/components/esp_rom/patches/esp_rom_longjmp.S" "/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/bootloader/esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 

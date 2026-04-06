@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/diegolagos/esp_projects/robot_audio
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build
 
 # Include any dependencies generated for this target.
 include esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/depend.make
@@ -72,16 +72,16 @@ include esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/flags.make
 esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj: esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/flags.make
 esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj: /home/diegolagos/esp-idf/components/esp_driver_pcnt/src/pulse_cnt.c
 esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj: esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diegolagos/esp_projects/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_pcnt && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj -MF CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj.d -o CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj -c /home/diegolagos/esp-idf/components/esp_driver_pcnt/src/pulse_cnt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_pcnt && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj -MF CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj.d -o CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj -c /home/diegolagos/esp-idf/components/esp_driver_pcnt/src/pulse_cnt.c
 
 esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.i"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_pcnt && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diegolagos/esp-idf/components/esp_driver_pcnt/src/pulse_cnt.c > CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_pcnt && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diegolagos/esp-idf/components/esp_driver_pcnt/src/pulse_cnt.c > CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.i
 
 esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.s"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_pcnt && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diegolagos/esp-idf/components/esp_driver_pcnt/src/pulse_cnt.c -o CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_pcnt && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diegolagos/esp-idf/components/esp_driver_pcnt/src/pulse_cnt.c -o CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.s
 
 # Object files for target __idf_esp_driver_pcnt
 __idf_esp_driver_pcnt_OBJECTS = \
@@ -93,19 +93,19 @@ __idf_esp_driver_pcnt_EXTERNAL_OBJECTS =
 esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a: esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj
 esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a: esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/build.make
 esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a: esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/diegolagos/esp_projects/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libesp_driver_pcnt.a"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_pcnt && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_driver_pcnt.dir/cmake_clean_target.cmake
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_pcnt && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_driver_pcnt.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libesp_driver_pcnt.a"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_pcnt && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_driver_pcnt.dir/cmake_clean_target.cmake
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_pcnt && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_driver_pcnt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/build: esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
 .PHONY : esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/build
 
 esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/clean:
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_pcnt && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_driver_pcnt.dir/cmake_clean.cmake
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_pcnt && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_driver_pcnt.dir/cmake_clean.cmake
 .PHONY : esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/clean
 
 esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp_projects/robot_audio /home/diegolagos/esp-idf/components/esp_driver_pcnt /home/diegolagos/esp_projects/robot_audio/build /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_pcnt /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio /home/diegolagos/esp-idf/components/esp_driver_pcnt /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_pcnt /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/depend
 

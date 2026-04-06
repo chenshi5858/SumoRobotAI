@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/diegolagos/esp_projects/robot_audio
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/diegolagos/esp_projects/robot_audio/build/CMakeFiles /home/diegolagos/esp_projects/robot_audio/build/esp-idf/esp_hal_cam//CMakeFiles/progress.marks
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_cam/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/diegolagos/esp_projects/robot_audio/build/CMakeFiles 0
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/esp_hal_cam//CMakeFiles/progress.marks
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_cam/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_cam/clean
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_cam/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_cam/preinstall
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_cam/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_cam/preinstall
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_cam/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/rule:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/rule
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/rule
 .PHONY : esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_esp_hal_cam: esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/rule
 
 # fast build rule for target.
 __idf_esp_hal_cam/fast:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/build.make esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/build
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/build.make esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/build
 .PHONY : __idf_esp_hal_cam/fast
 
 cam_hal.obj: cam_hal.c.obj
@@ -180,7 +180,7 @@ cam_hal.obj: cam_hal.c.obj
 
 # target to build an object file
 cam_hal.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/build.make esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/cam_hal.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/build.make esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/cam_hal.c.obj
 .PHONY : cam_hal.c.obj
 
 cam_hal.i: cam_hal.c.i
@@ -188,7 +188,7 @@ cam_hal.i: cam_hal.c.i
 
 # target to preprocess a source file
 cam_hal.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/build.make esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/cam_hal.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/build.make esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/cam_hal.c.i
 .PHONY : cam_hal.c.i
 
 cam_hal.s: cam_hal.c.s
@@ -196,7 +196,7 @@ cam_hal.s: cam_hal.c.s
 
 # target to generate assembly for a file
 cam_hal.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/build.make esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/cam_hal.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/build.make esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/cam_hal.c.s
 .PHONY : cam_hal.c.s
 
 esp32s3/cam_periph.obj: esp32s3/cam_periph.c.obj
@@ -204,7 +204,7 @@ esp32s3/cam_periph.obj: esp32s3/cam_periph.c.obj
 
 # target to build an object file
 esp32s3/cam_periph.c.obj:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/build.make esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/esp32s3/cam_periph.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/build.make esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/esp32s3/cam_periph.c.obj
 .PHONY : esp32s3/cam_periph.c.obj
 
 esp32s3/cam_periph.i: esp32s3/cam_periph.c.i
@@ -212,7 +212,7 @@ esp32s3/cam_periph.i: esp32s3/cam_periph.c.i
 
 # target to preprocess a source file
 esp32s3/cam_periph.c.i:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/build.make esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/esp32s3/cam_periph.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/build.make esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/esp32s3/cam_periph.c.i
 .PHONY : esp32s3/cam_periph.c.i
 
 esp32s3/cam_periph.s: esp32s3/cam_periph.c.s
@@ -220,7 +220,7 @@ esp32s3/cam_periph.s: esp32s3/cam_periph.c.s
 
 # target to generate assembly for a file
 esp32s3/cam_periph.c.s:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/build.make esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/esp32s3/cam_periph.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/build.make esp-idf/esp_hal_cam/CMakeFiles/__idf_esp_hal_cam.dir/esp32s3/cam_periph.c.s
 .PHONY : esp32s3/cam_periph.c.s
 
 # Help Target
@@ -253,6 +253,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

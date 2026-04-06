@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/diegolagos/esp_projects/robot_audio
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build
 
 # Utility rule file for dfu.
 
@@ -67,7 +67,7 @@ include CMakeFiles/dfu.dir/compiler_depend.make
 include CMakeFiles/dfu.dir/progress.make
 
 CMakeFiles/dfu:
-	/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/diegolagos/esp-idf/tools/mkdfu.py write -o /home/diegolagos/esp_projects/robot_audio/build/dfu.bin --json /home/diegolagos/esp_projects/robot_audio/build/flasher_args.json --pid 9 --flash-size 2MB
+	/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/diegolagos/esp-idf/tools/mkdfu.py write -o /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/dfu.bin --json /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/flasher_args.json --pid 9 --flash-size 2MB
 
 dfu: CMakeFiles/dfu
 dfu: CMakeFiles/dfu.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/dfu.dir/clean:
 .PHONY : CMakeFiles/dfu.dir/clean
 
 CMakeFiles/dfu.dir/depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp_projects/robot_audio /home/diegolagos/esp_projects/robot_audio /home/diegolagos/esp_projects/robot_audio/build /home/diegolagos/esp_projects/robot_audio/build /home/diegolagos/esp_projects/robot_audio/build/CMakeFiles/dfu.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles/dfu.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/dfu.dir/depend
 

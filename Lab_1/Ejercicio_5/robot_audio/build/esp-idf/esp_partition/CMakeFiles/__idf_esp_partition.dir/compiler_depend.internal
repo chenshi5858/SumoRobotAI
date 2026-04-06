@@ -3,6 +3,7 @@
 
 esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition.c.obj
  /home/diegolagos/esp-idf/components/esp_partition/partition.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/bootloader_util.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/esp_flash_partitions.h
  /home/diegolagos/esp-idf/components/efuse/esp32s3/include/esp_efuse_chip.h
@@ -86,10 +87,10 @@ esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/queue.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/syslimits.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 
 esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.obj
  /home/diegolagos/esp-idf/components/esp_partition/partition_target.c
+ /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/config/sdkconfig.h
  /home/diegolagos/esp-idf/components/app_update/include/esp_ota_ops.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/bootloader_common.h
  /home/diegolagos/esp-idf/components/bootloader_support/include/esp_app_format.h
@@ -159,5 +160,4 @@ esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.obj
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h
  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h
- /home/diegolagos/esp_projects/robot_audio/build/config/sdkconfig.h
 

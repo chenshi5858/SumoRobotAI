@@ -8,6 +8,7 @@ esp-idf/esp_hal_ledc/CMakeFiles/__idf_esp_hal_ledc.dir/esp32s3/ledc_periph.c.obj
   /home/diegolagos/esp-idf/components/soc/include/soc/soc_caps_eval.h
 
 esp-idf/esp_hal_ledc/CMakeFiles/__idf_esp_hal_ledc.dir/ledc_hal.c.obj: /home/diegolagos/esp-idf/components/esp_hal_ledc/ledc_hal.c \
+  config/sdkconfig.h \
   /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h \
   /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h \
   /home/diegolagos/esp-idf/components/esp_hal_ledc/esp32s3/include/hal/ledc_ll.h \
@@ -45,10 +46,10 @@ esp-idf/esp_hal_ledc/CMakeFiles/__idf_esp_hal_ledc.dir/ledc_hal.c.obj: /home/die
   /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_wait.h \
   /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
   /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h \
-  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
-  config/sdkconfig.h
+  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
 
 esp-idf/esp_hal_ledc/CMakeFiles/__idf_esp_hal_ledc.dir/ledc_hal_iram.c.obj: /home/diegolagos/esp-idf/components/esp_hal_ledc/ledc_hal_iram.c \
+  config/sdkconfig.h \
   /home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h \
   /home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h \
   /home/diegolagos/esp-idf/components/esp_hal_ledc/esp32s3/include/hal/ledc_ll.h \
@@ -86,13 +87,10 @@ esp-idf/esp_hal_ledc/CMakeFiles/__idf_esp_hal_ledc.dir/ledc_hal_iram.c.obj: /hom
   /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_wait.h \
   /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
   /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h \
-  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
-  config/sdkconfig.h
+  /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h
 
 
 /home/diegolagos/esp-idf/components/esp_hal_ledc/ledc_hal_iram.c:
-
-config/sdkconfig.h:
 
 /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_locale.h:
 
@@ -106,13 +104,7 @@ config/sdkconfig.h:
 
 /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/stdlib.h:
 
-/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/ieeefp.h:
-
-/home/diegolagos/esp-idf/components/esp_libc/platform_include/sys/cdefs.h:
-
-/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h:
-
-/home/diegolagos/esp-idf/components/soc/esp32s3/register/soc/ledc_reg.h:
+/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h:
 
 /home/diegolagos/esp-idf/components/esp_hal_ledc/include/hal/ledc_types.h:
 
@@ -120,19 +112,7 @@ config/sdkconfig.h:
 
 /home/diegolagos/esp-idf/components/hal/platform_port/include/hal/assert.h:
 
-/home/diegolagos/esp-idf/components/soc/include/soc/soc_caps_eval.h:
-
-/home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h:
-
-/home/diegolagos/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h:
-
-/home/diegolagos/esp-idf/components/esp_hal_ledc/ledc_hal.c:
-
-/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h:
-
-/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h:
-
-/home/diegolagos/esp-idf/components/esp_rom/include/esp_rom_sys.h:
+config/sdkconfig.h:
 
 /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_stdint.h:
 
@@ -143,6 +123,28 @@ config/sdkconfig.h:
 /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_default_types.h:
 
 /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h:
+
+/home/diegolagos/esp-idf/components/soc/include/soc/soc_caps_eval.h:
+
+/home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h:
+
+/home/diegolagos/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h:
+
+/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h:
+
+/home/diegolagos/esp-idf/components/esp_rom/include/esp_rom_sys.h:
+
+/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h:
+
+/home/diegolagos/esp-idf/components/esp_hal_ledc/ledc_hal.c:
+
+/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/ieeefp.h:
+
+/home/diegolagos/esp-idf/components/esp_libc/platform_include/sys/cdefs.h:
+
+/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h:
+
+/home/diegolagos/esp-idf/components/soc/esp32s3/register/soc/ledc_reg.h:
 
 /home/diegolagos/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h:
 
@@ -175,5 +177,3 @@ config/sdkconfig.h:
 /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdlib.h:
 
 /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/assert.h:
-
-/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/inttypes.h:

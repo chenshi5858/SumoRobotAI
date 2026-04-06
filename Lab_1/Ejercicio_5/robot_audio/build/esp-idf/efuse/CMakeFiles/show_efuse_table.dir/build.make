@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/diegolagos/esp_projects/robot_audio
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/diegolagos/esp_projects/robot_audio/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build
 
 # Utility rule file for show_efuse_table.
 
@@ -67,8 +67,8 @@ include esp-idf/efuse/CMakeFiles/show_efuse_table.dir/compiler_depend.make
 include esp-idf/efuse/CMakeFiles/show_efuse_table.dir/progress.make
 
 esp-idf/efuse/CMakeFiles/show_efuse_table:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/diegolagos/esp_projects/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Warning: command \"show_efuse_table\" is deprecated. Have you wanted to run \"show-efuse-table\" instead?"
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/efuse && /usr/bin/cmake -E echo 
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Warning: command \"show_efuse_table\" is deprecated. Have you wanted to run \"show-efuse-table\" instead?"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/efuse && /usr/bin/cmake -E echo 
 
 show_efuse_table: esp-idf/efuse/CMakeFiles/show_efuse_table
 show_efuse_table: esp-idf/efuse/CMakeFiles/show_efuse_table.dir/build.make
@@ -79,10 +79,10 @@ esp-idf/efuse/CMakeFiles/show_efuse_table.dir/build: show_efuse_table
 .PHONY : esp-idf/efuse/CMakeFiles/show_efuse_table.dir/build
 
 esp-idf/efuse/CMakeFiles/show_efuse_table.dir/clean:
-	cd /home/diegolagos/esp_projects/robot_audio/build/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/show_efuse_table.dir/cmake_clean.cmake
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/show_efuse_table.dir/cmake_clean.cmake
 .PHONY : esp-idf/efuse/CMakeFiles/show_efuse_table.dir/clean
 
 esp-idf/efuse/CMakeFiles/show_efuse_table.dir/depend:
-	cd /home/diegolagos/esp_projects/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp_projects/robot_audio /home/diegolagos/esp-idf/components/efuse /home/diegolagos/esp_projects/robot_audio/build /home/diegolagos/esp_projects/robot_audio/build/esp-idf/efuse /home/diegolagos/esp_projects/robot_audio/build/esp-idf/efuse/CMakeFiles/show_efuse_table.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio /home/diegolagos/esp-idf/components/efuse /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/efuse /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/build/esp-idf/efuse/CMakeFiles/show_efuse_table.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/efuse/CMakeFiles/show_efuse_table.dir/depend
 

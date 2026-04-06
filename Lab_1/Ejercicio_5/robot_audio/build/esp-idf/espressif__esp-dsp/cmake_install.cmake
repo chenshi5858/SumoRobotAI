@@ -1,4 +1,4 @@
-# Install script for directory: /home/diegolagos/esp_projects/robot_audio/managed_components/espressif__esp-dsp
+# Install script for directory: /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_5/robot_audio/managed_components/espressif__esp-dsp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
