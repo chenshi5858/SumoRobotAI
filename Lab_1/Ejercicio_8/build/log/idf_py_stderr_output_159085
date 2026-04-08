@@ -1,0 +1,26 @@
+Command: /home/yuusha1/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/yuusha1/esp/idf/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /home/yuusha1/esp/projects/labs/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_8/build/ejercicio8_histograma.elf /home/yuusha1/esp/projects/labs/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_8/build/bootloader/bootloader.elf -m '/home/yuusha1/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python' '/home/yuusha1/esp/idf/esp-idf/tools/idf.py' '-p' '/dev/ttyUSB0'
+[0;33m--- esp-idf-monitor 1.9.0 on /dev/ttyUSB0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/home/yuusha1/esp/idf/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2259[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/yuusha1/esp/idf/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m27[0m
+[0m--- 0x400d6dd2: [0;33mtask_wdt_timeout_handling[0m[0m at [0;32m/home/yuusha1/esp/idf/esp-idf/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m436[0m
+[0m--- 0x400d71a4: [0;33mtask_wdt_isr[0m[0m at [0;32m/home/yuusha1/esp/idf/esp-idf/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m509[0m
+[0m--- 0x40082cb1: [0;33m_xt_lowint1[0m[0m at [0;32m/home/yuusha1/esp/idf/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m1264[0m
+[0m--- 0x400d484d: [0;33muart_tx_char[0m[0m at [0;32m/home/yuusha1/esp/idf/esp-idf/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m188[0m
+[0m--- 0x400d4b1c: [0;33muart_write[0m[0m at [0;32m/home/yuusha1/esp/idf/esp-idf/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m245[0m
+[0m--- 0x400d51b1: [0;33mesp_vfs_write[0m[0m at [0;32m/home/yuusha1/esp/idf/esp-idf/components/vfs/vfs_calls.c[0m[0m:[1;31m74[0m
+[0m--- 0x400d3d1e: [0;33mwrite[0m[0m at [0;32m/home/yuusha1/esp/idf/esp-idf/components/esp_libc/src/syscalls.c[0m[0m:[1;31m51[0m
+[0m--- 0x400d0f01: [0;33mconsole_write[0m[0m at [0;32m/home/yuusha1/esp/idf/esp-idf/components/esp_stdio/stdio_vfs.c[0m[0m:[1;31m95[0m
+[0m--- 0x400d51b1: [0;33mesp_vfs_write[0m[0m at [0;32m/home/yuusha1/esp/idf/esp-idf/components/vfs/vfs_calls.c[0m[0m:[1;31m74[0m
+[0m--- 0x400d3d1e: [0;33mwrite[0m[0m at [0;32m/home/yuusha1/esp/idf/esp-idf/components/esp_libc/src/syscalls.c[0m[0m:[1;31m51[0m
+[0m--- 0x400d9685: [0;33mbufio_write[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/build/build-picolibc-build-x86_64-build_pc-linux-gnu/../../../src/picolibc-git-1738c754/newlib/libc/tinystdio/stdio_private.h[0m[0m:[1;31m183[0m
+[0m--- (inlined by) [0;33m__bufio_flush_locked[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/build/build-picolibc-build-x86_64-build_pc-linux-gnu/../../../src/picolibc-git-1738c754/newlib/libc/tinystdio/bufio.c[0m[0m:[1;31m62[0m
+[0m--- 0x400d79aa: [0;33m__bufio_put[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/build/build-picolibc-build-x86_64-build_pc-linux-gnu/../../../src/picolibc-git-1738c754/newlib/libc/tinystdio/bufio.c[0m[0m:[1;31m187[0m
+[0m--- 0x400d9722: [0;33mputc_unlocked[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/build/build-picolibc-build-x86_64-build_pc-linux-gnu/../../../src/picolibc-git-1738c754/newlib/libc/tinystdio/fputc.c[0m[0m:[1;31m43[0m
+[0m--- 0x400d7b6b: [0;33mputc[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/build/build-picolibc-build-x86_64-build_pc-linux-gnu/../../../src/picolibc-git-1738c754/newlib/libc/tinystdio/fputc.c[0m[0m:[1;31m57[0m
+[0m--- 0x400d7bbd: [0;33mputchar[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/build/build-picolibc-build-x86_64-build_pc-linux-gnu/../../../src/picolibc-git-1738c754/newlib/libc/tinystdio/putchar.c[0m[0m:[1;31m39[0m
+[0m--- 0x400d59cd: [0;33mprint_image_hex_block[0m[0m at [0;32m/home/yuusha1/esp/projects/labs/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_8/main/main.c[0m[0m:[1;31m106[0m
+[0m--- 0x400d5aa5: [0;33mapp_main[0m[0m at [0;32m/home/yuusha1/esp/projects/labs/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_8/main/main.c[0m[0m:[1;31m141[0m
+[0m--- 0x400d3886: [0;33mmain_task[0m[0m at [0;32m/home/yuusha1/esp/idf/esp-idf/components/freertos/app_startup.c[0m[0m:[1;31m199[0m
+[0m--- 0x400da249: [0;33mvPortTaskWrapper[0m[0m at [0;32m/home/yuusha1/esp/idf/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m143[0m
+[0m
