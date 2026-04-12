@@ -50,9 +50,33 @@ O en un solo comando:
 idf.py -p /dev/<PORT> flash monitor
 ```
 
+## Exportar a CSV
+
+Si quieres los datos en archivos `.csv` reales y separados por columnas, desde esta carpeta puedes usar:
+
+```bash
+python3 export_csv.py
+```
+
+Eso toma el log más reciente con líneas `CSV,...` y genera:
+
+- `csv_output/metrics.csv`
+- `csv_output/totals.csv`
+- `csv_output/end_to_end.csv`
+- `csv_output/checks.csv`
+- `csv_output/metadata.csv`
+
+Si quieres exportar desde un log específico:
+
+```bash
+python3 export_csv.py --input build/log/idf_py_stdout_output_<ID>
+```
+
 ## Salida esperada
 
 En el monitor deberías ver líneas tipo:
 
 - `CSV,...` (métricas)
+- `TOTAL_CSV,...` (totales acumulados de las mediciones)
+- `END_TO_END,...` (tiempo y ciclos totales de la ejecución completa del ejercicio)
 - `CHECK,...,PASS/FAIL`
