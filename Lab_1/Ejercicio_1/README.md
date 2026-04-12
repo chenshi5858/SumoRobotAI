@@ -12,5 +12,5 @@ Si necesitas ejecutar firmware en una placa, revisa los ejercicios que sí son p
 
 En nuestro caso, el puerto correspondió a:
 
-- `/dev/ttyUSB0` (ESP32-CAM)
+- `/dev/ttyUSB0` (ESP32)
 - `/dev/ttyACM0` (ESP32-S3)

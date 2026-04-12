@@ -1,4 +1,5 @@
-"-specs=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_3/build/bootloader/specs/picolibc.specs"
+"-specs=/home/yuusha1/esp/projects/labs/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_3/build/bootloader/specs/picolibc.specs"
+-Wno-frame-address
 -mlongcalls
 -fno-builtin-memcpy
 -fno-builtin-memset
