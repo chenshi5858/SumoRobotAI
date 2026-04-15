@@ -1,0 +1,35 @@
+esp-idf/esp_hal_uart/CMakeFiles/__idf_esp_hal_uart.dir/uhci_hal.c.obj: \
+ /home/chenshi/esp/esp-idf/components/esp_hal_uart/uhci_hal.c \
+ /home/chenshi/esp/esp-idf/components/esp_hal_uart/include/hal/uhci_hal.h \
+ /home/chenshi/esp/esp-idf/components/esp_hal_uart/include/hal/uhci_types.h \
+ /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdint.h \
+ /home/chenshi/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
+ /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
+ /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/config.h \
+ /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/ieeefp.h \
+ /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/features.h \
+ /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/picolibc.h \
+ /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/float.h \
+ /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_default_types.h \
+ /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader/config/sdkconfig.h \
+ /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stddef.h \
+ /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_intsup.h \
+ /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_stdint.h \
+ /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdbool.h \
+ /home/chenshi/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
+ /home/chenshi/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+ /home/chenshi/esp/esp-idf/components/esp_hal_uart/esp32s3/include/hal/uhci_ll.h \
+ /home/chenshi/esp/esp-idf/components/esp_libc/platform_include/stdio.h \
+ /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/stdio.h \
+ /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include/stdarg.h \
+ /home/chenshi/esp/esp-idf/components/esp_libc/platform_include/sys/lock.h \
+ /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/lock.h \
+ /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_types.h \
+ /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/machine/_types.h \
+ /home/chenshi/esp/esp-idf/components/soc/esp32s3/register/soc/uhci_struct.h \
+ /home/chenshi/esp/esp-idf/components/soc/esp32s3/register/soc/system_struct.h \
+ /home/chenshi/esp/esp-idf/components/hal/platform_port/include/hal/misc.h \
+ /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/string.h \
+ /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/_locale.h \
+ /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/strings.h \
+ /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/picolibc/include/sys/string.h

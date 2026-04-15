@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "6.6.87.2-microsoft-standard-WSL2")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/yuusha1/esp/projects/labs/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_2/build/toolchain/toolchain-esp32s3.cmake")
+include("/home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_2/build/toolchain/toolchain-esp32s3.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

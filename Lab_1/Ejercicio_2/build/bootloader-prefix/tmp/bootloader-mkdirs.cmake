@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/home/yuusha1/esp/idf/esp-idf/components/bootloader/subproject"
-  "/home/yuusha1/esp/projects/labs/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_2/build/bootloader"
-  "/home/yuusha1/esp/projects/labs/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_2/build/bootloader-prefix"
-  "/home/yuusha1/esp/projects/labs/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_2/build/bootloader-prefix/tmp"
-  "/home/yuusha1/esp/projects/labs/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_2/build/bootloader-prefix/src/bootloader-stamp"
-  "/home/yuusha1/esp/projects/labs/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_2/build/bootloader-prefix/src"
-  "/home/yuusha1/esp/projects/labs/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_2/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/chenshi/esp/idf/esp-idf/components/bootloader/subproject"
+  "/home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_2/build/bootloader"
+  "/home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_2/build/bootloader-prefix"
+  "/home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_2/build/bootloader-prefix/tmp"
+  "/home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_2/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_2/build/bootloader-prefix/src"
+  "/home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_2/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/yuusha1/esp/projects/labs/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_2/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_2/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/yuusha1/esp/projects/labs/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_2/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_1/Ejercicio_2/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

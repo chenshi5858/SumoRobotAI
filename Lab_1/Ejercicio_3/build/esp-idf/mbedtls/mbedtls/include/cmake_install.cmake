@@ -1,4 +1,4 @@
-# Install script for directory: /home/yuusha1/esp/idf/esp-idf/components/mbedtls/mbedtls/include
+# Install script for directory: /home/chenshi/esp/idf/esp-idf/components/mbedtls/mbedtls/include
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,36 +34,36 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/home/yuusha1/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-objdump")
+  set(CMAKE_OBJDUMP "/home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-objdump")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mbedtls" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ FILES
-    "/home/yuusha1/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h"
-    "/home/yuusha1/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/debug.h"
-    "/home/yuusha1/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/error.h"
-    "/home/yuusha1/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h"
-    "/home/yuusha1/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/net_sockets.h"
-    "/home/yuusha1/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/oid.h"
-    "/home/yuusha1/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/pkcs7.h"
-    "/home/yuusha1/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl.h"
-    "/home/yuusha1/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_cache.h"
-    "/home/yuusha1/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_ciphersuites.h"
-    "/home/yuusha1/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_cookie.h"
-    "/home/yuusha1/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_ticket.h"
-    "/home/yuusha1/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/timing.h"
-    "/home/yuusha1/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/version.h"
-    "/home/yuusha1/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509.h"
-    "/home/yuusha1/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crl.h"
-    "/home/yuusha1/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crt.h"
-    "/home/yuusha1/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_csr.h"
+    "/home/chenshi/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h"
+    "/home/chenshi/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/debug.h"
+    "/home/chenshi/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/error.h"
+    "/home/chenshi/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h"
+    "/home/chenshi/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/net_sockets.h"
+    "/home/chenshi/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/oid.h"
+    "/home/chenshi/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/pkcs7.h"
+    "/home/chenshi/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl.h"
+    "/home/chenshi/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_cache.h"
+    "/home/chenshi/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_ciphersuites.h"
+    "/home/chenshi/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_cookie.h"
+    "/home/chenshi/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_ticket.h"
+    "/home/chenshi/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/timing.h"
+    "/home/chenshi/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/version.h"
+    "/home/chenshi/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509.h"
+    "/home/chenshi/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crl.h"
+    "/home/chenshi/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crt.h"
+    "/home/chenshi/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_csr.h"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mbedtls/private" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ FILES
-    "/home/yuusha1/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/private/config_adjust_ssl.h"
-    "/home/yuusha1/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/private/config_adjust_x509.h"
+    "/home/chenshi/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/private/config_adjust_ssl.h"
+    "/home/chenshi/esp/idf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/private/config_adjust_x509.h"
     )
 endif()
 
