@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/chenshi/esp/esp-idf/components/esp_common/include/esp_assert.h
+/home/diegolagos/esp-idf/components/esp_common/include/esp_assert.h
 assert.h
-/home/chenshi/esp/esp-idf/components/esp_common/include/assert.h
+/home/diegolagos/esp-idf/components/esp_common/include/assert.h
 
-/home/chenshi/esp/esp-idf/components/esp_common/include/esp_bit_defs.h
+/home/diegolagos/esp-idf/components/esp_common/include/esp_bit_defs.h
 
-/home/chenshi/esp/esp-idf/components/esp_libc/platform_include/assert.h
+/home/diegolagos/esp-idf/components/esp_libc/platform_include/assert.h
 sdkconfig.h
 -
 stdlib.h
@@ -20,37 +20,37 @@ stdlib.h
 stdint.h
 -
 
-/home/chenshi/esp/esp-idf/components/esp_rom/patches/esp_rom_cache_writeback_esp32s3.S
+/home/diegolagos/esp-idf/components/esp_rom/patches/esp_rom_cache_writeback_esp32s3.S
 xtensa/corebits.h
 -
 sdkconfig.h
 -
 soc/extmem_reg.h
-/home/chenshi/esp/esp-idf/components/esp_rom/patches/soc/extmem_reg.h
+/home/diegolagos/esp-idf/components/esp_rom/patches/soc/extmem_reg.h
 
-/home/chenshi/esp/esp-idf/components/esp_rom/patches/esp_rom_longjmp.S
+/home/diegolagos/esp-idf/components/esp_rom/patches/esp_rom_longjmp.S
 xtensa/corebits.h
 -
 sdkconfig.h
 -
 
-/home/chenshi/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h
+/home/diegolagos/esp-idf/components/soc/esp32s3/include/soc/soc.h
 stdint.h
 -
 esp_assert.h
-/home/chenshi/esp/esp-idf/components/soc/esp32s3/include/soc/esp_assert.h
+/home/diegolagos/esp-idf/components/soc/esp32s3/include/soc/esp_assert.h
 esp_bit_defs.h
-/home/chenshi/esp/esp-idf/components/soc/esp32s3/include/soc/esp_bit_defs.h
+/home/diegolagos/esp-idf/components/soc/esp32s3/include/soc/esp_bit_defs.h
 soc/reg_base.h
-/home/chenshi/esp/esp-idf/components/soc/esp32s3/include/soc/soc/reg_base.h
+/home/diegolagos/esp-idf/components/soc/esp32s3/include/soc/soc/reg_base.h
 
-/home/chenshi/esp/esp-idf/components/soc/esp32s3/register/soc/extmem_reg.h
+/home/diegolagos/esp-idf/components/soc/esp32s3/register/soc/extmem_reg.h
 soc/soc.h
-/home/chenshi/esp/esp-idf/components/soc/esp32s3/register/soc/soc/soc.h
+/home/diegolagos/esp-idf/components/soc/esp32s3/register/soc/soc/soc.h
 
-/home/chenshi/esp/esp-idf/components/soc/esp32s3/register/soc/reg_base.h
+/home/diegolagos/esp-idf/components/soc/esp32s3/register/soc/reg_base.h
 
-/home/chenshi/esp/esp-idf/components/xtensa/include/xtensa/corebits.h
+/home/diegolagos/esp-idf/components/xtensa/include/xtensa/corebits.h
 
 config/sdkconfig.h
 

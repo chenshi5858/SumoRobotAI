@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/chenshi/esp/esp-idf/components/esp_blockdev_util/generic_partition.c" "esp-idf/esp_blockdev_util/CMakeFiles/__idf_esp_blockdev_util.dir/generic_partition.c.obj" "gcc" "esp-idf/esp_blockdev_util/CMakeFiles/__idf_esp_blockdev_util.dir/generic_partition.c.obj.d"
-  "/home/chenshi/esp/esp-idf/components/esp_blockdev_util/memory.c" "esp-idf/esp_blockdev_util/CMakeFiles/__idf_esp_blockdev_util.dir/memory.c.obj" "gcc" "esp-idf/esp_blockdev_util/CMakeFiles/__idf_esp_blockdev_util.dir/memory.c.obj.d"
+  "/home/diegolagos/esp-idf/components/esp_blockdev_util/generic_partition.c" "esp-idf/esp_blockdev_util/CMakeFiles/__idf_esp_blockdev_util.dir/generic_partition.c.obj" "gcc" "esp-idf/esp_blockdev_util/CMakeFiles/__idf_esp_blockdev_util.dir/generic_partition.c.obj.d"
+  "/home/diegolagos/esp-idf/components/esp_blockdev_util/memory.c" "esp-idf/esp_blockdev_util/CMakeFiles/__idf_esp_blockdev_util.dir/memory.c.obj" "gcc" "esp-idf/esp_blockdev_util/CMakeFiles/__idf_esp_blockdev_util.dir/memory.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

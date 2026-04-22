@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build
 
 # Utility rule file for tfpsacrypto-apidoc.
 
@@ -67,7 +67,7 @@ include esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/
 include esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/progress.make
 
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc:
-	cd /home/chenshi/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/doxygen && doxygen tfpsacrypto.doxyfile
+	cd /home/diegolagos/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/doxygen && doxygen tfpsacrypto.doxyfile
 
 tfpsacrypto-apidoc: esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc
 tfpsacrypto-apidoc: esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/build.make
@@ -78,10 +78,10 @@ esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/build: t
 .PHONY : esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/build
 
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/clean:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto && $(CMAKE_COMMAND) -P CMakeFiles/tfpsacrypto-apidoc.dir/cmake_clean.cmake
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto && $(CMAKE_COMMAND) -P CMakeFiles/tfpsacrypto-apidoc.dir/cmake_clean.cmake
 .PHONY : esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/clean
 
 esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/depend:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1 /home/chenshi/esp/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1 /home/diegolagos/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/mbedtls/mbedtls/tf-psa-crypto/CMakeFiles/tfpsacrypto-apidoc.dir/depend
 

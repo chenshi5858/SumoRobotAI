@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build
 
 # Utility rule file for monitor.
 
@@ -67,7 +67,7 @@ include CMakeFiles/monitor.dir/compiler_depend.make
 include CMakeFiles/monitor.dir/progress.make
 
 CMakeFiles/monitor:
-	cd /home/chenshi/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/chenshi/esp/esp-idf -D "SERIAL_TOOL=/home/chenshi/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python -m esp_idf_monitor" -D "SERIAL_TOOL_ARGS=--toolchain-prefix;xtensa-esp32s3-elf-;;--target;esp32s3;;--revision;0;;/home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/ejercicio1_ble.elf" -D WORKING_DIRECTORY=/home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build -P run_serial_tool.cmake
+	cd /home/diegolagos/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/diegolagos/esp-idf -D "SERIAL_TOOL=/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python -m esp_idf_monitor" -D "SERIAL_TOOL_ARGS=--toolchain-prefix;xtensa-esp32s3-elf-;;--target;esp32s3;;--revision;0;;/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/ejercicio1_ble.elf" -D WORKING_DIRECTORY=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build -P run_serial_tool.cmake
 
 monitor: CMakeFiles/monitor
 monitor: CMakeFiles/monitor.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/monitor.dir/clean:
 .PHONY : CMakeFiles/monitor.dir/clean
 
 CMakeFiles/monitor.dir/depend:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1 /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1 /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles/monitor.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1 /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1 /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles/monitor.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/monitor.dir/depend
 

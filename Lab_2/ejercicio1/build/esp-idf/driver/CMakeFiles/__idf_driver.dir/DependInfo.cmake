@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/chenshi/esp/esp-idf/components/driver/i2c/i2c.c" "esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj" "gcc" "esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj.d"
-  "/home/chenshi/esp/esp-idf/components/driver/touch_sensor/esp32s3/touch_sensor.c" "esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.obj" "gcc" "esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.obj.d"
-  "/home/chenshi/esp/esp-idf/components/driver/touch_sensor/touch_sensor_common.c" "esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.obj" "gcc" "esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.obj.d"
-  "/home/chenshi/esp/esp-idf/components/driver/twai/twai.c" "esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj" "gcc" "esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj.d"
+  "/home/diegolagos/esp-idf/components/driver/i2c/i2c.c" "esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj" "gcc" "esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj.d"
+  "/home/diegolagos/esp-idf/components/driver/touch_sensor/esp32s3/touch_sensor.c" "esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.obj" "gcc" "esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.obj.d"
+  "/home/diegolagos/esp-idf/components/driver/touch_sensor/touch_sensor_common.c" "esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.obj" "gcc" "esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.obj.d"
+  "/home/diegolagos/esp-idf/components/driver/twai/twai.c" "esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj" "gcc" "esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

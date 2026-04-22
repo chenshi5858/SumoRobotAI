@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/chenshi/esp/esp-idf/components/esp_hal_dma/esp32s3/gdma_periph.c" "esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/esp32s3/gdma_periph.c.obj" "gcc" "esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/esp32s3/gdma_periph.c.obj.d"
-  "/home/chenshi/esp/esp-idf/components/esp_hal_dma/gdma_hal_ahb_v1.c" "esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.obj" "gcc" "esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.obj.d"
-  "/home/chenshi/esp/esp-idf/components/esp_hal_dma/gdma_hal_top.c" "esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.obj" "gcc" "esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.obj.d"
+  "/home/diegolagos/esp-idf/components/esp_hal_dma/esp32s3/gdma_periph.c" "esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/esp32s3/gdma_periph.c.obj" "gcc" "esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/esp32s3/gdma_periph.c.obj.d"
+  "/home/diegolagos/esp-idf/components/esp_hal_dma/gdma_hal_ahb_v1.c" "esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.obj" "gcc" "esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_ahb_v1.c.obj.d"
+  "/home/diegolagos/esp-idf/components/esp_hal_dma/gdma_hal_top.c" "esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.obj" "gcc" "esp-idf/esp_hal_dma/CMakeFiles/__idf_esp_hal_dma.dir/gdma_hal_top.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

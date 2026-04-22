@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/bt//CMakeFiles/progress.marks
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/bt/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles 0
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/bt//CMakeFiles/progress.marks
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/bt/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/bt/clean
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/bt/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/bt/preinstall
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/bt/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/bt/preinstall
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/bt/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/bt/CMakeFiles/__idf_bt.dir/rule:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/bt/CMakeFiles/__idf_bt.dir/rule
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/bt/CMakeFiles/__idf_bt.dir/rule
 .PHONY : esp-idf/bt/CMakeFiles/__idf_bt.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_bt: esp-idf/bt/CMakeFiles/__idf_bt.dir/rule
 
 # fast build rule for target.
 __idf_bt/fast:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/build
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/build
 .PHONY : __idf_bt/fast
 
 common/api/esp_blufi_api.obj: common/api/esp_blufi_api.c.obj
@@ -180,7 +180,7 @@ common/api/esp_blufi_api.obj: common/api/esp_blufi_api.c.obj
 
 # target to build an object file
 common/api/esp_blufi_api.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/api/esp_blufi_api.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/api/esp_blufi_api.c.obj
 .PHONY : common/api/esp_blufi_api.c.obj
 
 common/api/esp_blufi_api.i: common/api/esp_blufi_api.c.i
@@ -188,7 +188,7 @@ common/api/esp_blufi_api.i: common/api/esp_blufi_api.c.i
 
 # target to preprocess a source file
 common/api/esp_blufi_api.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/api/esp_blufi_api.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/api/esp_blufi_api.c.i
 .PHONY : common/api/esp_blufi_api.c.i
 
 common/api/esp_blufi_api.s: common/api/esp_blufi_api.c.s
@@ -196,39 +196,63 @@ common/api/esp_blufi_api.s: common/api/esp_blufi_api.c.s
 
 # target to generate assembly for a file
 common/api/esp_blufi_api.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/api/esp_blufi_api.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/api/esp_blufi_api.c.s
 .PHONY : common/api/esp_blufi_api.c.s
 
-common/ble_log/deprecated/ble_log_spi_out.obj: common/ble_log/deprecated/ble_log_spi_out.c.obj
-.PHONY : common/ble_log/deprecated/ble_log_spi_out.obj
+common/ble_log/ble_log_spi_out.obj: common/ble_log/ble_log_spi_out.c.obj
+.PHONY : common/ble_log/ble_log_spi_out.obj
 
 # target to build an object file
-common/ble_log/deprecated/ble_log_spi_out.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/ble_log/deprecated/ble_log_spi_out.c.obj
-.PHONY : common/ble_log/deprecated/ble_log_spi_out.c.obj
+common/ble_log/ble_log_spi_out.c.obj:
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/ble_log/ble_log_spi_out.c.obj
+.PHONY : common/ble_log/ble_log_spi_out.c.obj
 
-common/ble_log/deprecated/ble_log_spi_out.i: common/ble_log/deprecated/ble_log_spi_out.c.i
-.PHONY : common/ble_log/deprecated/ble_log_spi_out.i
+common/ble_log/ble_log_spi_out.i: common/ble_log/ble_log_spi_out.c.i
+.PHONY : common/ble_log/ble_log_spi_out.i
 
 # target to preprocess a source file
-common/ble_log/deprecated/ble_log_spi_out.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/ble_log/deprecated/ble_log_spi_out.c.i
-.PHONY : common/ble_log/deprecated/ble_log_spi_out.c.i
+common/ble_log/ble_log_spi_out.c.i:
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/ble_log/ble_log_spi_out.c.i
+.PHONY : common/ble_log/ble_log_spi_out.c.i
 
-common/ble_log/deprecated/ble_log_spi_out.s: common/ble_log/deprecated/ble_log_spi_out.c.s
-.PHONY : common/ble_log/deprecated/ble_log_spi_out.s
+common/ble_log/ble_log_spi_out.s: common/ble_log/ble_log_spi_out.c.s
+.PHONY : common/ble_log/ble_log_spi_out.s
 
 # target to generate assembly for a file
-common/ble_log/deprecated/ble_log_spi_out.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/ble_log/deprecated/ble_log_spi_out.c.s
-.PHONY : common/ble_log/deprecated/ble_log_spi_out.c.s
+common/ble_log/ble_log_spi_out.c.s:
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/ble_log/ble_log_spi_out.c.s
+.PHONY : common/ble_log/ble_log_spi_out.c.s
+
+common/ble_log/ble_log_uhci_out.obj: common/ble_log/ble_log_uhci_out.c.obj
+.PHONY : common/ble_log/ble_log_uhci_out.obj
+
+# target to build an object file
+common/ble_log/ble_log_uhci_out.c.obj:
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/ble_log/ble_log_uhci_out.c.obj
+.PHONY : common/ble_log/ble_log_uhci_out.c.obj
+
+common/ble_log/ble_log_uhci_out.i: common/ble_log/ble_log_uhci_out.c.i
+.PHONY : common/ble_log/ble_log_uhci_out.i
+
+# target to preprocess a source file
+common/ble_log/ble_log_uhci_out.c.i:
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/ble_log/ble_log_uhci_out.c.i
+.PHONY : common/ble_log/ble_log_uhci_out.c.i
+
+common/ble_log/ble_log_uhci_out.s: common/ble_log/ble_log_uhci_out.c.s
+.PHONY : common/ble_log/ble_log_uhci_out.s
+
+# target to generate assembly for a file
+common/ble_log/ble_log_uhci_out.c.s:
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/ble_log/ble_log_uhci_out.c.s
+.PHONY : common/ble_log/ble_log_uhci_out.c.s
 
 common/btc/core/btc_alarm.obj: common/btc/core/btc_alarm.c.obj
 .PHONY : common/btc/core/btc_alarm.obj
 
 # target to build an object file
 common/btc/core/btc_alarm.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.obj
 .PHONY : common/btc/core/btc_alarm.c.obj
 
 common/btc/core/btc_alarm.i: common/btc/core/btc_alarm.c.i
@@ -236,7 +260,7 @@ common/btc/core/btc_alarm.i: common/btc/core/btc_alarm.c.i
 
 # target to preprocess a source file
 common/btc/core/btc_alarm.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.i
 .PHONY : common/btc/core/btc_alarm.c.i
 
 common/btc/core/btc_alarm.s: common/btc/core/btc_alarm.c.s
@@ -244,7 +268,7 @@ common/btc/core/btc_alarm.s: common/btc/core/btc_alarm.c.s
 
 # target to generate assembly for a file
 common/btc/core/btc_alarm.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_alarm.c.s
 .PHONY : common/btc/core/btc_alarm.c.s
 
 common/btc/core/btc_manage.obj: common/btc/core/btc_manage.c.obj
@@ -252,7 +276,7 @@ common/btc/core/btc_manage.obj: common/btc/core/btc_manage.c.obj
 
 # target to build an object file
 common/btc/core/btc_manage.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.obj
 .PHONY : common/btc/core/btc_manage.c.obj
 
 common/btc/core/btc_manage.i: common/btc/core/btc_manage.c.i
@@ -260,7 +284,7 @@ common/btc/core/btc_manage.i: common/btc/core/btc_manage.c.i
 
 # target to preprocess a source file
 common/btc/core/btc_manage.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.i
 .PHONY : common/btc/core/btc_manage.c.i
 
 common/btc/core/btc_manage.s: common/btc/core/btc_manage.c.s
@@ -268,7 +292,7 @@ common/btc/core/btc_manage.s: common/btc/core/btc_manage.c.s
 
 # target to generate assembly for a file
 common/btc/core/btc_manage.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_manage.c.s
 .PHONY : common/btc/core/btc_manage.c.s
 
 common/btc/core/btc_task.obj: common/btc/core/btc_task.c.obj
@@ -276,7 +300,7 @@ common/btc/core/btc_task.obj: common/btc/core/btc_task.c.obj
 
 # target to build an object file
 common/btc/core/btc_task.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.obj
 .PHONY : common/btc/core/btc_task.c.obj
 
 common/btc/core/btc_task.i: common/btc/core/btc_task.c.i
@@ -284,7 +308,7 @@ common/btc/core/btc_task.i: common/btc/core/btc_task.c.i
 
 # target to preprocess a source file
 common/btc/core/btc_task.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.i
 .PHONY : common/btc/core/btc_task.c.i
 
 common/btc/core/btc_task.s: common/btc/core/btc_task.c.s
@@ -292,7 +316,7 @@ common/btc/core/btc_task.s: common/btc/core/btc_task.c.s
 
 # target to generate assembly for a file
 common/btc/core/btc_task.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/core/btc_task.c.s
 .PHONY : common/btc/core/btc_task.c.s
 
 common/btc/profile/esp/blufi/blufi_prf.obj: common/btc/profile/esp/blufi/blufi_prf.c.obj
@@ -300,7 +324,7 @@ common/btc/profile/esp/blufi/blufi_prf.obj: common/btc/profile/esp/blufi/blufi_p
 
 # target to build an object file
 common/btc/profile/esp/blufi/blufi_prf.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/blufi_prf.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/blufi_prf.c.obj
 .PHONY : common/btc/profile/esp/blufi/blufi_prf.c.obj
 
 common/btc/profile/esp/blufi/blufi_prf.i: common/btc/profile/esp/blufi/blufi_prf.c.i
@@ -308,7 +332,7 @@ common/btc/profile/esp/blufi/blufi_prf.i: common/btc/profile/esp/blufi/blufi_prf
 
 # target to preprocess a source file
 common/btc/profile/esp/blufi/blufi_prf.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/blufi_prf.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/blufi_prf.c.i
 .PHONY : common/btc/profile/esp/blufi/blufi_prf.c.i
 
 common/btc/profile/esp/blufi/blufi_prf.s: common/btc/profile/esp/blufi/blufi_prf.c.s
@@ -316,7 +340,7 @@ common/btc/profile/esp/blufi/blufi_prf.s: common/btc/profile/esp/blufi/blufi_prf
 
 # target to generate assembly for a file
 common/btc/profile/esp/blufi/blufi_prf.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/blufi_prf.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/blufi_prf.c.s
 .PHONY : common/btc/profile/esp/blufi/blufi_prf.c.s
 
 common/btc/profile/esp/blufi/blufi_protocol.obj: common/btc/profile/esp/blufi/blufi_protocol.c.obj
@@ -324,7 +348,7 @@ common/btc/profile/esp/blufi/blufi_protocol.obj: common/btc/profile/esp/blufi/bl
 
 # target to build an object file
 common/btc/profile/esp/blufi/blufi_protocol.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/blufi_protocol.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/blufi_protocol.c.obj
 .PHONY : common/btc/profile/esp/blufi/blufi_protocol.c.obj
 
 common/btc/profile/esp/blufi/blufi_protocol.i: common/btc/profile/esp/blufi/blufi_protocol.c.i
@@ -332,7 +356,7 @@ common/btc/profile/esp/blufi/blufi_protocol.i: common/btc/profile/esp/blufi/bluf
 
 # target to preprocess a source file
 common/btc/profile/esp/blufi/blufi_protocol.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/blufi_protocol.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/blufi_protocol.c.i
 .PHONY : common/btc/profile/esp/blufi/blufi_protocol.c.i
 
 common/btc/profile/esp/blufi/blufi_protocol.s: common/btc/profile/esp/blufi/blufi_protocol.c.s
@@ -340,7 +364,7 @@ common/btc/profile/esp/blufi/blufi_protocol.s: common/btc/profile/esp/blufi/bluf
 
 # target to generate assembly for a file
 common/btc/profile/esp/blufi/blufi_protocol.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/blufi_protocol.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/blufi_protocol.c.s
 .PHONY : common/btc/profile/esp/blufi/blufi_protocol.c.s
 
 common/btc/profile/esp/blufi/nimble_host/esp_blufi.obj: common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.obj
@@ -348,7 +372,7 @@ common/btc/profile/esp/blufi/nimble_host/esp_blufi.obj: common/btc/profile/esp/b
 
 # target to build an object file
 common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.obj
 .PHONY : common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.obj
 
 common/btc/profile/esp/blufi/nimble_host/esp_blufi.i: common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.i
@@ -356,7 +380,7 @@ common/btc/profile/esp/blufi/nimble_host/esp_blufi.i: common/btc/profile/esp/blu
 
 # target to preprocess a source file
 common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.i
 .PHONY : common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.i
 
 common/btc/profile/esp/blufi/nimble_host/esp_blufi.s: common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.s
@@ -364,7 +388,7 @@ common/btc/profile/esp/blufi/nimble_host/esp_blufi.s: common/btc/profile/esp/blu
 
 # target to generate assembly for a file
 common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.s
 .PHONY : common/btc/profile/esp/blufi/nimble_host/esp_blufi.c.s
 
 common/hci_log/bt_hci_log.obj: common/hci_log/bt_hci_log.c.obj
@@ -372,7 +396,7 @@ common/hci_log/bt_hci_log.obj: common/hci_log/bt_hci_log.c.obj
 
 # target to build an object file
 common/hci_log/bt_hci_log.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/hci_log/bt_hci_log.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/hci_log/bt_hci_log.c.obj
 .PHONY : common/hci_log/bt_hci_log.c.obj
 
 common/hci_log/bt_hci_log.i: common/hci_log/bt_hci_log.c.i
@@ -380,7 +404,7 @@ common/hci_log/bt_hci_log.i: common/hci_log/bt_hci_log.c.i
 
 # target to preprocess a source file
 common/hci_log/bt_hci_log.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/hci_log/bt_hci_log.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/hci_log/bt_hci_log.c.i
 .PHONY : common/hci_log/bt_hci_log.c.i
 
 common/hci_log/bt_hci_log.s: common/hci_log/bt_hci_log.c.s
@@ -388,7 +412,7 @@ common/hci_log/bt_hci_log.s: common/hci_log/bt_hci_log.c.s
 
 # target to generate assembly for a file
 common/hci_log/bt_hci_log.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/hci_log/bt_hci_log.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/hci_log/bt_hci_log.c.s
 .PHONY : common/hci_log/bt_hci_log.c.s
 
 common/osi/alarm.obj: common/osi/alarm.c.obj
@@ -396,7 +420,7 @@ common/osi/alarm.obj: common/osi/alarm.c.obj
 
 # target to build an object file
 common/osi/alarm.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/alarm.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/alarm.c.obj
 .PHONY : common/osi/alarm.c.obj
 
 common/osi/alarm.i: common/osi/alarm.c.i
@@ -404,7 +428,7 @@ common/osi/alarm.i: common/osi/alarm.c.i
 
 # target to preprocess a source file
 common/osi/alarm.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/alarm.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/alarm.c.i
 .PHONY : common/osi/alarm.c.i
 
 common/osi/alarm.s: common/osi/alarm.c.s
@@ -412,7 +436,7 @@ common/osi/alarm.s: common/osi/alarm.c.s
 
 # target to generate assembly for a file
 common/osi/alarm.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/alarm.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/alarm.c.s
 .PHONY : common/osi/alarm.c.s
 
 common/osi/allocator.obj: common/osi/allocator.c.obj
@@ -420,7 +444,7 @@ common/osi/allocator.obj: common/osi/allocator.c.obj
 
 # target to build an object file
 common/osi/allocator.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/allocator.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/allocator.c.obj
 .PHONY : common/osi/allocator.c.obj
 
 common/osi/allocator.i: common/osi/allocator.c.i
@@ -428,7 +452,7 @@ common/osi/allocator.i: common/osi/allocator.c.i
 
 # target to preprocess a source file
 common/osi/allocator.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/allocator.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/allocator.c.i
 .PHONY : common/osi/allocator.c.i
 
 common/osi/allocator.s: common/osi/allocator.c.s
@@ -436,7 +460,7 @@ common/osi/allocator.s: common/osi/allocator.c.s
 
 # target to generate assembly for a file
 common/osi/allocator.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/allocator.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/allocator.c.s
 .PHONY : common/osi/allocator.c.s
 
 common/osi/buffer.obj: common/osi/buffer.c.obj
@@ -444,7 +468,7 @@ common/osi/buffer.obj: common/osi/buffer.c.obj
 
 # target to build an object file
 common/osi/buffer.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/buffer.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/buffer.c.obj
 .PHONY : common/osi/buffer.c.obj
 
 common/osi/buffer.i: common/osi/buffer.c.i
@@ -452,7 +476,7 @@ common/osi/buffer.i: common/osi/buffer.c.i
 
 # target to preprocess a source file
 common/osi/buffer.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/buffer.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/buffer.c.i
 .PHONY : common/osi/buffer.c.i
 
 common/osi/buffer.s: common/osi/buffer.c.s
@@ -460,7 +484,7 @@ common/osi/buffer.s: common/osi/buffer.c.s
 
 # target to generate assembly for a file
 common/osi/buffer.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/buffer.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/buffer.c.s
 .PHONY : common/osi/buffer.c.s
 
 common/osi/config.obj: common/osi/config.c.obj
@@ -468,7 +492,7 @@ common/osi/config.obj: common/osi/config.c.obj
 
 # target to build an object file
 common/osi/config.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/config.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/config.c.obj
 .PHONY : common/osi/config.c.obj
 
 common/osi/config.i: common/osi/config.c.i
@@ -476,7 +500,7 @@ common/osi/config.i: common/osi/config.c.i
 
 # target to preprocess a source file
 common/osi/config.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/config.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/config.c.i
 .PHONY : common/osi/config.c.i
 
 common/osi/config.s: common/osi/config.c.s
@@ -484,7 +508,7 @@ common/osi/config.s: common/osi/config.c.s
 
 # target to generate assembly for a file
 common/osi/config.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/config.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/config.c.s
 .PHONY : common/osi/config.c.s
 
 common/osi/fixed_pkt_queue.obj: common/osi/fixed_pkt_queue.c.obj
@@ -492,7 +516,7 @@ common/osi/fixed_pkt_queue.obj: common/osi/fixed_pkt_queue.c.obj
 
 # target to build an object file
 common/osi/fixed_pkt_queue.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_pkt_queue.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_pkt_queue.c.obj
 .PHONY : common/osi/fixed_pkt_queue.c.obj
 
 common/osi/fixed_pkt_queue.i: common/osi/fixed_pkt_queue.c.i
@@ -500,7 +524,7 @@ common/osi/fixed_pkt_queue.i: common/osi/fixed_pkt_queue.c.i
 
 # target to preprocess a source file
 common/osi/fixed_pkt_queue.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_pkt_queue.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_pkt_queue.c.i
 .PHONY : common/osi/fixed_pkt_queue.c.i
 
 common/osi/fixed_pkt_queue.s: common/osi/fixed_pkt_queue.c.s
@@ -508,7 +532,7 @@ common/osi/fixed_pkt_queue.s: common/osi/fixed_pkt_queue.c.s
 
 # target to generate assembly for a file
 common/osi/fixed_pkt_queue.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_pkt_queue.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_pkt_queue.c.s
 .PHONY : common/osi/fixed_pkt_queue.c.s
 
 common/osi/fixed_queue.obj: common/osi/fixed_queue.c.obj
@@ -516,7 +540,7 @@ common/osi/fixed_queue.obj: common/osi/fixed_queue.c.obj
 
 # target to build an object file
 common/osi/fixed_queue.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.obj
 .PHONY : common/osi/fixed_queue.c.obj
 
 common/osi/fixed_queue.i: common/osi/fixed_queue.c.i
@@ -524,7 +548,7 @@ common/osi/fixed_queue.i: common/osi/fixed_queue.c.i
 
 # target to preprocess a source file
 common/osi/fixed_queue.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.i
 .PHONY : common/osi/fixed_queue.c.i
 
 common/osi/fixed_queue.s: common/osi/fixed_queue.c.s
@@ -532,7 +556,7 @@ common/osi/fixed_queue.s: common/osi/fixed_queue.c.s
 
 # target to generate assembly for a file
 common/osi/fixed_queue.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/fixed_queue.c.s
 .PHONY : common/osi/fixed_queue.c.s
 
 common/osi/future.obj: common/osi/future.c.obj
@@ -540,7 +564,7 @@ common/osi/future.obj: common/osi/future.c.obj
 
 # target to build an object file
 common/osi/future.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/future.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/future.c.obj
 .PHONY : common/osi/future.c.obj
 
 common/osi/future.i: common/osi/future.c.i
@@ -548,7 +572,7 @@ common/osi/future.i: common/osi/future.c.i
 
 # target to preprocess a source file
 common/osi/future.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/future.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/future.c.i
 .PHONY : common/osi/future.c.i
 
 common/osi/future.s: common/osi/future.c.s
@@ -556,7 +580,7 @@ common/osi/future.s: common/osi/future.c.s
 
 # target to generate assembly for a file
 common/osi/future.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/future.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/future.c.s
 .PHONY : common/osi/future.c.s
 
 common/osi/hash_functions.obj: common/osi/hash_functions.c.obj
@@ -564,7 +588,7 @@ common/osi/hash_functions.obj: common/osi/hash_functions.c.obj
 
 # target to build an object file
 common/osi/hash_functions.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.obj
 .PHONY : common/osi/hash_functions.c.obj
 
 common/osi/hash_functions.i: common/osi/hash_functions.c.i
@@ -572,7 +596,7 @@ common/osi/hash_functions.i: common/osi/hash_functions.c.i
 
 # target to preprocess a source file
 common/osi/hash_functions.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.i
 .PHONY : common/osi/hash_functions.c.i
 
 common/osi/hash_functions.s: common/osi/hash_functions.c.s
@@ -580,7 +604,7 @@ common/osi/hash_functions.s: common/osi/hash_functions.c.s
 
 # target to generate assembly for a file
 common/osi/hash_functions.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_functions.c.s
 .PHONY : common/osi/hash_functions.c.s
 
 common/osi/hash_map.obj: common/osi/hash_map.c.obj
@@ -588,7 +612,7 @@ common/osi/hash_map.obj: common/osi/hash_map.c.obj
 
 # target to build an object file
 common/osi/hash_map.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.obj
 .PHONY : common/osi/hash_map.c.obj
 
 common/osi/hash_map.i: common/osi/hash_map.c.i
@@ -596,7 +620,7 @@ common/osi/hash_map.i: common/osi/hash_map.c.i
 
 # target to preprocess a source file
 common/osi/hash_map.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.i
 .PHONY : common/osi/hash_map.c.i
 
 common/osi/hash_map.s: common/osi/hash_map.c.s
@@ -604,7 +628,7 @@ common/osi/hash_map.s: common/osi/hash_map.c.s
 
 # target to generate assembly for a file
 common/osi/hash_map.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/hash_map.c.s
 .PHONY : common/osi/hash_map.c.s
 
 common/osi/list.obj: common/osi/list.c.obj
@@ -612,7 +636,7 @@ common/osi/list.obj: common/osi/list.c.obj
 
 # target to build an object file
 common/osi/list.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/list.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/list.c.obj
 .PHONY : common/osi/list.c.obj
 
 common/osi/list.i: common/osi/list.c.i
@@ -620,7 +644,7 @@ common/osi/list.i: common/osi/list.c.i
 
 # target to preprocess a source file
 common/osi/list.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/list.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/list.c.i
 .PHONY : common/osi/list.c.i
 
 common/osi/list.s: common/osi/list.c.s
@@ -628,7 +652,7 @@ common/osi/list.s: common/osi/list.c.s
 
 # target to generate assembly for a file
 common/osi/list.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/list.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/list.c.s
 .PHONY : common/osi/list.c.s
 
 common/osi/mutex.obj: common/osi/mutex.c.obj
@@ -636,7 +660,7 @@ common/osi/mutex.obj: common/osi/mutex.c.obj
 
 # target to build an object file
 common/osi/mutex.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/mutex.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/mutex.c.obj
 .PHONY : common/osi/mutex.c.obj
 
 common/osi/mutex.i: common/osi/mutex.c.i
@@ -644,7 +668,7 @@ common/osi/mutex.i: common/osi/mutex.c.i
 
 # target to preprocess a source file
 common/osi/mutex.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/mutex.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/mutex.c.i
 .PHONY : common/osi/mutex.c.i
 
 common/osi/mutex.s: common/osi/mutex.c.s
@@ -652,7 +676,7 @@ common/osi/mutex.s: common/osi/mutex.c.s
 
 # target to generate assembly for a file
 common/osi/mutex.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/mutex.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/mutex.c.s
 .PHONY : common/osi/mutex.c.s
 
 common/osi/osi.obj: common/osi/osi.c.obj
@@ -660,7 +684,7 @@ common/osi/osi.obj: common/osi/osi.c.obj
 
 # target to build an object file
 common/osi/osi.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/osi.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/osi.c.obj
 .PHONY : common/osi/osi.c.obj
 
 common/osi/osi.i: common/osi/osi.c.i
@@ -668,7 +692,7 @@ common/osi/osi.i: common/osi/osi.c.i
 
 # target to preprocess a source file
 common/osi/osi.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/osi.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/osi.c.i
 .PHONY : common/osi/osi.c.i
 
 common/osi/osi.s: common/osi/osi.c.s
@@ -676,7 +700,7 @@ common/osi/osi.s: common/osi/osi.c.s
 
 # target to generate assembly for a file
 common/osi/osi.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/osi.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/osi.c.s
 .PHONY : common/osi/osi.c.s
 
 common/osi/pkt_queue.obj: common/osi/pkt_queue.c.obj
@@ -684,7 +708,7 @@ common/osi/pkt_queue.obj: common/osi/pkt_queue.c.obj
 
 # target to build an object file
 common/osi/pkt_queue.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/pkt_queue.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/pkt_queue.c.obj
 .PHONY : common/osi/pkt_queue.c.obj
 
 common/osi/pkt_queue.i: common/osi/pkt_queue.c.i
@@ -692,7 +716,7 @@ common/osi/pkt_queue.i: common/osi/pkt_queue.c.i
 
 # target to preprocess a source file
 common/osi/pkt_queue.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/pkt_queue.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/pkt_queue.c.i
 .PHONY : common/osi/pkt_queue.c.i
 
 common/osi/pkt_queue.s: common/osi/pkt_queue.c.s
@@ -700,7 +724,7 @@ common/osi/pkt_queue.s: common/osi/pkt_queue.c.s
 
 # target to generate assembly for a file
 common/osi/pkt_queue.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/pkt_queue.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/pkt_queue.c.s
 .PHONY : common/osi/pkt_queue.c.s
 
 common/osi/semaphore.obj: common/osi/semaphore.c.obj
@@ -708,7 +732,7 @@ common/osi/semaphore.obj: common/osi/semaphore.c.obj
 
 # target to build an object file
 common/osi/semaphore.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.obj
 .PHONY : common/osi/semaphore.c.obj
 
 common/osi/semaphore.i: common/osi/semaphore.c.i
@@ -716,7 +740,7 @@ common/osi/semaphore.i: common/osi/semaphore.c.i
 
 # target to preprocess a source file
 common/osi/semaphore.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.i
 .PHONY : common/osi/semaphore.c.i
 
 common/osi/semaphore.s: common/osi/semaphore.c.s
@@ -724,7 +748,7 @@ common/osi/semaphore.s: common/osi/semaphore.c.s
 
 # target to generate assembly for a file
 common/osi/semaphore.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/semaphore.c.s
 .PHONY : common/osi/semaphore.c.s
 
 common/osi/thread.obj: common/osi/thread.c.obj
@@ -732,7 +756,7 @@ common/osi/thread.obj: common/osi/thread.c.obj
 
 # target to build an object file
 common/osi/thread.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/thread.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/thread.c.obj
 .PHONY : common/osi/thread.c.obj
 
 common/osi/thread.i: common/osi/thread.c.i
@@ -740,7 +764,7 @@ common/osi/thread.i: common/osi/thread.c.i
 
 # target to preprocess a source file
 common/osi/thread.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/thread.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/thread.c.i
 .PHONY : common/osi/thread.c.i
 
 common/osi/thread.s: common/osi/thread.c.s
@@ -748,7 +772,7 @@ common/osi/thread.s: common/osi/thread.c.s
 
 # target to generate assembly for a file
 common/osi/thread.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/thread.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/osi/thread.c.s
 .PHONY : common/osi/thread.c.s
 
 common/tinycrypt/port/esp_tinycrypt_port.obj: common/tinycrypt/port/esp_tinycrypt_port.c.obj
@@ -756,7 +780,7 @@ common/tinycrypt/port/esp_tinycrypt_port.obj: common/tinycrypt/port/esp_tinycryp
 
 # target to build an object file
 common/tinycrypt/port/esp_tinycrypt_port.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/port/esp_tinycrypt_port.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/port/esp_tinycrypt_port.c.obj
 .PHONY : common/tinycrypt/port/esp_tinycrypt_port.c.obj
 
 common/tinycrypt/port/esp_tinycrypt_port.i: common/tinycrypt/port/esp_tinycrypt_port.c.i
@@ -764,7 +788,7 @@ common/tinycrypt/port/esp_tinycrypt_port.i: common/tinycrypt/port/esp_tinycrypt_
 
 # target to preprocess a source file
 common/tinycrypt/port/esp_tinycrypt_port.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/port/esp_tinycrypt_port.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/port/esp_tinycrypt_port.c.i
 .PHONY : common/tinycrypt/port/esp_tinycrypt_port.c.i
 
 common/tinycrypt/port/esp_tinycrypt_port.s: common/tinycrypt/port/esp_tinycrypt_port.c.s
@@ -772,7 +796,7 @@ common/tinycrypt/port/esp_tinycrypt_port.s: common/tinycrypt/port/esp_tinycrypt_
 
 # target to generate assembly for a file
 common/tinycrypt/port/esp_tinycrypt_port.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/port/esp_tinycrypt_port.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/port/esp_tinycrypt_port.c.s
 .PHONY : common/tinycrypt/port/esp_tinycrypt_port.c.s
 
 common/tinycrypt/src/aes_decrypt.obj: common/tinycrypt/src/aes_decrypt.c.obj
@@ -780,7 +804,7 @@ common/tinycrypt/src/aes_decrypt.obj: common/tinycrypt/src/aes_decrypt.c.obj
 
 # target to build an object file
 common/tinycrypt/src/aes_decrypt.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/aes_decrypt.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/aes_decrypt.c.obj
 .PHONY : common/tinycrypt/src/aes_decrypt.c.obj
 
 common/tinycrypt/src/aes_decrypt.i: common/tinycrypt/src/aes_decrypt.c.i
@@ -788,7 +812,7 @@ common/tinycrypt/src/aes_decrypt.i: common/tinycrypt/src/aes_decrypt.c.i
 
 # target to preprocess a source file
 common/tinycrypt/src/aes_decrypt.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/aes_decrypt.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/aes_decrypt.c.i
 .PHONY : common/tinycrypt/src/aes_decrypt.c.i
 
 common/tinycrypt/src/aes_decrypt.s: common/tinycrypt/src/aes_decrypt.c.s
@@ -796,7 +820,7 @@ common/tinycrypt/src/aes_decrypt.s: common/tinycrypt/src/aes_decrypt.c.s
 
 # target to generate assembly for a file
 common/tinycrypt/src/aes_decrypt.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/aes_decrypt.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/aes_decrypt.c.s
 .PHONY : common/tinycrypt/src/aes_decrypt.c.s
 
 common/tinycrypt/src/aes_encrypt.obj: common/tinycrypt/src/aes_encrypt.c.obj
@@ -804,7 +828,7 @@ common/tinycrypt/src/aes_encrypt.obj: common/tinycrypt/src/aes_encrypt.c.obj
 
 # target to build an object file
 common/tinycrypt/src/aes_encrypt.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/aes_encrypt.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/aes_encrypt.c.obj
 .PHONY : common/tinycrypt/src/aes_encrypt.c.obj
 
 common/tinycrypt/src/aes_encrypt.i: common/tinycrypt/src/aes_encrypt.c.i
@@ -812,7 +836,7 @@ common/tinycrypt/src/aes_encrypt.i: common/tinycrypt/src/aes_encrypt.c.i
 
 # target to preprocess a source file
 common/tinycrypt/src/aes_encrypt.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/aes_encrypt.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/aes_encrypt.c.i
 .PHONY : common/tinycrypt/src/aes_encrypt.c.i
 
 common/tinycrypt/src/aes_encrypt.s: common/tinycrypt/src/aes_encrypt.c.s
@@ -820,7 +844,7 @@ common/tinycrypt/src/aes_encrypt.s: common/tinycrypt/src/aes_encrypt.c.s
 
 # target to generate assembly for a file
 common/tinycrypt/src/aes_encrypt.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/aes_encrypt.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/aes_encrypt.c.s
 .PHONY : common/tinycrypt/src/aes_encrypt.c.s
 
 common/tinycrypt/src/cbc_mode.obj: common/tinycrypt/src/cbc_mode.c.obj
@@ -828,7 +852,7 @@ common/tinycrypt/src/cbc_mode.obj: common/tinycrypt/src/cbc_mode.c.obj
 
 # target to build an object file
 common/tinycrypt/src/cbc_mode.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/cbc_mode.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/cbc_mode.c.obj
 .PHONY : common/tinycrypt/src/cbc_mode.c.obj
 
 common/tinycrypt/src/cbc_mode.i: common/tinycrypt/src/cbc_mode.c.i
@@ -836,7 +860,7 @@ common/tinycrypt/src/cbc_mode.i: common/tinycrypt/src/cbc_mode.c.i
 
 # target to preprocess a source file
 common/tinycrypt/src/cbc_mode.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/cbc_mode.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/cbc_mode.c.i
 .PHONY : common/tinycrypt/src/cbc_mode.c.i
 
 common/tinycrypt/src/cbc_mode.s: common/tinycrypt/src/cbc_mode.c.s
@@ -844,7 +868,7 @@ common/tinycrypt/src/cbc_mode.s: common/tinycrypt/src/cbc_mode.c.s
 
 # target to generate assembly for a file
 common/tinycrypt/src/cbc_mode.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/cbc_mode.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/cbc_mode.c.s
 .PHONY : common/tinycrypt/src/cbc_mode.c.s
 
 common/tinycrypt/src/ccm_mode.obj: common/tinycrypt/src/ccm_mode.c.obj
@@ -852,7 +876,7 @@ common/tinycrypt/src/ccm_mode.obj: common/tinycrypt/src/ccm_mode.c.obj
 
 # target to build an object file
 common/tinycrypt/src/ccm_mode.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ccm_mode.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ccm_mode.c.obj
 .PHONY : common/tinycrypt/src/ccm_mode.c.obj
 
 common/tinycrypt/src/ccm_mode.i: common/tinycrypt/src/ccm_mode.c.i
@@ -860,7 +884,7 @@ common/tinycrypt/src/ccm_mode.i: common/tinycrypt/src/ccm_mode.c.i
 
 # target to preprocess a source file
 common/tinycrypt/src/ccm_mode.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ccm_mode.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ccm_mode.c.i
 .PHONY : common/tinycrypt/src/ccm_mode.c.i
 
 common/tinycrypt/src/ccm_mode.s: common/tinycrypt/src/ccm_mode.c.s
@@ -868,7 +892,7 @@ common/tinycrypt/src/ccm_mode.s: common/tinycrypt/src/ccm_mode.c.s
 
 # target to generate assembly for a file
 common/tinycrypt/src/ccm_mode.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ccm_mode.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ccm_mode.c.s
 .PHONY : common/tinycrypt/src/ccm_mode.c.s
 
 common/tinycrypt/src/cmac_mode.obj: common/tinycrypt/src/cmac_mode.c.obj
@@ -876,7 +900,7 @@ common/tinycrypt/src/cmac_mode.obj: common/tinycrypt/src/cmac_mode.c.obj
 
 # target to build an object file
 common/tinycrypt/src/cmac_mode.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/cmac_mode.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/cmac_mode.c.obj
 .PHONY : common/tinycrypt/src/cmac_mode.c.obj
 
 common/tinycrypt/src/cmac_mode.i: common/tinycrypt/src/cmac_mode.c.i
@@ -884,7 +908,7 @@ common/tinycrypt/src/cmac_mode.i: common/tinycrypt/src/cmac_mode.c.i
 
 # target to preprocess a source file
 common/tinycrypt/src/cmac_mode.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/cmac_mode.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/cmac_mode.c.i
 .PHONY : common/tinycrypt/src/cmac_mode.c.i
 
 common/tinycrypt/src/cmac_mode.s: common/tinycrypt/src/cmac_mode.c.s
@@ -892,7 +916,7 @@ common/tinycrypt/src/cmac_mode.s: common/tinycrypt/src/cmac_mode.c.s
 
 # target to generate assembly for a file
 common/tinycrypt/src/cmac_mode.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/cmac_mode.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/cmac_mode.c.s
 .PHONY : common/tinycrypt/src/cmac_mode.c.s
 
 common/tinycrypt/src/ctr_mode.obj: common/tinycrypt/src/ctr_mode.c.obj
@@ -900,7 +924,7 @@ common/tinycrypt/src/ctr_mode.obj: common/tinycrypt/src/ctr_mode.c.obj
 
 # target to build an object file
 common/tinycrypt/src/ctr_mode.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ctr_mode.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ctr_mode.c.obj
 .PHONY : common/tinycrypt/src/ctr_mode.c.obj
 
 common/tinycrypt/src/ctr_mode.i: common/tinycrypt/src/ctr_mode.c.i
@@ -908,7 +932,7 @@ common/tinycrypt/src/ctr_mode.i: common/tinycrypt/src/ctr_mode.c.i
 
 # target to preprocess a source file
 common/tinycrypt/src/ctr_mode.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ctr_mode.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ctr_mode.c.i
 .PHONY : common/tinycrypt/src/ctr_mode.c.i
 
 common/tinycrypt/src/ctr_mode.s: common/tinycrypt/src/ctr_mode.c.s
@@ -916,7 +940,7 @@ common/tinycrypt/src/ctr_mode.s: common/tinycrypt/src/ctr_mode.c.s
 
 # target to generate assembly for a file
 common/tinycrypt/src/ctr_mode.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ctr_mode.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ctr_mode.c.s
 .PHONY : common/tinycrypt/src/ctr_mode.c.s
 
 common/tinycrypt/src/ctr_prng.obj: common/tinycrypt/src/ctr_prng.c.obj
@@ -924,7 +948,7 @@ common/tinycrypt/src/ctr_prng.obj: common/tinycrypt/src/ctr_prng.c.obj
 
 # target to build an object file
 common/tinycrypt/src/ctr_prng.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ctr_prng.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ctr_prng.c.obj
 .PHONY : common/tinycrypt/src/ctr_prng.c.obj
 
 common/tinycrypt/src/ctr_prng.i: common/tinycrypt/src/ctr_prng.c.i
@@ -932,7 +956,7 @@ common/tinycrypt/src/ctr_prng.i: common/tinycrypt/src/ctr_prng.c.i
 
 # target to preprocess a source file
 common/tinycrypt/src/ctr_prng.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ctr_prng.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ctr_prng.c.i
 .PHONY : common/tinycrypt/src/ctr_prng.c.i
 
 common/tinycrypt/src/ctr_prng.s: common/tinycrypt/src/ctr_prng.c.s
@@ -940,7 +964,7 @@ common/tinycrypt/src/ctr_prng.s: common/tinycrypt/src/ctr_prng.c.s
 
 # target to generate assembly for a file
 common/tinycrypt/src/ctr_prng.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ctr_prng.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ctr_prng.c.s
 .PHONY : common/tinycrypt/src/ctr_prng.c.s
 
 common/tinycrypt/src/ecc.obj: common/tinycrypt/src/ecc.c.obj
@@ -948,7 +972,7 @@ common/tinycrypt/src/ecc.obj: common/tinycrypt/src/ecc.c.obj
 
 # target to build an object file
 common/tinycrypt/src/ecc.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc.c.obj
 .PHONY : common/tinycrypt/src/ecc.c.obj
 
 common/tinycrypt/src/ecc.i: common/tinycrypt/src/ecc.c.i
@@ -956,7 +980,7 @@ common/tinycrypt/src/ecc.i: common/tinycrypt/src/ecc.c.i
 
 # target to preprocess a source file
 common/tinycrypt/src/ecc.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc.c.i
 .PHONY : common/tinycrypt/src/ecc.c.i
 
 common/tinycrypt/src/ecc.s: common/tinycrypt/src/ecc.c.s
@@ -964,7 +988,7 @@ common/tinycrypt/src/ecc.s: common/tinycrypt/src/ecc.c.s
 
 # target to generate assembly for a file
 common/tinycrypt/src/ecc.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc.c.s
 .PHONY : common/tinycrypt/src/ecc.c.s
 
 common/tinycrypt/src/ecc_dh.obj: common/tinycrypt/src/ecc_dh.c.obj
@@ -972,7 +996,7 @@ common/tinycrypt/src/ecc_dh.obj: common/tinycrypt/src/ecc_dh.c.obj
 
 # target to build an object file
 common/tinycrypt/src/ecc_dh.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc_dh.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc_dh.c.obj
 .PHONY : common/tinycrypt/src/ecc_dh.c.obj
 
 common/tinycrypt/src/ecc_dh.i: common/tinycrypt/src/ecc_dh.c.i
@@ -980,7 +1004,7 @@ common/tinycrypt/src/ecc_dh.i: common/tinycrypt/src/ecc_dh.c.i
 
 # target to preprocess a source file
 common/tinycrypt/src/ecc_dh.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc_dh.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc_dh.c.i
 .PHONY : common/tinycrypt/src/ecc_dh.c.i
 
 common/tinycrypt/src/ecc_dh.s: common/tinycrypt/src/ecc_dh.c.s
@@ -988,7 +1012,7 @@ common/tinycrypt/src/ecc_dh.s: common/tinycrypt/src/ecc_dh.c.s
 
 # target to generate assembly for a file
 common/tinycrypt/src/ecc_dh.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc_dh.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc_dh.c.s
 .PHONY : common/tinycrypt/src/ecc_dh.c.s
 
 common/tinycrypt/src/ecc_dsa.obj: common/tinycrypt/src/ecc_dsa.c.obj
@@ -996,7 +1020,7 @@ common/tinycrypt/src/ecc_dsa.obj: common/tinycrypt/src/ecc_dsa.c.obj
 
 # target to build an object file
 common/tinycrypt/src/ecc_dsa.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc_dsa.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc_dsa.c.obj
 .PHONY : common/tinycrypt/src/ecc_dsa.c.obj
 
 common/tinycrypt/src/ecc_dsa.i: common/tinycrypt/src/ecc_dsa.c.i
@@ -1004,7 +1028,7 @@ common/tinycrypt/src/ecc_dsa.i: common/tinycrypt/src/ecc_dsa.c.i
 
 # target to preprocess a source file
 common/tinycrypt/src/ecc_dsa.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc_dsa.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc_dsa.c.i
 .PHONY : common/tinycrypt/src/ecc_dsa.c.i
 
 common/tinycrypt/src/ecc_dsa.s: common/tinycrypt/src/ecc_dsa.c.s
@@ -1012,7 +1036,7 @@ common/tinycrypt/src/ecc_dsa.s: common/tinycrypt/src/ecc_dsa.c.s
 
 # target to generate assembly for a file
 common/tinycrypt/src/ecc_dsa.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc_dsa.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc_dsa.c.s
 .PHONY : common/tinycrypt/src/ecc_dsa.c.s
 
 common/tinycrypt/src/ecc_platform_specific.obj: common/tinycrypt/src/ecc_platform_specific.c.obj
@@ -1020,7 +1044,7 @@ common/tinycrypt/src/ecc_platform_specific.obj: common/tinycrypt/src/ecc_platfor
 
 # target to build an object file
 common/tinycrypt/src/ecc_platform_specific.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc_platform_specific.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc_platform_specific.c.obj
 .PHONY : common/tinycrypt/src/ecc_platform_specific.c.obj
 
 common/tinycrypt/src/ecc_platform_specific.i: common/tinycrypt/src/ecc_platform_specific.c.i
@@ -1028,7 +1052,7 @@ common/tinycrypt/src/ecc_platform_specific.i: common/tinycrypt/src/ecc_platform_
 
 # target to preprocess a source file
 common/tinycrypt/src/ecc_platform_specific.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc_platform_specific.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc_platform_specific.c.i
 .PHONY : common/tinycrypt/src/ecc_platform_specific.c.i
 
 common/tinycrypt/src/ecc_platform_specific.s: common/tinycrypt/src/ecc_platform_specific.c.s
@@ -1036,7 +1060,7 @@ common/tinycrypt/src/ecc_platform_specific.s: common/tinycrypt/src/ecc_platform_
 
 # target to generate assembly for a file
 common/tinycrypt/src/ecc_platform_specific.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc_platform_specific.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/ecc_platform_specific.c.s
 .PHONY : common/tinycrypt/src/ecc_platform_specific.c.s
 
 common/tinycrypt/src/hmac.obj: common/tinycrypt/src/hmac.c.obj
@@ -1044,7 +1068,7 @@ common/tinycrypt/src/hmac.obj: common/tinycrypt/src/hmac.c.obj
 
 # target to build an object file
 common/tinycrypt/src/hmac.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/hmac.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/hmac.c.obj
 .PHONY : common/tinycrypt/src/hmac.c.obj
 
 common/tinycrypt/src/hmac.i: common/tinycrypt/src/hmac.c.i
@@ -1052,7 +1076,7 @@ common/tinycrypt/src/hmac.i: common/tinycrypt/src/hmac.c.i
 
 # target to preprocess a source file
 common/tinycrypt/src/hmac.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/hmac.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/hmac.c.i
 .PHONY : common/tinycrypt/src/hmac.c.i
 
 common/tinycrypt/src/hmac.s: common/tinycrypt/src/hmac.c.s
@@ -1060,7 +1084,7 @@ common/tinycrypt/src/hmac.s: common/tinycrypt/src/hmac.c.s
 
 # target to generate assembly for a file
 common/tinycrypt/src/hmac.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/hmac.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/hmac.c.s
 .PHONY : common/tinycrypt/src/hmac.c.s
 
 common/tinycrypt/src/hmac_prng.obj: common/tinycrypt/src/hmac_prng.c.obj
@@ -1068,7 +1092,7 @@ common/tinycrypt/src/hmac_prng.obj: common/tinycrypt/src/hmac_prng.c.obj
 
 # target to build an object file
 common/tinycrypt/src/hmac_prng.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/hmac_prng.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/hmac_prng.c.obj
 .PHONY : common/tinycrypt/src/hmac_prng.c.obj
 
 common/tinycrypt/src/hmac_prng.i: common/tinycrypt/src/hmac_prng.c.i
@@ -1076,7 +1100,7 @@ common/tinycrypt/src/hmac_prng.i: common/tinycrypt/src/hmac_prng.c.i
 
 # target to preprocess a source file
 common/tinycrypt/src/hmac_prng.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/hmac_prng.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/hmac_prng.c.i
 .PHONY : common/tinycrypt/src/hmac_prng.c.i
 
 common/tinycrypt/src/hmac_prng.s: common/tinycrypt/src/hmac_prng.c.s
@@ -1084,7 +1108,7 @@ common/tinycrypt/src/hmac_prng.s: common/tinycrypt/src/hmac_prng.c.s
 
 # target to generate assembly for a file
 common/tinycrypt/src/hmac_prng.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/hmac_prng.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/hmac_prng.c.s
 .PHONY : common/tinycrypt/src/hmac_prng.c.s
 
 common/tinycrypt/src/sha256.obj: common/tinycrypt/src/sha256.c.obj
@@ -1092,7 +1116,7 @@ common/tinycrypt/src/sha256.obj: common/tinycrypt/src/sha256.c.obj
 
 # target to build an object file
 common/tinycrypt/src/sha256.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/sha256.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/sha256.c.obj
 .PHONY : common/tinycrypt/src/sha256.c.obj
 
 common/tinycrypt/src/sha256.i: common/tinycrypt/src/sha256.c.i
@@ -1100,7 +1124,7 @@ common/tinycrypt/src/sha256.i: common/tinycrypt/src/sha256.c.i
 
 # target to preprocess a source file
 common/tinycrypt/src/sha256.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/sha256.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/sha256.c.i
 .PHONY : common/tinycrypt/src/sha256.c.i
 
 common/tinycrypt/src/sha256.s: common/tinycrypt/src/sha256.c.s
@@ -1108,7 +1132,7 @@ common/tinycrypt/src/sha256.s: common/tinycrypt/src/sha256.c.s
 
 # target to generate assembly for a file
 common/tinycrypt/src/sha256.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/sha256.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/sha256.c.s
 .PHONY : common/tinycrypt/src/sha256.c.s
 
 common/tinycrypt/src/utils.obj: common/tinycrypt/src/utils.c.obj
@@ -1116,7 +1140,7 @@ common/tinycrypt/src/utils.obj: common/tinycrypt/src/utils.c.obj
 
 # target to build an object file
 common/tinycrypt/src/utils.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/utils.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/utils.c.obj
 .PHONY : common/tinycrypt/src/utils.c.obj
 
 common/tinycrypt/src/utils.i: common/tinycrypt/src/utils.c.i
@@ -1124,7 +1148,7 @@ common/tinycrypt/src/utils.i: common/tinycrypt/src/utils.c.i
 
 # target to preprocess a source file
 common/tinycrypt/src/utils.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/utils.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/utils.c.i
 .PHONY : common/tinycrypt/src/utils.c.i
 
 common/tinycrypt/src/utils.s: common/tinycrypt/src/utils.c.s
@@ -1132,7 +1156,7 @@ common/tinycrypt/src/utils.s: common/tinycrypt/src/utils.c.s
 
 # target to generate assembly for a file
 common/tinycrypt/src/utils.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/utils.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/common/tinycrypt/src/utils.c.s
 .PHONY : common/tinycrypt/src/utils.c.s
 
 controller/esp32c3/bt.obj: controller/esp32c3/bt.c.obj
@@ -1140,7 +1164,7 @@ controller/esp32c3/bt.obj: controller/esp32c3/bt.c.obj
 
 # target to build an object file
 controller/esp32c3/bt.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/esp32c3/bt.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/esp32c3/bt.c.obj
 .PHONY : controller/esp32c3/bt.c.obj
 
 controller/esp32c3/bt.i: controller/esp32c3/bt.c.i
@@ -1148,7 +1172,7 @@ controller/esp32c3/bt.i: controller/esp32c3/bt.c.i
 
 # target to preprocess a source file
 controller/esp32c3/bt.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/esp32c3/bt.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/esp32c3/bt.c.i
 .PHONY : controller/esp32c3/bt.c.i
 
 controller/esp32c3/bt.s: controller/esp32c3/bt.c.s
@@ -1156,7 +1180,7 @@ controller/esp32c3/bt.s: controller/esp32c3/bt.c.s
 
 # target to generate assembly for a file
 controller/esp32c3/bt.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/esp32c3/bt.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/controller/esp32c3/bt.c.s
 .PHONY : controller/esp32c3/bt.c.s
 
 host/nimble/esp-hci/src/esp_nimble_hci.obj: host/nimble/esp-hci/src/esp_nimble_hci.c.obj
@@ -1164,7 +1188,7 @@ host/nimble/esp-hci/src/esp_nimble_hci.obj: host/nimble/esp-hci/src/esp_nimble_h
 
 # target to build an object file
 host/nimble/esp-hci/src/esp_nimble_hci.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/esp-hci/src/esp_nimble_hci.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/esp-hci/src/esp_nimble_hci.c.obj
 .PHONY : host/nimble/esp-hci/src/esp_nimble_hci.c.obj
 
 host/nimble/esp-hci/src/esp_nimble_hci.i: host/nimble/esp-hci/src/esp_nimble_hci.c.i
@@ -1172,7 +1196,7 @@ host/nimble/esp-hci/src/esp_nimble_hci.i: host/nimble/esp-hci/src/esp_nimble_hci
 
 # target to preprocess a source file
 host/nimble/esp-hci/src/esp_nimble_hci.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/esp-hci/src/esp_nimble_hci.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/esp-hci/src/esp_nimble_hci.c.i
 .PHONY : host/nimble/esp-hci/src/esp_nimble_hci.c.i
 
 host/nimble/esp-hci/src/esp_nimble_hci.s: host/nimble/esp-hci/src/esp_nimble_hci.c.s
@@ -1180,7 +1204,7 @@ host/nimble/esp-hci/src/esp_nimble_hci.s: host/nimble/esp-hci/src/esp_nimble_hci
 
 # target to generate assembly for a file
 host/nimble/esp-hci/src/esp_nimble_hci.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/esp-hci/src/esp_nimble_hci.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/esp-hci/src/esp_nimble_hci.c.s
 .PHONY : host/nimble/esp-hci/src/esp_nimble_hci.c.s
 
 host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.obj: host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.obj
@@ -1188,7 +1212,7 @@ host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.obj: host/nimble/nim
 
 # target to build an object file
 host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.obj
 .PHONY : host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.obj
 
 host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.i: host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.i
@@ -1196,7 +1220,7 @@ host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.i: host/nimble/nimbl
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.i
 .PHONY : host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.i
 
 host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.s: host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.s
@@ -1204,7 +1228,7 @@ host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.s: host/nimble/nimbl
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.s
 .PHONY : host/nimble/nimble/nimble/host/services/ans/src/ble_svc_ans.c.s
 
 host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.obj: host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.obj
@@ -1212,7 +1236,7 @@ host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.obj: host/nimble/nim
 
 # target to build an object file
 host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.obj
 .PHONY : host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.obj
 
 host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.i: host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.i
@@ -1220,7 +1244,7 @@ host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.i: host/nimble/nimbl
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.i
 .PHONY : host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.i
 
 host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.s: host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.s
@@ -1228,7 +1252,7 @@ host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.s: host/nimble/nimbl
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.s
 .PHONY : host/nimble/nimble/nimble/host/services/bas/src/ble_svc_bas.c.s
 
 host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.obj: host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.obj
@@ -1236,7 +1260,7 @@ host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.obj: host/nimble/nim
 
 # target to build an object file
 host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.obj
 .PHONY : host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.obj
 
 host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.i: host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.i
@@ -1244,7 +1268,7 @@ host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.i: host/nimble/nimbl
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.i
 .PHONY : host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.i
 
 host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.s: host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.s
@@ -1252,7 +1276,7 @@ host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.s: host/nimble/nimbl
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.s
 .PHONY : host/nimble/nimble/nimble/host/services/cte/src/ble_svc_cte.c.s
 
 host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.obj: host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.obj
@@ -1260,7 +1284,7 @@ host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.obj: host/nimble/nim
 
 # target to build an object file
 host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.obj
 .PHONY : host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.obj
 
 host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.i: host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.i
@@ -1268,7 +1292,7 @@ host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.i: host/nimble/nimbl
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.i
 .PHONY : host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.i
 
 host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.s: host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.s
@@ -1276,7 +1300,7 @@ host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.s: host/nimble/nimbl
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.s
 .PHONY : host/nimble/nimble/nimble/host/services/cts/src/ble_svc_cts.c.s
 
 host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.obj: host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.obj
@@ -1284,7 +1308,7 @@ host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.obj: host/nimble/nim
 
 # target to build an object file
 host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.obj
 .PHONY : host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.obj
 
 host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.i: host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.i
@@ -1292,7 +1316,7 @@ host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.i: host/nimble/nimbl
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.i
 .PHONY : host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.i
 
 host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.s: host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.s
@@ -1300,7 +1324,7 @@ host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.s: host/nimble/nimbl
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.s
 .PHONY : host/nimble/nimble/nimble/host/services/dis/src/ble_svc_dis.c.s
 
 host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.obj: host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.obj
@@ -1308,7 +1332,7 @@ host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.obj: host/nimble/nim
 
 # target to build an object file
 host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.obj
 .PHONY : host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.obj
 
 host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.i: host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.i
@@ -1316,7 +1340,7 @@ host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.i: host/nimble/nimbl
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.i
 .PHONY : host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.i
 
 host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.s: host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.s
@@ -1324,7 +1348,7 @@ host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.s: host/nimble/nimbl
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.s
 .PHONY : host/nimble/nimble/nimble/host/services/gap/src/ble_svc_gap.c.s
 
 host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.obj: host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.obj
@@ -1332,7 +1356,7 @@ host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.obj: host/nimble/n
 
 # target to build an object file
 host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.obj
 .PHONY : host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.obj
 
 host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.i: host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.i
@@ -1340,7 +1364,7 @@ host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.i: host/nimble/nim
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.i
 .PHONY : host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.i
 
 host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.s: host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.s
@@ -1348,7 +1372,7 @@ host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.s: host/nimble/nim
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.s
 .PHONY : host/nimble/nimble/nimble/host/services/gatt/src/ble_svc_gatt.c.s
 
 host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.obj: host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.obj
@@ -1356,7 +1380,7 @@ host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.obj: host/nimble/nim
 
 # target to build an object file
 host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.obj
 .PHONY : host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.obj
 
 host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.i: host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.i
@@ -1364,7 +1388,7 @@ host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.i: host/nimble/nimbl
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.i
 .PHONY : host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.i
 
 host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.s: host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.s
@@ -1372,7 +1396,7 @@ host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.s: host/nimble/nimbl
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.s
 .PHONY : host/nimble/nimble/nimble/host/services/hid/src/ble_svc_hid.c.s
 
 host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.obj: host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.obj
@@ -1380,7 +1404,7 @@ host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.obj: host/nimble/nimbl
 
 # target to build an object file
 host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.obj
 .PHONY : host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.obj
 
 host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.i: host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.i
@@ -1388,7 +1412,7 @@ host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.i: host/nimble/nimble/
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.i
 .PHONY : host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.i
 
 host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.s: host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.s
@@ -1396,7 +1420,7 @@ host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.s: host/nimble/nimble/
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.s
 .PHONY : host/nimble/nimble/nimble/host/services/hr/src/ble_svc_hr.c.s
 
 host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.obj: host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.obj
@@ -1404,7 +1428,7 @@ host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.obj: host/nimble/nim
 
 # target to build an object file
 host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.obj
 .PHONY : host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.obj
 
 host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.i: host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.i
@@ -1412,7 +1436,7 @@ host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.i: host/nimble/nimbl
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.i
 .PHONY : host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.i
 
 host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.s: host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.s
@@ -1420,7 +1444,7 @@ host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.s: host/nimble/nimbl
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.s
 .PHONY : host/nimble/nimble/nimble/host/services/htp/src/ble_svc_htp.c.s
 
 host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.obj: host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.obj
@@ -1428,7 +1452,7 @@ host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.obj: host/nimble/nim
 
 # target to build an object file
 host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.obj
 .PHONY : host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.obj
 
 host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.i: host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.i
@@ -1436,7 +1460,7 @@ host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.i: host/nimble/nimbl
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.i
 .PHONY : host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.i
 
 host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.s: host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.s
@@ -1444,7 +1468,7 @@ host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.s: host/nimble/nimbl
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.s
 .PHONY : host/nimble/nimble/nimble/host/services/ias/src/ble_svc_ias.c.s
 
 host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.obj: host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.obj
@@ -1452,7 +1476,7 @@ host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.obj: host/nimble/n
 
 # target to build an object file
 host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.obj
 .PHONY : host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.obj
 
 host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.i: host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.i
@@ -1460,7 +1484,7 @@ host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.i: host/nimble/nim
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.i
 .PHONY : host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.i
 
 host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.s: host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.s
@@ -1468,7 +1492,7 @@ host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.s: host/nimble/nim
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.s
 .PHONY : host/nimble/nimble/nimble/host/services/ipss/src/ble_svc_ipss.c.s
 
 host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.obj: host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.obj
@@ -1476,7 +1500,7 @@ host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.obj: host/nimble/nim
 
 # target to build an object file
 host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.obj
 .PHONY : host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.obj
 
 host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.i: host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.i
@@ -1484,7 +1508,7 @@ host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.i: host/nimble/nimbl
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.i
 .PHONY : host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.i
 
 host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.s: host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.s
@@ -1492,7 +1516,7 @@ host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.s: host/nimble/nimbl
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.s
 .PHONY : host/nimble/nimble/nimble/host/services/lls/src/ble_svc_lls.c.s
 
 host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.obj: host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.obj
@@ -1500,7 +1524,7 @@ host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.obj: host/nimble/n
 
 # target to build an object file
 host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.obj
 .PHONY : host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.obj
 
 host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.i: host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.i
@@ -1508,7 +1532,7 @@ host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.i: host/nimble/nim
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.i
 .PHONY : host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.i
 
 host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.s: host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.s
@@ -1516,7 +1540,7 @@ host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.s: host/nimble/nim
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.s
 .PHONY : host/nimble/nimble/nimble/host/services/prox/src/ble_svc_prox.c.s
 
 host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.obj: host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.obj
@@ -1524,7 +1548,7 @@ host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.obj: host/nimble/nim
 
 # target to build an object file
 host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.obj
 .PHONY : host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.obj
 
 host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.i: host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.i
@@ -1532,7 +1556,7 @@ host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.i: host/nimble/nimbl
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.i
 .PHONY : host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.i
 
 host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.s: host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.s
@@ -1540,7 +1564,7 @@ host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.s: host/nimble/nimbl
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.s
 .PHONY : host/nimble/nimble/nimble/host/services/ras/src/ble_svc_ras.c.s
 
 host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.obj: host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.obj
@@ -1548,7 +1572,7 @@ host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.obj: host/nimble/nim
 
 # target to build an object file
 host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.obj
 .PHONY : host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.obj
 
 host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.i: host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.i
@@ -1556,7 +1580,7 @@ host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.i: host/nimble/nimbl
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.i
 .PHONY : host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.i
 
 host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.s: host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.s
@@ -1564,7 +1588,7 @@ host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.s: host/nimble/nimbl
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.s
 .PHONY : host/nimble/nimble/nimble/host/services/sps/src/ble_svc_sps.c.s
 
 host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.obj: host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.obj
@@ -1572,7 +1596,7 @@ host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.obj: host/nimble/nim
 
 # target to build an object file
 host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.obj
 .PHONY : host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.obj
 
 host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.i: host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.i
@@ -1580,7 +1604,7 @@ host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.i: host/nimble/nimbl
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.i
 .PHONY : host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.i
 
 host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.s: host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.s
@@ -1588,7 +1612,7 @@ host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.s: host/nimble/nimbl
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.s
 .PHONY : host/nimble/nimble/nimble/host/services/tps/src/ble_svc_tps.c.s
 
 host/nimble/nimble/nimble/host/src/ble_aes_ccm.obj: host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.obj
@@ -1596,7 +1620,7 @@ host/nimble/nimble/nimble/host/src/ble_aes_ccm.obj: host/nimble/nimble/nimble/ho
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_aes_ccm.i: host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.i
@@ -1604,7 +1628,7 @@ host/nimble/nimble/nimble/host/src/ble_aes_ccm.i: host/nimble/nimble/nimble/host
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.i
 
 host/nimble/nimble/nimble/host/src/ble_aes_ccm.s: host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.s
@@ -1612,7 +1636,7 @@ host/nimble/nimble/nimble/host/src/ble_aes_ccm.s: host/nimble/nimble/nimble/host
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_aes_ccm.c.s
 
 host/nimble/nimble/nimble/host/src/ble_att.obj: host/nimble/nimble/nimble/host/src/ble_att.c.obj
@@ -1620,7 +1644,7 @@ host/nimble/nimble/nimble/host/src/ble_att.obj: host/nimble/nimble/nimble/host/s
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_att.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_att.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_att.i: host/nimble/nimble/nimble/host/src/ble_att.c.i
@@ -1628,7 +1652,7 @@ host/nimble/nimble/nimble/host/src/ble_att.i: host/nimble/nimble/nimble/host/src
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_att.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_att.c.i
 
 host/nimble/nimble/nimble/host/src/ble_att.s: host/nimble/nimble/nimble/host/src/ble_att.c.s
@@ -1636,7 +1660,7 @@ host/nimble/nimble/nimble/host/src/ble_att.s: host/nimble/nimble/nimble/host/src
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_att.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_att.c.s
 
 host/nimble/nimble/nimble/host/src/ble_att_clt.obj: host/nimble/nimble/nimble/host/src/ble_att_clt.c.obj
@@ -1644,7 +1668,7 @@ host/nimble/nimble/nimble/host/src/ble_att_clt.obj: host/nimble/nimble/nimble/ho
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_att_clt.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_clt.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_clt.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_att_clt.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_att_clt.i: host/nimble/nimble/nimble/host/src/ble_att_clt.c.i
@@ -1652,7 +1676,7 @@ host/nimble/nimble/nimble/host/src/ble_att_clt.i: host/nimble/nimble/nimble/host
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_att_clt.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_clt.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_clt.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_att_clt.c.i
 
 host/nimble/nimble/nimble/host/src/ble_att_clt.s: host/nimble/nimble/nimble/host/src/ble_att_clt.c.s
@@ -1660,7 +1684,7 @@ host/nimble/nimble/nimble/host/src/ble_att_clt.s: host/nimble/nimble/nimble/host
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_att_clt.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_clt.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_clt.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_att_clt.c.s
 
 host/nimble/nimble/nimble/host/src/ble_att_cmd.obj: host/nimble/nimble/nimble/host/src/ble_att_cmd.c.obj
@@ -1668,7 +1692,7 @@ host/nimble/nimble/nimble/host/src/ble_att_cmd.obj: host/nimble/nimble/nimble/ho
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_att_cmd.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_cmd.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_cmd.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_att_cmd.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_att_cmd.i: host/nimble/nimble/nimble/host/src/ble_att_cmd.c.i
@@ -1676,7 +1700,7 @@ host/nimble/nimble/nimble/host/src/ble_att_cmd.i: host/nimble/nimble/nimble/host
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_att_cmd.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_cmd.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_cmd.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_att_cmd.c.i
 
 host/nimble/nimble/nimble/host/src/ble_att_cmd.s: host/nimble/nimble/nimble/host/src/ble_att_cmd.c.s
@@ -1684,7 +1708,7 @@ host/nimble/nimble/nimble/host/src/ble_att_cmd.s: host/nimble/nimble/nimble/host
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_att_cmd.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_cmd.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_cmd.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_att_cmd.c.s
 
 host/nimble/nimble/nimble/host/src/ble_att_svr.obj: host/nimble/nimble/nimble/host/src/ble_att_svr.c.obj
@@ -1692,7 +1716,7 @@ host/nimble/nimble/nimble/host/src/ble_att_svr.obj: host/nimble/nimble/nimble/ho
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_att_svr.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_svr.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_svr.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_att_svr.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_att_svr.i: host/nimble/nimble/nimble/host/src/ble_att_svr.c.i
@@ -1700,7 +1724,7 @@ host/nimble/nimble/nimble/host/src/ble_att_svr.i: host/nimble/nimble/nimble/host
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_att_svr.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_svr.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_svr.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_att_svr.c.i
 
 host/nimble/nimble/nimble/host/src/ble_att_svr.s: host/nimble/nimble/nimble/host/src/ble_att_svr.c.s
@@ -1708,7 +1732,7 @@ host/nimble/nimble/nimble/host/src/ble_att_svr.s: host/nimble/nimble/nimble/host
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_att_svr.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_svr.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_att_svr.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_att_svr.c.s
 
 host/nimble/nimble/nimble/host/src/ble_cs.obj: host/nimble/nimble/nimble/host/src/ble_cs.c.obj
@@ -1716,7 +1740,7 @@ host/nimble/nimble/nimble/host/src/ble_cs.obj: host/nimble/nimble/nimble/host/sr
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_cs.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_cs.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_cs.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_cs.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_cs.i: host/nimble/nimble/nimble/host/src/ble_cs.c.i
@@ -1724,7 +1748,7 @@ host/nimble/nimble/nimble/host/src/ble_cs.i: host/nimble/nimble/nimble/host/src/
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_cs.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_cs.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_cs.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_cs.c.i
 
 host/nimble/nimble/nimble/host/src/ble_cs.s: host/nimble/nimble/nimble/host/src/ble_cs.c.s
@@ -1732,7 +1756,7 @@ host/nimble/nimble/nimble/host/src/ble_cs.s: host/nimble/nimble/nimble/host/src/
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_cs.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_cs.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_cs.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_cs.c.s
 
 host/nimble/nimble/nimble/host/src/ble_ead.obj: host/nimble/nimble/nimble/host/src/ble_ead.c.obj
@@ -1740,7 +1764,7 @@ host/nimble/nimble/nimble/host/src/ble_ead.obj: host/nimble/nimble/nimble/host/s
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_ead.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_ead.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_ead.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_ead.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_ead.i: host/nimble/nimble/nimble/host/src/ble_ead.c.i
@@ -1748,7 +1772,7 @@ host/nimble/nimble/nimble/host/src/ble_ead.i: host/nimble/nimble/nimble/host/src
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_ead.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_ead.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_ead.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_ead.c.i
 
 host/nimble/nimble/nimble/host/src/ble_ead.s: host/nimble/nimble/nimble/host/src/ble_ead.c.s
@@ -1756,7 +1780,7 @@ host/nimble/nimble/nimble/host/src/ble_ead.s: host/nimble/nimble/nimble/host/src
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_ead.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_ead.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_ead.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_ead.c.s
 
 host/nimble/nimble/nimble/host/src/ble_eatt.obj: host/nimble/nimble/nimble/host/src/ble_eatt.c.obj
@@ -1764,7 +1788,7 @@ host/nimble/nimble/nimble/host/src/ble_eatt.obj: host/nimble/nimble/nimble/host/
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_eatt.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_eatt.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_eatt.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_eatt.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_eatt.i: host/nimble/nimble/nimble/host/src/ble_eatt.c.i
@@ -1772,7 +1796,7 @@ host/nimble/nimble/nimble/host/src/ble_eatt.i: host/nimble/nimble/nimble/host/sr
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_eatt.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_eatt.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_eatt.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_eatt.c.i
 
 host/nimble/nimble/nimble/host/src/ble_eatt.s: host/nimble/nimble/nimble/host/src/ble_eatt.c.s
@@ -1780,7 +1804,7 @@ host/nimble/nimble/nimble/host/src/ble_eatt.s: host/nimble/nimble/nimble/host/sr
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_eatt.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_eatt.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_eatt.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_eatt.c.s
 
 host/nimble/nimble/nimble/host/src/ble_eddystone.obj: host/nimble/nimble/nimble/host/src/ble_eddystone.c.obj
@@ -1788,7 +1812,7 @@ host/nimble/nimble/nimble/host/src/ble_eddystone.obj: host/nimble/nimble/nimble/
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_eddystone.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_eddystone.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_eddystone.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_eddystone.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_eddystone.i: host/nimble/nimble/nimble/host/src/ble_eddystone.c.i
@@ -1796,7 +1820,7 @@ host/nimble/nimble/nimble/host/src/ble_eddystone.i: host/nimble/nimble/nimble/ho
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_eddystone.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_eddystone.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_eddystone.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_eddystone.c.i
 
 host/nimble/nimble/nimble/host/src/ble_eddystone.s: host/nimble/nimble/nimble/host/src/ble_eddystone.c.s
@@ -1804,7 +1828,7 @@ host/nimble/nimble/nimble/host/src/ble_eddystone.s: host/nimble/nimble/nimble/ho
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_eddystone.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_eddystone.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_eddystone.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_eddystone.c.s
 
 host/nimble/nimble/nimble/host/src/ble_gap.obj: host/nimble/nimble/nimble/host/src/ble_gap.c.obj
@@ -1812,7 +1836,7 @@ host/nimble/nimble/nimble/host/src/ble_gap.obj: host/nimble/nimble/nimble/host/s
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_gap.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gap.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gap.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_gap.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_gap.i: host/nimble/nimble/nimble/host/src/ble_gap.c.i
@@ -1820,7 +1844,7 @@ host/nimble/nimble/nimble/host/src/ble_gap.i: host/nimble/nimble/nimble/host/src
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_gap.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gap.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gap.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_gap.c.i
 
 host/nimble/nimble/nimble/host/src/ble_gap.s: host/nimble/nimble/nimble/host/src/ble_gap.c.s
@@ -1828,7 +1852,7 @@ host/nimble/nimble/nimble/host/src/ble_gap.s: host/nimble/nimble/nimble/host/src
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_gap.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gap.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gap.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_gap.c.s
 
 host/nimble/nimble/nimble/host/src/ble_gattc.obj: host/nimble/nimble/nimble/host/src/ble_gattc.c.obj
@@ -1836,7 +1860,7 @@ host/nimble/nimble/nimble/host/src/ble_gattc.obj: host/nimble/nimble/nimble/host
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_gattc.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_gattc.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_gattc.i: host/nimble/nimble/nimble/host/src/ble_gattc.c.i
@@ -1844,7 +1868,7 @@ host/nimble/nimble/nimble/host/src/ble_gattc.i: host/nimble/nimble/nimble/host/s
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_gattc.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_gattc.c.i
 
 host/nimble/nimble/nimble/host/src/ble_gattc.s: host/nimble/nimble/nimble/host/src/ble_gattc.c.s
@@ -1852,7 +1876,7 @@ host/nimble/nimble/nimble/host/src/ble_gattc.s: host/nimble/nimble/nimble/host/s
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_gattc.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_gattc.c.s
 
 host/nimble/nimble/nimble/host/src/ble_gattc_cache.obj: host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.obj
@@ -1860,7 +1884,7 @@ host/nimble/nimble/nimble/host/src/ble_gattc_cache.obj: host/nimble/nimble/nimbl
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_gattc_cache.i: host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.i
@@ -1868,7 +1892,7 @@ host/nimble/nimble/nimble/host/src/ble_gattc_cache.i: host/nimble/nimble/nimble/
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.i
 
 host/nimble/nimble/nimble/host/src/ble_gattc_cache.s: host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.s
@@ -1876,7 +1900,7 @@ host/nimble/nimble/nimble/host/src/ble_gattc_cache.s: host/nimble/nimble/nimble/
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_gattc_cache.c.s
 
 host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.obj: host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.obj
@@ -1884,7 +1908,7 @@ host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.obj: host/nimble/nimble/
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.i: host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.i
@@ -1892,7 +1916,7 @@ host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.i: host/nimble/nimble/ni
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.i
 
 host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.s: host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.s
@@ -1900,7 +1924,7 @@ host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.s: host/nimble/nimble/ni
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_gattc_cache_conn.c.s
 
 host/nimble/nimble/nimble/host/src/ble_gatts.obj: host/nimble/nimble/nimble/host/src/ble_gatts.c.obj
@@ -1908,7 +1932,7 @@ host/nimble/nimble/nimble/host/src/ble_gatts.obj: host/nimble/nimble/nimble/host
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_gatts.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gatts.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gatts.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_gatts.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_gatts.i: host/nimble/nimble/nimble/host/src/ble_gatts.c.i
@@ -1916,7 +1940,7 @@ host/nimble/nimble/nimble/host/src/ble_gatts.i: host/nimble/nimble/nimble/host/s
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_gatts.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gatts.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gatts.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_gatts.c.i
 
 host/nimble/nimble/nimble/host/src/ble_gatts.s: host/nimble/nimble/nimble/host/src/ble_gatts.c.s
@@ -1924,7 +1948,7 @@ host/nimble/nimble/nimble/host/src/ble_gatts.s: host/nimble/nimble/nimble/host/s
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_gatts.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gatts.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gatts.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_gatts.c.s
 
 host/nimble/nimble/nimble/host/src/ble_gatts_lcl.obj: host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.obj
@@ -1932,7 +1956,7 @@ host/nimble/nimble/nimble/host/src/ble_gatts_lcl.obj: host/nimble/nimble/nimble/
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_gatts_lcl.i: host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.i
@@ -1940,7 +1964,7 @@ host/nimble/nimble/nimble/host/src/ble_gatts_lcl.i: host/nimble/nimble/nimble/ho
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.i
 
 host/nimble/nimble/nimble/host/src/ble_gatts_lcl.s: host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.s
@@ -1948,7 +1972,7 @@ host/nimble/nimble/nimble/host/src/ble_gatts_lcl.s: host/nimble/nimble/nimble/ho
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_gatts_lcl.c.s
 
 host/nimble/nimble/nimble/host/src/ble_hs.obj: host/nimble/nimble/nimble/host/src/ble_hs.c.obj
@@ -1956,7 +1980,7 @@ host/nimble/nimble/nimble/host/src/ble_hs.obj: host/nimble/nimble/nimble/host/sr
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_hs.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_hs.i: host/nimble/nimble/nimble/host/src/ble_hs.c.i
@@ -1964,7 +1988,7 @@ host/nimble/nimble/nimble/host/src/ble_hs.i: host/nimble/nimble/nimble/host/src/
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_hs.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs.c.i
 
 host/nimble/nimble/nimble/host/src/ble_hs.s: host/nimble/nimble/nimble/host/src/ble_hs.c.s
@@ -1972,7 +1996,7 @@ host/nimble/nimble/nimble/host/src/ble_hs.s: host/nimble/nimble/nimble/host/src/
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_hs.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs.c.s
 
 host/nimble/nimble/nimble/host/src/ble_hs_adv.obj: host/nimble/nimble/nimble/host/src/ble_hs_adv.c.obj
@@ -1980,7 +2004,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_adv.obj: host/nimble/nimble/nimble/hos
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_hs_adv.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_adv.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_adv.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_adv.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_hs_adv.i: host/nimble/nimble/nimble/host/src/ble_hs_adv.c.i
@@ -1988,7 +2012,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_adv.i: host/nimble/nimble/nimble/host/
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_hs_adv.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_adv.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_adv.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_adv.c.i
 
 host/nimble/nimble/nimble/host/src/ble_hs_adv.s: host/nimble/nimble/nimble/host/src/ble_hs_adv.c.s
@@ -1996,7 +2020,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_adv.s: host/nimble/nimble/nimble/host/
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_hs_adv.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_adv.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_adv.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_adv.c.s
 
 host/nimble/nimble/nimble/host/src/ble_hs_atomic.obj: host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.obj
@@ -2004,7 +2028,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_atomic.obj: host/nimble/nimble/nimble/
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_hs_atomic.i: host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.i
@@ -2012,7 +2036,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_atomic.i: host/nimble/nimble/nimble/ho
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.i
 
 host/nimble/nimble/nimble/host/src/ble_hs_atomic.s: host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.s
@@ -2020,7 +2044,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_atomic.s: host/nimble/nimble/nimble/ho
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_atomic.c.s
 
 host/nimble/nimble/nimble/host/src/ble_hs_cfg.obj: host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.obj
@@ -2028,7 +2052,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_cfg.obj: host/nimble/nimble/nimble/hos
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_hs_cfg.i: host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.i
@@ -2036,7 +2060,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_cfg.i: host/nimble/nimble/nimble/host/
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.i
 
 host/nimble/nimble/nimble/host/src/ble_hs_cfg.s: host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.s
@@ -2044,7 +2068,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_cfg.s: host/nimble/nimble/nimble/host/
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_cfg.c.s
 
 host/nimble/nimble/nimble/host/src/ble_hs_conn.obj: host/nimble/nimble/nimble/host/src/ble_hs_conn.c.obj
@@ -2052,7 +2076,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_conn.obj: host/nimble/nimble/nimble/ho
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_hs_conn.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_conn.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_conn.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_conn.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_hs_conn.i: host/nimble/nimble/nimble/host/src/ble_hs_conn.c.i
@@ -2060,7 +2084,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_conn.i: host/nimble/nimble/nimble/host
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_hs_conn.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_conn.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_conn.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_conn.c.i
 
 host/nimble/nimble/nimble/host/src/ble_hs_conn.s: host/nimble/nimble/nimble/host/src/ble_hs_conn.c.s
@@ -2068,7 +2092,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_conn.s: host/nimble/nimble/nimble/host
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_hs_conn.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_conn.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_conn.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_conn.c.s
 
 host/nimble/nimble/nimble/host/src/ble_hs_flow.obj: host/nimble/nimble/nimble/host/src/ble_hs_flow.c.obj
@@ -2076,7 +2100,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_flow.obj: host/nimble/nimble/nimble/ho
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_hs_flow.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_flow.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_flow.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_flow.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_hs_flow.i: host/nimble/nimble/nimble/host/src/ble_hs_flow.c.i
@@ -2084,7 +2108,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_flow.i: host/nimble/nimble/nimble/host
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_hs_flow.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_flow.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_flow.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_flow.c.i
 
 host/nimble/nimble/nimble/host/src/ble_hs_flow.s: host/nimble/nimble/nimble/host/src/ble_hs_flow.c.s
@@ -2092,7 +2116,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_flow.s: host/nimble/nimble/nimble/host
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_hs_flow.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_flow.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_flow.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_flow.c.s
 
 host/nimble/nimble/nimble/host/src/ble_hs_hci.obj: host/nimble/nimble/nimble/host/src/ble_hs_hci.c.obj
@@ -2100,7 +2124,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_hci.obj: host/nimble/nimble/nimble/hos
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_hs_hci.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_hs_hci.i: host/nimble/nimble/nimble/host/src/ble_hs_hci.c.i
@@ -2108,7 +2132,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_hci.i: host/nimble/nimble/nimble/host/
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_hs_hci.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci.c.i
 
 host/nimble/nimble/nimble/host/src/ble_hs_hci.s: host/nimble/nimble/nimble/host/src/ble_hs_hci.c.s
@@ -2116,7 +2140,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_hci.s: host/nimble/nimble/nimble/host/
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_hs_hci.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci.c.s
 
 host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.obj: host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.obj
@@ -2124,7 +2148,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.obj: host/nimble/nimble/nimble
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.i: host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.i
@@ -2132,7 +2156,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.i: host/nimble/nimble/nimble/h
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.i
 
 host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.s: host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.s
@@ -2140,7 +2164,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.s: host/nimble/nimble/nimble/h
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_cmd.c.s
 
 host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.obj: host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.obj
@@ -2148,7 +2172,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.obj: host/nimble/nimble/nimble
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.i: host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.i
@@ -2156,7 +2180,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.i: host/nimble/nimble/nimble/h
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.i
 
 host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.s: host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.s
@@ -2164,7 +2188,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.s: host/nimble/nimble/nimble/h
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_evt.c.s
 
 host/nimble/nimble/nimble/host/src/ble_hs_hci_util.obj: host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.obj
@@ -2172,7 +2196,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_hci_util.obj: host/nimble/nimble/nimbl
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_hs_hci_util.i: host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.i
@@ -2180,7 +2204,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_hci_util.i: host/nimble/nimble/nimble/
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.i
 
 host/nimble/nimble/nimble/host/src/ble_hs_hci_util.s: host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.s
@@ -2188,7 +2212,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_hci_util.s: host/nimble/nimble/nimble/
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_hci_util.c.s
 
 host/nimble/nimble/nimble/host/src/ble_hs_id.obj: host/nimble/nimble/nimble/host/src/ble_hs_id.c.obj
@@ -2196,7 +2220,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_id.obj: host/nimble/nimble/nimble/host
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_hs_id.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_id.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_id.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_id.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_hs_id.i: host/nimble/nimble/nimble/host/src/ble_hs_id.c.i
@@ -2204,7 +2228,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_id.i: host/nimble/nimble/nimble/host/s
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_hs_id.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_id.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_id.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_id.c.i
 
 host/nimble/nimble/nimble/host/src/ble_hs_id.s: host/nimble/nimble/nimble/host/src/ble_hs_id.c.s
@@ -2212,7 +2236,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_id.s: host/nimble/nimble/nimble/host/s
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_hs_id.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_id.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_id.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_id.c.s
 
 host/nimble/nimble/nimble/host/src/ble_hs_log.obj: host/nimble/nimble/nimble/host/src/ble_hs_log.c.obj
@@ -2220,7 +2244,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_log.obj: host/nimble/nimble/nimble/hos
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_hs_log.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_log.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_log.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_log.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_hs_log.i: host/nimble/nimble/nimble/host/src/ble_hs_log.c.i
@@ -2228,7 +2252,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_log.i: host/nimble/nimble/nimble/host/
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_hs_log.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_log.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_log.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_log.c.i
 
 host/nimble/nimble/nimble/host/src/ble_hs_log.s: host/nimble/nimble/nimble/host/src/ble_hs_log.c.s
@@ -2236,7 +2260,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_log.s: host/nimble/nimble/nimble/host/
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_hs_log.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_log.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_log.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_log.c.s
 
 host/nimble/nimble/nimble/host/src/ble_hs_mbuf.obj: host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.obj
@@ -2244,7 +2268,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_mbuf.obj: host/nimble/nimble/nimble/ho
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_hs_mbuf.i: host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.i
@@ -2252,7 +2276,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_mbuf.i: host/nimble/nimble/nimble/host
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.i
 
 host/nimble/nimble/nimble/host/src/ble_hs_mbuf.s: host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.s
@@ -2260,7 +2284,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_mbuf.s: host/nimble/nimble/nimble/host
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_mbuf.c.s
 
 host/nimble/nimble/nimble/host/src/ble_hs_misc.obj: host/nimble/nimble/nimble/host/src/ble_hs_misc.c.obj
@@ -2268,7 +2292,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_misc.obj: host/nimble/nimble/nimble/ho
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_hs_misc.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_misc.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_misc.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_misc.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_hs_misc.i: host/nimble/nimble/nimble/host/src/ble_hs_misc.c.i
@@ -2276,7 +2300,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_misc.i: host/nimble/nimble/nimble/host
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_hs_misc.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_misc.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_misc.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_misc.c.i
 
 host/nimble/nimble/nimble/host/src/ble_hs_misc.s: host/nimble/nimble/nimble/host/src/ble_hs_misc.c.s
@@ -2284,7 +2308,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_misc.s: host/nimble/nimble/nimble/host
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_hs_misc.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_misc.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_misc.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_misc.c.s
 
 host/nimble/nimble/nimble/host/src/ble_hs_mqueue.obj: host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.obj
@@ -2292,7 +2316,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_mqueue.obj: host/nimble/nimble/nimble/
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_hs_mqueue.i: host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.i
@@ -2300,7 +2324,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_mqueue.i: host/nimble/nimble/nimble/ho
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.i
 
 host/nimble/nimble/nimble/host/src/ble_hs_mqueue.s: host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.s
@@ -2308,7 +2332,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_mqueue.s: host/nimble/nimble/nimble/ho
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_mqueue.c.s
 
 host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.obj: host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.obj
@@ -2316,7 +2340,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.obj: host/nimble/nimble/
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.i: host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.i
@@ -2324,7 +2348,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.i: host/nimble/nimble/ni
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.i
 
 host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.s: host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.s
@@ -2332,7 +2356,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.s: host/nimble/nimble/ni
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_periodic_sync.c.s
 
 host/nimble/nimble/nimble/host/src/ble_hs_pvcy.obj: host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.obj
@@ -2340,7 +2364,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_pvcy.obj: host/nimble/nimble/nimble/ho
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_hs_pvcy.i: host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.i
@@ -2348,7 +2372,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_pvcy.i: host/nimble/nimble/nimble/host
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.i
 
 host/nimble/nimble/nimble/host/src/ble_hs_pvcy.s: host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.s
@@ -2356,7 +2380,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_pvcy.s: host/nimble/nimble/nimble/host
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_pvcy.c.s
 
 host/nimble/nimble/nimble/host/src/ble_hs_resolv.obj: host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.obj
@@ -2364,7 +2388,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_resolv.obj: host/nimble/nimble/nimble/
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_hs_resolv.i: host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.i
@@ -2372,7 +2396,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_resolv.i: host/nimble/nimble/nimble/ho
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.i
 
 host/nimble/nimble/nimble/host/src/ble_hs_resolv.s: host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.s
@@ -2380,7 +2404,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_resolv.s: host/nimble/nimble/nimble/ho
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_resolv.c.s
 
 host/nimble/nimble/nimble/host/src/ble_hs_shutdown.obj: host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.obj
@@ -2388,7 +2412,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_shutdown.obj: host/nimble/nimble/nimbl
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_hs_shutdown.i: host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.i
@@ -2396,7 +2420,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_shutdown.i: host/nimble/nimble/nimble/
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.i
 
 host/nimble/nimble/nimble/host/src/ble_hs_shutdown.s: host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.s
@@ -2404,7 +2428,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_shutdown.s: host/nimble/nimble/nimble/
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_shutdown.c.s
 
 host/nimble/nimble/nimble/host/src/ble_hs_startup.obj: host/nimble/nimble/nimble/host/src/ble_hs_startup.c.obj
@@ -2412,7 +2436,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_startup.obj: host/nimble/nimble/nimble
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_hs_startup.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_startup.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_startup.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_startup.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_hs_startup.i: host/nimble/nimble/nimble/host/src/ble_hs_startup.c.i
@@ -2420,7 +2444,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_startup.i: host/nimble/nimble/nimble/h
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_hs_startup.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_startup.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_startup.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_startup.c.i
 
 host/nimble/nimble/nimble/host/src/ble_hs_startup.s: host/nimble/nimble/nimble/host/src/ble_hs_startup.c.s
@@ -2428,7 +2452,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_startup.s: host/nimble/nimble/nimble/h
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_hs_startup.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_startup.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_startup.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_startup.c.s
 
 host/nimble/nimble/nimble/host/src/ble_hs_stop.obj: host/nimble/nimble/nimble/host/src/ble_hs_stop.c.obj
@@ -2436,7 +2460,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_stop.obj: host/nimble/nimble/nimble/ho
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_hs_stop.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_stop.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_stop.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_stop.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_hs_stop.i: host/nimble/nimble/nimble/host/src/ble_hs_stop.c.i
@@ -2444,7 +2468,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_stop.i: host/nimble/nimble/nimble/host
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_hs_stop.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_stop.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_stop.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_stop.c.i
 
 host/nimble/nimble/nimble/host/src/ble_hs_stop.s: host/nimble/nimble/nimble/host/src/ble_hs_stop.c.s
@@ -2452,7 +2476,7 @@ host/nimble/nimble/nimble/host/src/ble_hs_stop.s: host/nimble/nimble/nimble/host
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_hs_stop.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_stop.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_hs_stop.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_hs_stop.c.s
 
 host/nimble/nimble/nimble/host/src/ble_ibeacon.obj: host/nimble/nimble/nimble/host/src/ble_ibeacon.c.obj
@@ -2460,7 +2484,7 @@ host/nimble/nimble/nimble/host/src/ble_ibeacon.obj: host/nimble/nimble/nimble/ho
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_ibeacon.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_ibeacon.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_ibeacon.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_ibeacon.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_ibeacon.i: host/nimble/nimble/nimble/host/src/ble_ibeacon.c.i
@@ -2468,7 +2492,7 @@ host/nimble/nimble/nimble/host/src/ble_ibeacon.i: host/nimble/nimble/nimble/host
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_ibeacon.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_ibeacon.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_ibeacon.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_ibeacon.c.i
 
 host/nimble/nimble/nimble/host/src/ble_ibeacon.s: host/nimble/nimble/nimble/host/src/ble_ibeacon.c.s
@@ -2476,7 +2500,7 @@ host/nimble/nimble/nimble/host/src/ble_ibeacon.s: host/nimble/nimble/nimble/host
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_ibeacon.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_ibeacon.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_ibeacon.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_ibeacon.c.s
 
 host/nimble/nimble/nimble/host/src/ble_l2cap.obj: host/nimble/nimble/nimble/host/src/ble_l2cap.c.obj
@@ -2484,7 +2508,7 @@ host/nimble/nimble/nimble/host/src/ble_l2cap.obj: host/nimble/nimble/nimble/host
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_l2cap.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_l2cap.i: host/nimble/nimble/nimble/host/src/ble_l2cap.c.i
@@ -2492,7 +2516,7 @@ host/nimble/nimble/nimble/host/src/ble_l2cap.i: host/nimble/nimble/nimble/host/s
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_l2cap.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap.c.i
 
 host/nimble/nimble/nimble/host/src/ble_l2cap.s: host/nimble/nimble/nimble/host/src/ble_l2cap.c.s
@@ -2500,7 +2524,7 @@ host/nimble/nimble/nimble/host/src/ble_l2cap.s: host/nimble/nimble/nimble/host/s
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_l2cap.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap.c.s
 
 host/nimble/nimble/nimble/host/src/ble_l2cap_coc.obj: host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.obj
@@ -2508,7 +2532,7 @@ host/nimble/nimble/nimble/host/src/ble_l2cap_coc.obj: host/nimble/nimble/nimble/
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_l2cap_coc.i: host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.i
@@ -2516,7 +2540,7 @@ host/nimble/nimble/nimble/host/src/ble_l2cap_coc.i: host/nimble/nimble/nimble/ho
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.i
 
 host/nimble/nimble/nimble/host/src/ble_l2cap_coc.s: host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.s
@@ -2524,7 +2548,7 @@ host/nimble/nimble/nimble/host/src/ble_l2cap_coc.s: host/nimble/nimble/nimble/ho
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_coc.c.s
 
 host/nimble/nimble/nimble/host/src/ble_l2cap_sig.obj: host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.obj
@@ -2532,7 +2556,7 @@ host/nimble/nimble/nimble/host/src/ble_l2cap_sig.obj: host/nimble/nimble/nimble/
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_l2cap_sig.i: host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.i
@@ -2540,7 +2564,7 @@ host/nimble/nimble/nimble/host/src/ble_l2cap_sig.i: host/nimble/nimble/nimble/ho
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.i
 
 host/nimble/nimble/nimble/host/src/ble_l2cap_sig.s: host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.s
@@ -2548,7 +2572,7 @@ host/nimble/nimble/nimble/host/src/ble_l2cap_sig.s: host/nimble/nimble/nimble/ho
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_sig.c.s
 
 host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.obj: host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.obj
@@ -2556,7 +2580,7 @@ host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.obj: host/nimble/nimble/nim
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.i: host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.i
@@ -2564,7 +2588,7 @@ host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.i: host/nimble/nimble/nimbl
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.i
 
 host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.s: host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.s
@@ -2572,7 +2596,7 @@ host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.s: host/nimble/nimble/nimbl
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_l2cap_sig_cmd.c.s
 
 host/nimble/nimble/nimble/host/src/ble_sm.obj: host/nimble/nimble/nimble/host/src/ble_sm.c.obj
@@ -2580,7 +2604,7 @@ host/nimble/nimble/nimble/host/src/ble_sm.obj: host/nimble/nimble/nimble/host/sr
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_sm.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_sm.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_sm.i: host/nimble/nimble/nimble/host/src/ble_sm.c.i
@@ -2588,7 +2612,7 @@ host/nimble/nimble/nimble/host/src/ble_sm.i: host/nimble/nimble/nimble/host/src/
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_sm.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_sm.c.i
 
 host/nimble/nimble/nimble/host/src/ble_sm.s: host/nimble/nimble/nimble/host/src/ble_sm.c.s
@@ -2596,7 +2620,7 @@ host/nimble/nimble/nimble/host/src/ble_sm.s: host/nimble/nimble/nimble/host/src/
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_sm.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_sm.c.s
 
 host/nimble/nimble/nimble/host/src/ble_sm_alg.obj: host/nimble/nimble/nimble/host/src/ble_sm_alg.c.obj
@@ -2604,7 +2628,7 @@ host/nimble/nimble/nimble/host/src/ble_sm_alg.obj: host/nimble/nimble/nimble/hos
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_sm_alg.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_alg.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_alg.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_sm_alg.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_sm_alg.i: host/nimble/nimble/nimble/host/src/ble_sm_alg.c.i
@@ -2612,7 +2636,7 @@ host/nimble/nimble/nimble/host/src/ble_sm_alg.i: host/nimble/nimble/nimble/host/
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_sm_alg.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_alg.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_alg.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_sm_alg.c.i
 
 host/nimble/nimble/nimble/host/src/ble_sm_alg.s: host/nimble/nimble/nimble/host/src/ble_sm_alg.c.s
@@ -2620,7 +2644,7 @@ host/nimble/nimble/nimble/host/src/ble_sm_alg.s: host/nimble/nimble/nimble/host/
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_sm_alg.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_alg.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_alg.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_sm_alg.c.s
 
 host/nimble/nimble/nimble/host/src/ble_sm_cmd.obj: host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.obj
@@ -2628,7 +2652,7 @@ host/nimble/nimble/nimble/host/src/ble_sm_cmd.obj: host/nimble/nimble/nimble/hos
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_sm_cmd.i: host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.i
@@ -2636,7 +2660,7 @@ host/nimble/nimble/nimble/host/src/ble_sm_cmd.i: host/nimble/nimble/nimble/host/
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.i
 
 host/nimble/nimble/nimble/host/src/ble_sm_cmd.s: host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.s
@@ -2644,7 +2668,7 @@ host/nimble/nimble/nimble/host/src/ble_sm_cmd.s: host/nimble/nimble/nimble/host/
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_sm_cmd.c.s
 
 host/nimble/nimble/nimble/host/src/ble_sm_lgcy.obj: host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.obj
@@ -2652,7 +2676,7 @@ host/nimble/nimble/nimble/host/src/ble_sm_lgcy.obj: host/nimble/nimble/nimble/ho
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_sm_lgcy.i: host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.i
@@ -2660,7 +2684,7 @@ host/nimble/nimble/nimble/host/src/ble_sm_lgcy.i: host/nimble/nimble/nimble/host
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.i
 
 host/nimble/nimble/nimble/host/src/ble_sm_lgcy.s: host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.s
@@ -2668,7 +2692,7 @@ host/nimble/nimble/nimble/host/src/ble_sm_lgcy.s: host/nimble/nimble/nimble/host
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_sm_lgcy.c.s
 
 host/nimble/nimble/nimble/host/src/ble_sm_sc.obj: host/nimble/nimble/nimble/host/src/ble_sm_sc.c.obj
@@ -2676,7 +2700,7 @@ host/nimble/nimble/nimble/host/src/ble_sm_sc.obj: host/nimble/nimble/nimble/host
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_sm_sc.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_sc.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_sc.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_sm_sc.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_sm_sc.i: host/nimble/nimble/nimble/host/src/ble_sm_sc.c.i
@@ -2684,7 +2708,7 @@ host/nimble/nimble/nimble/host/src/ble_sm_sc.i: host/nimble/nimble/nimble/host/s
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_sm_sc.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_sc.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_sc.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_sm_sc.c.i
 
 host/nimble/nimble/nimble/host/src/ble_sm_sc.s: host/nimble/nimble/nimble/host/src/ble_sm_sc.c.s
@@ -2692,7 +2716,7 @@ host/nimble/nimble/nimble/host/src/ble_sm_sc.s: host/nimble/nimble/nimble/host/s
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_sm_sc.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_sc.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_sm_sc.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_sm_sc.c.s
 
 host/nimble/nimble/nimble/host/src/ble_store.obj: host/nimble/nimble/nimble/host/src/ble_store.c.obj
@@ -2700,7 +2724,7 @@ host/nimble/nimble/nimble/host/src/ble_store.obj: host/nimble/nimble/nimble/host
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_store.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_store.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_store.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_store.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_store.i: host/nimble/nimble/nimble/host/src/ble_store.c.i
@@ -2708,7 +2732,7 @@ host/nimble/nimble/nimble/host/src/ble_store.i: host/nimble/nimble/nimble/host/s
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_store.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_store.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_store.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_store.c.i
 
 host/nimble/nimble/nimble/host/src/ble_store.s: host/nimble/nimble/nimble/host/src/ble_store.c.s
@@ -2716,7 +2740,7 @@ host/nimble/nimble/nimble/host/src/ble_store.s: host/nimble/nimble/nimble/host/s
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_store.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_store.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_store.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_store.c.s
 
 host/nimble/nimble/nimble/host/src/ble_store_util.obj: host/nimble/nimble/nimble/host/src/ble_store_util.c.obj
@@ -2724,7 +2748,7 @@ host/nimble/nimble/nimble/host/src/ble_store_util.obj: host/nimble/nimble/nimble
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_store_util.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_store_util.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_store_util.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_store_util.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_store_util.i: host/nimble/nimble/nimble/host/src/ble_store_util.c.i
@@ -2732,7 +2756,7 @@ host/nimble/nimble/nimble/host/src/ble_store_util.i: host/nimble/nimble/nimble/h
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_store_util.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_store_util.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_store_util.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_store_util.c.i
 
 host/nimble/nimble/nimble/host/src/ble_store_util.s: host/nimble/nimble/nimble/host/src/ble_store_util.c.s
@@ -2740,7 +2764,7 @@ host/nimble/nimble/nimble/host/src/ble_store_util.s: host/nimble/nimble/nimble/h
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_store_util.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_store_util.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_store_util.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_store_util.c.s
 
 host/nimble/nimble/nimble/host/src/ble_uuid.obj: host/nimble/nimble/nimble/host/src/ble_uuid.c.obj
@@ -2748,7 +2772,7 @@ host/nimble/nimble/nimble/host/src/ble_uuid.obj: host/nimble/nimble/nimble/host/
 
 # target to build an object file
 host/nimble/nimble/nimble/host/src/ble_uuid.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_uuid.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_uuid.c.obj
 .PHONY : host/nimble/nimble/nimble/host/src/ble_uuid.c.obj
 
 host/nimble/nimble/nimble/host/src/ble_uuid.i: host/nimble/nimble/nimble/host/src/ble_uuid.c.i
@@ -2756,7 +2780,7 @@ host/nimble/nimble/nimble/host/src/ble_uuid.i: host/nimble/nimble/nimble/host/sr
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/src/ble_uuid.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_uuid.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_uuid.c.i
 .PHONY : host/nimble/nimble/nimble/host/src/ble_uuid.c.i
 
 host/nimble/nimble/nimble/host/src/ble_uuid.s: host/nimble/nimble/nimble/host/src/ble_uuid.c.s
@@ -2764,7 +2788,7 @@ host/nimble/nimble/nimble/host/src/ble_uuid.s: host/nimble/nimble/nimble/host/sr
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/src/ble_uuid.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_uuid.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/src/ble_uuid.c.s
 .PHONY : host/nimble/nimble/nimble/host/src/ble_uuid.c.s
 
 host/nimble/nimble/nimble/host/store/config/src/ble_store_config.obj: host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.obj
@@ -2772,7 +2796,7 @@ host/nimble/nimble/nimble/host/store/config/src/ble_store_config.obj: host/nimbl
 
 # target to build an object file
 host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.obj
 .PHONY : host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.obj
 
 host/nimble/nimble/nimble/host/store/config/src/ble_store_config.i: host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.i
@@ -2780,7 +2804,7 @@ host/nimble/nimble/nimble/host/store/config/src/ble_store_config.i: host/nimble/
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.i
 .PHONY : host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.i
 
 host/nimble/nimble/nimble/host/store/config/src/ble_store_config.s: host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.s
@@ -2788,7 +2812,7 @@ host/nimble/nimble/nimble/host/store/config/src/ble_store_config.s: host/nimble/
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.s
 .PHONY : host/nimble/nimble/nimble/host/store/config/src/ble_store_config.c.s
 
 host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.obj: host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.obj
@@ -2796,7 +2820,7 @@ host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.obj: host/nimble/n
 
 # target to build an object file
 host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.obj
 .PHONY : host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.obj
 
 host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.i: host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.i
@@ -2804,7 +2828,7 @@ host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.i: host/nimble/nim
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.i
 .PHONY : host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.i
 
 host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.s: host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.s
@@ -2812,7 +2836,7 @@ host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.s: host/nimble/nim
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.s
 .PHONY : host/nimble/nimble/nimble/host/store/config/src/ble_store_nvs.c.s
 
 host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.obj: host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.obj
@@ -2820,7 +2844,7 @@ host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.obj: host/nimble/nimb
 
 # target to build an object file
 host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.obj
 .PHONY : host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.obj
 
 host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.i: host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.i
@@ -2828,7 +2852,7 @@ host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.i: host/nimble/nimble
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.i
 .PHONY : host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.i
 
 host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.s: host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.s
@@ -2836,7 +2860,7 @@ host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.s: host/nimble/nimble
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.s
 .PHONY : host/nimble/nimble/nimble/host/store/ram/src/ble_store_ram.c.s
 
 host/nimble/nimble/nimble/host/util/src/addr.obj: host/nimble/nimble/nimble/host/util/src/addr.c.obj
@@ -2844,7 +2868,7 @@ host/nimble/nimble/nimble/host/util/src/addr.obj: host/nimble/nimble/nimble/host
 
 # target to build an object file
 host/nimble/nimble/nimble/host/util/src/addr.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/util/src/addr.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/util/src/addr.c.obj
 .PHONY : host/nimble/nimble/nimble/host/util/src/addr.c.obj
 
 host/nimble/nimble/nimble/host/util/src/addr.i: host/nimble/nimble/nimble/host/util/src/addr.c.i
@@ -2852,7 +2876,7 @@ host/nimble/nimble/nimble/host/util/src/addr.i: host/nimble/nimble/nimble/host/u
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/host/util/src/addr.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/util/src/addr.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/util/src/addr.c.i
 .PHONY : host/nimble/nimble/nimble/host/util/src/addr.c.i
 
 host/nimble/nimble/nimble/host/util/src/addr.s: host/nimble/nimble/nimble/host/util/src/addr.c.s
@@ -2860,7 +2884,7 @@ host/nimble/nimble/nimble/host/util/src/addr.s: host/nimble/nimble/nimble/host/u
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/host/util/src/addr.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/util/src/addr.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/host/util/src/addr.c.s
 .PHONY : host/nimble/nimble/nimble/host/util/src/addr.c.s
 
 host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.obj: host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.obj
@@ -2868,7 +2892,7 @@ host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.obj: h
 
 # target to build an object file
 host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.obj
 .PHONY : host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.obj
 
 host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.i: host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.i
@@ -2876,7 +2900,7 @@ host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.i: hos
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.i
 .PHONY : host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.i
 
 host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.s: host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.s
@@ -2884,7 +2908,7 @@ host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.s: hos
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.s
 .PHONY : host/nimble/nimble/nimble/transport/esp_ipc_legacy/src/hci_esp_ipc_legacy.c.s
 
 host/nimble/nimble/nimble/transport/src/transport.obj: host/nimble/nimble/nimble/transport/src/transport.c.obj
@@ -2892,7 +2916,7 @@ host/nimble/nimble/nimble/transport/src/transport.obj: host/nimble/nimble/nimble
 
 # target to build an object file
 host/nimble/nimble/nimble/transport/src/transport.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/transport/src/transport.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/transport/src/transport.c.obj
 .PHONY : host/nimble/nimble/nimble/transport/src/transport.c.obj
 
 host/nimble/nimble/nimble/transport/src/transport.i: host/nimble/nimble/nimble/transport/src/transport.c.i
@@ -2900,7 +2924,7 @@ host/nimble/nimble/nimble/transport/src/transport.i: host/nimble/nimble/nimble/t
 
 # target to preprocess a source file
 host/nimble/nimble/nimble/transport/src/transport.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/transport/src/transport.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/transport/src/transport.c.i
 .PHONY : host/nimble/nimble/nimble/transport/src/transport.c.i
 
 host/nimble/nimble/nimble/transport/src/transport.s: host/nimble/nimble/nimble/transport/src/transport.c.s
@@ -2908,7 +2932,7 @@ host/nimble/nimble/nimble/transport/src/transport.s: host/nimble/nimble/nimble/t
 
 # target to generate assembly for a file
 host/nimble/nimble/nimble/transport/src/transport.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/transport/src/transport.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/nimble/transport/src/transport.c.s
 .PHONY : host/nimble/nimble/nimble/transport/src/transport.c.s
 
 host/nimble/nimble/porting/nimble/src/endian.obj: host/nimble/nimble/porting/nimble/src/endian.c.obj
@@ -2916,7 +2940,7 @@ host/nimble/nimble/porting/nimble/src/endian.obj: host/nimble/nimble/porting/nim
 
 # target to build an object file
 host/nimble/nimble/porting/nimble/src/endian.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/endian.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/endian.c.obj
 .PHONY : host/nimble/nimble/porting/nimble/src/endian.c.obj
 
 host/nimble/nimble/porting/nimble/src/endian.i: host/nimble/nimble/porting/nimble/src/endian.c.i
@@ -2924,7 +2948,7 @@ host/nimble/nimble/porting/nimble/src/endian.i: host/nimble/nimble/porting/nimbl
 
 # target to preprocess a source file
 host/nimble/nimble/porting/nimble/src/endian.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/endian.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/endian.c.i
 .PHONY : host/nimble/nimble/porting/nimble/src/endian.c.i
 
 host/nimble/nimble/porting/nimble/src/endian.s: host/nimble/nimble/porting/nimble/src/endian.c.s
@@ -2932,7 +2956,7 @@ host/nimble/nimble/porting/nimble/src/endian.s: host/nimble/nimble/porting/nimbl
 
 # target to generate assembly for a file
 host/nimble/nimble/porting/nimble/src/endian.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/endian.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/endian.c.s
 .PHONY : host/nimble/nimble/porting/nimble/src/endian.c.s
 
 host/nimble/nimble/porting/nimble/src/mem.obj: host/nimble/nimble/porting/nimble/src/mem.c.obj
@@ -2940,7 +2964,7 @@ host/nimble/nimble/porting/nimble/src/mem.obj: host/nimble/nimble/porting/nimble
 
 # target to build an object file
 host/nimble/nimble/porting/nimble/src/mem.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/mem.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/mem.c.obj
 .PHONY : host/nimble/nimble/porting/nimble/src/mem.c.obj
 
 host/nimble/nimble/porting/nimble/src/mem.i: host/nimble/nimble/porting/nimble/src/mem.c.i
@@ -2948,7 +2972,7 @@ host/nimble/nimble/porting/nimble/src/mem.i: host/nimble/nimble/porting/nimble/s
 
 # target to preprocess a source file
 host/nimble/nimble/porting/nimble/src/mem.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/mem.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/mem.c.i
 .PHONY : host/nimble/nimble/porting/nimble/src/mem.c.i
 
 host/nimble/nimble/porting/nimble/src/mem.s: host/nimble/nimble/porting/nimble/src/mem.c.s
@@ -2956,7 +2980,7 @@ host/nimble/nimble/porting/nimble/src/mem.s: host/nimble/nimble/porting/nimble/s
 
 # target to generate assembly for a file
 host/nimble/nimble/porting/nimble/src/mem.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/mem.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/mem.c.s
 .PHONY : host/nimble/nimble/porting/nimble/src/mem.c.s
 
 host/nimble/nimble/porting/nimble/src/nimble_port.obj: host/nimble/nimble/porting/nimble/src/nimble_port.c.obj
@@ -2964,7 +2988,7 @@ host/nimble/nimble/porting/nimble/src/nimble_port.obj: host/nimble/nimble/portin
 
 # target to build an object file
 host/nimble/nimble/porting/nimble/src/nimble_port.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/nimble_port.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/nimble_port.c.obj
 .PHONY : host/nimble/nimble/porting/nimble/src/nimble_port.c.obj
 
 host/nimble/nimble/porting/nimble/src/nimble_port.i: host/nimble/nimble/porting/nimble/src/nimble_port.c.i
@@ -2972,7 +2996,7 @@ host/nimble/nimble/porting/nimble/src/nimble_port.i: host/nimble/nimble/porting/
 
 # target to preprocess a source file
 host/nimble/nimble/porting/nimble/src/nimble_port.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/nimble_port.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/nimble_port.c.i
 .PHONY : host/nimble/nimble/porting/nimble/src/nimble_port.c.i
 
 host/nimble/nimble/porting/nimble/src/nimble_port.s: host/nimble/nimble/porting/nimble/src/nimble_port.c.s
@@ -2980,7 +3004,7 @@ host/nimble/nimble/porting/nimble/src/nimble_port.s: host/nimble/nimble/porting/
 
 # target to generate assembly for a file
 host/nimble/nimble/porting/nimble/src/nimble_port.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/nimble_port.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/nimble_port.c.s
 .PHONY : host/nimble/nimble/porting/nimble/src/nimble_port.c.s
 
 host/nimble/nimble/porting/nimble/src/os_mbuf.obj: host/nimble/nimble/porting/nimble/src/os_mbuf.c.obj
@@ -2988,7 +3012,7 @@ host/nimble/nimble/porting/nimble/src/os_mbuf.obj: host/nimble/nimble/porting/ni
 
 # target to build an object file
 host/nimble/nimble/porting/nimble/src/os_mbuf.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_mbuf.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_mbuf.c.obj
 .PHONY : host/nimble/nimble/porting/nimble/src/os_mbuf.c.obj
 
 host/nimble/nimble/porting/nimble/src/os_mbuf.i: host/nimble/nimble/porting/nimble/src/os_mbuf.c.i
@@ -2996,7 +3020,7 @@ host/nimble/nimble/porting/nimble/src/os_mbuf.i: host/nimble/nimble/porting/nimb
 
 # target to preprocess a source file
 host/nimble/nimble/porting/nimble/src/os_mbuf.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_mbuf.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_mbuf.c.i
 .PHONY : host/nimble/nimble/porting/nimble/src/os_mbuf.c.i
 
 host/nimble/nimble/porting/nimble/src/os_mbuf.s: host/nimble/nimble/porting/nimble/src/os_mbuf.c.s
@@ -3004,7 +3028,7 @@ host/nimble/nimble/porting/nimble/src/os_mbuf.s: host/nimble/nimble/porting/nimb
 
 # target to generate assembly for a file
 host/nimble/nimble/porting/nimble/src/os_mbuf.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_mbuf.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_mbuf.c.s
 .PHONY : host/nimble/nimble/porting/nimble/src/os_mbuf.c.s
 
 host/nimble/nimble/porting/nimble/src/os_msys_init.obj: host/nimble/nimble/porting/nimble/src/os_msys_init.c.obj
@@ -3012,7 +3036,7 @@ host/nimble/nimble/porting/nimble/src/os_msys_init.obj: host/nimble/nimble/porti
 
 # target to build an object file
 host/nimble/nimble/porting/nimble/src/os_msys_init.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_msys_init.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_msys_init.c.obj
 .PHONY : host/nimble/nimble/porting/nimble/src/os_msys_init.c.obj
 
 host/nimble/nimble/porting/nimble/src/os_msys_init.i: host/nimble/nimble/porting/nimble/src/os_msys_init.c.i
@@ -3020,7 +3044,7 @@ host/nimble/nimble/porting/nimble/src/os_msys_init.i: host/nimble/nimble/porting
 
 # target to preprocess a source file
 host/nimble/nimble/porting/nimble/src/os_msys_init.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_msys_init.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_msys_init.c.i
 .PHONY : host/nimble/nimble/porting/nimble/src/os_msys_init.c.i
 
 host/nimble/nimble/porting/nimble/src/os_msys_init.s: host/nimble/nimble/porting/nimble/src/os_msys_init.c.s
@@ -3028,7 +3052,7 @@ host/nimble/nimble/porting/nimble/src/os_msys_init.s: host/nimble/nimble/porting
 
 # target to generate assembly for a file
 host/nimble/nimble/porting/nimble/src/os_msys_init.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_msys_init.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/nimble/src/os_msys_init.c.s
 .PHONY : host/nimble/nimble/porting/nimble/src/os_msys_init.c.s
 
 host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.obj: host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.obj
@@ -3036,7 +3060,7 @@ host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.obj: host/nimbl
 
 # target to build an object file
 host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.obj
 .PHONY : host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.obj
 
 host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.i: host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.i
@@ -3044,7 +3068,7 @@ host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.i: host/nimble/
 
 # target to preprocess a source file
 host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.i
 .PHONY : host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.i
 
 host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.s: host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.s
@@ -3052,7 +3076,7 @@ host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.s: host/nimble/
 
 # target to generate assembly for a file
 host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.s
 .PHONY : host/nimble/nimble/porting/npl/freertos/src/nimble_port_freertos.c.s
 
 host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.obj: host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.obj
@@ -3060,7 +3084,7 @@ host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.obj: host/nimble/nim
 
 # target to build an object file
 host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.obj
 .PHONY : host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.obj
 
 host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.i: host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.i
@@ -3068,7 +3092,7 @@ host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.i: host/nimble/nimbl
 
 # target to preprocess a source file
 host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.i
 .PHONY : host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.i
 
 host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.s: host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.s
@@ -3076,39 +3100,15 @@ host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.s: host/nimble/nimbl
 
 # target to generate assembly for a file
 host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.s
 .PHONY : host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.c.s
-
-host/nimble/port/src/esp_nimble_mem.obj: host/nimble/port/src/esp_nimble_mem.c.obj
-.PHONY : host/nimble/port/src/esp_nimble_mem.obj
-
-# target to build an object file
-host/nimble/port/src/esp_nimble_mem.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/port/src/esp_nimble_mem.c.obj
-.PHONY : host/nimble/port/src/esp_nimble_mem.c.obj
-
-host/nimble/port/src/esp_nimble_mem.i: host/nimble/port/src/esp_nimble_mem.c.i
-.PHONY : host/nimble/port/src/esp_nimble_mem.i
-
-# target to preprocess a source file
-host/nimble/port/src/esp_nimble_mem.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/port/src/esp_nimble_mem.c.i
-.PHONY : host/nimble/port/src/esp_nimble_mem.c.i
-
-host/nimble/port/src/esp_nimble_mem.s: host/nimble/port/src/esp_nimble_mem.c.s
-.PHONY : host/nimble/port/src/esp_nimble_mem.s
-
-# target to generate assembly for a file
-host/nimble/port/src/esp_nimble_mem.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/port/src/esp_nimble_mem.c.s
-.PHONY : host/nimble/port/src/esp_nimble_mem.c.s
 
 host/nimble/port/src/nvs_port.obj: host/nimble/port/src/nvs_port.c.obj
 .PHONY : host/nimble/port/src/nvs_port.obj
 
 # target to build an object file
 host/nimble/port/src/nvs_port.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/port/src/nvs_port.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/port/src/nvs_port.c.obj
 .PHONY : host/nimble/port/src/nvs_port.c.obj
 
 host/nimble/port/src/nvs_port.i: host/nimble/port/src/nvs_port.c.i
@@ -3116,7 +3116,7 @@ host/nimble/port/src/nvs_port.i: host/nimble/port/src/nvs_port.c.i
 
 # target to preprocess a source file
 host/nimble/port/src/nvs_port.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/port/src/nvs_port.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/port/src/nvs_port.c.i
 .PHONY : host/nimble/port/src/nvs_port.c.i
 
 host/nimble/port/src/nvs_port.s: host/nimble/port/src/nvs_port.c.s
@@ -3124,7 +3124,7 @@ host/nimble/port/src/nvs_port.s: host/nimble/port/src/nvs_port.c.s
 
 # target to generate assembly for a file
 host/nimble/port/src/nvs_port.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/port/src/nvs_port.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/host/nimble/port/src/nvs_port.c.s
 .PHONY : host/nimble/port/src/nvs_port.c.s
 
 porting/mem/bt_osi_mem.obj: porting/mem/bt_osi_mem.c.obj
@@ -3132,7 +3132,7 @@ porting/mem/bt_osi_mem.obj: porting/mem/bt_osi_mem.c.obj
 
 # target to build an object file
 porting/mem/bt_osi_mem.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/mem/bt_osi_mem.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/mem/bt_osi_mem.c.obj
 .PHONY : porting/mem/bt_osi_mem.c.obj
 
 porting/mem/bt_osi_mem.i: porting/mem/bt_osi_mem.c.i
@@ -3140,7 +3140,7 @@ porting/mem/bt_osi_mem.i: porting/mem/bt_osi_mem.c.i
 
 # target to preprocess a source file
 porting/mem/bt_osi_mem.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/mem/bt_osi_mem.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/mem/bt_osi_mem.c.i
 .PHONY : porting/mem/bt_osi_mem.c.i
 
 porting/mem/bt_osi_mem.s: porting/mem/bt_osi_mem.c.s
@@ -3148,7 +3148,7 @@ porting/mem/bt_osi_mem.s: porting/mem/bt_osi_mem.c.s
 
 # target to generate assembly for a file
 porting/mem/bt_osi_mem.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/mem/bt_osi_mem.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/mem/bt_osi_mem.c.s
 .PHONY : porting/mem/bt_osi_mem.c.s
 
 porting/mem/os_mempool.obj: porting/mem/os_mempool.c.obj
@@ -3156,7 +3156,7 @@ porting/mem/os_mempool.obj: porting/mem/os_mempool.c.obj
 
 # target to build an object file
 porting/mem/os_mempool.c.obj:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/mem/os_mempool.c.obj
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/mem/os_mempool.c.obj
 .PHONY : porting/mem/os_mempool.c.obj
 
 porting/mem/os_mempool.i: porting/mem/os_mempool.c.i
@@ -3164,7 +3164,7 @@ porting/mem/os_mempool.i: porting/mem/os_mempool.c.i
 
 # target to preprocess a source file
 porting/mem/os_mempool.c.i:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/mem/os_mempool.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/mem/os_mempool.c.i
 .PHONY : porting/mem/os_mempool.c.i
 
 porting/mem/os_mempool.s: porting/mem/os_mempool.c.s
@@ -3172,7 +3172,7 @@ porting/mem/os_mempool.s: porting/mem/os_mempool.c.s
 
 # target to generate assembly for a file
 porting/mem/os_mempool.c.s:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/mem/os_mempool.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(MAKE) $(MAKESILENT) -f esp-idf/bt/CMakeFiles/__idf_bt.dir/build.make esp-idf/bt/CMakeFiles/__idf_bt.dir/porting/mem/os_mempool.c.s
 .PHONY : porting/mem/os_mempool.c.s
 
 # Help Target
@@ -3191,9 +3191,12 @@ help:
 	@echo "... common/api/esp_blufi_api.obj"
 	@echo "... common/api/esp_blufi_api.i"
 	@echo "... common/api/esp_blufi_api.s"
-	@echo "... common/ble_log/deprecated/ble_log_spi_out.obj"
-	@echo "... common/ble_log/deprecated/ble_log_spi_out.i"
-	@echo "... common/ble_log/deprecated/ble_log_spi_out.s"
+	@echo "... common/ble_log/ble_log_spi_out.obj"
+	@echo "... common/ble_log/ble_log_spi_out.i"
+	@echo "... common/ble_log/ble_log_spi_out.s"
+	@echo "... common/ble_log/ble_log_uhci_out.obj"
+	@echo "... common/ble_log/ble_log_uhci_out.i"
+	@echo "... common/ble_log/ble_log_uhci_out.s"
 	@echo "... common/btc/core/btc_alarm.obj"
 	@echo "... common/btc/core/btc_alarm.i"
 	@echo "... common/btc/core/btc_alarm.s"
@@ -3551,9 +3554,6 @@ help:
 	@echo "... host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.obj"
 	@echo "... host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.i"
 	@echo "... host/nimble/nimble/porting/npl/freertos/src/npl_os_freertos.s"
-	@echo "... host/nimble/port/src/esp_nimble_mem.obj"
-	@echo "... host/nimble/port/src/esp_nimble_mem.i"
-	@echo "... host/nimble/port/src/esp_nimble_mem.s"
 	@echo "... host/nimble/port/src/nvs_port.obj"
 	@echo "... host/nimble/port/src/nvs_port.i"
 	@echo "... host/nimble/port/src/nvs_port.s"
@@ -3574,6 +3574,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

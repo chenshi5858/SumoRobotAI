@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/__idf_fatfs.dir/diskio/diskio.c.obj"
   "CMakeFiles/__idf_fatfs.dir/diskio/diskio.c.obj.d"
-  "CMakeFiles/__idf_fatfs.dir/diskio/diskio_bdl.c.obj"
-  "CMakeFiles/__idf_fatfs.dir/diskio/diskio_bdl.c.obj.d"
   "CMakeFiles/__idf_fatfs.dir/diskio/diskio_rawflash.c.obj"
   "CMakeFiles/__idf_fatfs.dir/diskio/diskio_rawflash.c.obj.d"
   "CMakeFiles/__idf_fatfs.dir/diskio/diskio_sdmmc.c.obj"
@@ -17,8 +15,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/__idf_fatfs.dir/src/ffunicode.c.obj.d"
   "CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat.c.obj"
   "CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat.c.obj.d"
-  "CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_bdl.c.obj"
-  "CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_bdl.c.obj.d"
   "CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_sdmmc.c.obj"
   "CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_sdmmc.c.obj.d"
   "CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.obj"

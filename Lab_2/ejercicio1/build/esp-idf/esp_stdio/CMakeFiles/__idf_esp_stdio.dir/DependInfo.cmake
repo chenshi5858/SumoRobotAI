@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/chenshi/esp/esp-idf/components/esp_stdio/stdio_port.c" "esp-idf/esp_stdio/CMakeFiles/__idf_esp_stdio.dir/stdio_port.c.obj" "gcc" "esp-idf/esp_stdio/CMakeFiles/__idf_esp_stdio.dir/stdio_port.c.obj.d"
-  "/home/chenshi/esp/esp-idf/components/esp_stdio/stdio_simple.c" "esp-idf/esp_stdio/CMakeFiles/__idf_esp_stdio.dir/stdio_simple.c.obj" "gcc" "esp-idf/esp_stdio/CMakeFiles/__idf_esp_stdio.dir/stdio_simple.c.obj.d"
-  "/home/chenshi/esp/esp-idf/components/esp_stdio/stdio_syscalls_simple.c" "esp-idf/esp_stdio/CMakeFiles/__idf_esp_stdio.dir/stdio_syscalls_simple.c.obj" "gcc" "esp-idf/esp_stdio/CMakeFiles/__idf_esp_stdio.dir/stdio_syscalls_simple.c.obj.d"
-  "/home/chenshi/esp/esp-idf/components/esp_stdio/stdio_vfs.c" "esp-idf/esp_stdio/CMakeFiles/__idf_esp_stdio.dir/stdio_vfs.c.obj" "gcc" "esp-idf/esp_stdio/CMakeFiles/__idf_esp_stdio.dir/stdio_vfs.c.obj.d"
+  "/home/diegolagos/esp-idf/components/esp_stdio/stdio_port.c" "esp-idf/esp_stdio/CMakeFiles/__idf_esp_stdio.dir/stdio_port.c.obj" "gcc" "esp-idf/esp_stdio/CMakeFiles/__idf_esp_stdio.dir/stdio_port.c.obj.d"
+  "/home/diegolagos/esp-idf/components/esp_stdio/stdio_simple.c" "esp-idf/esp_stdio/CMakeFiles/__idf_esp_stdio.dir/stdio_simple.c.obj" "gcc" "esp-idf/esp_stdio/CMakeFiles/__idf_esp_stdio.dir/stdio_simple.c.obj.d"
+  "/home/diegolagos/esp-idf/components/esp_stdio/stdio_syscalls_simple.c" "esp-idf/esp_stdio/CMakeFiles/__idf_esp_stdio.dir/stdio_syscalls_simple.c.obj" "gcc" "esp-idf/esp_stdio/CMakeFiles/__idf_esp_stdio.dir/stdio_syscalls_simple.c.obj.d"
+  "/home/diegolagos/esp-idf/components/esp_stdio/stdio_vfs.c" "esp-idf/esp_stdio/CMakeFiles/__idf_esp_stdio.dir/stdio_vfs.c.obj" "gcc" "esp-idf/esp_stdio/CMakeFiles/__idf_esp_stdio.dir/stdio_vfs.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

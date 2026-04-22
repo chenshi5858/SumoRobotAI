@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chenshi/esp/esp-idf/components/bootloader/subproject
+CMAKE_SOURCE_DIR = /home/diegolagos/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader/CMakeFiles /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader/CMakeFiles /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -312,30 +312,17 @@ uf2-app/fast:
 .PHONY : uf2-app/fast
 
 #=============================================================================
-# Target rules for targets named bootloader_memory_ld_in_preprocess
+# Target rules for targets named bootloader_ld_in_preprocess
 
 # Build rule for target.
-bootloader_memory_ld_in_preprocess: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bootloader_memory_ld_in_preprocess
-.PHONY : bootloader_memory_ld_in_preprocess
+bootloader_ld_in_preprocess: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bootloader_ld_in_preprocess
+.PHONY : bootloader_ld_in_preprocess
 
 # fast build rule for target.
-bootloader_memory_ld_in_preprocess/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bootloader_memory_ld_in_preprocess.dir/build.make CMakeFiles/bootloader_memory_ld_in_preprocess.dir/build
-.PHONY : bootloader_memory_ld_in_preprocess/fast
-
-#=============================================================================
-# Target rules for targets named bootloader_sections_ld_in_preprocess
-
-# Build rule for target.
-bootloader_sections_ld_in_preprocess: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bootloader_sections_ld_in_preprocess
-.PHONY : bootloader_sections_ld_in_preprocess
-
-# fast build rule for target.
-bootloader_sections_ld_in_preprocess/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bootloader_sections_ld_in_preprocess.dir/build.make CMakeFiles/bootloader_sections_ld_in_preprocess.dir/build
-.PHONY : bootloader_sections_ld_in_preprocess/fast
+bootloader_ld_in_preprocess/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bootloader_ld_in_preprocess.dir/build.make CMakeFiles/bootloader_ld_in_preprocess.dir/build
+.PHONY : bootloader_ld_in_preprocess/fast
 
 #=============================================================================
 # Target rules for targets named gen_bootloader_binary
@@ -879,8 +866,7 @@ help:
 	@echo "... _project_elf_src"
 	@echo "... app"
 	@echo "... bootloader_check_size"
-	@echo "... bootloader_memory_ld_in_preprocess"
-	@echo "... bootloader_sections_ld_in_preprocess"
+	@echo "... bootloader_ld_in_preprocess"
 	@echo "... config-report"
 	@echo "... confserver"
 	@echo "... dfu"

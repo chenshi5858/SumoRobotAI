@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build
 
 # Include any dependencies generated for this target.
 include esp-idf/driver/CMakeFiles/__idf_driver.dir/depend.make
@@ -70,60 +70,60 @@ include esp-idf/driver/CMakeFiles/__idf_driver.dir/progress.make
 include esp-idf/driver/CMakeFiles/__idf_driver.dir/flags.make
 
 esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj: esp-idf/driver/CMakeFiles/__idf_driver.dir/flags.make
-esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj: /home/chenshi/esp/esp-idf/components/driver/i2c/i2c.c
+esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj: /home/diegolagos/esp-idf/components/driver/i2c/i2c.c
 esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj: esp-idf/driver/CMakeFiles/__idf_driver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj"
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj -MF CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj.d -o CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj -c /home/chenshi/esp/esp-idf/components/driver/i2c/i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj -MF CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj.d -o CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj -c /home/diegolagos/esp-idf/components/driver/i2c/i2c.c
 
 esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_driver.dir/i2c/i2c.c.i"
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chenshi/esp/esp-idf/components/driver/i2c/i2c.c > CMakeFiles/__idf_driver.dir/i2c/i2c.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diegolagos/esp-idf/components/driver/i2c/i2c.c > CMakeFiles/__idf_driver.dir/i2c/i2c.c.i
 
 esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_driver.dir/i2c/i2c.c.s"
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chenshi/esp/esp-idf/components/driver/i2c/i2c.c -o CMakeFiles/__idf_driver.dir/i2c/i2c.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diegolagos/esp-idf/components/driver/i2c/i2c.c -o CMakeFiles/__idf_driver.dir/i2c/i2c.c.s
 
 esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.obj: esp-idf/driver/CMakeFiles/__idf_driver.dir/flags.make
-esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.obj: /home/chenshi/esp/esp-idf/components/driver/touch_sensor/touch_sensor_common.c
+esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.obj: /home/diegolagos/esp-idf/components/driver/touch_sensor/touch_sensor_common.c
 esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.obj: esp-idf/driver/CMakeFiles/__idf_driver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.obj"
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.obj -MF CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.obj.d -o CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.obj -c /home/chenshi/esp/esp-idf/components/driver/touch_sensor/touch_sensor_common.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.obj"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.obj -MF CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.obj.d -o CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.obj -c /home/diegolagos/esp-idf/components/driver/touch_sensor/touch_sensor_common.c
 
 esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.i"
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chenshi/esp/esp-idf/components/driver/touch_sensor/touch_sensor_common.c > CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diegolagos/esp-idf/components/driver/touch_sensor/touch_sensor_common.c > CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.i
 
 esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.s"
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chenshi/esp/esp-idf/components/driver/touch_sensor/touch_sensor_common.c -o CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diegolagos/esp-idf/components/driver/touch_sensor/touch_sensor_common.c -o CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.s
 
 esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.obj: esp-idf/driver/CMakeFiles/__idf_driver.dir/flags.make
-esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.obj: /home/chenshi/esp/esp-idf/components/driver/touch_sensor/esp32s3/touch_sensor.c
+esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.obj: /home/diegolagos/esp-idf/components/driver/touch_sensor/esp32s3/touch_sensor.c
 esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.obj: esp-idf/driver/CMakeFiles/__idf_driver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.obj"
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.obj -MF CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.obj.d -o CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.obj -c /home/chenshi/esp/esp-idf/components/driver/touch_sensor/esp32s3/touch_sensor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.obj"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.obj -MF CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.obj.d -o CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.obj -c /home/diegolagos/esp-idf/components/driver/touch_sensor/esp32s3/touch_sensor.c
 
 esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.i"
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chenshi/esp/esp-idf/components/driver/touch_sensor/esp32s3/touch_sensor.c > CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diegolagos/esp-idf/components/driver/touch_sensor/esp32s3/touch_sensor.c > CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.i
 
 esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.s"
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chenshi/esp/esp-idf/components/driver/touch_sensor/esp32s3/touch_sensor.c -o CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diegolagos/esp-idf/components/driver/touch_sensor/esp32s3/touch_sensor.c -o CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.s
 
 esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: esp-idf/driver/CMakeFiles/__idf_driver.dir/flags.make
-esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/chenshi/esp/esp-idf/components/driver/twai/twai.c
+esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: /home/diegolagos/esp-idf/components/driver/twai/twai.c
 esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj: esp-idf/driver/CMakeFiles/__idf_driver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj"
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj -MF CMakeFiles/__idf_driver.dir/twai/twai.c.obj.d -o CMakeFiles/__idf_driver.dir/twai/twai.c.obj -c /home/chenshi/esp/esp-idf/components/driver/twai/twai.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj -MF CMakeFiles/__idf_driver.dir/twai/twai.c.obj.d -o CMakeFiles/__idf_driver.dir/twai/twai.c.obj -c /home/diegolagos/esp-idf/components/driver/twai/twai.c
 
 esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_driver.dir/twai/twai.c.i"
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chenshi/esp/esp-idf/components/driver/twai/twai.c > CMakeFiles/__idf_driver.dir/twai/twai.c.i
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diegolagos/esp-idf/components/driver/twai/twai.c > CMakeFiles/__idf_driver.dir/twai/twai.c.i
 
 esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_driver.dir/twai/twai.c.s"
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chenshi/esp/esp-idf/components/driver/twai/twai.c -o CMakeFiles/__idf_driver.dir/twai/twai.c.s
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diegolagos/esp-idf/components/driver/twai/twai.c -o CMakeFiles/__idf_driver.dir/twai/twai.c.s
 
 # Object files for target __idf_driver
 __idf_driver_OBJECTS = \
@@ -141,19 +141,19 @@ esp-idf/driver/libdriver.a: esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sen
 esp-idf/driver/libdriver.a: esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj
 esp-idf/driver/libdriver.a: esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make
 esp-idf/driver/libdriver.a: esp-idf/driver/CMakeFiles/__idf_driver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libdriver.a"
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && $(CMAKE_COMMAND) -P CMakeFiles/__idf_driver.dir/cmake_clean_target.cmake
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_driver.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libdriver.a"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && $(CMAKE_COMMAND) -P CMakeFiles/__idf_driver.dir/cmake_clean_target.cmake
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_driver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/driver/CMakeFiles/__idf_driver.dir/build: esp-idf/driver/libdriver.a
 .PHONY : esp-idf/driver/CMakeFiles/__idf_driver.dir/build
 
 esp-idf/driver/CMakeFiles/__idf_driver.dir/clean:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && $(CMAKE_COMMAND) -P CMakeFiles/__idf_driver.dir/cmake_clean.cmake
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver && $(CMAKE_COMMAND) -P CMakeFiles/__idf_driver.dir/cmake_clean.cmake
 .PHONY : esp-idf/driver/CMakeFiles/__idf_driver.dir/clean
 
 esp-idf/driver/CMakeFiles/__idf_driver.dir/depend:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1 /home/chenshi/esp/esp-idf/components/driver /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver/CMakeFiles/__idf_driver.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1 /home/diegolagos/esp-idf/components/driver /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/driver/CMakeFiles/__idf_driver.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/driver/CMakeFiles/__idf_driver.dir/depend
 

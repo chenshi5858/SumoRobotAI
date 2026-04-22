@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build
 
 # Utility rule file for mbedtls-apidoc.
 
@@ -67,7 +67,7 @@ include esp-idf/mbedtls/mbedtls/CMakeFiles/mbedtls-apidoc.dir/compiler_depend.ma
 include esp-idf/mbedtls/mbedtls/CMakeFiles/mbedtls-apidoc.dir/progress.make
 
 esp-idf/mbedtls/mbedtls/CMakeFiles/mbedtls-apidoc:
-	cd /home/chenshi/esp/esp-idf/components/mbedtls/mbedtls/doxygen && doxygen mbedtls.doxyfile
+	cd /home/diegolagos/esp-idf/components/mbedtls/mbedtls/doxygen && doxygen mbedtls.doxyfile
 
 mbedtls-apidoc: esp-idf/mbedtls/mbedtls/CMakeFiles/mbedtls-apidoc
 mbedtls-apidoc: esp-idf/mbedtls/mbedtls/CMakeFiles/mbedtls-apidoc.dir/build.make
@@ -78,10 +78,10 @@ esp-idf/mbedtls/mbedtls/CMakeFiles/mbedtls-apidoc.dir/build: mbedtls-apidoc
 .PHONY : esp-idf/mbedtls/mbedtls/CMakeFiles/mbedtls-apidoc.dir/build
 
 esp-idf/mbedtls/mbedtls/CMakeFiles/mbedtls-apidoc.dir/clean:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/mbedtls/mbedtls && $(CMAKE_COMMAND) -P CMakeFiles/mbedtls-apidoc.dir/cmake_clean.cmake
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/mbedtls/mbedtls && $(CMAKE_COMMAND) -P CMakeFiles/mbedtls-apidoc.dir/cmake_clean.cmake
 .PHONY : esp-idf/mbedtls/mbedtls/CMakeFiles/mbedtls-apidoc.dir/clean
 
 esp-idf/mbedtls/mbedtls/CMakeFiles/mbedtls-apidoc.dir/depend:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1 /home/chenshi/esp/esp-idf/components/mbedtls/mbedtls /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/mbedtls/mbedtls /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/mbedtls/mbedtls/CMakeFiles/mbedtls-apidoc.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1 /home/diegolagos/esp-idf/components/mbedtls/mbedtls /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/mbedtls/mbedtls /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/mbedtls/mbedtls/CMakeFiles/mbedtls-apidoc.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : esp-idf/mbedtls/mbedtls/CMakeFiles/mbedtls-apidoc.dir/depend
 

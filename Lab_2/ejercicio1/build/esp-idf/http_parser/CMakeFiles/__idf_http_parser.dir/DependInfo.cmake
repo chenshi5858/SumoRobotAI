@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/chenshi/esp/esp-idf/components/http_parser/http_parser.c" "esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj" "gcc" "esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj.d"
+  "/home/diegolagos/esp-idf/components/http_parser/http_parser.c" "esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj" "gcc" "esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

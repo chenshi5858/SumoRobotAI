@@ -1,0 +1,5 @@
+Command: make -j 14 all
+info: Default value for BT_ENABLED in sdkconfig is y but it is n according to Kconfig.
+Using default value from sdkconfig (y).
+info: Default value for HTTPD_WS_SUPPORT in sdkconfig is y but it is n according to Kconfig.
+Using default value from sdkconfig (y).

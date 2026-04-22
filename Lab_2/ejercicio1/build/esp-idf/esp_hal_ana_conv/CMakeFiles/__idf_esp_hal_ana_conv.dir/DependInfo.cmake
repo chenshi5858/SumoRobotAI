@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/chenshi/esp/esp-idf/components/esp_hal_ana_conv/adc_hal.c" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/adc_hal.c.obj" "gcc" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/adc_hal.c.obj.d"
-  "/home/chenshi/esp/esp-idf/components/esp_hal_ana_conv/adc_hal_common.c" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/adc_hal_common.c.obj" "gcc" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/adc_hal_common.c.obj.d"
-  "/home/chenshi/esp/esp-idf/components/esp_hal_ana_conv/adc_oneshot_hal.c" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/adc_oneshot_hal.c.obj" "gcc" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/adc_oneshot_hal.c.obj.d"
-  "/home/chenshi/esp/esp-idf/components/esp_hal_ana_conv/esp32s3/adc_periph.c" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/esp32s3/adc_periph.c.obj" "gcc" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/esp32s3/adc_periph.c.obj.d"
-  "/home/chenshi/esp/esp-idf/components/esp_hal_ana_conv/esp32s3/temperature_sensor_periph.c" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/esp32s3/temperature_sensor_periph.c.obj" "gcc" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/esp32s3/temperature_sensor_periph.c.obj.d"
-  "/home/chenshi/esp/esp-idf/components/esp_hal_ana_conv/temperature_sensor_hal.c" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/temperature_sensor_hal.c.obj" "gcc" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/temperature_sensor_hal.c.obj.d"
+  "/home/diegolagos/esp-idf/components/esp_hal_ana_conv/adc_hal.c" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/adc_hal.c.obj" "gcc" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/adc_hal.c.obj.d"
+  "/home/diegolagos/esp-idf/components/esp_hal_ana_conv/adc_hal_common.c" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/adc_hal_common.c.obj" "gcc" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/adc_hal_common.c.obj.d"
+  "/home/diegolagos/esp-idf/components/esp_hal_ana_conv/adc_oneshot_hal.c" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/adc_oneshot_hal.c.obj" "gcc" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/adc_oneshot_hal.c.obj.d"
+  "/home/diegolagos/esp-idf/components/esp_hal_ana_conv/esp32s3/adc_periph.c" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/esp32s3/adc_periph.c.obj" "gcc" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/esp32s3/adc_periph.c.obj.d"
+  "/home/diegolagos/esp-idf/components/esp_hal_ana_conv/esp32s3/temperature_sensor_periph.c" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/esp32s3/temperature_sensor_periph.c.obj" "gcc" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/esp32s3/temperature_sensor_periph.c.obj.d"
+  "/home/diegolagos/esp-idf/components/esp_hal_ana_conv/temperature_sensor_hal.c" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/temperature_sensor_hal.c.obj" "gcc" "esp-idf/esp_hal_ana_conv/CMakeFiles/__idf_esp_hal_ana_conv.dir/temperature_sensor_hal.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build
 
 # Utility rule file for __ldgen_output_sections.ld.
 
@@ -69,76 +69,76 @@ include CMakeFiles/__ldgen_output_sections.ld.dir/progress.make
 CMakeFiles/__ldgen_output_sections.ld: esp-idf/esp_system/ld/sections.ld
 
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_system/ld/sections.ld.in
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/xtensa/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_driver_gpio/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_pm/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_mm/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_driver_dma/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_hal_wdt/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/spi_flash/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_usb_cdc_rom_console/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_system/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_system/app.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_common/common.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_common/soc.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_rom/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/hal/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/log/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/heap/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/soc/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_hal_pmu/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_hal_regi2c/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_hal_systimer/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_hw_support/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_hw_support/ldo/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_hw_support/mspi/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/freertos/linker_common.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/freertos/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_libc/src/esp_libc.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_libc/src/esp_libc_clock.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_libc/src/system_libs.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_libc/src/picolibc/libc.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_ringbuf/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_psram/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_driver_uart/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_driver_gptimer/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/app_trace/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_event/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_phy/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_driver_usb_serial_jtag/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/vfs/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/lwip/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_netif/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/wpa_supplicant/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_coex/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_wifi/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_driver_spi/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_gdbstub/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/bt/linker_common.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/bt/linker_rw_bt_controller.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/driver/i2c/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/driver/twai/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_adc/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_driver_ana_cmpr/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_driver_bitscrambler/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_driver_isp/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_driver_cordic/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_driver_dac/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_driver_i2c/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_driver_i2s/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_driver_i3c/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_driver_ledc/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_driver_mcpwm/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_driver_parlio/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_driver_pcnt/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_driver_rmt/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_driver_sdm/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_driver_twai/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_eth/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_lcd/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_trace/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/ieee802154/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/openthread/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/xtensa/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_driver_gpio/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_pm/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_mm/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_driver_dma/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_hal_wdt/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/spi_flash/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_usb_cdc_rom_console/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_system/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_system/app.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_common/common.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_common/soc.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_rom/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/hal/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/log/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/heap/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/soc/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_hal_pmu/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_hal_regi2c/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_hal_systimer/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_hw_support/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_hw_support/ldo/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_hw_support/mspi/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/freertos/linker_common.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/freertos/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_libc/src/esp_libc.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_libc/src/esp_libc_clock.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_libc/src/system_libs.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_libc/src/picolibc/libc.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_ringbuf/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_psram/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_driver_uart/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_driver_gptimer/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/app_trace/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_event/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_phy/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_driver_usb_serial_jtag/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/vfs/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/lwip/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_netif/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/wpa_supplicant/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_coex/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_wifi/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_driver_spi/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_gdbstub/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/bt/linker_common.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/bt/linker_rw_bt_controller.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/driver/i2c/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/driver/twai/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_adc/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_driver_ana_cmpr/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_driver_bitscrambler/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_driver_isp/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_driver_cordic/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_driver_dac/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_driver_i2c/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_driver_i2s/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_driver_i3c/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_driver_ledc/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_driver_mcpwm/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_driver_parlio/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_driver_pcnt/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_driver_rmt/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_driver_sdm/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_driver_twai/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_eth/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_lcd/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_trace/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/ieee802154/linker.lf
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/openthread/linker.lf
 esp-idf/esp_system/ld/sections.ld: esp-idf/xtensa/libxtensa.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/cxx/libcxx.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_libc/libesp_libc.a
@@ -153,7 +153,7 @@ esp-idf/esp_system/ld/sections.ld: esp-idf/esp_common/libesp_common.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_system/libesp_system.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_stdio/libesp_stdio.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/xtensa/libxtensa.a
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/xtensa/esp32s3/libxt_hal.a
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/xtensa/esp32s3/libxt_hal.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/vfs/libvfs.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_uart/libesp_driver_uart.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_hal_uart/libesp_hal_uart.a
@@ -215,19 +215,19 @@ esp-idf/esp_system/ld/sections.ld: esp-idf/http_parser/libhttp_parser.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_http_server/libesp_http_server.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_wifi/libesp_wifi.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_phy/libesp_phy.a
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_phy/lib/esp32s3/libbtbb.a
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_phy/lib/esp32s3/libphy.a
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_phy/lib/esp32s3/libbtbb.a
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_phy/lib/esp32s3/libphy.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_netif/libesp_netif.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/wpa_supplicant/libwpa_supplicant.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_coex/libesp_coex.a
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_coex/lib/esp32s3/libcoexist.a
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libcore.a
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libespnow.a
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libmesh.a
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libnet80211.a
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libpp.a
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libsmartconfig.a
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libwapi.a
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_coex/lib/esp32s3/libcoexist.a
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libcore.a
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libespnow.a
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libmesh.a
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libnet80211.a
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libpp.a
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libsmartconfig.a
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libwapi.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_https_ota/libesp_https_ota.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/pthread/libpthread.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_stdio/libesp_stdio.a
@@ -284,7 +284,7 @@ esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_spi/libesp_driver_spi.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_gdbstub/libesp_gdbstub.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/bt/libbt.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_spi/libesp_driver_spi.a
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/esp-idf/components/bt/controller/lib_esp32c3_family/esp32s3/libbtdm_app.a
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/esp-idf/components/bt/controller/lib_esp32c3_family/esp32s3/libbtdm_app.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/unity/libunity.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/cmock/libcmock.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/unity/libunity.a
@@ -356,9 +356,10 @@ esp-idf/esp_system/ld/sections.ld: esp-idf/rt/librt.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/spiffs/libspiffs.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/main/libmain.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/driver/libdriver.a
-esp-idf/esp_system/ld/sections.ld: /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/sdkconfig
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating esp-idf/esp_system/ld/sections.ld"
-	/home/chenshi/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/chenshi/esp/esp-idf/tools/ldgen/ldgen.py --config /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/sdkconfig --fragments-list "/home/chenshi/esp/esp-idf/components/xtensa/linker.lf;/home/chenshi/esp/esp-idf/components/esp_driver_gpio/linker.lf;/home/chenshi/esp/esp-idf/components/esp_pm/linker.lf;/home/chenshi/esp/esp-idf/components/esp_mm/linker.lf;/home/chenshi/esp/esp-idf/components/esp_driver_dma/linker.lf;/home/chenshi/esp/esp-idf/components/esp_hal_wdt/linker.lf;/home/chenshi/esp/esp-idf/components/spi_flash/linker.lf;/home/chenshi/esp/esp-idf/components/esp_usb_cdc_rom_console/linker.lf;/home/chenshi/esp/esp-idf/components/esp_system/linker.lf;/home/chenshi/esp/esp-idf/components/esp_system/app.lf;/home/chenshi/esp/esp-idf/components/esp_common/common.lf;/home/chenshi/esp/esp-idf/components/esp_common/soc.lf;/home/chenshi/esp/esp-idf/components/esp_rom/linker.lf;/home/chenshi/esp/esp-idf/components/hal/linker.lf;/home/chenshi/esp/esp-idf/components/log/linker.lf;/home/chenshi/esp/esp-idf/components/heap/linker.lf;/home/chenshi/esp/esp-idf/components/soc/linker.lf;/home/chenshi/esp/esp-idf/components/esp_hal_pmu/linker.lf;/home/chenshi/esp/esp-idf/components/esp_hal_regi2c/linker.lf;/home/chenshi/esp/esp-idf/components/esp_hal_systimer/linker.lf;/home/chenshi/esp/esp-idf/components/esp_hw_support/linker.lf;/home/chenshi/esp/esp-idf/components/esp_hw_support/ldo/linker.lf;/home/chenshi/esp/esp-idf/components/esp_hw_support/mspi/linker.lf;/home/chenshi/esp/esp-idf/components/freertos/linker_common.lf;/home/chenshi/esp/esp-idf/components/freertos/linker.lf;/home/chenshi/esp/esp-idf/components/esp_libc/src/esp_libc.lf;/home/chenshi/esp/esp-idf/components/esp_libc/src/esp_libc_clock.lf;/home/chenshi/esp/esp-idf/components/esp_libc/src/system_libs.lf;/home/chenshi/esp/esp-idf/components/esp_libc/src/picolibc/libc.lf;/home/chenshi/esp/esp-idf/components/esp_ringbuf/linker.lf;/home/chenshi/esp/esp-idf/components/esp_psram/linker.lf;/home/chenshi/esp/esp-idf/components/esp_driver_uart/linker.lf;/home/chenshi/esp/esp-idf/components/esp_driver_gptimer/linker.lf;/home/chenshi/esp/esp-idf/components/app_trace/linker.lf;/home/chenshi/esp/esp-idf/components/esp_event/linker.lf;/home/chenshi/esp/esp-idf/components/esp_phy/linker.lf;/home/chenshi/esp/esp-idf/components/esp_driver_usb_serial_jtag/linker.lf;/home/chenshi/esp/esp-idf/components/vfs/linker.lf;/home/chenshi/esp/esp-idf/components/lwip/linker.lf;/home/chenshi/esp/esp-idf/components/esp_netif/linker.lf;/home/chenshi/esp/esp-idf/components/wpa_supplicant/linker.lf;/home/chenshi/esp/esp-idf/components/esp_coex/linker.lf;/home/chenshi/esp/esp-idf/components/esp_wifi/linker.lf;/home/chenshi/esp/esp-idf/components/esp_driver_spi/linker.lf;/home/chenshi/esp/esp-idf/components/esp_gdbstub/linker.lf;/home/chenshi/esp/esp-idf/components/bt/linker_common.lf;/home/chenshi/esp/esp-idf/components/bt/linker_rw_bt_controller.lf;/home/chenshi/esp/esp-idf/components/driver/i2c/linker.lf;/home/chenshi/esp/esp-idf/components/driver/twai/linker.lf;/home/chenshi/esp/esp-idf/components/esp_adc/linker.lf;/home/chenshi/esp/esp-idf/components/esp_driver_ana_cmpr/linker.lf;/home/chenshi/esp/esp-idf/components/esp_driver_bitscrambler/linker.lf;/home/chenshi/esp/esp-idf/components/esp_driver_isp/linker.lf;/home/chenshi/esp/esp-idf/components/esp_driver_cordic/linker.lf;/home/chenshi/esp/esp-idf/components/esp_driver_dac/linker.lf;/home/chenshi/esp/esp-idf/components/esp_driver_i2c/linker.lf;/home/chenshi/esp/esp-idf/components/esp_driver_i2s/linker.lf;/home/chenshi/esp/esp-idf/components/esp_driver_i3c/linker.lf;/home/chenshi/esp/esp-idf/components/esp_driver_ledc/linker.lf;/home/chenshi/esp/esp-idf/components/esp_driver_mcpwm/linker.lf;/home/chenshi/esp/esp-idf/components/esp_driver_parlio/linker.lf;/home/chenshi/esp/esp-idf/components/esp_driver_pcnt/linker.lf;/home/chenshi/esp/esp-idf/components/esp_driver_rmt/linker.lf;/home/chenshi/esp/esp-idf/components/esp_driver_sdm/linker.lf;/home/chenshi/esp/esp-idf/components/esp_driver_twai/linker.lf;/home/chenshi/esp/esp-idf/components/esp_eth/linker.lf;/home/chenshi/esp/esp-idf/components/esp_lcd/linker.lf;/home/chenshi/esp/esp-idf/components/esp_trace/linker.lf;/home/chenshi/esp/esp-idf/components/ieee802154/linker.lf;/home/chenshi/esp/esp-idf/components/openthread/linker.lf" --input /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/esp_system/ld/sections.ld.in --output /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/esp_system/ld/sections.ld --kconfig /home/chenshi/esp/esp-idf/Kconfig --env-file /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/config.env --libraries-file /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/ldgen_libraries --objdump /home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-objdump
+esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_ledc/libesp_driver_ledc.a
+esp-idf/esp_system/ld/sections.ld: /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/sdkconfig
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating esp-idf/esp_system/ld/sections.ld"
+	/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/diegolagos/esp-idf/tools/ldgen/ldgen.py --config /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/sdkconfig --fragments-list "/home/diegolagos/esp-idf/components/xtensa/linker.lf;/home/diegolagos/esp-idf/components/esp_driver_gpio/linker.lf;/home/diegolagos/esp-idf/components/esp_pm/linker.lf;/home/diegolagos/esp-idf/components/esp_mm/linker.lf;/home/diegolagos/esp-idf/components/esp_driver_dma/linker.lf;/home/diegolagos/esp-idf/components/esp_hal_wdt/linker.lf;/home/diegolagos/esp-idf/components/spi_flash/linker.lf;/home/diegolagos/esp-idf/components/esp_usb_cdc_rom_console/linker.lf;/home/diegolagos/esp-idf/components/esp_system/linker.lf;/home/diegolagos/esp-idf/components/esp_system/app.lf;/home/diegolagos/esp-idf/components/esp_common/common.lf;/home/diegolagos/esp-idf/components/esp_common/soc.lf;/home/diegolagos/esp-idf/components/esp_rom/linker.lf;/home/diegolagos/esp-idf/components/hal/linker.lf;/home/diegolagos/esp-idf/components/log/linker.lf;/home/diegolagos/esp-idf/components/heap/linker.lf;/home/diegolagos/esp-idf/components/soc/linker.lf;/home/diegolagos/esp-idf/components/esp_hal_pmu/linker.lf;/home/diegolagos/esp-idf/components/esp_hal_regi2c/linker.lf;/home/diegolagos/esp-idf/components/esp_hal_systimer/linker.lf;/home/diegolagos/esp-idf/components/esp_hw_support/linker.lf;/home/diegolagos/esp-idf/components/esp_hw_support/ldo/linker.lf;/home/diegolagos/esp-idf/components/esp_hw_support/mspi/linker.lf;/home/diegolagos/esp-idf/components/freertos/linker_common.lf;/home/diegolagos/esp-idf/components/freertos/linker.lf;/home/diegolagos/esp-idf/components/esp_libc/src/esp_libc.lf;/home/diegolagos/esp-idf/components/esp_libc/src/esp_libc_clock.lf;/home/diegolagos/esp-idf/components/esp_libc/src/system_libs.lf;/home/diegolagos/esp-idf/components/esp_libc/src/picolibc/libc.lf;/home/diegolagos/esp-idf/components/esp_ringbuf/linker.lf;/home/diegolagos/esp-idf/components/esp_psram/linker.lf;/home/diegolagos/esp-idf/components/esp_driver_uart/linker.lf;/home/diegolagos/esp-idf/components/esp_driver_gptimer/linker.lf;/home/diegolagos/esp-idf/components/app_trace/linker.lf;/home/diegolagos/esp-idf/components/esp_event/linker.lf;/home/diegolagos/esp-idf/components/esp_phy/linker.lf;/home/diegolagos/esp-idf/components/esp_driver_usb_serial_jtag/linker.lf;/home/diegolagos/esp-idf/components/vfs/linker.lf;/home/diegolagos/esp-idf/components/lwip/linker.lf;/home/diegolagos/esp-idf/components/esp_netif/linker.lf;/home/diegolagos/esp-idf/components/wpa_supplicant/linker.lf;/home/diegolagos/esp-idf/components/esp_coex/linker.lf;/home/diegolagos/esp-idf/components/esp_wifi/linker.lf;/home/diegolagos/esp-idf/components/esp_driver_spi/linker.lf;/home/diegolagos/esp-idf/components/esp_gdbstub/linker.lf;/home/diegolagos/esp-idf/components/bt/linker_common.lf;/home/diegolagos/esp-idf/components/bt/linker_rw_bt_controller.lf;/home/diegolagos/esp-idf/components/driver/i2c/linker.lf;/home/diegolagos/esp-idf/components/driver/twai/linker.lf;/home/diegolagos/esp-idf/components/esp_adc/linker.lf;/home/diegolagos/esp-idf/components/esp_driver_ana_cmpr/linker.lf;/home/diegolagos/esp-idf/components/esp_driver_bitscrambler/linker.lf;/home/diegolagos/esp-idf/components/esp_driver_isp/linker.lf;/home/diegolagos/esp-idf/components/esp_driver_cordic/linker.lf;/home/diegolagos/esp-idf/components/esp_driver_dac/linker.lf;/home/diegolagos/esp-idf/components/esp_driver_i2c/linker.lf;/home/diegolagos/esp-idf/components/esp_driver_i2s/linker.lf;/home/diegolagos/esp-idf/components/esp_driver_i3c/linker.lf;/home/diegolagos/esp-idf/components/esp_driver_ledc/linker.lf;/home/diegolagos/esp-idf/components/esp_driver_mcpwm/linker.lf;/home/diegolagos/esp-idf/components/esp_driver_parlio/linker.lf;/home/diegolagos/esp-idf/components/esp_driver_pcnt/linker.lf;/home/diegolagos/esp-idf/components/esp_driver_rmt/linker.lf;/home/diegolagos/esp-idf/components/esp_driver_sdm/linker.lf;/home/diegolagos/esp-idf/components/esp_driver_twai/linker.lf;/home/diegolagos/esp-idf/components/esp_eth/linker.lf;/home/diegolagos/esp-idf/components/esp_lcd/linker.lf;/home/diegolagos/esp-idf/components/esp_trace/linker.lf;/home/diegolagos/esp-idf/components/ieee802154/linker.lf;/home/diegolagos/esp-idf/components/openthread/linker.lf" --input /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/esp_system/ld/sections.ld.in --output /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/esp-idf/esp_system/ld/sections.ld --kconfig /home/diegolagos/esp-idf/Kconfig --env-file /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/config.env --libraries-file /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/ldgen_libraries --objdump /home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-objdump
 
 __ldgen_output_sections.ld: CMakeFiles/__ldgen_output_sections.ld
 __ldgen_output_sections.ld: esp-idf/esp_system/ld/sections.ld
@@ -374,6 +375,6 @@ CMakeFiles/__ldgen_output_sections.ld.dir/clean:
 .PHONY : CMakeFiles/__ldgen_output_sections.ld.dir/clean
 
 CMakeFiles/__ldgen_output_sections.ld.dir/depend:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1 /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1 /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles/__ldgen_output_sections.ld.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1 /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1 /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles/__ldgen_output_sections.ld.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/__ldgen_output_sections.ld.dir/depend
 

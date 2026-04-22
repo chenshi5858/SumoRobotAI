@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/chenshi/esp/esp-idf/components/perfmon/xtensa_perfmon_access.c" "esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_access.c.obj" "gcc" "esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_access.c.obj.d"
-  "/home/chenshi/esp/esp-idf/components/perfmon/xtensa_perfmon_apis.c" "esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_apis.c.obj" "gcc" "esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_apis.c.obj.d"
-  "/home/chenshi/esp/esp-idf/components/perfmon/xtensa_perfmon_masks.c" "esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_masks.c.obj" "gcc" "esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_masks.c.obj.d"
+  "/home/diegolagos/esp-idf/components/perfmon/xtensa_perfmon_access.c" "esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_access.c.obj" "gcc" "esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_access.c.obj.d"
+  "/home/diegolagos/esp-idf/components/perfmon/xtensa_perfmon_apis.c" "esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_apis.c.obj" "gcc" "esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_apis.c.obj.d"
+  "/home/diegolagos/esp-idf/components/perfmon/xtensa_perfmon_masks.c" "esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_masks.c.obj" "gcc" "esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_masks.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

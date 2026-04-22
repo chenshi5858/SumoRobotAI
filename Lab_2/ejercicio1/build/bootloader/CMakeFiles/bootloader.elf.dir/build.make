@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chenshi/esp/esp-idf/components/bootloader/subproject
+CMAKE_SOURCE_DIR = /home/diegolagos/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader
 
 # Include any dependencies generated for this target.
 include CMakeFiles/bootloader.elf.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/bootloader.elf.dir/flags.make
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj: CMakeFiles/bootloader.elf.dir/flags.make
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj: project_elf_src_esp32s3.c
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj: CMakeFiles/bootloader.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj"
-	/home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj -MF CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj.d -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj -c /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader/project_elf_src_esp32s3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj"
+	/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj -MF CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj.d -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj -c /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader/project_elf_src_esp32s3.c
 
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.i"
-	/home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader/project_elf_src_esp32s3.c > CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.i
+	/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader/project_elf_src_esp32s3.c > CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.i
 
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.s"
-	/home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader/project_elf_src_esp32s3.c -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.s
+	/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader/project_elf_src_esp32s3.c -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.s
 
 # Object files for target bootloader.elf
 bootloader_elf_OBJECTS = \
@@ -147,7 +147,7 @@ bootloader.elf: esp-idf/esp_hw_support/libesp_hw_support.a
 bootloader.elf: esp-idf/esp_common/libesp_common.a
 bootloader.elf: esp-idf/esp_rom/libesp_rom.a
 bootloader.elf: esp-idf/log/liblog.a
-bootloader.elf: /home/chenshi/esp/esp-idf/components/xtensa/esp32s3/libxt_hal.a
+bootloader.elf: /home/diegolagos/esp-idf/components/xtensa/esp32s3/libxt_hal.a
 bootloader.elf: esp-idf/xtensa/libxtensa.a
 bootloader.elf: esp-idf/soc/libsoc.a
 bootloader.elf: esp-idf/hal/libhal.a
@@ -175,7 +175,7 @@ bootloader.elf: esp-idf/esp_hw_support/libesp_hw_support.a
 bootloader.elf: esp-idf/esp_common/libesp_common.a
 bootloader.elf: esp-idf/esp_rom/libesp_rom.a
 bootloader.elf: esp-idf/log/liblog.a
-bootloader.elf: /home/chenshi/esp/esp-idf/components/xtensa/esp32s3/libxt_hal.a
+bootloader.elf: /home/diegolagos/esp-idf/components/xtensa/esp32s3/libxt_hal.a
 bootloader.elf: esp-idf/xtensa/libxtensa.a
 bootloader.elf: esp-idf/soc/libsoc.a
 bootloader.elf: esp-idf/hal/libhal.a
@@ -203,7 +203,7 @@ bootloader.elf: esp-idf/esp_hw_support/libesp_hw_support.a
 bootloader.elf: esp-idf/esp_common/libesp_common.a
 bootloader.elf: esp-idf/esp_rom/libesp_rom.a
 bootloader.elf: esp-idf/log/liblog.a
-bootloader.elf: /home/chenshi/esp/esp-idf/components/xtensa/esp32s3/libxt_hal.a
+bootloader.elf: /home/diegolagos/esp-idf/components/xtensa/esp32s3/libxt_hal.a
 bootloader.elf: esp-idf/xtensa/libxtensa.a
 bootloader.elf: esp-idf/soc/libsoc.a
 bootloader.elf: esp-idf/hal/libhal.a
@@ -231,18 +231,18 @@ bootloader.elf: esp-idf/esp_hw_support/libesp_hw_support.a
 bootloader.elf: esp-idf/esp_common/libesp_common.a
 bootloader.elf: esp-idf/esp_rom/libesp_rom.a
 bootloader.elf: esp-idf/log/liblog.a
-bootloader.elf: /home/chenshi/esp/esp-idf/components/xtensa/esp32s3/libxt_hal.a
-bootloader.elf: /home/chenshi/esp/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
-bootloader.elf: /home/chenshi/esp/esp-idf/components/esp_hal_regi2c/esp32s3/rom.regi2c.ld
-bootloader.elf: /home/chenshi/esp/esp-idf/components/esp_hal_wdt/esp32s3/rom.wdt.ld
-bootloader.elf: /home/chenshi/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
-bootloader.elf: /home/chenshi/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
-bootloader.elf: /home/chenshi/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.bt_funcs.ld
-bootloader.elf: /home/chenshi/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
-bootloader.elf: /home/chenshi/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
-bootloader.elf: /home/chenshi/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libc.ld
+bootloader.elf: /home/diegolagos/esp-idf/components/xtensa/esp32s3/libxt_hal.a
+bootloader.elf: /home/diegolagos/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+bootloader.elf: /home/diegolagos/esp-idf/components/esp_hal_regi2c/esp32s3/rom.regi2c.ld
+bootloader.elf: /home/diegolagos/esp-idf/components/esp_hal_wdt/esp32s3/rom.wdt.ld
+bootloader.elf: /home/diegolagos/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+bootloader.elf: /home/diegolagos/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+bootloader.elf: /home/diegolagos/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.bt_funcs.ld
+bootloader.elf: /home/diegolagos/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+bootloader.elf: /home/diegolagos/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+bootloader.elf: /home/diegolagos/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libc.ld
 bootloader.elf: CMakeFiles/bootloader.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable bootloader.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable bootloader.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bootloader.elf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -254,6 +254,6 @@ CMakeFiles/bootloader.elf.dir/clean:
 .PHONY : CMakeFiles/bootloader.elf.dir/clean
 
 CMakeFiles/bootloader.elf.dir/depend:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chenshi/esp/esp-idf/components/bootloader/subproject /home/chenshi/esp/esp-idf/components/bootloader/subproject /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader/CMakeFiles/bootloader.elf.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/esp-idf/components/bootloader/subproject /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader/CMakeFiles/bootloader.elf.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/bootloader.elf.dir/depend
 

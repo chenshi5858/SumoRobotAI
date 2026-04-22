@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1
+CMAKE_SOURCE_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build
+CMAKE_BINARY_DIR = /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ejercicio1_ble.elf.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/ejercicio1_ble.elf.dir/flags.make
 CMakeFiles/ejercicio1_ble.elf.dir/project_elf_src_esp32s3.c.obj: CMakeFiles/ejercicio1_ble.elf.dir/flags.make
 CMakeFiles/ejercicio1_ble.elf.dir/project_elf_src_esp32s3.c.obj: project_elf_src_esp32s3.c
 CMakeFiles/ejercicio1_ble.elf.dir/project_elf_src_esp32s3.c.obj: CMakeFiles/ejercicio1_ble.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ejercicio1_ble.elf.dir/project_elf_src_esp32s3.c.obj"
-	/home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ejercicio1_ble.elf.dir/project_elf_src_esp32s3.c.obj -MF CMakeFiles/ejercicio1_ble.elf.dir/project_elf_src_esp32s3.c.obj.d -o CMakeFiles/ejercicio1_ble.elf.dir/project_elf_src_esp32s3.c.obj -c /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/project_elf_src_esp32s3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ejercicio1_ble.elf.dir/project_elf_src_esp32s3.c.obj"
+	/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ejercicio1_ble.elf.dir/project_elf_src_esp32s3.c.obj -MF CMakeFiles/ejercicio1_ble.elf.dir/project_elf_src_esp32s3.c.obj.d -o CMakeFiles/ejercicio1_ble.elf.dir/project_elf_src_esp32s3.c.obj -c /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/project_elf_src_esp32s3.c
 
 CMakeFiles/ejercicio1_ble.elf.dir/project_elf_src_esp32s3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ejercicio1_ble.elf.dir/project_elf_src_esp32s3.c.i"
-	/home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/project_elf_src_esp32s3.c > CMakeFiles/ejercicio1_ble.elf.dir/project_elf_src_esp32s3.c.i
+	/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/project_elf_src_esp32s3.c > CMakeFiles/ejercicio1_ble.elf.dir/project_elf_src_esp32s3.c.i
 
 CMakeFiles/ejercicio1_ble.elf.dir/project_elf_src_esp32s3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ejercicio1_ble.elf.dir/project_elf_src_esp32s3.c.s"
-	/home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/project_elf_src_esp32s3.c -o CMakeFiles/ejercicio1_ble.elf.dir/project_elf_src_esp32s3.c.s
+	/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/project_elf_src_esp32s3.c -o CMakeFiles/ejercicio1_ble.elf.dir/project_elf_src_esp32s3.c.s
 
 # Object files for target ejercicio1_ble.elf
 ejercicio1_ble_elf_OBJECTS = \
@@ -204,7 +204,6 @@ ejercicio1_ble.elf: esp-idf/spiffs/libspiffs.a
 ejercicio1_ble.elf: esp-idf/main/libmain.a
 ejercicio1_ble.elf: esp-idf/unity/libunity.a
 ejercicio1_ble.elf: esp-idf/esp_hal_cam/libesp_hal_cam.a
-ejercicio1_ble.elf: esp-idf/esp_hal_ledc/libesp_hal_ledc.a
 ejercicio1_ble.elf: esp-idf/esp_hal_mcpwm/libesp_hal_mcpwm.a
 ejercicio1_ble.elf: esp-idf/esp_hal_pcnt/libesp_hal_pcnt.a
 ejercicio1_ble.elf: esp-idf/esp_hal_rmt/libesp_hal_rmt.a
@@ -212,6 +211,8 @@ ejercicio1_ble.elf: esp-idf/esp_driver_i2c/libesp_driver_i2c.a
 ejercicio1_ble.elf: esp-idf/esp_hal_lcd/libesp_hal_lcd.a
 ejercicio1_ble.elf: esp-idf/esp_https_server/libesp_https_server.a
 ejercicio1_ble.elf: esp-idf/protocomm/libprotocomm.a
+ejercicio1_ble.elf: esp-idf/bt/libbt.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/bt/controller/lib_esp32c3_family/esp32s3/libbtdm_app.a
 ejercicio1_ble.elf: esp-idf/console/libconsole.a
 ejercicio1_ble.elf: esp-idf/protobuf-c/libprotobuf-c.a
 ejercicio1_ble.elf: esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
@@ -220,11 +221,11 @@ ejercicio1_ble.elf: esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
 ejercicio1_ble.elf: esp-idf/sdmmc/libsdmmc.a
 ejercicio1_ble.elf: esp-idf/esp_hal_sd/libesp_hal_sd.a
 ejercicio1_ble.elf: esp-idf/wear_levelling/libwear_levelling.a
-ejercicio1_ble.elf: esp-idf/bt/libbt.a
 ejercicio1_ble.elf: esp-idf/esp_driver_spi/libesp_driver_spi.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/bt/controller/lib_esp32c3_family/esp32s3/libbtdm_app.a
 ejercicio1_ble.elf: esp-idf/driver/libdriver.a
 ejercicio1_ble.elf: esp-idf/esp_hal_twai/libesp_hal_twai.a
+ejercicio1_ble.elf: esp-idf/esp_driver_ledc/libesp_driver_ledc.a
+ejercicio1_ble.elf: esp-idf/esp_hal_ledc/libesp_hal_ledc.a
 ejercicio1_ble.elf: esp-idf/xtensa/libxtensa.a
 ejercicio1_ble.elf: esp-idf/esp_stdio/libesp_stdio.a
 ejercicio1_ble.elf: esp-idf/esp_hal_dma/libesp_hal_dma.a
@@ -292,23 +293,23 @@ ejercicio1_ble.elf: esp-idf/tcp_transport/libtcp_transport.a
 ejercicio1_ble.elf: esp-idf/esp_http_client/libesp_http_client.a
 ejercicio1_ble.elf: esp-idf/esp_http_server/libesp_http_server.a
 ejercicio1_ble.elf: esp-idf/esp_https_ota/libesp_https_ota.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/xtensa/esp32s3/libxt_hal.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/xtensa/esp32s3/libxt_hal.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/libtfpsacrypto.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/libmbed-builtin.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/libeverest.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/p256-m/libp256m.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_phy/lib/esp32s3/libbtbb.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_phy/lib/esp32s3/libphy.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_coex/lib/esp32s3/libcoexist.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libcore.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libespnow.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libmesh.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libnet80211.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libpp.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libsmartconfig.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libwapi.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_phy/lib/esp32s3/libbtbb.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_phy/lib/esp32s3/libphy.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_coex/lib/esp32s3/libcoexist.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libcore.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libespnow.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libmesh.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libnet80211.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libpp.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libsmartconfig.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libwapi.a
 ejercicio1_ble.elf: esp-idf/xtensa/libxtensa.a
 ejercicio1_ble.elf: esp-idf/esp_stdio/libesp_stdio.a
 ejercicio1_ble.elf: esp-idf/esp_hal_dma/libesp_hal_dma.a
@@ -376,23 +377,23 @@ ejercicio1_ble.elf: esp-idf/tcp_transport/libtcp_transport.a
 ejercicio1_ble.elf: esp-idf/esp_http_client/libesp_http_client.a
 ejercicio1_ble.elf: esp-idf/esp_http_server/libesp_http_server.a
 ejercicio1_ble.elf: esp-idf/esp_https_ota/libesp_https_ota.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/xtensa/esp32s3/libxt_hal.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/xtensa/esp32s3/libxt_hal.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/libtfpsacrypto.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/libmbed-builtin.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/libeverest.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/p256-m/libp256m.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_phy/lib/esp32s3/libbtbb.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_phy/lib/esp32s3/libphy.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_coex/lib/esp32s3/libcoexist.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libcore.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libespnow.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libmesh.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libnet80211.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libpp.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libsmartconfig.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libwapi.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_phy/lib/esp32s3/libbtbb.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_phy/lib/esp32s3/libphy.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_coex/lib/esp32s3/libcoexist.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libcore.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libespnow.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libmesh.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libnet80211.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libpp.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libsmartconfig.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libwapi.a
 ejercicio1_ble.elf: esp-idf/xtensa/libxtensa.a
 ejercicio1_ble.elf: esp-idf/esp_stdio/libesp_stdio.a
 ejercicio1_ble.elf: esp-idf/esp_hal_dma/libesp_hal_dma.a
@@ -460,23 +461,23 @@ ejercicio1_ble.elf: esp-idf/tcp_transport/libtcp_transport.a
 ejercicio1_ble.elf: esp-idf/esp_http_client/libesp_http_client.a
 ejercicio1_ble.elf: esp-idf/esp_http_server/libesp_http_server.a
 ejercicio1_ble.elf: esp-idf/esp_https_ota/libesp_https_ota.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/xtensa/esp32s3/libxt_hal.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/xtensa/esp32s3/libxt_hal.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/libtfpsacrypto.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/libmbed-builtin.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/libeverest.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/p256-m/libp256m.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_phy/lib/esp32s3/libbtbb.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_phy/lib/esp32s3/libphy.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_coex/lib/esp32s3/libcoexist.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libcore.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libespnow.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libmesh.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libnet80211.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libpp.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libsmartconfig.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libwapi.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_phy/lib/esp32s3/libbtbb.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_phy/lib/esp32s3/libphy.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_coex/lib/esp32s3/libcoexist.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libcore.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libespnow.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libmesh.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libnet80211.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libpp.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libsmartconfig.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libwapi.a
 ejercicio1_ble.elf: esp-idf/xtensa/libxtensa.a
 ejercicio1_ble.elf: esp-idf/esp_stdio/libesp_stdio.a
 ejercicio1_ble.elf: esp-idf/esp_hal_dma/libesp_hal_dma.a
@@ -544,23 +545,23 @@ ejercicio1_ble.elf: esp-idf/tcp_transport/libtcp_transport.a
 ejercicio1_ble.elf: esp-idf/esp_http_client/libesp_http_client.a
 ejercicio1_ble.elf: esp-idf/esp_http_server/libesp_http_server.a
 ejercicio1_ble.elf: esp-idf/esp_https_ota/libesp_https_ota.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/xtensa/esp32s3/libxt_hal.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/xtensa/esp32s3/libxt_hal.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/libtfpsacrypto.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/libmbed-builtin.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/libeverest.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/p256-m/libp256m.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_phy/lib/esp32s3/libbtbb.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_phy/lib/esp32s3/libphy.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_coex/lib/esp32s3/libcoexist.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libcore.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libespnow.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libmesh.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libnet80211.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libpp.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libsmartconfig.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libwapi.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_phy/lib/esp32s3/libbtbb.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_phy/lib/esp32s3/libphy.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_coex/lib/esp32s3/libcoexist.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libcore.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libespnow.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libmesh.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libnet80211.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libpp.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libsmartconfig.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libwapi.a
 ejercicio1_ble.elf: esp-idf/xtensa/libxtensa.a
 ejercicio1_ble.elf: esp-idf/esp_stdio/libesp_stdio.a
 ejercicio1_ble.elf: esp-idf/esp_hal_dma/libesp_hal_dma.a
@@ -628,41 +629,41 @@ ejercicio1_ble.elf: esp-idf/tcp_transport/libtcp_transport.a
 ejercicio1_ble.elf: esp-idf/esp_http_client/libesp_http_client.a
 ejercicio1_ble.elf: esp-idf/esp_http_server/libesp_http_server.a
 ejercicio1_ble.elf: esp-idf/esp_https_ota/libesp_https_ota.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/xtensa/esp32s3/libxt_hal.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/xtensa/esp32s3/libxt_hal.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/libtfpsacrypto.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/libmbed-builtin.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/libeverest.a
 ejercicio1_ble.elf: esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/p256-m/libp256m.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_phy/lib/esp32s3/libbtbb.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_phy/lib/esp32s3/libphy.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_coex/lib/esp32s3/libcoexist.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libcore.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libespnow.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libmesh.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libnet80211.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libpp.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libsmartconfig.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_wifi/lib/esp32s3/libwapi.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_phy/lib/esp32s3/libbtbb.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_phy/lib/esp32s3/libphy.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_coex/lib/esp32s3/libcoexist.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libcore.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libespnow.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libmesh.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libnet80211.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libpp.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libsmartconfig.a
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_wifi/lib/esp32s3/libwapi.a
 ejercicio1_ble.elf: esp-idf/pthread/libpthread.a
 ejercicio1_ble.elf: esp-idf/esp_libc/libesp_libc.a
 ejercicio1_ble.elf: esp-idf/cxx/libcxx.a
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_hal_wdt/esp32s3/rom.wdt.ld
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_hal_wdt/esp32s3/rom.wdt.ld
 ejercicio1_ble.elf: esp-idf/esp_system/ld/memory.ld
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.bt_funcs.ld
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_cca.ld
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_test.ld
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libc.ld
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
-ejercicio1_ble.elf: /home/chenshi/esp/esp-idf/components/esp_hal_regi2c/esp32s3/rom.regi2c.ld
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.bt_funcs.ld
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_cca.ld
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_test.ld
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libc.ld
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+ejercicio1_ble.elf: /home/diegolagos/esp-idf/components/esp_hal_regi2c/esp32s3/rom.regi2c.ld
 ejercicio1_ble.elf: esp-idf/esp_system/ld/sections.ld
 ejercicio1_ble.elf: CMakeFiles/ejercicio1_ble.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ejercicio1_ble.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ejercicio1_ble.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ejercicio1_ble.elf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -674,6 +675,6 @@ CMakeFiles/ejercicio1_ble.elf.dir/clean:
 .PHONY : CMakeFiles/ejercicio1_ble.elf.dir/clean
 
 CMakeFiles/ejercicio1_ble.elf.dir/depend:
-	cd /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1 /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1 /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build /home/chenshi/esp/projects/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles/ejercicio1_ble.elf.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1 /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1 /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/CMakeFiles/ejercicio1_ble.elf.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ejercicio1_ble.elf.dir/depend
 

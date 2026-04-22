@@ -22,6 +22,88 @@ body {
   text-align: center;
   box-shadow: 0 6px 30px rgba(2,6,23,0.6);
 }
+.endpoint-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.endpoint-input {
+  flex: 1;
+  background: #0a1324;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #e2e8f0;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+.status {
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  background: rgba(45, 212, 191, 0.1);
+  border: 1px solid rgba(45, 212, 191, 0.3);
+  color: var(--accent);
+}
+
+.status.disconnected {
+  background: rgba(239, 68, 68, 0.1);
+  border-color: rgba(239, 68, 68, 0.3);
+  color: #ef4444;
+}
+
+.speed-section {
+  background: rgba(255,255,255,0.02);
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  border: 1px solid rgba(255,255,255,0.04);
+}
+
+.speed-label {
+  margin: 0 0 8px 0;
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.speed-bar {
+  height: 6px;
+  background: var(--accent);
+  border-radius: 3px;
+  margin-bottom: 12px;
+  transition: width 0.2s ease;
+}
+
+.speed-controls {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.speed-btn {
+  background: var(--panel);
+  color: var(--accent);
+  border: 1px solid rgba(255,255,255,0.04);
+  padding: 8px 12px;
+  font-size: 13px;
+  border-radius: 6px;
+  cursor: pointer;
+  flex: 1;
+  transition: all 0.2s ease;
+}
+
+.speed-btn:hover {
+  background: rgba(45, 212, 191, 0.1);
+  border-color: rgba(45, 212, 191, 0.3);
+}
+
+.speed-btn:active {
+  transform: translateY(1px);
+}
+
 .pad {
   display: flex;
   flex-direction: column;
@@ -43,15 +125,35 @@ body {
   border-radius: 8px;
   cursor: pointer;
   min-width: 72px;
+  transition: all 0.2s ease;
 }
+
+.control-btn:hover {
+  background: rgba(45, 212, 191, 0.1);
+  border-color: rgba(45, 212, 191, 0.3);
+}
+
 .control-btn:active {
   transform: translateY(1px);
 }
-.status {
-  color: var(--muted);
-  font-size: 14px;
-  margin-top: 8px;
+
+.control-btn.active {
+  background: rgba(45, 212, 191, 0.2);
+  border-color: var(--accent);
+  box-shadow: 0 0 12px rgba(45, 212, 191, 0.4);
 }
+
+.stop-btn {
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+  border-color: rgba(239, 68, 68, 0.3);
+}
+
+.stop-btn:hover {
+  background: rgba(239, 68, 68, 0.2);
+  border-color: #ef4444;
+}
+
 .hint {
   color: var(--muted);
   font-size: 13px;

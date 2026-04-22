@@ -1,2 +1,2 @@
-/home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-ar qc libesp_driver_ledc.a CMakeFiles/__idf_esp_driver_ledc.dir/src/ledc.c.obj
-/home/chenshi/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-ranlib libesp_driver_ledc.a
+/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-ar qc libesp_driver_ledc.a CMakeFiles/__idf_esp_driver_ledc.dir/src/ledc.c.obj
+/home/diegolagos/esp/idf-tools/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-ranlib libesp_driver_ledc.a

@@ -1,0 +1,1068 @@
+Command: /home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/diegolagos/esp-idf/tools/idf_monitor.py -p /dev/ttyACM0 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/ejercicio1_ble.elf /home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/bootloader/bootloader.elf -m '/home/diegolagos/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python' '/home/diegolagos/esp-idf/tools/idf.py' '-p' '/dev/ttyACM0'
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x14f0
+load:0x403c8700,len:0xda0
+load:0x403cb700,len:0x2f58
+entry 0x403c8908
+[0;32mI (24) boot: ESP-IDF v6.1-dev-3631-g1a4ad657be 2nd stage bootloader[0m
+[0;32mI (25) boot: compile time Apr 16 2026 10:57:48[0m
+[0;32mI (25) boot: Multicore bootloader[0m
+[0;32mI (27) boot: chip revision: v0.2[0m
+[0;32mI (29) boot: efuse block revision: v1.4[0m
+[0;32mI (33) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (37) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (40) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (51) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (58) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (71) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (77) boot: End of partition table[0m
+[0;32mI (81) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=1f120h (127264) map[0m
+[0;32mI (111) esp_image: segment 1: paddr=0002f148 vaddr=3fc97c00 size=00ed0h (  3792) load[0m
+[0;32mI (112) esp_image: segment 2: paddr=00030020 vaddr=42000020 size=957cch (612300) map[0m
+[0;32mI (224) esp_image: segment 3: paddr=000c57f4 vaddr=3fc98ad0 size=043fch ( 17404) load[0m
+[0;32mI (228) esp_image: segment 4: paddr=000c9bf8 vaddr=40374000 size=13bach ( 80812) load[0m
+[0;32mI (246) esp_image: segment 5: paddr=000dd7ac vaddr=50000000 size=00024h (    36) load[0m
+[0;32mI (255) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (255) boot: Disabling RNG early entropy source...[0m
+[0;32mI (266) cpu_start: Multicore app[0m
+[0;32mI (274) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (275) cpu_start: Pro cpu start user code[0m
+[0;32mI (275) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (276) app_init: Application information:[0m
+[0;32mI (280) app_init: Project name:     ejercicio1_ble[0m
+[0;32mI (285) app_init: App version:      a21f97bf-dirty[0m
+[0;32mI (289) app_init: Compile time:     Apr 16 2026 11:08:10[0m
+[0;32mI (294) app_init: ELF file SHA256:  c19fb644f...[0m
+[0;32mI (298) app_init: ESP-IDF:          v6.1-dev-3631-g1a4ad657be[0m
+[0;32mI (304) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (308) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (312) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (316) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (322) heap_init: At 3FCA0DE0 len 00048930 (290 KiB): RAM[0m
+[0;32mI (327) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (332) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (337) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (344) spi_flash: detected chip: boya[0m
+[0;32mI (346) spi_flash: flash io: dio[0m
+[0;33mW (349) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (362) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (368) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (374) coexist: coex firmware version: b00e8cb[0m
+[0;32mI (379) coexist: coexist rom version e7ae62f[0m
+[0;32mI (383) main_task: Started on CPU0[0m
+[0;32mI (393) main_task: Calling app_main()[0m
+[0;32mI (393) EJ1_WIFI_MOTORES: Inicio firmware WiFi - control motores[0m
+[0;32mI (413) pp: pp rom version: e7ae62f[0m
+[0;32mI (413) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (423) wifi:wifi driver task: 3fceecf4, prio:23, stack:6656, core=0[0m
+[0;32mI (433) wifi:wifi firmware version: 6244488[0m
+[0;32mI (433) wifi:wifi certification version: v7.0[0m
+[0;32mI (433) wifi:config NVS flash: enabled[0m
+[0;32mI (433) wifi:config nano formatting: disabled[0m
+[0;32mI (433) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (443) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (443) wifi:Init management short buffer num: 32[0m
+[0;32mI (443) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (453) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (453) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (463) wifi:Init static rx buffer num: 10[0m
+[0;32mI (463) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (473) wifi_init: rx ba win: 6[0m
+[0;32mI (473) wifi_init: accept mbox: 6[0m
+[0;32mI (473) wifi_init: tcpip mbox: 32[0m
+[0;32mI (473) wifi_init: udp mbox: 6[0m
+[0;32mI (483) wifi_init: tcp mbox: 6[0m
+[0;32mI (483) wifi_init: tcp tx win: 5760[0m
+[0;32mI (483) wifi_init: tcp rx win: 5760[0m
+[0;32mI (493) wifi_init: tcp mss: 1440[0m
+[0;32mI (493) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (493) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;33mW (503) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (503) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (553) phy_init: Saving new calibration data due to checksum failure or outdated calibration data, mode(0)[0m
+[0;32mI (563) wifi:mode : sta (e0:72:a1:d6:57:a8)[0m
+[0;32mI (563) wifi:enable tsf[0m
+[0;32mI (573) EJ1_WIFI_MOTORES: WiFi started, connecting...[0m
+[0;32mI (573) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (583) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (593) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (593) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (703) wifi:connected with VTR-8659428, aid = 2, channel 1, BW20, bssid = f4:23:9c:2e:f4:a9[0m
+[0;32mI (703) wifi:security: WPA2-PSK, phy: bgn, rssi: -11, cipher(pairwise:0x3, group:0x3), pmf:0[0m
+[0;32mI (713) wifi:pm start, type: 1[0m
+
+[0;32mI (713) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (723) wifi:set rx beacon pti, rx_bcn_pti: 14, bcn_timeout: 25000, mt_pti: 14, mt_time: 10000[0m
+[0;32mI (733) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (2063) wifi:<ba-add>idx:0 (ifx:0, f4:23:9c:2e:f4:a9), tid:0, ssn:2, winSize:64[0m
+[0;32mI (3203) esp_netif_handlers: sta ip: 192.168.1.98, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (3203) EJ1_WIFI_MOTORES: WiFi connected, IP: 192.168.1.98[0m
+[0;32mI (3203) EJ1_WIFI_MOTORES: HTTP endpoint: http://192.168.1.98:8000/move[0m
+[0;32mI (3203) EJ1_WIFI_MOTORES: WebSocket endpoint: ws://192.168.1.98:8000/ws[0m
+[0;32mI (3213) EJ1_WIFI_MOTORES: HTTP server ready on port 8000 (POST /move, WS /ws)[0m
+[0;32mI (3223) EJ1_WIFI_MOTORES: Listo para control por WebSocket. Conecta a ws://IP:8000/ws[0m
+[0;32mI (9543) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (9543) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (9543) EJ1_WIFI_MOTORES: Speed set to 200/255[0m
+[0;32mI (9553) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 200)[0m
+[0;32mI (9623) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (9623) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (9623) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (11373) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (11383) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (11383) EJ1_WIFI_MOTORES: Speed set to 200/255[0m
+[0;32mI (11383) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 200)[0m
+[0;32mI (11783) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (11783) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (11783) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (12403) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (12403) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (12403) EJ1_WIFI_MOTORES: Speed set to 200/255[0m
+[0;32mI (12403) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 200)[0m
+[0;32mI (12643) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (12643) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (12643) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (13323) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (13323) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (13323) EJ1_WIFI_MOTORES: Speed set to 200/255[0m
+[0;32mI (13333) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 200)[0m
+[0;32mI (14343) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (14343) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (14353) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (15163) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (15163) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (15163) EJ1_WIFI_MOTORES: Speed set to 200/255[0m
+[0;32mI (15173) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 200)[0m
+[0;32mI (15573) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (15573) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (15573) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (15603) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (15603) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (15603) EJ1_WIFI_MOTORES: Speed set to 200/255[0m
+[0;32mI (15603) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 200)[0m
+[0;32mI (16093) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (16093) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (16093) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (16113) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (16113) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (16113) EJ1_WIFI_MOTORES: Speed set to 200/255[0m
+[0;32mI (16113) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 200)[0m
+[0;32mI (16603) EJ1_WIFI_MOTORES: WS received: opcode=1, len=37[0m
+[0;32mI (16603) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"right"}[0m
+[0;32mI (16603) EJ1_WIFI_MOTORES: Speed set to 200/255[0m
+[0;32mI (16603) EJ1_WIFI_MOTORES: MOVE RIGHT (speed: 200)[0m
+[0;32mI (17013) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (17013) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (17013) EJ1_WIFI_MOTORES: Speed set to 200/255[0m
+[0;32mI (17013) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 200)[0m
+[0;32mI (17423) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (17423) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (17423) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (17423) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (17423) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (17433) EJ1_WIFI_MOTORES: Speed set to 200/255[0m
+[0;32mI (17443) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 200)[0m
+[0;32mI (17833) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (17833) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (17833) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (17893) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (17893) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (17893) EJ1_WIFI_MOTORES: Speed set to 200/255[0m
+[0;32mI (17903) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 200)[0m
+[0;32mI (18273) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (18273) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (18273) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (18443) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (18443) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (18443) EJ1_WIFI_MOTORES: Speed set to 200/255[0m
+[0;32mI (18453) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 200)[0m
+[0;32mI (18653) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (18653) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (18653) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (19193) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (19193) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (19193) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (19573) EJ1_WIFI_MOTORES: WS received: opcode=1, len=23[0m
+[0;32mI (19573) EJ1_WIFI_MOTORES: WS text: {"action":"speed_down"}[0m
+[0;32mI (19573) EJ1_WIFI_MOTORES: Speed down to 180[0m
+[0;32mI (19573) EJ1_WIFI_MOTORES: Speed set to 180/255[0m
+[0;32mI (19723) EJ1_WIFI_MOTORES: WS received: opcode=1, len=23[0m
+[0;32mI (19723) EJ1_WIFI_MOTORES: WS text: {"action":"speed_down"}[0m
+[0;32mI (19723) EJ1_WIFI_MOTORES: Speed down to 160[0m
+[0;32mI (19723) EJ1_WIFI_MOTORES: Speed set to 160/255[0m
+[0;32mI (19893) EJ1_WIFI_MOTORES: WS received: opcode=1, len=23[0m
+[0;32mI (19893) EJ1_WIFI_MOTORES: WS text: {"action":"speed_down"}[0m
+[0;32mI (19893) EJ1_WIFI_MOTORES: Speed down to 140[0m
+[0;32mI (19903) EJ1_WIFI_MOTORES: Speed set to 140/255[0m
+[0;32mI (20083) EJ1_WIFI_MOTORES: WS received: opcode=1, len=23[0m
+[0;32mI (20083) EJ1_WIFI_MOTORES: WS text: {"action":"speed_down"}[0m
+[0;32mI (20083) EJ1_WIFI_MOTORES: Speed down to 120[0m
+[0;32mI (20093) EJ1_WIFI_MOTORES: Speed set to 120/255[0m
+[0;32mI (20493) EJ1_WIFI_MOTORES: WS received: opcode=1, len=23[0m
+[0;32mI (20493) EJ1_WIFI_MOTORES: WS text: {"action":"speed_down"}[0m
+[0;32mI (20503) EJ1_WIFI_MOTORES: Speed down to 100[0m
+[0;32mI (20503) EJ1_WIFI_MOTORES: Speed set to 100/255[0m
+[0;32mI (20623) EJ1_WIFI_MOTORES: WS received: opcode=1, len=23[0m
+[0;32mI (20623) EJ1_WIFI_MOTORES: WS text: {"action":"speed_down"}[0m
+[0;32mI (20623) EJ1_WIFI_MOTORES: Speed down to 80[0m
+[0;32mI (20623) EJ1_WIFI_MOTORES: Speed set to 80/255[0m
+[0;32mI (20803) EJ1_WIFI_MOTORES: WS received: opcode=1, len=23[0m
+[0;32mI (20803) EJ1_WIFI_MOTORES: WS text: {"action":"speed_down"}[0m
+[0;32mI (20803) EJ1_WIFI_MOTORES: Speed down to 60[0m
+[0;32mI (20813) EJ1_WIFI_MOTORES: Speed set to 60/255[0m
+[0;32mI (21633) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (21633) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (21633) EJ1_WIFI_MOTORES: Speed set to 60/255[0m
+[0;32mI (21633) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 60)[0m
+[0;32mI (22453) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (22453) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (22453) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (22743) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (22743) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (22743) EJ1_WIFI_MOTORES: Speed set to 60/255[0m
+[0;32mI (22753) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 60)[0m
+[0;32mI (23173) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (23173) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (23173) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (23463) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (23463) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (23463) EJ1_WIFI_MOTORES: Speed set to 60/255[0m
+[0;32mI (23463) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 60)[0m
+[0;32mI (24713) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (24713) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (24713) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (24853) EJ1_WIFI_MOTORES: WS received: opcode=1, len=37[0m
+[0;32mI (24853) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"right"}[0m
+[0;32mI (24853) EJ1_WIFI_MOTORES: Speed set to 60/255[0m
+[0;32mI (24853) EJ1_WIFI_MOTORES: MOVE RIGHT (speed: 60)[0m
+[0;32mI (24873) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (24873) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (24873) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (26873) EJ1_WIFI_MOTORES: WS received: opcode=1, len=21[0m
+[0;32mI (26873) EJ1_WIFI_MOTORES: WS text: {"action":"speed_up"}[0m
+[0;32mI (26883) EJ1_WIFI_MOTORES: Speed up to 80[0m
+[0;32mI (26883) EJ1_WIFI_MOTORES: Speed set to 80/255[0m
+[0;32mI (27083) EJ1_WIFI_MOTORES: WS received: opcode=1, len=21[0m
+[0;32mI (27083) EJ1_WIFI_MOTORES: WS text: {"action":"speed_up"}[0m
+[0;32mI (27083) EJ1_WIFI_MOTORES: Speed up to 100[0m
+[0;32mI (27083) EJ1_WIFI_MOTORES: Speed set to 100/255[0m
+[0;32mI (27283) EJ1_WIFI_MOTORES: WS received: opcode=1, len=21[0m
+[0;32mI (27283) EJ1_WIFI_MOTORES: WS text: {"action":"speed_up"}[0m
+[0;32mI (27283) EJ1_WIFI_MOTORES: Speed up to 120[0m
+[0;32mI (27283) EJ1_WIFI_MOTORES: Speed set to 120/255[0m
+[0;32mI (27363) EJ1_WIFI_MOTORES: WS received: opcode=1, len=21[0m
+[0;32mI (27363) EJ1_WIFI_MOTORES: WS text: {"action":"speed_up"}[0m
+[0;32mI (27363) EJ1_WIFI_MOTORES: Speed up to 140[0m
+[0;32mI (27363) EJ1_WIFI_MOTORES: Speed set to 140/255[0m
+[0;32mI (27593) EJ1_WIFI_MOTORES: WS received: opcode=1, len=21[0m
+[0;32mI (27593) EJ1_WIFI_MOTORES: WS text: {"action":"speed_up"}[0m
+[0;32mI (27593) EJ1_WIFI_MOTORES: Speed up to 160[0m
+[0;32mI (27593) EJ1_WIFI_MOTORES: Speed set to 160/255[0m
+[0;32mI (27703) EJ1_WIFI_MOTORES: WS received: opcode=1, len=21[0m
+[0;32mI (27703) EJ1_WIFI_MOTORES: WS text: {"action":"speed_up"}[0m
+[0;32mI (27703) EJ1_WIFI_MOTORES: Speed up to 180[0m
+[0;32mI (27703) EJ1_WIFI_MOTORES: Speed set to 180/255[0m
+[0;32mI (28423) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (28423) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (28423) EJ1_WIFI_MOTORES: Speed set to 180/255[0m
+[0;32mI (28423) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 180)[0m
+[0;32mI (30163) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (30163) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (30163) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (30173) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (30173) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (30173) EJ1_WIFI_MOTORES: Speed set to 180/255[0m
+[0;32mI (30183) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 180)[0m
+[0;32mI (30253) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (30253) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (30253) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (30673) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (30673) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (30673) EJ1_WIFI_MOTORES: Speed set to 180/255[0m
+[0;32mI (30683) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 180)[0m
+[0;32mI (32573) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (32573) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (32573) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (34213) EJ1_WIFI_MOTORES: WS received: opcode=1, len=21[0m
+[0;32mI (34213) EJ1_WIFI_MOTORES: WS text: {"action":"speed_up"}[0m
+[0;32mI (34213) EJ1_WIFI_MOTORES: Speed up to 200[0m
+[0;32mI (34213) EJ1_WIFI_MOTORES: Speed set to 200/255[0m
+[0;32mI (34353) EJ1_WIFI_MOTORES: WS received: opcode=1, len=21[0m
+[0;32mI (34353) EJ1_WIFI_MOTORES: WS text: {"action":"speed_up"}[0m
+[0;32mI (34353) EJ1_WIFI_MOTORES: Speed up to 220[0m
+[0;32mI (34363) EJ1_WIFI_MOTORES: Speed set to 220/255[0m
+[0;32mI (34523) EJ1_WIFI_MOTORES: WS received: opcode=1, len=21[0m
+[0;32mI (34523) EJ1_WIFI_MOTORES: WS text: {"action":"speed_up"}[0m
+[0;32mI (34523) EJ1_WIFI_MOTORES: Speed up to 240[0m
+[0;32mI (34523) EJ1_WIFI_MOTORES: Speed set to 240/255[0m
+[0;32mI (34683) EJ1_WIFI_MOTORES: WS received: opcode=1, len=21[0m
+[0;32mI (34683) EJ1_WIFI_MOTORES: WS text: {"action":"speed_up"}[0m
+[0;32mI (34683) EJ1_WIFI_MOTORES: Speed up to 255[0m
+[0;32mI (34683) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (35753) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (35753) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (35753) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (35753) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (36483) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (36483) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (36483) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (36673) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (36673) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (36673) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (36683) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (37533) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (37533) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (37533) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (37693) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (37693) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (37693) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (37703) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (38323) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (38323) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (38323) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (38323) EJ1_WIFI_MOTORES: WS received: opcode=1, len=37[0m
+[0;32mI (38323) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"right"}[0m
+[0;32mI (38333) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (38333) EJ1_WIFI_MOTORES: MOVE RIGHT (speed: 255)[0m
+[0;32mI (40073) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (40073) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (40073) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (40073) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (40393) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (40403) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (40403) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (40403) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (40793) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (40793) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (40793) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (40803) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (40983) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (40983) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (40993) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (40993) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (41173) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (41173) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (41173) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (41193) EJ1_WIFI_MOTORES: WS received: opcode=1, len=37[0m
+[0;32mI (41193) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"right"}[0m
+[0;32mI (41193) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (41193) EJ1_WIFI_MOTORES: MOVE RIGHT (speed: 255)[0m
+[0;32mI (41383) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (41383) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (41383) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (41383) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (41583) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (41583) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (41583) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (41593) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (41793) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (41793) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (41793) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (41793) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (41993) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (41993) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (41993) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (42003) EJ1_WIFI_MOTORES: WS received: opcode=1, len=37[0m
+[0;32mI (42003) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"right"}[0m
+[0;32mI (42013) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (42013) EJ1_WIFI_MOTORES: MOVE RIGHT (speed: 255)[0m
+[0;32mI (42403) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (42403) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (42403) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (42423) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (42423) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (42423) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (42433) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (42843) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (42843) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (42843) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (43223) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (43223) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (43223) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (43233) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (43303) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (43303) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (43303) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (43433) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (43433) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (43433) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (43433) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (43483) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (43483) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (43483) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (43603) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (43603) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (43603) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (43603) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (43743) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (43743) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (43743) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (43773) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (43773) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (43773) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (43773) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (43843) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (43843) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (43843) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (44353) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (44353) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (44353) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (44363) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (44363) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (44373) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (44373) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (44763) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (44763) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (44763) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (44763) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (45373) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (45373) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (45373) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (45993) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (45993) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (45993) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (45993) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (46503) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (46503) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (46503) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (46843) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (46843) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (46843) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (46853) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (47253) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (47253) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (47253) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (47253) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (47633) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (47633) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (47633) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (47693) EJ1_WIFI_MOTORES: WS received: opcode=1, len=37[0m
+[0;32mI (47693) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"right"}[0m
+[0;32mI (47693) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (47693) EJ1_WIFI_MOTORES: MOVE RIGHT (speed: 255)[0m
+[0;32mI (48043) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (48043) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (48043) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (48083) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (48083) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (48083) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (48093) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (48363) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (48363) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (48363) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (48483) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (48483) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (48483) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (48493) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (48763) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (48763) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (48763) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (48873) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (48873) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (48873) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (48873) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (49183) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (49183) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (49183) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (49183) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (49183) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (49193) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (49193) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (49593) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (49593) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (49593) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (49593) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (49593) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (49603) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (49613) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (49893) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (49893) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (49893) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (49943) EJ1_WIFI_MOTORES: WS received: opcode=1, len=37[0m
+[0;32mI (49943) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"right"}[0m
+[0;32mI (49943) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (49943) EJ1_WIFI_MOTORES: MOVE RIGHT (speed: 255)[0m
+[0;32mI (50313) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (50313) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (50313) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (50313) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (50313) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (50323) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (50323) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (50743) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (50743) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (50743) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (50933) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (50933) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (50933) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (50943) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (52053) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (52053) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (52053) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (52573) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (52573) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (52573) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (52573) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (55453) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (55453) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (55453) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (61153) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (61153) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (61153) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (61153) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (61593) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (61593) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (61593) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (62063) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (62063) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (62073) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (62073) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (65673) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (65673) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (65673) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (65963) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (65963) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (65963) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (65963) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (68313) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (68313) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (68313) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (68523) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (68523) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (68523) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (68523) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (70693) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (70693) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (70693) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (70873) EJ1_WIFI_MOTORES: WS received: opcode=1, len=37[0m
+[0;32mI (70873) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"right"}[0m
+[0;32mI (70883) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (70883) EJ1_WIFI_MOTORES: MOVE RIGHT (speed: 255)[0m
+[0;32mI (73443) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (73443) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (73443) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (76223) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (76223) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (76223) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (76233) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (76643) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (76643) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (76643) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (76833) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (76833) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (76833) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (76833) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (76913) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (76923) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (76923) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (77053) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (77053) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (77063) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (77063) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (77223) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (77223) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (77223) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (77283) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (77283) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (77283) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (77283) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (77383) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (77383) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (77383) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (77753) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (77753) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (77753) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (77763) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (77863) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (77863) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (77863) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (78063) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (78063) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (78063) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (78073) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (78153) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (78153) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (78153) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (78493) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (78493) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (78493) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (78503) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (78783) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (78783) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (78783) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (85623) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (85623) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (85623) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (85623) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (85683) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (85683) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (85683) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (86033) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (86033) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (86033) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (86033) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (86333) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (86333) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (86333) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (86643) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (86643) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (86643) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (86653) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (86853) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (86853) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (86853) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (86883) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (86883) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (86893) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (86893) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (87153) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (87153) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (87153) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (87473) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (87473) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (87473) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (87473) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (87773) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (87773) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (87773) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (87773) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (87783) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (87783) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (87793) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (87833) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (87833) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (87833) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (102213) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (102213) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (102213) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (102213) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (102533) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (102533) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (102533) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (102823) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (102823) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (102823) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (102833) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (103353) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (103353) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (103353) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (123613) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (123613) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (123613) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (123613) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (124633) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (124633) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (124633) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (126583) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (126583) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (126583) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (126583) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (126693) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (126693) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (126693) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (127093) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (127093) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (127093) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (127103) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (128123) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (128123) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (128123) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (128243) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (128243) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (128243) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (128243) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (128843) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (128843) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (128843) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (128963) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (128963) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (128963) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (128963) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (131823) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (131823) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (131823) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (131943) EJ1_WIFI_MOTORES: WS received: opcode=1, len=37[0m
+[0;32mI (131943) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"right"}[0m
+[0;32mI (131943) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (131943) EJ1_WIFI_MOTORES: MOVE RIGHT (speed: 255)[0m
+[0;32mI (133163) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (133163) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (133163) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (135943) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (135943) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (135943) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (135943) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (136103) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (136103) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (136103) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (136113) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (136453) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (136453) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (136453) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (136453) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (136763) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (136763) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (136763) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (136763) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (136863) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (136863) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (136863) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (136863) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (136873) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (136873) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (136883) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (137173) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (137173) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (137173) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (137333) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (137333) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (137333) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (137343) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (137543) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (137543) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (137543) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (137543) EJ1_WIFI_MOTORES: WS received: opcode=1, len=37[0m
+[0;32mI (137553) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"right"}[0m
+[0;32mI (137553) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (137563) EJ1_WIFI_MOTORES: MOVE RIGHT (speed: 255)[0m
+[0;32mI (137893) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (137893) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (137893) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (137923) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (137923) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (137923) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (137933) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (138153) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (138153) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (138153) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (138193) EJ1_WIFI_MOTORES: WS received: opcode=1, len=37[0m
+[0;32mI (138193) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"right"}[0m
+[0;32mI (138193) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (138193) EJ1_WIFI_MOTORES: MOVE RIGHT (speed: 255)[0m
+[0;32mI (138403) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (138403) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (138403) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (138713) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (138713) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (138713) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (138713) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (138803) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (138803) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (138803) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (138923) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (138923) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (138923) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (138923) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (139023) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (139023) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (139023) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (139083) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (139083) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (139083) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (139083) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (139223) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (139223) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (139223) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (139253) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (139253) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (139253) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (139263) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (139333) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (139333) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (139343) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (139583) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (139583) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (139593) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (139593) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (139993) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (139993) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (140003) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (140003) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (140203) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (140203) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (140203) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (140213) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (140513) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (140513) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (140513) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (140513) EJ1_WIFI_MOTORES: WS received: opcode=1, len=37[0m
+[0;32mI (140513) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"right"}[0m
+[0;32mI (140523) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (140533) EJ1_WIFI_MOTORES: MOVE RIGHT (speed: 255)[0m
+[0;32mI (140733) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (140733) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (140733) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (140743) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (140743) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (140753) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (140753) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (141373) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (141373) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (141373) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (141383) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (141943) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (141943) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (141943) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (141943) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (143193) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (143193) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (143193) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (143203) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (143483) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (143483) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (143483) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (143683) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (143683) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (143683) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (143693) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (143993) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (143993) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (143993) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (144033) EJ1_WIFI_MOTORES: WS received: opcode=1, len=37[0m
+[0;32mI (144033) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"right"}[0m
+[0;32mI (144033) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (144043) EJ1_WIFI_MOTORES: MOVE RIGHT (speed: 255)[0m
+[0;32mI (144323) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (144323) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (144323) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (144353) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (144353) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (144353) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (144353) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (144603) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (144603) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (144603) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (144613) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (144693) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (144693) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (144693) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (144693) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (144833) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (144833) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (144833) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (144883) EJ1_WIFI_MOTORES: WS received: opcode=1, len=37[0m
+[0;32mI (144883) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"right"}[0m
+[0;32mI (144883) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (144883) EJ1_WIFI_MOTORES: MOVE RIGHT (speed: 255)[0m
+[0;32mI (145013) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (145013) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"back"}[0m
+[0;32mI (145013) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (145013) EJ1_WIFI_MOTORES: MOVE BACKWARD (speed: 255)[0m
+[0;32mI (145413) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (145413) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (145413) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (145413) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (145423) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (145423) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (145433) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (145433) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (145563) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (145563) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (145563) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (145833) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (145833) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (145833) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (145843) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (145853) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (145853) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (145853) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (145863) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (146573) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (146573) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (146573) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (146753) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (146753) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (146753) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (146763) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (147063) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (147063) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (147063) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (147073) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (147213) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (147213) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (147213) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (147223) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (147393) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (147393) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (147393) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (147403) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (147403) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (147403) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (147413) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (147533) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (147533) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (147533) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (147533) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (147783) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (147783) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (147783) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (147793) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (147793) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (147793) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (147803) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (147853) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (147853) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (147853) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (147863) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (148093) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (148093) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (148093) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (148093) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (148093) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (148103) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (148103) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (148183) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (148183) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (148193) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (148193) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (148313) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (148313) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (148313) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (148383) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (148383) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (148383) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (148383) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (148603) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (148603) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (148603) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (148603) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (148613) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (148613) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (148623) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (148703) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (148703) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (148703) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (148703) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (148713) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (148713) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (148723) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (148853) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (148853) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (148853) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (148853) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (148953) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (148953) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (148953) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (148963) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (148963) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (148963) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (148973) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (149213) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (149213) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (149213) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (149223) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (149283) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (149283) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (149283) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (149293) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (149293) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (149293) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (149303) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (149423) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (149423) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (149423) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (149423) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (149543) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (149543) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (149543) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (149563) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (149563) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (149563) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (149563) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (149683) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (149683) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (149683) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (149693) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (149833) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (149833) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (149833) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (150033) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (150033) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (150033) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (150033) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (150233) EJ1_WIFI_MOTORES: WS received: opcode=1, len=37[0m
+[0;32mI (150243) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"right"}[0m
+[0;32mI (150243) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (150243) EJ1_WIFI_MOTORES: MOVE RIGHT (speed: 255)[0m
+[0;32mI (150343) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (150343) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (150343) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (150353) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (150543) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (150543) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (150543) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (150553) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (150613) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (150613) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (150613) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (150683) EJ1_WIFI_MOTORES: WS received: opcode=1, len=37[0m
+[0;32mI (150683) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"right"}[0m
+[0;32mI (150683) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (150693) EJ1_WIFI_MOTORES: MOVE RIGHT (speed: 255)[0m
+[0;32mI (150753) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (150753) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (150753) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (150753) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (150873) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (150873) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (150873) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (150953) EJ1_WIFI_MOTORES: WS received: opcode=1, len=37[0m
+[0;32mI (150953) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"right"}[0m
+[0;32mI (150953) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (150963) EJ1_WIFI_MOTORES: MOVE RIGHT (speed: 255)[0m
+[0;32mI (151053) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (151053) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (151053) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (151063) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (151193) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (151193) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (151193) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (151363) EJ1_WIFI_MOTORES: WS received: opcode=1, len=37[0m
+[0;32mI (151363) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"right"}[0m
+[0;32mI (151363) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (151373) EJ1_WIFI_MOTORES: MOVE RIGHT (speed: 255)[0m
+[0;32mI (151393) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (151393) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (151393) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (151393) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (151673) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (151673) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (151673) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (151873) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (151873) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (151873) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (151883) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (152183) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (152183) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (152183) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (152223) EJ1_WIFI_MOTORES: WS received: opcode=1, len=37[0m
+[0;32mI (152223) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"right"}[0m
+[0;32mI (152223) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (152223) EJ1_WIFI_MOTORES: MOVE RIGHT (speed: 255)[0m
+[0;32mI (152533) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (152533) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (152533) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (152533) EJ1_WIFI_MOTORES: WS received: opcode=1, len=39[0m
+[0;32mI (152533) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"forward"}[0m
+[0;32mI (152543) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (152553) EJ1_WIFI_MOTORES: MOVE FORWARD (speed: 255)[0m
+[0;32mI (152903) EJ1_WIFI_MOTORES: WS received: opcode=1, len=36[0m
+[0;32mI (152903) EJ1_WIFI_MOTORES: WS text: {"action":"move","direction":"left"}[0m
+[0;32mI (152903) EJ1_WIFI_MOTORES: Speed set to 255/255[0m
+[0;32mI (152903) EJ1_WIFI_MOTORES: MOVE LEFT (speed: 255)[0m
+[0;32mI (153133) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (153133) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (153133) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (165493) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (165493) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (165493) EJ1_WIFI_MOTORES: STOP[0m
+[0;32mI (165503) EJ1_WIFI_MOTORES: WS received: opcode=1, len=17[0m
+[0;32mI (165503) EJ1_WIFI_MOTORES: WS text: {"action":"stop"}[0m
+[0;32mI (165513) EJ1_WIFI_MOTORES: STOP[0m

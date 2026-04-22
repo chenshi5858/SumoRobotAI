@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/chenshi/esp/esp-idf/components/esp_hal_touch_sens/esp32s3/touch_sensor_legacy_hal.c" "esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/esp32s3/touch_sensor_legacy_hal.c.obj" "gcc" "esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/esp32s3/touch_sensor_legacy_hal.c.obj.d"
-  "/home/chenshi/esp/esp-idf/components/esp_hal_touch_sens/esp32s3/touch_sensor_periph.c" "esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/esp32s3/touch_sensor_periph.c.obj" "gcc" "esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/esp32s3/touch_sensor_periph.c.obj.d"
-  "/home/chenshi/esp/esp-idf/components/esp_hal_touch_sens/touch_sens_hal.c" "esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/touch_sens_hal.c.obj" "gcc" "esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/touch_sens_hal.c.obj.d"
-  "/home/chenshi/esp/esp-idf/components/esp_hal_touch_sens/touch_sensor_legacy_hal.c" "esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/touch_sensor_legacy_hal.c.obj" "gcc" "esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/touch_sensor_legacy_hal.c.obj.d"
+  "/home/diegolagos/esp-idf/components/esp_hal_touch_sens/esp32s3/touch_sensor_legacy_hal.c" "esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/esp32s3/touch_sensor_legacy_hal.c.obj" "gcc" "esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/esp32s3/touch_sensor_legacy_hal.c.obj.d"
+  "/home/diegolagos/esp-idf/components/esp_hal_touch_sens/esp32s3/touch_sensor_periph.c" "esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/esp32s3/touch_sensor_periph.c.obj" "gcc" "esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/esp32s3/touch_sensor_periph.c.obj.d"
+  "/home/diegolagos/esp-idf/components/esp_hal_touch_sens/touch_sens_hal.c" "esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/touch_sens_hal.c.obj" "gcc" "esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/touch_sens_hal.c.obj.d"
+  "/home/diegolagos/esp-idf/components/esp_hal_touch_sens/touch_sensor_legacy_hal.c" "esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/touch_sensor_legacy_hal.c.obj" "gcc" "esp-idf/esp_hal_touch_sens/CMakeFiles/__idf_esp_hal_touch_sens.dir/touch_sensor_legacy_hal.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
