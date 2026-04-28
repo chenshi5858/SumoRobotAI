@@ -8,5 +8,5 @@ C_INCLUDES = -I/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ej
 
 C_FLAGS = @"/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1/build/toolchain/cflags" -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-error=extra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=/home/diegolagos/Rep_SE_202601_grupo_Diego_Santiago_Chen/Lab_2/ejercicio1=. -fmacro-prefix-map=/home/diegolagos/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu23 -Wno-old-style-declaration -fzero-init-padding-bits=all -fno-malloc-dce
 
-# Custom defines: esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj_DEFINES = PROJECT_VER="a21f97bf-dirty"; PROJECT_NAME="ejercicio1_ble"
+# Custom defines: esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj_DEFINES = PROJECT_VER="6647e763-dirty"; PROJECT_NAME="ejercicio1_ble"
 

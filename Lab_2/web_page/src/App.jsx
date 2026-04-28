@@ -28,6 +28,7 @@ export default function App() {
   const [speed, setSpeed] = useState(200);
   const [isConnected, setIsConnected] = useState(false);
   const [currentDirection, setCurrentDirection] = useState(null);
+  const currentDirectionRef = useRef(null);
   const reconnectTimerRef = useRef(null);
   const manualCloseRef = useRef(false);
 
@@ -129,6 +130,7 @@ export default function App() {
   /* Move handler - press down */
   const handleMoveStart = useCallback((direction) => {
     setCurrentDirection(direction);
+    currentDirectionRef.current = direction;
     sendCommand({ action: "move", direction });
     setStatus(`Moviendo: ${direction}`);
   }, [sendCommand]);
@@ -136,6 +138,7 @@ export default function App() {
   /* Stop handler - release */
   const handleMoveStop = useCallback(() => {
     setCurrentDirection(null);
+    currentDirectionRef.current = null;
     sendCommand({ action: "stop" });
     setStatus("Detenido");
   }, [sendCommand]);
@@ -163,25 +166,54 @@ export default function App() {
       d: "right",
     };
 
-    const activeKeys = new Set();
+    const activeDirections = new Set();
+
+    function resolveDirection() {
+      const hasForward = activeDirections.has("forward");
+      const hasBack = activeDirections.has("back");
+      const hasLeft = activeDirections.has("left");
+      const hasRight = activeDirections.has("right");
+
+      if (hasForward && hasBack) return null;
+      if (hasLeft && hasRight) return null;
+
+      if (hasForward && hasRight) return "forward_right";
+      if (hasForward && hasLeft) return "forward_left";
+      if (hasBack && hasRight) return "back_right";
+      if (hasBack && hasLeft) return "back_left";
+
+      if (hasForward) return "forward";
+      if (hasBack) return "back";
+      if (hasLeft) return "left";
+      if (hasRight) return "right";
+
+      return null;
+    }
+
+    function applyDirection(nextDirection) {
+      if (nextDirection === currentDirectionRef.current) return;
+      if (nextDirection) {
+        handleMoveStart(nextDirection);
+      } else {
+        handleMoveStop();
+      }
+    }
 
     function onKeyDown(e) {
       const direction = map[e.key];
-      if (direction && !activeKeys.has(e.key)) {
-        activeKeys.add(e.key);
+      if (direction && !activeDirections.has(direction)) {
+        activeDirections.add(direction);
         e.preventDefault();
-        handleMoveStart(direction);
+        applyDirection(resolveDirection());
       }
     }
 
     function onKeyUp(e) {
       const direction = map[e.key];
-      if (direction && activeKeys.has(e.key)) {
-        activeKeys.delete(e.key);
+      if (direction && activeDirections.has(direction)) {
+        activeDirections.delete(direction);
         e.preventDefault();
-        if (activeKeys.size === 0) {
-          handleMoveStop();
-        }
+        applyDirection(resolveDirection());
       }
     }
 

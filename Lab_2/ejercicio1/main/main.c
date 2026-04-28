@@ -107,21 +107,41 @@ static void move_robot(const char *cmd) {
 
     if (strcasecmp(cmd, "forward") == 0 || strcasecmp(cmd, "f") == 0) {
         gpio_set_level(MOTOR_A_PIN1, 1); gpio_set_level(MOTOR_A_PIN2, 0);
-        gpio_set_level(MOTOR_B_PIN1, 1); gpio_set_level(MOTOR_B_PIN2, 0);
+        gpio_set_level(MOTOR_B_PIN1, 0); gpio_set_level(MOTOR_B_PIN2,  1);
         set_motor_speed();
         ESP_LOGI(TAG, "MOVE FORWARD (speed: %d)", current_speed);
     } else if (strcasecmp(cmd, "back") == 0 || strcasecmp(cmd, "backward") == 0 || strcasecmp(cmd, "b") == 0) {
         gpio_set_level(MOTOR_A_PIN1, 0); gpio_set_level(MOTOR_A_PIN2, 1);
-        gpio_set_level(MOTOR_B_PIN1, 0); gpio_set_level(MOTOR_B_PIN2, 1);
+        gpio_set_level(MOTOR_B_PIN1, 1); gpio_set_level(MOTOR_B_PIN2, 0);
         set_motor_speed();
         ESP_LOGI(TAG, "MOVE BACKWARD (speed: %d)", current_speed);
-    } else if (strcasecmp(cmd, "left") == 0 || strcasecmp(cmd, "l") == 0) {
+    } else if (strcasecmp(cmd, "forward_right") == 0 || strcasecmp(cmd, "fr") == 0) {
+        gpio_set_level(MOTOR_A_PIN1, 0); gpio_set_level(MOTOR_A_PIN2, 0);
+        gpio_set_level(MOTOR_B_PIN1, 0); gpio_set_level(MOTOR_B_PIN2, 1);
+        set_motor_speed();
+        ESP_LOGI(TAG, "MOVE FORWARD-RIGHT (speed: %d)", current_speed);
+    } else if (strcasecmp(cmd, "forward_left") == 0 || strcasecmp(cmd, "fl") == 0) {
+        gpio_set_level(MOTOR_A_PIN1, 1); gpio_set_level(MOTOR_A_PIN2, 0);
+        gpio_set_level(MOTOR_B_PIN1, 0); gpio_set_level(MOTOR_B_PIN2, 0);
+        set_motor_speed();
+        ESP_LOGI(TAG, "MOVE FORWARD-LEFT (speed: %d)", current_speed);
+    } else if (strcasecmp(cmd, "back_right") == 0 || strcasecmp(cmd, "br") == 0) {
+        gpio_set_level(MOTOR_A_PIN1, 0); gpio_set_level(MOTOR_A_PIN2, 0);
+        gpio_set_level(MOTOR_B_PIN1, 1); gpio_set_level(MOTOR_B_PIN2, 0);
+        set_motor_speed();
+        ESP_LOGI(TAG, "MOVE BACK-RIGHT (speed: %d)", current_speed);
+    } else if (strcasecmp(cmd, "back_left") == 0 || strcasecmp(cmd, "bl") == 0) {
         gpio_set_level(MOTOR_A_PIN1, 0); gpio_set_level(MOTOR_A_PIN2, 1);
+        gpio_set_level(MOTOR_B_PIN1, 0); gpio_set_level(MOTOR_B_PIN2, 0);
+        set_motor_speed();
+        ESP_LOGI(TAG, "MOVE BACK-LEFT (speed: %d)", current_speed);
+    } else if (strcasecmp(cmd, "left") == 0 || strcasecmp(cmd, "l") == 0) {
+        gpio_set_level(MOTOR_A_PIN1, 1); gpio_set_level(MOTOR_A_PIN2, 0);
         gpio_set_level(MOTOR_B_PIN1, 1); gpio_set_level(MOTOR_B_PIN2, 0);
         set_motor_speed();
         ESP_LOGI(TAG, "MOVE LEFT (speed: %d)", current_speed);
     } else if (strcasecmp(cmd, "right") == 0 || strcasecmp(cmd, "r") == 0) {
-        gpio_set_level(MOTOR_A_PIN1, 1); gpio_set_level(MOTOR_A_PIN2, 0);
+        gpio_set_level(MOTOR_A_PIN1, 0); gpio_set_level(MOTOR_A_PIN2, 1);
         gpio_set_level(MOTOR_B_PIN1, 0); gpio_set_level(MOTOR_B_PIN2, 1);
         set_motor_speed();
         ESP_LOGI(TAG, "MOVE RIGHT (speed: %d)", current_speed);
