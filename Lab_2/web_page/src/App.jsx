@@ -1,6 +1,17 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
+import { usePs4Controller } from "./ps4Controller";
 
 const DEFAULT_API = import.meta.env.VITE_API_URL || "http://192.168.1.98:8000";
+const RECONNECT_DELAY_MS = 500;
+const DEFAULT_SPEED = 200;
+const SPEED_STORAGE_KEY = "esp_robot_speed";
+
+const DIRECTION_COMMANDS = {
+  forward: "left",
+  right: "forward",
+  back: "right",
+  left: "back",
+};
 
 function normalizeApiBase(value) {
   const raw = (value || "").trim();
@@ -19,18 +30,36 @@ function buildWsUrl(apiBase) {
   }
 }
 
+function normalizeSpeed(value) {
+  const speed = Number(value);
+  if (!Number.isFinite(speed)) return DEFAULT_SPEED;
+  return Math.min(255, Math.max(50, Math.round(speed)));
+}
+
+function loadStoredSpeed() {
+  return normalizeSpeed(localStorage.getItem(SPEED_STORAGE_KEY));
+}
+
 export default function App() {
   const [status, setStatus] = useState("Conectando...");
   const [apiBase, setApiBase] = useState(
     () => localStorage.getItem("esp_api_url") || DEFAULT_API
   );
   const [ws, setWs] = useState(null);
-  const [speed, setSpeed] = useState(200);
+  const [speed, setSpeed] = useState(loadStoredSpeed);
   const [isConnected, setIsConnected] = useState(false);
   const [currentDirection, setCurrentDirection] = useState(null);
   const currentDirectionRef = useRef(null);
+  const speedRef = useRef(speed);
   const reconnectTimerRef = useRef(null);
   const manualCloseRef = useRef(false);
+
+  const saveSpeed = useCallback((nextSpeed) => {
+    const normalizedSpeed = normalizeSpeed(nextSpeed);
+    speedRef.current = normalizedSpeed;
+    localStorage.setItem(SPEED_STORAGE_KEY, String(normalizedSpeed));
+    setSpeed(normalizedSpeed);
+  }, []);
 
   /* Connect to WebSocket */
   const connectWebSocket = useCallback((nextApiBase) => {
@@ -55,8 +84,9 @@ export default function App() {
 
     newWs.onopen = () => {
       console.log("WebSocket conectado");
+      newWs.send(JSON.stringify({ action: "set_speed", speed: speedRef.current }));
       setIsConnected(true);
-      setStatus(`Conectado: ${wsUrl}`);
+      setStatus(`Conectado: ${wsUrl} | velocidad ${speedRef.current}/255`);
     };
 
     newWs.onmessage = (event) => {
@@ -64,7 +94,7 @@ export default function App() {
         const data = JSON.parse(event.data);
         console.log("Respuesta del servidor:", data);
         if (data.speed !== undefined) {
-          setSpeed(data.speed);
+          saveSpeed(data.speed);
         }
       } catch (e) {
         console.error("Error parsing message", e);
@@ -83,12 +113,15 @@ export default function App() {
       if (manualCloseRef.current) {
         return;
       }
-      setStatus(`Desconectado (code ${event.code}). Reintentando...`);
-      reconnectTimerRef.current = setTimeout(() => connectWebSocket(targetApi), 3000);
+      setStatus(`Desconectado (code ${event.code}). Reintentando rapido...`);
+      reconnectTimerRef.current = setTimeout(
+        () => connectWebSocket(targetApi),
+        RECONNECT_DELAY_MS
+      );
     };
 
     setWs(newWs);
-  }, [apiBase]);
+  }, [apiBase, saveSpeed]);
 
   /* Initial connection */
   useEffect(() => {
@@ -153,20 +186,34 @@ export default function App() {
     sendCommand({ action: "speed_down" });
   }, [sendCommand]);
 
+  const { controllerStatus } = usePs4Controller({
+    directionCommands: DIRECTION_COMMANDS,
+    onMoveStart: handleMoveStart,
+    onMoveStop: handleMoveStop,
+    onSpeedDown: handleSpeedDown,
+    onSpeedUp: handleSpeedUp,
+  });
+
   /* Keyboard controls */
   useEffect(() => {
     const map = {
-      ArrowUp: "forward",
-      ArrowDown: "back",
-      ArrowLeft: "left",
-      ArrowRight: "right",
-      w: "forward",
-      s: "back",
-      a: "left",
-      d: "right",
+      ArrowUp: DIRECTION_COMMANDS.forward,
+      ArrowDown: DIRECTION_COMMANDS.back,
+      ArrowLeft: DIRECTION_COMMANDS.left,
+      ArrowRight: DIRECTION_COMMANDS.right,
+      KeyW: DIRECTION_COMMANDS.forward,
+      KeyS: DIRECTION_COMMANDS.back,
+      KeyA: DIRECTION_COMMANDS.left,
+      KeyD: DIRECTION_COMMANDS.right,
+    };
+    const speedMap = {
+      KeyQ: handleSpeedUp,
+      KeyE: handleSpeedDown,
     };
 
     const activeDirections = new Set();
+    const activeSpeedKeys = new Set();
+    let isSaveKeyActive = false;
 
     function resolveDirection() {
       const hasForward = activeDirections.has("forward");
@@ -199,8 +246,34 @@ export default function App() {
       }
     }
 
+    function isTypingTarget(target) {
+      return (
+        target instanceof HTMLElement &&
+        (target.isContentEditable ||
+          target.tagName === "INPUT" ||
+          target.tagName === "TEXTAREA" ||
+          target.tagName === "SELECT")
+      );
+    }
+
     function onKeyDown(e) {
-      const direction = map[e.key];
+      if (e.code === "Space" && !isSaveKeyActive) {
+        isSaveKeyActive = true;
+        e.preventDefault();
+        saveApiBase();
+        return;
+      }
+
+      if (isTypingTarget(e.target)) return;
+      const speedHandler = speedMap[e.code];
+      if (speedHandler && !activeSpeedKeys.has(e.code)) {
+        activeSpeedKeys.add(e.code);
+        e.preventDefault();
+        speedHandler();
+        return;
+      }
+
+      const direction = map[e.code] || map[e.key];
       if (direction && !activeDirections.has(direction)) {
         activeDirections.add(direction);
         e.preventDefault();
@@ -209,7 +282,20 @@ export default function App() {
     }
 
     function onKeyUp(e) {
-      const direction = map[e.key];
+      if (e.code === "Space" && isSaveKeyActive) {
+        isSaveKeyActive = false;
+        e.preventDefault();
+        return;
+      }
+
+      if (isTypingTarget(e.target)) return;
+      if (speedMap[e.code] && activeSpeedKeys.has(e.code)) {
+        activeSpeedKeys.delete(e.code);
+        e.preventDefault();
+        return;
+      }
+
+      const direction = map[e.code] || map[e.key];
       if (direction && activeDirections.has(direction)) {
         activeDirections.delete(direction);
         e.preventDefault();
@@ -224,7 +310,7 @@ export default function App() {
       window.removeEventListener("keydown", onKeyDown);
       window.removeEventListener("keyup", onKeyUp);
     };
-  }, [handleMoveStart, handleMoveStop]);
+  }, [handleMoveStart, handleMoveStop, handleSpeedDown, handleSpeedUp, saveApiBase]);
 
   return (
     <div className="app">
@@ -262,8 +348,8 @@ export default function App() {
       <div className="pad">
         <div className="row">
           <button
-            className={`control-btn ${currentDirection === "forward" ? "active" : ""}`}
-            onMouseDown={() => handleMoveStart("forward")}
+            className={`control-btn ${currentDirection === DIRECTION_COMMANDS.forward ? "active" : ""}`}
+            onMouseDown={() => handleMoveStart(DIRECTION_COMMANDS.forward)}
             onMouseUp={handleMoveStop}
             onMouseLeave={handleMoveStop}
           >
@@ -272,8 +358,8 @@ export default function App() {
         </div>
         <div className="row">
           <button
-            className={`control-btn ${currentDirection === "left" ? "active" : ""}`}
-            onMouseDown={() => handleMoveStart("left")}
+            className={`control-btn ${currentDirection === DIRECTION_COMMANDS.left ? "active" : ""}`}
+            onMouseDown={() => handleMoveStart(DIRECTION_COMMANDS.left)}
             onMouseUp={handleMoveStop}
             onMouseLeave={handleMoveStop}
           >
@@ -286,8 +372,8 @@ export default function App() {
             ⏹
           </button>
           <button
-            className={`control-btn ${currentDirection === "right" ? "active" : ""}`}
-            onMouseDown={() => handleMoveStart("right")}
+            className={`control-btn ${currentDirection === DIRECTION_COMMANDS.right ? "active" : ""}`}
+            onMouseDown={() => handleMoveStart(DIRECTION_COMMANDS.right)}
             onMouseUp={handleMoveStop}
             onMouseLeave={handleMoveStop}
           >
@@ -296,8 +382,8 @@ export default function App() {
         </div>
         <div className="row">
           <button
-            className={`control-btn ${currentDirection === "back" ? "active" : ""}`}
-            onMouseDown={() => handleMoveStart("back")}
+            className={`control-btn ${currentDirection === DIRECTION_COMMANDS.back ? "active" : ""}`}
+            onMouseDown={() => handleMoveStart(DIRECTION_COMMANDS.back)}
             onMouseUp={handleMoveStop}
             onMouseLeave={handleMoveStop}
           >
@@ -307,7 +393,8 @@ export default function App() {
       </div>
 
       <p className="hint">
-        Modo WebSocket: usa botones (presiona y mantén) o flechas/WASD
+        Modo WebSocket: usa botones, flechas/WASD, Q/E, espacio o control PS4
+        {` | ${controllerStatus}`}
       </p>
     </div>
   );
