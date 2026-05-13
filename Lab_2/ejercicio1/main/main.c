@@ -21,8 +21,16 @@
 static const char *TAG = "EJ1_WIFI_MOTORES";
 
 /* WiFi credentials: replace with your network values */
-#define WIFI_SSID "VTR-8659428"
-#define WIFI_PASS "Lala9521"
+
+#define WIFI_SSID "Chenshi"
+#define WIFI_PASS "Hola12345"
+
+/*#define WIFI_SSID "LIB-0845386"
+#define WIFI_PASS "fknJftkhUua9"*/
+
+/*#define WIFI_SSID "wifi-campus"
+#define WIFI_PASS "uandes2200"*/
+
 
 #define WIFI_CONNECTED_BIT BIT0
 
@@ -38,10 +46,11 @@ static httpd_handle_t http_server = NULL;
 #define MOTOR_B_ENB  10
 
 /* PWM Speed values: 0-255 */
-static uint8_t current_speed = 200;
+static uint8_t current_speed = 255;
 static const uint8_t MAX_SPEED = 255;
 static const uint8_t MIN_SPEED = 50;
-static const uint8_t SPEED_STEP = 20;
+static const uint8_t SPEED_STEP = 15;
+static const uint8_t DIAGONAL_INNER_SPEED_PERCENT = 45;
 
 static void init_pwm(void) {
     /* LEDC Timer configuration */
@@ -94,11 +103,23 @@ static void init_motors(void) {
     init_pwm();
 }
 
-static void set_motor_speed(void) {
-    ledc_set_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_0, current_speed);
+static void set_motor_speeds(uint8_t motor_a_speed, uint8_t motor_b_speed) {
+    ledc_set_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_0, motor_a_speed);
     ledc_update_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_0);
-    ledc_set_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_1, current_speed);
+    ledc_set_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_1, motor_b_speed);
     ledc_update_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_1);
+}
+
+static uint8_t diagonal_inner_speed(void) {
+    uint16_t scaled_speed = ((uint16_t)current_speed * DIAGONAL_INNER_SPEED_PERCENT) / 100;
+    if (scaled_speed > 0 && scaled_speed < MIN_SPEED) {
+        return MIN_SPEED;
+    }
+    return (uint8_t)scaled_speed;
+}
+
+static void set_motor_speed(void) {
+    set_motor_speeds(current_speed, current_speed);
     ESP_LOGI(TAG, "Speed set to %d/255", current_speed);
 }
 
@@ -116,25 +137,25 @@ static void move_robot(const char *cmd) {
         set_motor_speed();
         ESP_LOGI(TAG, "MOVE BACKWARD (speed: %d)", current_speed);
     } else if (strcasecmp(cmd, "forward_right") == 0 || strcasecmp(cmd, "fr") == 0) {
-        gpio_set_level(MOTOR_A_PIN1, 0); gpio_set_level(MOTOR_A_PIN2, 0);
+        gpio_set_level(MOTOR_A_PIN1, 1); gpio_set_level(MOTOR_A_PIN2, 0);
         gpio_set_level(MOTOR_B_PIN1, 0); gpio_set_level(MOTOR_B_PIN2, 1);
-        set_motor_speed();
-        ESP_LOGI(TAG, "MOVE FORWARD-RIGHT (speed: %d)", current_speed);
+        set_motor_speeds(diagonal_inner_speed(), current_speed);
+        ESP_LOGI(TAG, "MOVE FORWARD-RIGHT (speed: %d, inner: %d)", current_speed, diagonal_inner_speed());
     } else if (strcasecmp(cmd, "forward_left") == 0 || strcasecmp(cmd, "fl") == 0) {
         gpio_set_level(MOTOR_A_PIN1, 1); gpio_set_level(MOTOR_A_PIN2, 0);
-        gpio_set_level(MOTOR_B_PIN1, 0); gpio_set_level(MOTOR_B_PIN2, 0);
-        set_motor_speed();
-        ESP_LOGI(TAG, "MOVE FORWARD-LEFT (speed: %d)", current_speed);
+        gpio_set_level(MOTOR_B_PIN1, 0); gpio_set_level(MOTOR_B_PIN2, 1);
+        set_motor_speeds(current_speed, diagonal_inner_speed());
+        ESP_LOGI(TAG, "MOVE FORWARD-LEFT (speed: %d, inner: %d)", current_speed, diagonal_inner_speed());
     } else if (strcasecmp(cmd, "back_right") == 0 || strcasecmp(cmd, "br") == 0) {
-        gpio_set_level(MOTOR_A_PIN1, 0); gpio_set_level(MOTOR_A_PIN2, 0);
+        gpio_set_level(MOTOR_A_PIN1, 0); gpio_set_level(MOTOR_A_PIN2, 1);
         gpio_set_level(MOTOR_B_PIN1, 1); gpio_set_level(MOTOR_B_PIN2, 0);
-        set_motor_speed();
-        ESP_LOGI(TAG, "MOVE BACK-RIGHT (speed: %d)", current_speed);
+        set_motor_speeds(diagonal_inner_speed(), current_speed);
+        ESP_LOGI(TAG, "MOVE BACK-RIGHT (speed: %d, inner: %d)", current_speed, diagonal_inner_speed());
     } else if (strcasecmp(cmd, "back_left") == 0 || strcasecmp(cmd, "bl") == 0) {
         gpio_set_level(MOTOR_A_PIN1, 0); gpio_set_level(MOTOR_A_PIN2, 1);
-        gpio_set_level(MOTOR_B_PIN1, 0); gpio_set_level(MOTOR_B_PIN2, 0);
-        set_motor_speed();
-        ESP_LOGI(TAG, "MOVE BACK-LEFT (speed: %d)", current_speed);
+        gpio_set_level(MOTOR_B_PIN1, 1); gpio_set_level(MOTOR_B_PIN2, 0);
+        set_motor_speeds(current_speed, diagonal_inner_speed());
+        ESP_LOGI(TAG, "MOVE BACK-LEFT (speed: %d, inner: %d)", current_speed, diagonal_inner_speed());
     } else if (strcasecmp(cmd, "left") == 0 || strcasecmp(cmd, "l") == 0) {
         gpio_set_level(MOTOR_A_PIN1, 1); gpio_set_level(MOTOR_A_PIN2, 0);
         gpio_set_level(MOTOR_B_PIN1, 1); gpio_set_level(MOTOR_B_PIN2, 0);
@@ -148,10 +169,7 @@ static void move_robot(const char *cmd) {
     } else {
         gpio_set_level(MOTOR_A_PIN1, 0); gpio_set_level(MOTOR_A_PIN2, 0);
         gpio_set_level(MOTOR_B_PIN1, 0); gpio_set_level(MOTOR_B_PIN2, 0);
-        ledc_set_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_0, 0);
-        ledc_update_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_0);
-        ledc_set_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_1, 0);
-        ledc_update_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_1);
+        set_motor_speeds(0, 0);
         ESP_LOGI(TAG, "STOP");
     }
 }
@@ -363,7 +381,11 @@ static esp_err_t move_post_handler(httpd_req_t *req) {
     body[received] = '\0';
 
     const char *direction = NULL;
-    if (strstr(body, "forward")) direction = "forward";
+    if (strstr(body, "forward_right")) direction = "forward_right";
+    else if (strstr(body, "forward_left")) direction = "forward_left";
+    else if (strstr(body, "back_right")) direction = "back_right";
+    else if (strstr(body, "back_left")) direction = "back_left";
+    else if (strstr(body, "forward")) direction = "forward";
     else if (strstr(body, "backward") || strstr(body, "back")) direction = "back";
     else if (strstr(body, "left")) direction = "left";
     else if (strstr(body, "right")) direction = "right";
