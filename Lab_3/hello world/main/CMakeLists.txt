@@ -1,0 +1,13 @@
+idf_component_register(
+    SRCS
+        "main.cc"
+        "main_functions.cc"
+        "constants.cc"
+        "model.cc"
+    INCLUDE_DIRS
+        "."
+    PRIV_REQUIRES
+        esp_timer
+        esp_driver_gpio
+        spi_flash
+)
