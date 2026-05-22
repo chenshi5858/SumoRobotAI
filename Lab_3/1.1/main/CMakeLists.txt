@@ -1,0 +1,10 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "direct_model.c"
+    INCLUDE_DIRS
+        "."
+    PRIV_REQUIRES
+        esp_timer
+        esp_driver_gpio
+)
