@@ -14,5 +14,5 @@ idf_component_register(
         "app_camera_esp.c"
         "esp_cli.c"
 
-    PRIV_REQUIRES console static_images spi_flash esp_driver_gpio
+    PRIV_REQUIRES console static_images spi_flash esp_driver_gpio espressif__esp32-camera
     INCLUDE_DIRS "")

@@ -14,8 +14,8 @@
 
 #include "sdkconfig.h"
 
-// Lab 3 part 2 uses static images through detect_image <image_number>.
-#define CLI_ONLY_INFERENCE 1
+// Use live camera input instead of static images.
+#define CLI_ONLY_INFERENCE 0
 
 // Enable this to get cpu stats
 #define COLLECT_CPU_STATS 1
