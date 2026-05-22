@@ -25,6 +25,10 @@ limitations under the License.
 static const char *TAG = "app_camera";
 
 int app_camera_init() {
+#if CLI_ONLY_INFERENCE
+  ESP_LOGI(TAG, "CLI_ONLY_INFERENCE enabled, skipping camera init");
+  return 0;
+#else
 #if ESP_CAMERA_SUPPORTED
 #if CONFIG_CAMERA_MODULE_ESP_EYE || CONFIG_CAMERA_MODULE_ESP32_CAM_BOARD
   /* IO13, IO14 is designed for JTAG by default,
@@ -97,4 +101,5 @@ int app_camera_init() {
   ESP_LOGE(TAG, "Camera is not supported for this device!");
   return -1;
 #endif // ESP_CAMERA_SUPPORTED
+#endif // CLI_ONLY_INFERENCE
 }

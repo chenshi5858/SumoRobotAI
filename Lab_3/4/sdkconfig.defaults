@@ -1,0 +1,2 @@
+# Enable WebSocket support in esp_http_server
+CONFIG_HTTPD_WS_SUPPORT=y

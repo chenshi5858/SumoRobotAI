@@ -23,12 +23,15 @@ limitations under the License.
 
 #include "esp_heap_caps.h"
 #include "esp_log.h"
+#include "esp_main.h"
 
+#if !CLI_ONLY_INFERENCE
 #include "app_camera_esp.h"
 #include "esp_camera.h"
+#endif
+
 #include "model_settings.h"
 #include "image_provider.h"
-#include "esp_main.h"
 
 static const char* TAG = "app_camera";
 static uint16_t* display_buf;
@@ -38,7 +41,7 @@ TfLiteStatus InitCamera() {
 #if CLI_ONLY_INFERENCE
   ESP_LOGI(TAG, "CLI_ONLY_INFERENCE enabled, skipping camera init");
   return kTfLiteOk;
-#endif
+#else
 // if display support is present, initialise display buf
 #if DISPLAY_SUPPORT
   if (display_buf == NULL) {
@@ -63,6 +66,7 @@ TfLiteStatus InitCamera() {
   ESP_LOGE(TAG, "Camera not supported for this device");
 #endif
   return kTfLiteOk;
+#endif
 }
 
 void *image_provider_get_display_buf()
@@ -72,6 +76,13 @@ void *image_provider_get_display_buf()
 
 // Get an image from the camera module
 TfLiteStatus GetImage(int image_width, int image_height, int channels, int8_t* image_data) {
+#if CLI_ONLY_INFERENCE
+  (void)image_width;
+  (void)image_height;
+  (void)channels;
+  (void)image_data;
+  return kTfLiteError;
+#else
 #if ESP_CAMERA_SUPPORTED
   camera_fb_t* fb = esp_camera_fb_get();
   if (!fb) {
@@ -135,5 +146,6 @@ TfLiteStatus GetImage(int image_width, int image_height, int channels, int8_t* i
   return kTfLiteOk;
 #else
   return kTfLiteError;
+#endif
 #endif
 }

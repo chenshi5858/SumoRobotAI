@@ -23,6 +23,7 @@ limitations under the License.
 #include "tensorflow/lite/micro/micro_log.h"
 
 #include "esp_main.h"
+#include "driver/gpio.h"
 #if DISPLAY_SUPPORT
 #include "image_provider.h"
 #include "bsp/esp-bsp.h"
@@ -74,9 +75,32 @@ void create_gui(void)
 }
 #endif // DISPLAY_SUPPORT
 
+#if CONFIG_CAMERA_MODULE_AI_THINKER
+#define DETECTION_LED_GPIO GPIO_NUM_4
+static bool detection_led_initialized = false;
+
+static void detection_led_init(void)
+{
+  if (detection_led_initialized) {
+    return;
+  }
+
+  gpio_config_t io_conf = {};
+  io_conf.pin_bit_mask = 1ULL << DETECTION_LED_GPIO;
+  io_conf.mode = GPIO_MODE_OUTPUT;
+  io_conf.pull_up_en = GPIO_PULLUP_DISABLE;
+  io_conf.pull_down_en = GPIO_PULLDOWN_DISABLE;
+  io_conf.intr_type = GPIO_INTR_DISABLE;
+  gpio_config(&io_conf);
+  gpio_set_level(DETECTION_LED_GPIO, 0);
+  detection_led_initialized = true;
+}
+#endif
+
 void RespondToDetection(float person_score, float no_person_score) {
   int person_score_int = (person_score) * 100 + 0.5;
-  (void) no_person_score; // unused
+  int no_person_score_int = (no_person_score) * 100 + 0.5;
+  bool person_detected = person_score_int >= 60;
 #if DISPLAY_SUPPORT
   if (!camera_canvas) {
     create_gui();
@@ -85,7 +109,7 @@ void RespondToDetection(float person_score, float no_person_score) {
   uint16_t *buf = (uint16_t *) image_provider_get_display_buf();
 
   bsp_display_lock(0);
-  if (person_score_int < 60) { // treat score less than 60% as no person
+  if (!person_detected) { // treat score less than 60% as no person
     lv_led_off(person_indicator);
   } else {
     lv_led_on(person_indicator);
@@ -94,6 +118,12 @@ void RespondToDetection(float person_score, float no_person_score) {
   lv_canvas_set_buffer(camera_canvas, buf, IMG_WD, IMG_HT, LV_COLOR_FORMAT_RGB565);
   bsp_display_unlock();
 #endif // DISPLAY_SUPPORT
-  MicroPrintf("person score:%d%%, no person score %d%%",
-              person_score_int, 100 - person_score_int);
+#if CONFIG_CAMERA_MODULE_AI_THINKER
+  detection_led_init();
+  gpio_set_level(DETECTION_LED_GPIO, person_detected ? 1 : 0);
+#endif
+  MicroPrintf("result:%s person:%d%%, no_person:%d%%",
+              person_detected ? "PERSON" : "NO_PERSON",
+              person_score_int,
+              no_person_score_int);
 }

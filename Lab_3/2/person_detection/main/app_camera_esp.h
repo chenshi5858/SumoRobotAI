@@ -16,12 +16,13 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_MICRO_EXAMPLES_PERSON_DETECTION_ESP_APP_CAMERA_ESP_H_
 #define TENSORFLOW_LITE_MICRO_EXAMPLES_PERSON_DETECTION_ESP_APP_CAMERA_ESP_H_
 
-#include "sensor.h"
-#include "esp_camera.h"
 #include "esp_log.h"
 #include "esp_system.h"
-
 #include "esp_main.h"
+
+#if !CLI_ONLY_INFERENCE
+#include "sensor.h"
+#include "esp_camera.h"
 
 /**
  * PIXFORMAT_RGB565,    // 2BPP/RGB565
@@ -50,6 +51,7 @@ limitations under the License.
  * FRAMESIZE_UXGA,     // 1600x1200
  */
 #define CAMERA_FRAME_SIZE FRAMESIZE_96X96
+#endif // !CLI_ONLY_INFERENCE
 
 #if CONFIG_CAMERA_MODULE_WROVER_KIT
 #define CAMERA_MODULE_NAME "Wrover Kit"
