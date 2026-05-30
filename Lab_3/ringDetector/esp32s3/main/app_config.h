@@ -19,7 +19,7 @@
 #define CAMERA_MAC_BYTES {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF}
 
 /* Usado solo si el S3 no logra conectarse al AP WiFi. */
-#define ESPNOW_FALLBACK_CHANNEL 1
+#define ESPNOW_FALLBACK_CHANNEL 6
 
 /* Motor pins heredados del proyecto Lab_3/4. Ajustar segun cableado real. */
 #define MOTOR_A_PIN1 6
@@ -45,7 +45,7 @@
 
 /* Mapeo de orientacion de motores. */
 #define MOTOR_A_FORWARD_SIGN 1
-#define MOTOR_B_FORWARD_SIGN 1
+#define MOTOR_B_FORWARD_SIGN -1
 #define MOTOR_A_IS_LEFT 1
 
 /* Tareas periodicas. */

@@ -38,8 +38,11 @@ static inline int gpio_ll_get_level(gpio_dev_t *hw, int gpio_num)
 #include "xclk.h"
 #include "cam_hal.h"
 
-#if (ESP_IDF_VERSION_MAJOR >= 4) && (ESP_IDF_VERSION_MINOR >= 3)
+#if ESP_IDF_VERSION >= ESP_IDF_VERSION_VAL(4, 3, 0)
 #include "esp_rom_gpio.h"
+#define CAM_GPIO_PAD_SELECT(pin) esp_rom_gpio_pad_select_gpio(pin)
+#else
+#define CAM_GPIO_PAD_SELECT(pin) PIN_FUNC_SELECT(GPIO_PIN_MUX_REG[pin], PIN_FUNC_GPIO)
 #endif
 
 #if (ESP_IDF_VERSION_MAJOR >= 5)
@@ -354,17 +357,17 @@ esp_err_t ll_cam_set_pin(cam_obj_t *cam, const camera_config_t *config)
     gpio_isr_handler_add(config->pin_vsync, ll_cam_vsync_isr, cam);
     gpio_intr_disable(config->pin_vsync);
 
-    PIN_FUNC_SELECT(GPIO_PIN_MUX_REG[config->pin_pclk], PIN_FUNC_GPIO);
+    CAM_GPIO_PAD_SELECT(config->pin_pclk);
     gpio_set_direction(config->pin_pclk, GPIO_MODE_INPUT);
     gpio_set_pull_mode(config->pin_pclk, GPIO_FLOATING);
     gpio_matrix_in(config->pin_pclk, I2S0I_WS_IN_IDX, false);
 
-    PIN_FUNC_SELECT(GPIO_PIN_MUX_REG[config->pin_vsync], PIN_FUNC_GPIO);
+    CAM_GPIO_PAD_SELECT(config->pin_vsync);
     gpio_set_direction(config->pin_vsync, GPIO_MODE_INPUT);
     gpio_set_pull_mode(config->pin_vsync, GPIO_FLOATING);
     gpio_matrix_in(config->pin_vsync, I2S0I_V_SYNC_IDX, false);
 
-    PIN_FUNC_SELECT(GPIO_PIN_MUX_REG[config->pin_href], PIN_FUNC_GPIO);
+    CAM_GPIO_PAD_SELECT(config->pin_href);
     gpio_set_direction(config->pin_href, GPIO_MODE_INPUT);
     gpio_set_pull_mode(config->pin_href, GPIO_FLOATING);
     gpio_matrix_in(config->pin_href, I2S0I_H_SYNC_IDX, false);
@@ -373,7 +376,7 @@ esp_err_t ll_cam_set_pin(cam_obj_t *cam, const camera_config_t *config)
         config->pin_d0, config->pin_d1, config->pin_d2, config->pin_d3, config->pin_d4, config->pin_d5, config->pin_d6, config->pin_d7,
     };
     for (int i = 0; i < 8; i++) {
-        PIN_FUNC_SELECT(GPIO_PIN_MUX_REG[data_pins[i]], PIN_FUNC_GPIO);
+        CAM_GPIO_PAD_SELECT(data_pins[i]);
         gpio_set_direction(data_pins[i], GPIO_MODE_INPUT);
         gpio_set_pull_mode(data_pins[i], GPIO_FLOATING);
         gpio_matrix_in(data_pins[i], I2S0I_DATA_IN0_IDX + i, false);

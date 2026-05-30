@@ -27,8 +27,8 @@
 #define CAMERA_FRAME_WIDTH 96
 #define CAMERA_FRAME_HEIGHT 96
 
-/* La radio de ambos equipos debe usar el mismo canal ESP-NOW. */
-#define ESPNOW_CHANNEL 1
+/* La radio de ambos equipos debe usar el mismo canal ESP-NOW (mismo canal del AP). */
+#define ESPNOW_CHANNEL 6
 
 /*
  * Por defecto se envia a broadcast para facilitar la primera prueba.
