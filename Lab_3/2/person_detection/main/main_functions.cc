@@ -104,7 +104,7 @@ void setup() {
   // Get information about the memory area to use for the model's input.
   input = interpreter->input(0);
 
-#ifndef CLI_ONLY_INFERENCE
+#if !CLI_ONLY_INFERENCE
   // Initialize Camera
   TfLiteStatus init_status = InitCamera();
   if (init_status != kTfLiteOk) {
@@ -115,10 +115,10 @@ void setup() {
 #if DISPLAY_SUPPORT
   create_gui();
 #endif // DISPLAY_SUPPORT
-#endif // CLI_ONLY_INFERENCE
+#endif // !CLI_ONLY_INFERENCE
 }
 
-#ifndef CLI_ONLY_INFERENCE
+#if !CLI_ONLY_INFERENCE
 void loop() {
   // Get image from provider.
   if (kTfLiteOk != GetImage(kNumCols, kNumRows, kNumChannels, input->data.int8)) {
@@ -145,7 +145,7 @@ void loop() {
   RespondToDetection(person_score_f, no_person_score_f);
   vTaskDelay(1); // to avoid watchdog trigger
 }
-#endif // CLI_ONLY_INFERENCE
+#endif // !CLI_ONLY_INFERENCE
 
 #if defined(COLLECT_CPU_STATS)
   long long total_time = 0;
