@@ -15,18 +15,26 @@ namespace {
 constexpr char kTag[] = "identifier_app";
 
 void ConfigureLed() {
+#if CONFIG_IDENTIFIER_LED_GPIO >= 0
     gpio_config_t io_conf = {};
-    io_conf.pin_bit_mask = 1ULL << CONFIG_IDENTIFIER_LED_GPIO;
+    io_conf.pin_bit_mask = 1ULL << static_cast<unsigned>(CONFIG_IDENTIFIER_LED_GPIO);
     io_conf.mode = GPIO_MODE_OUTPUT;
     io_conf.pull_up_en = GPIO_PULLUP_DISABLE;
     io_conf.pull_down_en = GPIO_PULLDOWN_DISABLE;
     io_conf.intr_type = GPIO_INTR_DISABLE;
     gpio_config(&io_conf);
     gpio_set_level(static_cast<gpio_num_t>(CONFIG_IDENTIFIER_LED_GPIO), 0);
+#else
+    ESP_LOGI(kTag, "detection LED disabled");
+#endif
 }
 
 void SetLed(bool on) {
+#if CONFIG_IDENTIFIER_LED_GPIO >= 0
     gpio_set_level(static_cast<gpio_num_t>(CONFIG_IDENTIFIER_LED_GPIO), on ? 1 : 0);
+#else
+    (void)on;
+#endif
 }
 
 void LogResult(const IdentifierResult& result, int64_t elapsed_us) {
