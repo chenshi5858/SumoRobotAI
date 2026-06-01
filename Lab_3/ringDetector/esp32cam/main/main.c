@@ -1,8 +1,6 @@
 #include <inttypes.h>
 #include <stdbool.h>
 #include <stdint.h>
-#include <string.h>
-
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
@@ -28,9 +26,6 @@ static esp_err_t init_nvs(void) {
 static void vision_task(void *arg) {
     (void)arg;
 
-    char last_status[8] = "";
-    uint32_t frame_count = 0;
-
     while (1) {
         camera_fb_t *frame = esp_camera_fb_get();
         if (frame == NULL) {
@@ -51,29 +46,23 @@ static void vision_task(void *arg) {
         }
 
         const uint32_t white_percent = total_pixels > 0 ? (white_pixels * 100U) / total_pixels : 0;
-        if (strcmp(status, last_status) != 0 || (frame_count % 40U) == 0U) {
-            ESP_LOGI(TAG,
-                     "Vision status=%s white=%" PRIu32 "/%" PRIu32 " (%" PRIu32 "%%)",
-                     status,
-                     white_pixels,
-                     total_pixels,
-                     white_percent);
-            strlcpy(last_status, status, sizeof(last_status));
-        }
-
-        frame_count++;
+        ESP_LOGI(TAG,
+                 "Vision status=%s white=%" PRIu32 "/%" PRIu32 " (%" PRIu32 "%%)",
+                 status,
+                 white_pixels,
+                 total_pixels,
+                 white_percent);
         vTaskDelay(pdMS_TO_TICKS(CAPTURE_INTERVAL_MS));
     }
 }
 
 void app_main(void) {
-    ESP_LOGI(TAG, "Ring detector ESP32-CAM transmitter starting");
-
+    ESP_LOGI(TAG, "Simple ESP32-CAM white detector starting");
     ESP_ERROR_CHECK(init_nvs());
     ESP_ERROR_CHECK(init_camera());
     ESP_ERROR_CHECK(init_espnow());
 
     xTaskCreate(vision_task, "vision_task", 4096, NULL, 5, NULL);
 
-    ESP_LOGI(TAG, "Ready: capturing 96x96 grayscale and sending SAFE/WHITE");
+    ESP_LOGI(TAG, "Ready: capturing 96x96 RGB565, logging white ROI, and sending ESP-NOW");
 }
