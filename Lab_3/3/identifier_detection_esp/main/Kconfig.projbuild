@@ -9,10 +9,10 @@ config IDENTIFIER_USE_CAMERA
 
 config IDENTIFIER_LED_GPIO
     int "Detection LED GPIO"
-    default 4
+    default -1
     help
-        GPIO driven high when the identifier is detected. GPIO 4 is the flash LED
-        on many ESP32-CAM AI Thinker boards.
+        GPIO driven high when the identifier is detected. Set to -1 to disable
+        the LED. GPIO 4 is the flash LED on many ESP32-CAM AI Thinker boards.
 
 config IDENTIFIER_MIN_MARGIN
     int "Minimum margin over absent class"

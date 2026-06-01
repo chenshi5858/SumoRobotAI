@@ -70,4 +70,39 @@ python3 tools/compare_outputs.py direct.log tfmicro.log
 ```
 
 El script genera `comparison.csv` y, si `matplotlib` esta instalado,
-`comparison.png`.
+`comparison.png`. Si `matplotlib` no esta instalado, genera
+`comparison.svg`.
+
+## Resultados capturados
+
+Con el ESP32-CAM en `/dev/ttyUSB0` se flashearon ambos firmwares y se guardaron:
+
+- `direct.log`: salida serial de esta implementacion directa.
+- `tfmicro.log`: salida serial del ejemplo con TensorFlow Lite Micro.
+- `comparison.csv`: comparacion punto a punto y diferencia de tiempo.
+- `comparison.svg`: visualizacion de `sin(x)`, `direct C` y `TF Micro`.
+- `power_measurements.csv`: mediciones de voltaje, corriente y potencia
+  obtenidas con el medidor USB.
+- `direct_power_measurement.png`: foto de la medicion de potencia para
+  `direct`.
+- `tfmicro_power_measurement.png`: foto de la medicion de potencia para
+  `TF Micro`.
+
+Resumen de tiempo promedio de inferencia:
+
+```text
+direct:   73.928 us
+TF Micro: 61.463 us
+direct - TF Micro: 12.465 us
+```
+
+Resumen de potencia medido:
+
+```text
+direct:   5.1018 V * 0.11205 A = 0.5717 W  (display: 0.5714 W)
+TF Micro: 5.1083 V * 0.09782 A = 0.4997 W  (display: 0.5000 W)
+direct - TF Micro: 0.0720 W
+```
+
+Las fotos de respaldo quedaron guardadas como `direct_power_measurement.png` y
+`tfmicro_power_measurement.png`.
