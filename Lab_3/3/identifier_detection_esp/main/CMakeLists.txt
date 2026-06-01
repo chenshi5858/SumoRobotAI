@@ -7,6 +7,7 @@ idf_component_register(
         "static_image_data.cc"
     INCLUDE_DIRS "."
     REQUIRES
+        console
         esp_driver_gpio
         esp_driver_ledc
         esp-tflite-micro

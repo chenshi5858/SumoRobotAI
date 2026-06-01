@@ -36,10 +36,15 @@
  */
 #define ESPNOW_PEER_MAC_BYTES {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF}
 
-/* Deteccion de blanco en el borde inferior de la imagen. */
-#define WHITE_PIXEL_THRESHOLD 200
-#define WHITE_REGION_PERCENT 25
+/* Deteccion de blanco estilo example (ROI fijo y umbral de luminancia). */
+#define WHITE_USE_ADAPTIVE_THRESHOLD 0
+#define WHITE_LUMA_THRESHOLD 180
+#define WHITE_ROI_Y_START 72
+#define WHITE_ROI_Y_END 96
+#define WHITE_ROI_X_START 24
+#define WHITE_ROI_X_END 72
 #define WHITE_MIN_PERCENT 15
+#define WHITE_DEBOUNCE_COUNT 1
 
-/* 50 ms equivale a unas 20 muestras por segundo. */
-#define CAPTURE_INTERVAL_MS 50
+/* 100 ms equivale a 10 muestras por segundo. */
+#define CAPTURE_INTERVAL_MS 100
