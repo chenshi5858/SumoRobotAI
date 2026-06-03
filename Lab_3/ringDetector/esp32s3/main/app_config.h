@@ -9,6 +9,7 @@
 
 #define WEB_SERVER_PORT 8000
 #define WIFI_CONNECT_TIMEOUT_MS 20000
+#define WIFI_RETRY_MAX 3
 
 /*
  * Receptor ESP-NOW:
