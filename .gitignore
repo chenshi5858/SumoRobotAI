@@ -14,3 +14,5 @@
 *.o
 *.elf
 *.bin
+*Zone.Identifier
+*.Zone.Identifier
