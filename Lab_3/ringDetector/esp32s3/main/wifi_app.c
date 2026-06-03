@@ -16,6 +16,7 @@
 static const char *TAG = "wifi_app";
 static EventGroupHandle_t s_wifi_event_group;
 static uint8_t s_primary_channel = ESPNOW_FALLBACK_CHANNEL;
+static int s_wifi_retries = 0;
 
 static void wifi_event_handler(void *arg, esp_event_base_t event_base,
                                int32_t event_id, void *event_data) {
@@ -26,8 +27,14 @@ static void wifi_event_handler(void *arg, esp_event_base_t event_base,
         ESP_LOGI(TAG, "WiFi started, connecting...");
     } else if (event_base == WIFI_EVENT && event_id == WIFI_EVENT_STA_DISCONNECTED) {
         xEventGroupClearBits(s_wifi_event_group, WIFI_CONNECTED_BIT);
-        esp_wifi_connect();
-        ESP_LOGW(TAG, "WiFi disconnected, retrying...");
+        s_wifi_retries++;
+        if (s_wifi_retries < WIFI_RETRY_MAX) {
+            esp_wifi_connect();
+            ESP_LOGW(TAG, "WiFi disconnected (retry %d/%d)...", s_wifi_retries, WIFI_RETRY_MAX);
+        } else {
+            ESP_LOGW(TAG, "WiFi disconnected. Max retries reached. ESP-NOW only.");
+            ESP_ERROR_CHECK(esp_wifi_set_channel(ESPNOW_FALLBACK_CHANNEL, WIFI_SECOND_CHAN_NONE));
+        }
     } else if (event_base == IP_EVENT && event_id == IP_EVENT_STA_GOT_IP) {
         ip_event_got_ip_t *event = (ip_event_got_ip_t *)event_data;
         xEventGroupSetBits(s_wifi_event_group, WIFI_CONNECTED_BIT);

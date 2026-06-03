@@ -31,8 +31,14 @@
 #define ESPNOW_CHANNEL 6
 
 /*
- * Por defecto se envia a broadcast para facilitar la primera prueba.
- * Para produccion, reemplazar por la MAC STA del ESP32-S3.
+ * MAC del receptor ESP32-S3 (STA).
+ * Para obtenerla: conecta el S3 por USB y busca en el monitor serial:
+ *   "ESP32-S3 STA MAC: XX:XX:XX:XX:XX:XX"
+ * Copia esos 6 bytes aqui abajo.
+ * Ejemplo: #define ESPNOW_PEER_MAC_BYTES {0xAA, 0xBB, 0xCC, 0xDD, 0xEE, 0xFF}
+ *
+ * NOTA: Se usa broadcast porque unicast requiere ACK del S3 y si el S3
+ * esta ocupado la cola TX se llena. Broadcast no espera ACK.
  */
 #define ESPNOW_PEER_MAC_BYTES {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF}
 
@@ -46,5 +52,5 @@
 #define WHITE_MIN_PERCENT 15
 #define WHITE_DEBOUNCE_COUNT 1
 
-/* 100 ms equivale a 10 muestras por segundo. */
-#define CAPTURE_INTERVAL_MS 100
+/* 200 ms equivale a 5 muestras por segundo. */
+#define CAPTURE_INTERVAL_MS 200

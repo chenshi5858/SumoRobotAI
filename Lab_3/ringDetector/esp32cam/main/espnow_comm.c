@@ -21,27 +21,11 @@ static void format_mac(const uint8_t *mac, char *out, size_t out_len) {
              mac[0], mac[1], mac[2], mac[3], mac[4], mac[5]);
 }
 
-static void log_send_result(const uint8_t *mac_addr, esp_now_send_status_t status) {
-    char mac_text[18];
-    if (mac_addr != NULL) {
-        format_mac(mac_addr, mac_text, sizeof(mac_text));
-    } else {
-        strlcpy(mac_text, "unknown", sizeof(mac_text));
-    }
-
-    if (status != ESP_NOW_SEND_SUCCESS) {
-        ESP_LOGW(TAG, "ESP-NOW send to %s failed (%d)", mac_text, status);
-    }
-}
-
 #if ESP_IDF_VERSION >= ESP_IDF_VERSION_VAL(6, 0, 0)
 static void on_espnow_send(const esp_now_send_info_t *tx_info, esp_now_send_status_t status) {
-    const uint8_t *mac_addr = tx_info != NULL ? tx_info->des_addr : NULL;
-    log_send_result(mac_addr, status);
 }
 #else
 static void on_espnow_send(const uint8_t *mac_addr, esp_now_send_status_t status) {
-    log_send_result(mac_addr, status);
 }
 #endif
 

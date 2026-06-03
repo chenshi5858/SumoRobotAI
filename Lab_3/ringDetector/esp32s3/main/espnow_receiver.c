@@ -17,9 +17,6 @@ static QueueHandle_t s_status_queue = NULL;
 #if !ACCEPT_ANY_CAMERA_MAC
 static const uint8_t s_allowed_camera_mac[ESP_NOW_ETH_ALEN] = CAMERA_MAC_BYTES;
 #endif
-static char s_last_logged_status[16] = "";
-static int64_t s_last_log_ms = 0;
-
 static bool is_allowed_camera(const uint8_t *mac) {
     if (mac == NULL) {
         return false;
@@ -79,21 +76,15 @@ static void handle_received_packet(const uint8_t *mac_addr, const uint8_t *data,
     if (xQueueSend(s_status_queue, &msg, 0) != pdTRUE) {
         ESP_LOGW(TAG, "Status queue full, dropping %s", msg.status);
     } else {
-        const bool status_changed = strcmp(s_last_logged_status, msg.status) != 0;
-        const bool periodic_log = (msg.rx_time_ms - s_last_log_ms) > 1000;
-        if (status_changed || periodic_log) {
-            ESP_LOGI(TAG,
-                     "ESP-NOW RX %s from %02X:%02X:%02X:%02X:%02X:%02X",
-                     msg.status,
-                     msg.source_mac[0],
-                     msg.source_mac[1],
-                     msg.source_mac[2],
-                     msg.source_mac[3],
-                     msg.source_mac[4],
-                     msg.source_mac[5]);
-            strlcpy(s_last_logged_status, msg.status, sizeof(s_last_logged_status));
-            s_last_log_ms = msg.rx_time_ms;
-        }
+        ESP_LOGI(TAG,
+                 "ESP-NOW RX %s from %02X:%02X:%02X:%02X:%02X:%02X",
+                 msg.status,
+                 msg.source_mac[0],
+                 msg.source_mac[1],
+                 msg.source_mac[2],
+                 msg.source_mac[3],
+                 msg.source_mac[4],
+                 msg.source_mac[5]);
     }
 }
 

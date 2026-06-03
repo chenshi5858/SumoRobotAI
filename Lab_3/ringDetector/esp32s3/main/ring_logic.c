@@ -37,11 +37,11 @@ static void ring_control_task(void *arg) {
             robot_state_set_ring_status(latest.status, latest.source_mac);
 
             if (strcmp(latest.status, "WHITE") == 0) {
-                ESP_LOGI(TAG, "WHITE detected: rotating to stay inside the ring");
-                rotate_fast();
-                vTaskDelay(pdMS_TO_TICKS(AVOID_ROTATE_MS));
-                stop_motors();
-                strlcpy(last_applied_status, "WHITE", sizeof(last_applied_status));
+                if (strcmp(last_applied_status, "WHITE") != 0) {
+                    ESP_LOGI(TAG, "WHITE detected: rotating to stay inside the ring");
+                    rotate_fast();
+                    strlcpy(last_applied_status, "WHITE", sizeof(last_applied_status));
+                }
             } else if (strcmp(latest.status, "SAFE") == 0) {
                 if (strcmp(last_applied_status, "SAFE") != 0) {
                     ESP_LOGI(TAG, "SAFE detected: moving forward");

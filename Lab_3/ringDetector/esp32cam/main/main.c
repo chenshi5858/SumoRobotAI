@@ -6,6 +6,7 @@
 
 #include "esp_err.h"
 #include "esp_log.h"
+#include "esp_timer.h"
 #include "nvs_flash.h"
 
 #include "app_config.h"
@@ -13,6 +14,9 @@
 #include "espnow_comm.h"
 
 static const char *TAG = "ring_cam";
+
+static char s_last_logged_status[16] = "";
+static int64_t s_last_log_ms = 0;
 
 static esp_err_t init_nvs(void) {
     esp_err_t err = nvs_flash_init();
@@ -41,17 +45,25 @@ static void vision_task(void *arg) {
 
         const char *status = white_detected ? "WHITE" : "SAFE";
         esp_err_t err = send_status(status);
-        if (err != ESP_OK) {
-            ESP_LOGW(TAG, "ESP-NOW status send failed: %s", esp_err_to_name(err));
-        }
 
-        const uint32_t white_percent = total_pixels > 0 ? (white_pixels * 100U) / total_pixels : 0;
-        ESP_LOGI(TAG,
-                 "Vision status=%s white=%" PRIu32 "/%" PRIu32 " (%" PRIu32 "%%)",
-                 status,
-                 white_pixels,
-                 total_pixels,
-                 white_percent);
+        const int64_t now = esp_timer_get_time() / 1000;
+        const bool status_changed = strcmp(s_last_logged_status, status) != 0;
+        const bool periodic = (now - s_last_log_ms) > 1000;
+        if (err != ESP_OK && (status_changed || periodic)) {
+            ESP_LOGW(TAG, "ESP-NOW status send failed: %s", esp_err_to_name(err));
+        } else if (err == ESP_OK && (status_changed || periodic)) {
+            const uint32_t white_percent = total_pixels > 0 ? (white_pixels * 100U) / total_pixels : 0;
+            ESP_LOGI(TAG,
+                     "Vision status=%s white=%" PRIu32 "/%" PRIu32 " (%" PRIu32 "%%)",
+                     status,
+                     white_pixels,
+                     total_pixels,
+                     white_percent);
+        }
+        if (status_changed || periodic) {
+            strlcpy(s_last_logged_status, status, sizeof(s_last_logged_status));
+            s_last_log_ms = now;
+        }
         vTaskDelay(pdMS_TO_TICKS(CAPTURE_INTERVAL_MS));
     }
 }
