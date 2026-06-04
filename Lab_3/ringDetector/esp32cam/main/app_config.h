@@ -27,41 +27,34 @@
 #define CAMERA_FRAME_WIDTH 96
 #define CAMERA_FRAME_HEIGHT 96
 
-/* La radio de ambos equipos debe usar el mismo canal ESP-NOW (mismo canal del AP). */
+/* La radio de ambos equipos debe usar el mismo canal ESP-NOW. */
 #define ESPNOW_CHANNEL 6
 
 /*
  * MAC del receptor ESP32-S3 (STA).
  * Para obtenerla: conecta el S3 por USB y busca en el monitor serial:
  *   "ESP32-S3 STA MAC: XX:XX:XX:XX:XX:XX"
- * Copia esos 6 bytes aqui abajo.
- * Ejemplo: #define ESPNOW_PEER_MAC_BYTES {0xAA, 0xBB, 0xCC, 0xDD, 0xEE, 0xFF}
- *
- * NOTA: Se usa broadcast porque unicast requiere ACK del S3 y si el S3
- * esta ocupado la cola TX se llena. Broadcast no espera ACK.
+ * Nota: se usa broadcast por defecto.
  */
 #define ESPNOW_PEER_MAC_BYTES {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF}
 
 /*
- * Detector de borde del ring.
- * Se analiza la franja superior y se aplica convolucion Sobel sobre luminancia.
+ * Detector de linea negra del ring.
+ * Se analiza una franja de la imagen buscando pixeles con luminancia baja.
  */
-#define BORDER_ROI_Y_START 0
-#define BORDER_ROI_Y_END 44
-#define BORDER_ROI_X_START 8
-#define BORDER_ROI_X_END 88
+/* ROI completa: usa casi toda la imagen para no perder la linea. */
+#define ROI_Y_START 0
+#define ROI_Y_END 96
+#define ROI_X_START 0
+#define ROI_X_END 96
 
-#define BORDER_EDGE_GRADIENT_MIN 140
-#define BORDER_EDGE_GRADIENT_MAX 420
-#define BORDER_EDGE_GRADIENT_OFFSET 80
-#define BORDER_EDGE_MIN_PERCENT 1
-#define BORDER_EDGE_MAX_PERCENT 18
-#define BORDER_EDGE_ROW_MIN_PIXELS 32
-#define BORDER_EDGE_MIN_ROWS 1
-#define BORDER_EDGE_MAX_ROWS 8
-#define BORDER_EDGE_HORIZONTAL_DOMINANCE 20
+/* Luminancia < BLACK_LUMA_THRESHOLD se considera "negro" (0-255). */
+#define BLACK_LUMA_THRESHOLD 80
 
-#define BORDER_DEBOUNCE_COUNT 2
+/* Porcentaje minimo de pixeles negros en la ROI para activar deteccion. */
+#define BLACK_MIN_PERCENT 10
 
-/* 100 ms da 10 muestras por segundo; con debounce=2 responde en ~200 ms. */
-#define CAPTURE_INTERVAL_MS 100
+#define DEBOUNCE_COUNT 2
+
+/* 200 ms da 5 muestras por segundo; con debounce=2 responde en ~400 ms. */
+#define CAPTURE_INTERVAL_MS 200

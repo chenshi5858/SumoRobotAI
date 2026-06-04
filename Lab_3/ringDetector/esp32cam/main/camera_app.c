@@ -33,9 +33,9 @@ esp_err_t init_camera(void) {
         .pixel_format = PIXFORMAT_RGB565,
         .frame_size = FRAMESIZE_96X96,
         .jpeg_quality = 12,
-        .fb_count = 1,
+        .fb_count = 2,
         .fb_location = CAMERA_FB_IN_DRAM,
-        .grab_mode = CAMERA_GRAB_WHEN_EMPTY,
+        .grab_mode = CAMERA_GRAB_LATEST,
     };
 
     esp_err_t err = esp_camera_init(&config);
@@ -54,20 +54,6 @@ esp_err_t init_camera(void) {
     return ESP_OK;
 }
 
-static inline int abs_i32(int value) {
-    return value < 0 ? -value : value;
-}
-
-static inline uint16_t clamp_u16(uint32_t value, uint16_t min_value, uint16_t max_value) {
-    if (value < min_value) {
-        return min_value;
-    }
-    if (value > max_value) {
-        return max_value;
-    }
-    return (uint16_t)value;
-}
-
 static inline uint8_t rgb565_luma(const uint8_t *buf, uint32_t index) {
     const uint32_t byte_index = index * 2U;
     const uint16_t pixel = ((uint16_t)buf[byte_index + 1U] << 8U) | buf[byte_index];
@@ -84,30 +70,7 @@ static inline uint8_t frame_luma_at(const camera_fb_t *frame, uint32_t width, ui
     return rgb565_luma(frame->buf, (y * width) + x);
 }
 
-typedef struct {
-    uint16_t gx;
-    uint16_t gy;
-} sobel_gradient_t;
-
-static inline sobel_gradient_t sobel_gradient_at(const camera_fb_t *frame, uint32_t width, uint32_t x, uint32_t y) {
-    const int tl = frame_luma_at(frame, width, x - 1U, y - 1U);
-    const int tc = frame_luma_at(frame, width, x, y - 1U);
-    const int tr = frame_luma_at(frame, width, x + 1U, y - 1U);
-    const int ml = frame_luma_at(frame, width, x - 1U, y);
-    const int mr = frame_luma_at(frame, width, x + 1U, y);
-    const int bl = frame_luma_at(frame, width, x - 1U, y + 1U);
-    const int bc = frame_luma_at(frame, width, x, y + 1U);
-    const int br = frame_luma_at(frame, width, x + 1U, y + 1U);
-
-    const int gx = -tl + tr - (2 * ml) + (2 * mr) - bl + br;
-    const int gy = -tl - (2 * tc) - tr + bl + (2 * bc) + br;
-    return (sobel_gradient_t) {
-        .gx = (uint16_t)abs_i32(gx),
-        .gy = (uint16_t)abs_i32(gy),
-    };
-}
-
-bool detect_ring_border(const camera_fb_t *frame, ring_detection_metrics_t *metrics) {
+bool detect_black_line(const camera_fb_t *frame, black_line_metrics_t *metrics) {
     if (metrics != NULL) {
         memset(metrics, 0, sizeof(*metrics));
     }
@@ -129,81 +92,43 @@ bool detect_ring_border(const camera_fb_t *frame, ring_detection_metrics_t *metr
         return false;
     }
 
-    const uint32_t start_y = BORDER_ROI_Y_START < height ? BORDER_ROI_Y_START : height;
-    const uint32_t end_y = BORDER_ROI_Y_END < height ? BORDER_ROI_Y_END : height;
-    const uint32_t start_x = BORDER_ROI_X_START < width ? BORDER_ROI_X_START : width;
-    const uint32_t end_x = BORDER_ROI_X_END < width ? BORDER_ROI_X_END : width;
+    const uint32_t start_y = ROI_Y_START < height ? ROI_Y_START : height;
+    const uint32_t end_y = ROI_Y_END < height ? ROI_Y_END : height;
+    const uint32_t start_x = ROI_X_START < width ? ROI_X_START : width;
+    const uint32_t end_x = ROI_X_END < width ? ROI_X_END : width;
 
     if (start_y >= end_y || start_x >= end_x) {
         ESP_LOGW(TAG, "Invalid ROI: (%" PRIu32 ",%" PRIu32 ")-(%" PRIu32 ",%" PRIu32 ")",
-                 start_x,
-                 start_y,
-                 end_x,
-                 end_y);
+                 start_x, start_y, end_x, end_y);
         return false;
     }
 
-    uint32_t total_count = 0;
-    uint64_t edge_gradient_sum = 0;
-    uint32_t edge_rows = 0;
+    const uint32_t luma_threshold = BLACK_LUMA_THRESHOLD;
+    uint32_t total_pixels = 0;
+    uint32_t black_pixels = 0;
 
-    if ((end_y - start_y) >= 3U && (end_x - start_x) >= 3U) {
-        for (uint32_t y = start_y + 1U; (y + 1U) < end_y; y++) {
-            for (uint32_t x = start_x + 1U; (x + 1U) < end_x; x++) {
-                const sobel_gradient_t gradient = sobel_gradient_at(frame, width, x, y);
-                edge_gradient_sum += gradient.gy;
-                total_count++;
+    for (uint32_t y = start_y; y < end_y; y++) {
+        for (uint32_t x = start_x; x < end_x; x++) {
+            const uint8_t luma = frame_luma_at(frame, width, x, y);
+            total_pixels++;
+            if (luma < luma_threshold) {
+                black_pixels++;
             }
         }
     }
 
-    const uint16_t edge_threshold = total_count > 0
-        ? clamp_u16((uint32_t)(edge_gradient_sum / total_count) + BORDER_EDGE_GRADIENT_OFFSET,
-                    BORDER_EDGE_GRADIENT_MIN,
-                    BORDER_EDGE_GRADIENT_MAX)
-        : BORDER_EDGE_GRADIENT_MAX;
-    uint32_t edge_count = 0;
-    uint32_t best_row_pixels = 0;
+    const uint32_t black_percent = total_pixels > 0
+        ? (black_pixels * 100U) / total_pixels
+        : 0;
 
-    if ((end_y - start_y) >= 3U && (end_x - start_x) >= 3U) {
-        for (uint32_t y = start_y + 1U; (y + 1U) < end_y; y++) {
-            uint32_t row_edge_count = 0;
-
-            for (uint32_t x = start_x + 1U; (x + 1U) < end_x; x++) {
-                const sobel_gradient_t gradient = sobel_gradient_at(frame, width, x, y);
-
-                if (gradient.gy >= edge_threshold &&
-                    gradient.gy >= (uint16_t)(gradient.gx + BORDER_EDGE_HORIZONTAL_DOMINANCE)) {
-                    edge_count++;
-                    row_edge_count++;
-                }
-            }
-
-            if (row_edge_count > best_row_pixels) {
-                best_row_pixels = row_edge_count;
-            }
-            if (row_edge_count >= BORDER_EDGE_ROW_MIN_PIXELS) {
-                edge_rows++;
-            }
-        }
-    }
-
-    const bool edge_trigger =
-        total_count > 0 &&
-        edge_rows >= BORDER_EDGE_MIN_ROWS &&
-        edge_rows <= BORDER_EDGE_MAX_ROWS &&
-        best_row_pixels >= BORDER_EDGE_ROW_MIN_PIXELS &&
-        (edge_count * 100U) <= (total_count * BORDER_EDGE_MAX_PERCENT) &&
-        (edge_count * 100U) >= (total_count * BORDER_EDGE_MIN_PERCENT);
+    const bool detected = black_percent >= BLACK_MIN_PERCENT;
 
     if (metrics != NULL) {
-        metrics->total_pixels = total_count;
-        metrics->edge_pixels = edge_count;
-        metrics->edge_rows = edge_rows;
-        metrics->best_row_pixels = best_row_pixels;
-        metrics->edge_threshold = edge_threshold;
-        metrics->edge_trigger = edge_trigger;
+        metrics->total_pixels = total_pixels;
+        metrics->black_pixels = black_pixels;
+        metrics->black_percent = black_percent;
+        metrics->black_detected = detected;
     }
 
-    return edge_trigger;
+    return detected;
 }

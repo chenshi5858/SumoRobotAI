@@ -4,19 +4,16 @@
 #include <string.h>
 
 #include "app_config.h"
-#include "esp_event.h"
 #include "esp_idf_version.h"
 #include "esp_log.h"
-#include "esp_mac.h"
-#include "esp_netif.h"
 #include "esp_now.h"
 #include "esp_timer.h"
 #include "esp_wifi.h"
 #include "robot_state.h"
+#include "wifi_app.h"
 
 static const char *TAG = "espnow_rx";
 static QueueHandle_t s_status_queue = NULL;
-static uint8_t s_primary_channel = ESPNOW_CHANNEL;
 #if !ACCEPT_ANY_CAMERA_MAC
 static const uint8_t s_allowed_camera_mac[ESP_NOW_ETH_ALEN] = CAMERA_MAC_BYTES;
 #endif
@@ -32,49 +29,6 @@ static bool is_allowed_camera(const uint8_t *mac) {
 #endif
 }
 
-static esp_err_t init_wifi_for_espnow(void) {
-    esp_err_t err = esp_netif_init();
-    if (err != ESP_OK && err != ESP_ERR_INVALID_STATE) {
-        return err;
-    }
-
-    err = esp_event_loop_create_default();
-    if (err != ESP_OK && err != ESP_ERR_INVALID_STATE) {
-        return err;
-    }
-
-    esp_netif_create_default_wifi_sta();
-
-    wifi_init_config_t cfg = WIFI_INIT_CONFIG_DEFAULT();
-    err = esp_wifi_init(&cfg);
-    if (err != ESP_OK) {
-        return err;
-    }
-
-    ESP_ERROR_CHECK(esp_wifi_set_storage(WIFI_STORAGE_RAM));
-    ESP_ERROR_CHECK(esp_wifi_set_mode(WIFI_MODE_STA));
-    ESP_ERROR_CHECK(esp_wifi_start());
-    ESP_ERROR_CHECK(esp_wifi_set_ps(WIFI_PS_NONE));
-    ESP_ERROR_CHECK(esp_wifi_set_channel(ESPNOW_CHANNEL, WIFI_SECOND_CHAN_NONE));
-
-    wifi_second_chan_t second_channel = WIFI_SECOND_CHAN_NONE;
-    ESP_ERROR_CHECK(esp_wifi_get_channel(&s_primary_channel, &second_channel));
-
-    uint8_t local_mac[6] = {0};
-    ESP_ERROR_CHECK(esp_read_mac(local_mac, ESP_MAC_WIFI_STA));
-    ESP_LOGI(TAG,
-             "ESP32-S3 STA MAC: %02X:%02X:%02X:%02X:%02X:%02X",
-             local_mac[0],
-             local_mac[1],
-             local_mac[2],
-             local_mac[3],
-             local_mac[4],
-             local_mac[5]);
-    ESP_LOGI(TAG, "ESP-NOW channel: %u", s_primary_channel);
-
-    return ESP_OK;
-}
-
 static bool normalize_status(const uint8_t *data, int data_len, char *out, size_t out_len) {
     if (data == NULL || data_len <= 0 || out == NULL || out_len == 0) {
         return false;
@@ -84,7 +38,7 @@ static bool normalize_status(const uint8_t *data, int data_len, char *out, size_
     memcpy(out, data, copy_len);
     out[copy_len] = '\0';
 
-    if (strcmp(out, "SAFE") == 0 || strcmp(out, "WHITE") == 0) {
+    if (strcmp(out, "0") == 0 || strcmp(out, "1") == 0) {
         return true;
     }
 
@@ -159,13 +113,7 @@ esp_err_t espnow_receiver_init(QueueHandle_t status_queue) {
 
     s_status_queue = status_queue;
 
-    esp_err_t err = init_wifi_for_espnow();
-    if (err != ESP_OK) {
-        ESP_LOGE(TAG, "WiFi radio init for ESP-NOW failed: %s", esp_err_to_name(err));
-        return err;
-    }
-
-    err = esp_now_init();
+    esp_err_t err = esp_now_init();
     if (err != ESP_OK) {
         ESP_LOGE(TAG, "esp_now_init failed: %s", esp_err_to_name(err));
         return err;
@@ -177,7 +125,7 @@ esp_err_t espnow_receiver_init(QueueHandle_t status_queue) {
         return err;
     }
 
-    ESP_LOGI(TAG, "ESP-NOW receiver ready on channel %u", s_primary_channel);
+    ESP_LOGI(TAG, "ESP-NOW receiver ready on channel %u", wifi_app_get_primary_channel());
 #if !ACCEPT_ANY_CAMERA_MAC
     ESP_LOGI(TAG,
              "Accepting camera MAC %02X:%02X:%02X:%02X:%02X:%02X",

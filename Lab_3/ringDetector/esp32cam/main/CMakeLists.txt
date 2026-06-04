@@ -6,9 +6,10 @@ idf_component_register(
     INCLUDE_DIRS "."
     PRIV_REQUIRES
         nvs_flash
+        esp_timer
         esp_wifi
         esp_netif
         esp_event
-        esp_timer
+        driver
         espressif__esp32-camera
 )
