@@ -51,12 +51,12 @@ static httpd_handle_t http_server = NULL;
 /* Scale factor for yaw rate (use <1 if rotation looks too fast) */
 #define ANGULAR_SCALE 0.5f
 
-/* PWM settings: locked to max speed */
-static uint8_t current_speed = 255;
-static const uint8_t MAX_SPEED = 255;
-static const uint8_t MIN_SPEED = 255;
-static const uint8_t SPEED_STEP = 0;
-static const uint8_t DIAGONAL_INNER_SPEED_PERCENT = 100;
+/* PWM settings */
+static uint8_t current_speed = 175;
+static const uint8_t MAX_SPEED = 190;
+static const uint8_t MIN_SPEED = 80;
+static const uint8_t SPEED_STEP = 20;
+static const uint8_t DIAGONAL_INNER_SPEED_PERCENT = 70;
 
 /* Motor model (no sensors): PWM -> RPM (adjust for your supply) */
 #define MOTOR_MAX_RPM 250.0f

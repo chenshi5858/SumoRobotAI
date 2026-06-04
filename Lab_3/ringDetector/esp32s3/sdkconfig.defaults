@@ -1,10 +1,7 @@
-# WebSocket usado por la pagina web del laboratorio.
-CONFIG_HTTPD_WS_SUPPORT=y
-
 # Logs claros durante pruebas.
 CONFIG_LOG_DEFAULT_LEVEL_INFO=y
 
-# Margen para inicializacion de WiFi, servidor y tareas.
+# Margen para inicializacion autonoma y tareas.
 CONFIG_ESP_MAIN_TASK_STACK_SIZE=8192
 
 # Tick de 1 ms para control temporal simple.

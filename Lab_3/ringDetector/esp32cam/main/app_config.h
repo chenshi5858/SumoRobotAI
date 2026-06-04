@@ -42,15 +42,26 @@
  */
 #define ESPNOW_PEER_MAC_BYTES {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF}
 
-/* Deteccion de blanco estilo example (ROI fijo y umbral de luminancia). */
-#define WHITE_USE_ADAPTIVE_THRESHOLD 0
-#define WHITE_LUMA_THRESHOLD 180
-#define WHITE_ROI_Y_START 72
-#define WHITE_ROI_Y_END 96
-#define WHITE_ROI_X_START 24
-#define WHITE_ROI_X_END 72
-#define WHITE_MIN_PERCENT 15
-#define WHITE_DEBOUNCE_COUNT 1
+/*
+ * Detector de borde del ring.
+ * Se analiza la franja superior y se aplica convolucion Sobel sobre luminancia.
+ */
+#define BORDER_ROI_Y_START 0
+#define BORDER_ROI_Y_END 44
+#define BORDER_ROI_X_START 8
+#define BORDER_ROI_X_END 88
 
-/* 200 ms equivale a 5 muestras por segundo. */
-#define CAPTURE_INTERVAL_MS 200
+#define BORDER_EDGE_GRADIENT_MIN 140
+#define BORDER_EDGE_GRADIENT_MAX 420
+#define BORDER_EDGE_GRADIENT_OFFSET 80
+#define BORDER_EDGE_MIN_PERCENT 1
+#define BORDER_EDGE_MAX_PERCENT 18
+#define BORDER_EDGE_ROW_MIN_PIXELS 32
+#define BORDER_EDGE_MIN_ROWS 1
+#define BORDER_EDGE_MAX_ROWS 8
+#define BORDER_EDGE_HORIZONTAL_DOMINANCE 20
+
+#define BORDER_DEBOUNCE_COUNT 2
+
+/* 100 ms da 10 muestras por segundo; con debounce=2 responde en ~200 ms. */
+#define CAPTURE_INTERVAL_MS 100
