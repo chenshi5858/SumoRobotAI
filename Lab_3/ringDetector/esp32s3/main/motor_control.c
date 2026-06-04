@@ -222,8 +222,6 @@ uint8_t motor_get_speed(void) {
 void motor_set_speed(uint8_t speed) {
     if (speed < MIN_SPEED) {
         speed = MIN_SPEED;
-    } else if (speed > MAX_SPEED) {
-        speed = MAX_SPEED;
     }
 
     portENTER_CRITICAL(&s_speed_lock);

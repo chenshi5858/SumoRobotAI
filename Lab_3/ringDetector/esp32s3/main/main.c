@@ -10,6 +10,7 @@
 #include "nvs_flash.h"
 #include "ring_logic.h"
 #include "robot_state.h"
+#include "wifi_app.h"
 
 static const char *TAG = "ring_s3";
 
@@ -28,12 +29,14 @@ void app_main(void) {
     ESP_ERROR_CHECK(init_nvs());
 
     robot_state_init();
+
+    ESP_ERROR_CHECK(wifi_app_init_sta());
     ESP_ERROR_CHECK(motor_control_init());
     odom_reset();
 
     QueueHandle_t status_queue = xQueueCreate(8, sizeof(espnow_status_msg_t));
     if (status_queue == NULL) {
-        ESP_LOGE(TAG, "Could not create ESP-NOW status queue");
+        ESP_LOGE(TAG, "Could not create status queue");
         return;
     }
 

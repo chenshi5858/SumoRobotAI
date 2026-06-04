@@ -25,10 +25,6 @@ static void ring_control_task(void *arg) {
         if (xQueueReceive(queue, &msg, pdMS_TO_TICKS(200)) == pdTRUE) {
             latest = msg;
 
-            /*
-             * Si la camara envia rapido, usamos el dato mas reciente y evitamos
-             * actuar sobre mensajes viejos acumulados en la cola.
-             */
             while (xQueueReceive(queue, &msg, 0) == pdTRUE) {
                 latest = msg;
             }
@@ -36,17 +32,18 @@ static void ring_control_task(void *arg) {
             last_rx_ms = latest.rx_time_ms;
             robot_state_set_ring_status(latest.status, latest.source_mac);
 
-            if (strcmp(latest.status, "WHITE") == 0) {
-                if (strcmp(last_applied_status, "WHITE") != 0) {
-                    ESP_LOGI(TAG, "WHITE detected: rotating to stay inside the ring");
+            if (strcmp(latest.status, "1") == 0) {
+                if (strcmp(last_applied_status, "1") != 0) {
+                    ESP_LOGI(TAG, "BLACK detected: rotating right");
                     rotate_fast();
-                    strlcpy(last_applied_status, "WHITE", sizeof(last_applied_status));
+                    strlcpy(last_applied_status, "1", sizeof(last_applied_status));
                 }
-            } else if (strcmp(latest.status, "SAFE") == 0) {
-                if (strcmp(last_applied_status, "SAFE") != 0) {
-                    ESP_LOGI(TAG, "SAFE detected: moving forward");
+            } else if (strcmp(latest.status, "0") == 0) {
+                if (strcmp(last_applied_status, "0") != 0) {
+                    ESP_LOGI(TAG, "SAFE detected: moving forward slowly");
+                    motor_set_speed(RING_FOLLOW_SPEED);
                     move_forward();
-                    strlcpy(last_applied_status, "SAFE", sizeof(last_applied_status));
+                    strlcpy(last_applied_status, "0", sizeof(last_applied_status));
                 }
             }
         }
