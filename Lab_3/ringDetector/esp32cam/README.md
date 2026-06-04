@@ -5,7 +5,7 @@ Firmware ESP-IDF puro para la ESP32-CAM. No usa Arduino.
 ## Modulos
 
 - `main.c`: inicializa NVS, camara, ESP-NOW y crea `vision_task`.
-- `camera_app.c`: contiene `init_camera()` y `detect_white_region()`.
+- `camera_app.c`: contiene `init_camera()` y `detect_ring_border()`.
 - `espnow_comm.c`: inicializa WiFi STA + ESP-NOW y contiene `send_status()`.
 - `app_config.h`: pines, umbrales, canal y MAC peer.
 
@@ -14,10 +14,10 @@ Firmware ESP-IDF puro para la ESP32-CAM. No usa Arduino.
 Configuracion de camara:
 
 - Resolucion: `FRAMESIZE_96X96`.
-- Formato: `PIXFORMAT_GRAYSCALE`.
-- Analisis: 25% inferior de la imagen.
-- Pixel blanco: valor `> 200`.
-- Deteccion valida: mas de 15% de pixeles blancos en la region.
+- Formato: `PIXFORMAT_RGB565`.
+- Analisis: franja superior configurada con `BORDER_ROI_*`.
+- Borde: convolucion Sobel 3x3 sobre luminancia para detectar la transicion piso/limite aunque los colores sean parecidos.
+- Salida estable: `BORDER_DEBOUNCE_COUNT` confirma la deteccion antes de mandar `WHITE`.
 
 Mensajes enviados:
 
@@ -50,9 +50,12 @@ Logs utiles:
 - `ESP-NOW WiFi channel`
 - `Vision status=SAFE`
 - `Vision status=WHITE`
+- `edge=... rows=... best=...`: fuerza, filas activas y mejor fila de la linea Sobel.
+- `edge_thr=...`: umbral adaptativo Sobel usado en ese frame.
 
 ## Ajustes comunes
 
-- Si la deteccion es muy sensible, subir `WHITE_MIN_PERCENT`.
-- Si no detecta el borde, bajar `WHITE_PIXEL_THRESHOLD` o `WHITE_MIN_PERCENT`.
+- Si marca todo como borde, subir `BORDER_EDGE_GRADIENT_MIN`, `BORDER_EDGE_GRADIENT_OFFSET` o `BORDER_EDGE_ROW_MIN_PIXELS`; tambien se puede bajar `BORDER_EDGE_MAX_ROWS`.
+- Si no detecta el borde real, bajar `BORDER_EDGE_GRADIENT_MIN`, `BORDER_EDGE_GRADIENT_OFFSET` o `BORDER_EDGE_ROW_MIN_PIXELS`.
+- Si detecta tarde, bajar `BORDER_DEBOUNCE_COUNT` o `CAPTURE_INTERVAL_MS`.
 - Si la camara no inicia, revisar el pinout en `app_config.h`.

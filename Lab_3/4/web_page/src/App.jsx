@@ -3,7 +3,9 @@ import { usePs4Controller } from "./ps4Controller";
 
 const DEFAULT_API = import.meta.env.VITE_API_URL || "http://192.168.1.98:8000";
 const RECONNECT_DELAY_MS = 500;
-const DEFAULT_SPEED = 200;
+const DEFAULT_SPEED = 175;
+const MIN_SPEED = 80;
+const MAX_SPEED = 190;
 const SPEED_STORAGE_KEY = "lab3_pose_speed";
 const MAP_SCALE = 120;
 const TRAIL_LIMIT = 240;
@@ -47,7 +49,7 @@ function buildWsUrl(apiBase) {
 function normalizeSpeed(value) {
   const speed = Number(value);
   if (!Number.isFinite(speed)) return DEFAULT_SPEED;
-  return Math.min(255, Math.max(50, Math.round(speed)));
+  return Math.min(MAX_SPEED, Math.max(MIN_SPEED, Math.round(speed)));
 }
 
 function loadStoredSpeed() {
@@ -133,7 +135,7 @@ export default function App() {
     newWs.onopen = () => {
       newWs.send(JSON.stringify({ action: "set_speed", speed: speedRef.current }));
       setIsConnected(true);
-      setStatus(`Connected: ${wsUrl} | speed ${speedRef.current}/255`);
+      setStatus(`Connected: ${wsUrl} | speed ${speedRef.current}/${MAX_SPEED}`);
     };
 
     newWs.onmessage = (event) => {
@@ -409,10 +411,10 @@ export default function App() {
           <div className="speed-section">
             <div className="speed-row">
               <span>Speed</span>
-              <strong>{speed}/255</strong>
+              <strong>{speed}/{MAX_SPEED}</strong>
             </div>
             <div className="speed-track">
-              <div className="speed-fill" style={{ width: `${(speed / 255) * 100}%` }} />
+              <div className="speed-fill" style={{ width: `${(speed / MAX_SPEED) * 100}%` }} />
             </div>
             <div className="speed-controls">
               <button className="btn ghost" onClick={handleSpeedDown}>

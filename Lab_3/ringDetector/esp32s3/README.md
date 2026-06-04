@@ -1,38 +1,30 @@
-# ESP32-S3 - Movimiento, WebSocket y ESP-NOW RX
+# ESP32-S3 - Movimiento autonomo y ESP-NOW RX
 
-Firmware ESP-IDF puro para la ESP32-S3. Reutiliza la logica de servidor HTTP/WebSocket y odometria abierta del proyecto `Lab_3/4`, ahora separada en modulos e integrada con ESP-NOW.
+Firmware ESP-IDF puro para la ESP32-S3. La placa funciona de forma autonoma: recibe el estado de la ESP32-CAM por ESP-NOW y controla los motores sin servidor web ni comandos desde el computador.
 
 ## Modulos
 
-- `main.c`: inicializacion general y tarea de odometria.
-- `wifi_app.c`: conexion WiFi STA y logs de IP/MAC/canal.
-- `web_server.c`: servidor HTTP `POST /move` y WebSocket `/ws`.
-- `motor_control.c`: control de motores, PWM, odometria, `move_forward()`, `rotate_fast()` y `stop_motors()`.
-- `espnow_receiver.c`: receptor ESP-NOW robusto y validacion de mensajes.
+- `main.c`: inicializacion general autonoma.
+- `motor_control.c`: control de motores, PWM, `move_forward()`, `rotate_fast()` y `stop_motors()`.
+- `espnow_receiver.c`: inicializa la radio en modo STA solo para ESP-NOW, recibe mensajes y valida MAC/payload.
 - `ring_logic.c`: tarea FreeRTOS que decide movimiento segun `SAFE` o `WHITE`.
-- `robot_state.c`: estado compartido para WebSocket y logs.
+- `robot_state.c`: estado compartido interno para logs.
 
 ## Comportamiento
 
 - Mensaje `SAFE`: la S3 llama `move_forward()`.
-- Mensaje `WHITE`: la S3 llama `rotate_fast()`, espera `AVOID_ROTATE_MS` y luego llama `stop_motors()`.
+- Mensaje `WHITE`: la S3 llama `rotate_fast()` para mantenerse dentro del ring.
 - Si no llegan mensajes por `ESPNOW_STATUS_TIMEOUT_MS`, se detienen los motores y el estado pasa a `NO_LINK`.
-
-La pagina web sigue usando el WebSocket original y ahora recibe tambien:
-
-- `ring_status`
-- `motion`
-- `camera_mac`
-- `espnow_age_ms`
 
 ## Configuracion
 
 Editar `main/app_config.h`:
 
 ```c
-#define WIFI_SSID "TU_WIFI"
-#define WIFI_PASS "TU_PASSWORD"
+#define ESPNOW_CHANNEL 6
 ```
+
+`ESPNOW_CHANNEL` debe coincidir con el canal configurado en la ESP32-CAM.
 
 Pines de motores:
 
@@ -64,21 +56,6 @@ idf.py -p /dev/ttyACM0 flash monitor
 En el monitor buscar:
 
 - `ESP32-S3 STA MAC`
-- `Current WiFi/ESP-NOW channel`
-- `WebSocket endpoint`
+- `ESP-NOW channel`
 
 Usa la MAC y canal impresos para configurar la ESP32-CAM.
-
-## Pagina web
-
-```bash
-cd Lab_3/ringDetector/esp32s3/web_page
-npm install
-npm run dev
-```
-
-Luego escribir la IP de la S3 en el campo de conexion, por ejemplo:
-
-```text
-http://192.168.1.98:8000
-```
