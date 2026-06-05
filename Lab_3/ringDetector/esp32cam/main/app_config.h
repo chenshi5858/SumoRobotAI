@@ -4,7 +4,6 @@
 
 /*
  * ESP32-CAM AI Thinker pinout.
- * Ajustar aqui si se usa otro modulo de camara.
  */
 #define CAM_PIN_PWDN 32
 #define CAM_PIN_RESET -1
@@ -32,29 +31,26 @@
 
 /*
  * MAC del receptor ESP32-S3 (STA).
- * Para obtenerla: conecta el S3 por USB y busca en el monitor serial:
- *   "ESP32-S3 STA MAC: XX:XX:XX:XX:XX:XX"
  * Nota: se usa broadcast por defecto.
  */
 #define ESPNOW_PEER_MAC_BYTES {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF}
 
 /*
- * Detector de linea negra del ring.
- * Se analiza una franja de la imagen buscando pixeles con luminancia baja.
+ * Detector de bordes por Sobel Gy.
+ * ROI: toda la altura, franja central horizontal.
  */
-/* ROI completa: usa casi toda la imagen para no perder la linea. */
-#define ROI_Y_START 0
-#define ROI_Y_END 96
-#define ROI_X_START 0
-#define ROI_X_END 96
+#define EDGE_ROI_Y_START 0
+#define EDGE_ROI_Y_END 96
+#define EDGE_ROI_X_START 24
+#define EDGE_ROI_X_END 72
 
-/* Luminancia < BLACK_LUMA_THRESHOLD se considera "negro" (0-255). */
-#define BLACK_LUMA_THRESHOLD 80
+/* Solo bordes oscuros: Gy < -EDGE_DARK_THRESHOLD (transicion claro->oscuro). */
+#define EDGE_DARK_THRESHOLD 80
 
-/* Porcentaje minimo de pixeles negros en la ROI para activar deteccion. */
-#define BLACK_MIN_PERCENT 10
+/* Porcentaje minimo de pixeles de borde en la ROI para activar deteccion. */
+#define EDGE_MIN_PERCENT 5
 
 #define DEBOUNCE_COUNT 2
 
-/* 200 ms da 5 muestras por segundo; con debounce=2 responde en ~400 ms. */
+/* 200 ms entre capturas; con debounce=2 responde en ~400 ms. */
 #define CAPTURE_INTERVAL_MS 200

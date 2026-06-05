@@ -1,12 +1,15 @@
 #include "camera_app.h"
 
 #include <inttypes.h>
+#include <stdlib.h>
 #include <string.h>
 
 #include "app_config.h"
 #include "esp_log.h"
 
 static const char *TAG = "camera_app";
+
+static uint8_t s_lum_buf[CAMERA_FRAME_WIDTH * CAMERA_FRAME_HEIGHT];
 
 esp_err_t init_camera(void) {
     camera_config_t config = {
@@ -48,29 +51,41 @@ esp_err_t init_camera(void) {
     if (sensor != NULL) {
         sensor->set_framesize(sensor, FRAMESIZE_96X96);
         sensor->set_pixformat(sensor, PIXFORMAT_RGB565);
+        sensor->set_brightness(sensor, 0);
+        sensor->set_contrast(sensor, 0);
+        sensor->set_whitebal(sensor, 1);
+        sensor->set_awb_gain(sensor, 1);
     }
 
     ESP_LOGI(TAG, "Camera ready: 96x96 RGB565, fb_count=%d", config.fb_count);
     return ESP_OK;
 }
 
-static inline uint8_t rgb565_luma(const uint8_t *buf, uint32_t index) {
-    const uint32_t byte_index = index * 2U;
-    const uint16_t pixel = ((uint16_t)buf[byte_index + 1U] << 8U) | buf[byte_index];
-    const uint8_t r5 = (pixel >> 11) & 0x1F;
-    const uint8_t g6 = (pixel >> 5) & 0x3F;
-    const uint8_t b5 = pixel & 0x1F;
-    const uint8_t r = (uint8_t)((r5 * 255U + 15U) / 31U);
-    const uint8_t g = (uint8_t)((g6 * 255U + 31U) / 63U);
-    const uint8_t b = (uint8_t)((b5 * 255U + 15U) / 31U);
-    return (uint8_t)(((uint16_t)r * 77U + (uint16_t)g * 150U + (uint16_t)b * 29U) >> 8U);
+static void frame_to_luminance(const uint8_t *buf) {
+    for (int i = 0; i < CAMERA_FRAME_WIDTH * CAMERA_FRAME_HEIGHT; i++) {
+        uint16_t p = (buf[i * 2 + 1] << 8) | buf[i * 2];
+        uint8_t r5 = (p >> 11) & 0x1F;
+        uint8_t g6 = (p >> 5)  & 0x3F;
+        uint8_t b5 =  p        & 0x1F;
+        uint8_t r = (r5 * 255 + 15) / 31;
+        uint8_t g = (g6 * 255 + 31) / 63;
+        uint8_t b = (b5 * 255 +  0) / 31;
+        s_lum_buf[i] = (r * 77 + g * 150 + b * 29) >> 8;
+    }
 }
 
-static inline uint8_t frame_luma_at(const camera_fb_t *frame, uint32_t width, uint32_t x, uint32_t y) {
-    return rgb565_luma(frame->buf, (y * width) + x);
+static int32_t sobel_gy_at(uint32_t x, uint32_t y) {
+    const int32_t tl = s_lum_buf[(y - 1) * CAMERA_FRAME_WIDTH + (x - 1)];
+    const int32_t tc = s_lum_buf[(y - 1) * CAMERA_FRAME_WIDTH +  x];
+    const int32_t tr = s_lum_buf[(y - 1) * CAMERA_FRAME_WIDTH + (x + 1)];
+    const int32_t bl = s_lum_buf[(y + 1) * CAMERA_FRAME_WIDTH + (x - 1)];
+    const int32_t bc = s_lum_buf[(y + 1) * CAMERA_FRAME_WIDTH +  x];
+    const int32_t br = s_lum_buf[(y + 1) * CAMERA_FRAME_WIDTH + (x + 1)];
+
+    return -tl - 2 * tc - tr + bl + 2 * bc + br;
 }
 
-bool detect_black_line(const camera_fb_t *frame, black_line_metrics_t *metrics) {
+bool detect_edge(const camera_fb_t *frame, edge_metrics_t *metrics) {
     if (metrics != NULL) {
         memset(metrics, 0, sizeof(*metrics));
     }
@@ -84,51 +99,65 @@ bool detect_black_line(const camera_fb_t *frame, black_line_metrics_t *metrics) 
     const uint32_t height = frame->height;
 
     if (frame->format != PIXFORMAT_RGB565 || frame->len < (width * height * 2U)) {
-        ESP_LOGW(TAG, "Unsupported frame format/size: format=%d len=%u width=%" PRIu32 " height=%" PRIu32,
-                 frame->format,
-                 (unsigned)frame->len,
-                 width,
-                 height);
+        ESP_LOGW(TAG, "Unsupported frame format/size: format=%d len=%u", frame->format, (unsigned)frame->len);
         return false;
     }
 
-    const uint32_t start_y = ROI_Y_START < height ? ROI_Y_START : height;
-    const uint32_t end_y = ROI_Y_END < height ? ROI_Y_END : height;
-    const uint32_t start_x = ROI_X_START < width ? ROI_X_START : width;
-    const uint32_t end_x = ROI_X_END < width ? ROI_X_END : width;
+    frame_to_luminance(frame->buf);
 
-    if (start_y >= end_y || start_x >= end_x) {
+    const uint32_t start_y = EDGE_ROI_Y_START < height ? EDGE_ROI_Y_START : height;
+    const uint32_t end_y = EDGE_ROI_Y_END < height ? EDGE_ROI_Y_END : height;
+    const uint32_t start_x = EDGE_ROI_X_START < width ? EDGE_ROI_X_START : width;
+    const uint32_t end_x = EDGE_ROI_X_END < width ? EDGE_ROI_X_END : width;
+
+    if (start_y + 1 >= end_y || start_x + 1 >= end_x) {
         ESP_LOGW(TAG, "Invalid ROI: (%" PRIu32 ",%" PRIu32 ")-(%" PRIu32 ",%" PRIu32 ")",
                  start_x, start_y, end_x, end_y);
         return false;
     }
 
-    const uint32_t luma_threshold = BLACK_LUMA_THRESHOLD;
-    uint32_t total_pixels = 0;
-    uint32_t black_pixels = 0;
+    uint32_t total = 0;
+    uint32_t edges = 0;
 
-    for (uint32_t y = start_y; y < end_y; y++) {
-        for (uint32_t x = start_x; x < end_x; x++) {
-            const uint8_t luma = frame_luma_at(frame, width, x, y);
-            total_pixels++;
-            if (luma < luma_threshold) {
-                black_pixels++;
+    for (uint32_t y = start_y + 1; y < end_y - 1; y++) {
+        for (uint32_t x = start_x + 1; x < end_x - 1; x++) {
+            int32_t gy = sobel_gy_at(x, y);
+            total++;
+            if (gy < -EDGE_DARK_THRESHOLD) {
+                edges++;
             }
         }
     }
 
-    const uint32_t black_percent = total_pixels > 0
-        ? (black_pixels * 100U) / total_pixels
-        : 0;
-
-    const bool detected = black_percent >= BLACK_MIN_PERCENT;
+    const uint32_t edge_percent = total > 0 ? (edges * 100U) / total : 0;
+    const bool detected = edge_percent >= EDGE_MIN_PERCENT;
 
     if (metrics != NULL) {
-        metrics->total_pixels = total_pixels;
-        metrics->black_pixels = black_pixels;
-        metrics->black_percent = black_percent;
-        metrics->black_detected = detected;
+        metrics->total_pixels = total;
+        metrics->edge_pixels = edges;
+        metrics->edge_percent = edge_percent;
+        metrics->edge_detected = detected;
     }
 
     return detected;
+}
+
+void debug_print_edge_map(void) {
+    const uint32_t start_y = EDGE_ROI_Y_START;
+    const uint32_t end_y = EDGE_ROI_Y_END;
+    const uint32_t start_x = EDGE_ROI_X_START;
+    const uint32_t end_x = EDGE_ROI_X_END;
+
+    ESP_LOGI(TAG, "--- Edge map (Gy < -%d, step=4) ---", EDGE_DARK_THRESHOLD);
+    for (uint32_t y = start_y + 1; y < end_y - 1; y += 4) {
+        char line[64];
+        size_t pos = 0;
+        for (uint32_t x = start_x + 1; x < end_x - 1; x += 2) {
+            int32_t gy = sobel_gy_at(x, y);
+            line[pos++] = gy < -EDGE_DARK_THRESHOLD ? '#' : '.';
+        }
+        line[pos] = '\0';
+        ESP_LOGI(TAG, "%s", line);
+    }
+    ESP_LOGI(TAG, "--- end map ---");
 }
