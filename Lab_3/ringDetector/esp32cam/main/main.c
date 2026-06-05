@@ -18,8 +18,9 @@ static const char *TAG = "ring_cam";
 
 static char s_last_logged_status[16] = "";
 static int64_t s_last_log_ms = 0;
-static uint8_t s_black_score = 0;
-static bool s_debounced_black = false;
+static uint8_t s_edge_score = 0;
+static bool s_debounced_edge = false;
+static volatile bool s_debug_dump_requested = false;
 
 static esp_err_t init_nvs(void) {
     esp_err_t err = nvs_flash_init();
@@ -30,24 +31,24 @@ static esp_err_t init_nvs(void) {
     return err;
 }
 
-static bool debounce_black_detection(bool raw_detected) {
+static bool debounce_edge_detection(bool raw_detected) {
     const uint8_t debounce_target = DEBOUNCE_COUNT > 0 ? DEBOUNCE_COUNT : 1;
 
     if (raw_detected) {
-        if (s_black_score < debounce_target) {
-            s_black_score++;
+        if (s_edge_score < debounce_target) {
+            s_edge_score++;
         }
-    } else if (s_black_score > 0) {
-        s_black_score--;
+    } else if (s_edge_score > 0) {
+        s_edge_score--;
     }
 
-    if (!s_debounced_black && s_black_score >= debounce_target) {
-        s_debounced_black = true;
-    } else if (s_debounced_black && s_black_score == 0) {
-        s_debounced_black = false;
+    if (!s_debounced_edge && s_edge_score >= debounce_target) {
+        s_debounced_edge = true;
+    } else if (s_debounced_edge && s_edge_score == 0) {
+        s_debounced_edge = false;
     }
 
-    return s_debounced_black;
+    return s_debounced_edge;
 }
 
 static void vision_task(void *arg) {
@@ -61,12 +62,18 @@ static void vision_task(void *arg) {
             continue;
         }
 
-        black_line_metrics_t metrics;
-        const bool raw_black_detected = detect_black_line(frame, &metrics);
+        edge_metrics_t metrics;
+        const bool raw_edge_detected = detect_edge(frame, &metrics);
+
+        if (s_debug_dump_requested) {
+            s_debug_dump_requested = false;
+            debug_print_edge_map();
+        }
+
         esp_camera_fb_return(frame);
 
-        const bool black_detected = debounce_black_detection(raw_black_detected);
-        const char *status = black_detected ? "1" : "0";
+        const bool edge_detected = debounce_edge_detection(raw_edge_detected);
+        const char *status = edge_detected ? "1" : "0";
         const bool status_changed = strcmp(s_last_logged_status, status) != 0;
         const int64_t now = esp_timer_get_time() / 1000;
         const bool time_to_send = (now - s_last_log_ms) > 500;
@@ -77,13 +84,13 @@ static void vision_task(void *arg) {
                 ESP_LOGW(TAG, "ESP-NOW send(%s) failed: %s", status, esp_err_to_name(err));
             } else {
                 ESP_LOGI(TAG,
-                         "Vision status=%s raw=%s black=%" PRIu32 "/%" PRIu32 " (%" PRIu32 "%%) score=%u",
+                         "Vision status=%s raw=%s edge=%" PRIu32 "/%" PRIu32 " (%" PRIu32 "%%) score=%u",
                          status,
-                         raw_black_detected ? "1" : "0",
-                         metrics.black_pixels,
+                         raw_edge_detected ? "1" : "0",
+                         metrics.edge_pixels,
                          metrics.total_pixels,
-                         metrics.black_percent,
-                         s_black_score);
+                         metrics.edge_percent,
+                         s_edge_score);
             }
             if (status_changed) {
                 strlcpy(s_last_logged_status, status, sizeof(s_last_logged_status));
@@ -94,13 +101,26 @@ static void vision_task(void *arg) {
     }
 }
 
+static void debug_cmd_task(void *arg) {
+    (void)arg;
+    int ch;
+    while (1) {
+        ch = getchar();
+        if (ch == 'd' || ch == 'D') {
+            s_debug_dump_requested = true;
+            ESP_LOGI(TAG, "Debug dump requested");
+        }
+    }
+}
+
 void app_main(void) {
-    ESP_LOGI(TAG, "ESP32-CAM black line detector starting");
+    ESP_LOGI(TAG, "ESP32-CAM Sobel edge detector starting");
     ESP_ERROR_CHECK(init_nvs());
     ESP_ERROR_CHECK(init_camera());
     ESP_ERROR_CHECK(init_espnow());
 
     xTaskCreate(vision_task, "vision_task", 6144, NULL, 5, NULL);
+    xTaskCreate(debug_cmd_task, "debug_cmd", 2048, NULL, 1, NULL);
 
-    ESP_LOGI(TAG, "Ready: capturing 96x96 RGB565, detecting black line, and sending via ESP-NOW");
+    ESP_LOGI(TAG, "Ready. Send 'd' over serial to dump edge map.");
 }

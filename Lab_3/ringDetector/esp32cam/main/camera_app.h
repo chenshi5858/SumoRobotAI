@@ -8,10 +8,11 @@
 
 typedef struct {
     uint32_t total_pixels;
-    uint32_t black_pixels;
-    uint32_t black_percent;
-    bool black_detected;
-} black_line_metrics_t;
+    uint32_t edge_pixels;
+    uint32_t edge_percent;
+    bool edge_detected;
+} edge_metrics_t;
 
 esp_err_t init_camera(void);
-bool detect_black_line(const camera_fb_t *frame, black_line_metrics_t *metrics);
+bool detect_edge(const camera_fb_t *frame, edge_metrics_t *metrics);
+void debug_print_edge_map(void);
