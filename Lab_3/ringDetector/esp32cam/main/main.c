@@ -84,12 +84,14 @@ static void vision_task(void *arg) {
                 ESP_LOGW(TAG, "ESP-NOW send(%s) failed: %s", status, esp_err_to_name(err));
             } else {
                 ESP_LOGI(TAG,
-                         "Vision status=%s raw=%s edge=%" PRIu32 "/%" PRIu32 " (%" PRIu32 "%%) score=%u",
+                         "Vision status=%s raw=%s edge=%" PRIu32 "/%" PRIu32 " (%" PRIu32 "%%) rows=%" PRIu32 " best=%" PRIu32 " score=%u",
                          status,
                          raw_edge_detected ? "1" : "0",
                          metrics.edge_pixels,
                          metrics.total_pixels,
                          metrics.edge_percent,
+                         metrics.active_rows,
+                         metrics.best_row_edges,
                          s_edge_score);
             }
             if (status_changed) {

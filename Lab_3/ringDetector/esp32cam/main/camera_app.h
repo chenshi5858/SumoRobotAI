@@ -10,6 +10,8 @@ typedef struct {
     uint32_t total_pixels;
     uint32_t edge_pixels;
     uint32_t edge_percent;
+    uint32_t active_rows;
+    uint32_t best_row_edges;
     bool edge_detected;
 } edge_metrics_t;
 

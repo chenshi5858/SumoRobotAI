@@ -45,12 +45,19 @@
 #define EDGE_ROI_X_END 72
 
 /* Solo bordes oscuros: Gy < -EDGE_DARK_THRESHOLD (transicion claro->oscuro). */
-#define EDGE_DARK_THRESHOLD 80
+#define EDGE_DARK_THRESHOLD 130
 
 /* Porcentaje minimo de pixeles de borde en la ROI para activar deteccion. */
-#define EDGE_MIN_PERCENT 5
+#define EDGE_MIN_PERCENT 6
 
-#define DEBOUNCE_COUNT 2
+/*
+ * Filtro anti-ruido: un borde negro real debe formar una franja horizontal
+ * dentro de la ROI, no solo pixeles aislados con gradiente alto.
+ */
+#define EDGE_MIN_ROW_PIXELS 6
+#define EDGE_MIN_ACTIVE_ROWS 2
 
-/* 200 ms entre capturas; con debounce=2 responde en ~400 ms. */
+#define DEBOUNCE_COUNT 1
+
+/* 200 ms entre capturas; con debounce=1 responde en el primer frame valido. */
 #define CAPTURE_INTERVAL_MS 200
