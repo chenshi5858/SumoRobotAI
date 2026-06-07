@@ -36,11 +36,11 @@
 #define ANGULAR_SCALE 0.5f
 
 /* PWM y modelo aproximado de motor. */
-#define DEFAULT_SPEED 160
+#define DEFAULT_SPEED 180
 #define MAX_SPEED 255
 #define MIN_SPEED 80
 #define SPEED_STEP 20
-#define ROTATE_SPEED 160
+#define ROTATE_SPEED 200
 #define DIAGONAL_INNER_SPEED_PERCENT 70
 #define MOTOR_MAX_RPM 250.0f
 

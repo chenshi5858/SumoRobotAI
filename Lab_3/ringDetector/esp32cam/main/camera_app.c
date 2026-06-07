@@ -118,24 +118,36 @@ bool detect_edge(const camera_fb_t *frame, edge_metrics_t *metrics) {
 
     uint32_t total = 0;
     uint32_t edges = 0;
+    uint32_t active_rows = 0;
+    uint32_t best_row_edges = 0;
 
     for (uint32_t y = start_y + 1; y < end_y - 1; y++) {
+        uint32_t row_edges = 0;
         for (uint32_t x = start_x + 1; x < end_x - 1; x++) {
             int32_t gy = sobel_gy_at(x, y);
             total++;
             if (gy < -EDGE_DARK_THRESHOLD) {
                 edges++;
+                row_edges++;
             }
+        }
+        if (row_edges >= EDGE_MIN_ROW_PIXELS) {
+            active_rows++;
+        }
+        if (row_edges > best_row_edges) {
+            best_row_edges = row_edges;
         }
     }
 
     const uint32_t edge_percent = total > 0 ? (edges * 100U) / total : 0;
-    const bool detected = edge_percent >= EDGE_MIN_PERCENT;
+    const bool detected = edge_percent >= EDGE_MIN_PERCENT && active_rows >= EDGE_MIN_ACTIVE_ROWS;
 
     if (metrics != NULL) {
         metrics->total_pixels = total;
         metrics->edge_pixels = edges;
         metrics->edge_percent = edge_percent;
+        metrics->active_rows = active_rows;
+        metrics->best_row_edges = best_row_edges;
         metrics->edge_detected = detected;
     }
 
@@ -148,7 +160,10 @@ void debug_print_edge_map(void) {
     const uint32_t start_x = EDGE_ROI_X_START;
     const uint32_t end_x = EDGE_ROI_X_END;
 
-    ESP_LOGI(TAG, "--- Edge map (Gy < -%d, step=4) ---", EDGE_DARK_THRESHOLD);
+    ESP_LOGI(TAG, "--- Edge map (Gy < -%d, row_min=%d, active_rows_min=%d, step=4) ---",
+             EDGE_DARK_THRESHOLD,
+             EDGE_MIN_ROW_PIXELS,
+             EDGE_MIN_ACTIVE_ROWS);
     for (uint32_t y = start_y + 1; y < end_y - 1; y += 4) {
         char line[64];
         size_t pos = 0;
