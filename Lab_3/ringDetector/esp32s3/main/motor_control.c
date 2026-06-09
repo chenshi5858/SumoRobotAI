@@ -232,23 +232,23 @@ void motor_set_speed(uint8_t speed) {
 }
 
 void motor_speed_up(void) {
-    uint8_t speed = motor_get_speed();
-    if (speed > MAX_SPEED - SPEED_STEP) {
+    uint16_t speed = motor_get_speed();
+    if (speed + SPEED_STEP >= MAX_SPEED) {
         speed = MAX_SPEED;
     } else {
         speed += SPEED_STEP;
     }
-    motor_set_speed(speed);
+    motor_set_speed((uint8_t)speed);
 }
 
 void motor_speed_down(void) {
-    uint8_t speed = motor_get_speed();
-    if (speed < MIN_SPEED + SPEED_STEP) {
+    uint16_t speed = motor_get_speed();
+    if (speed <= (uint16_t)MIN_SPEED + SPEED_STEP) {
         speed = MIN_SPEED;
     } else {
         speed -= SPEED_STEP;
     }
-    motor_set_speed(speed);
+    motor_set_speed((uint8_t)speed);
 }
 
 static uint8_t diagonal_inner_speed(void) {
@@ -335,9 +335,9 @@ void move_forward(void) {
 }
 
 void rotate_fast(void) {
-    apply_wheel_command(1, ROTATE_SPEED, -1, ROTATE_SPEED);
+    apply_wheel_command(0, 0, 1, ROTATE_SPEED);
     robot_state_set_motion("rotate_fast");
-    ESP_LOGI(TAG, "ROTATE FAST (speed: %u)", ROTATE_SPEED);
+    ESP_LOGI(TAG, "ROTATE FAST pivot right wheel (speed: %u)", ROTATE_SPEED);
 }
 
 void stop_motors(void) {
