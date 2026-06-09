@@ -10,7 +10,6 @@
 #include "esp_timer.h"
 #include "esp_wifi.h"
 #include "robot_state.h"
-#include "wifi_app.h"
 
 static const char *TAG = "espnow_rx";
 static QueueHandle_t s_status_queue = NULL;
@@ -125,7 +124,7 @@ esp_err_t espnow_receiver_init(QueueHandle_t status_queue) {
         return err;
     }
 
-    ESP_LOGI(TAG, "ESP-NOW receiver ready on channel %u", wifi_app_get_primary_channel());
+    ESP_LOGI(TAG, "ESP-NOW receiver ready on channel %u", ESPNOW_FALLBACK_CHANNEL);
 #if !ACCEPT_ANY_CAMERA_MAC
     ESP_LOGI(TAG,
              "Accepting camera MAC %02X:%02X:%02X:%02X:%02X:%02X",

@@ -1,16 +1,6 @@
 #pragma once
 
 /*
- * Credenciales WiFi para que el S3 obtenga el canal del AP.
- * Si no se conecta, usa ESPNOW_FALLBACK_CHANNEL.
- */
-#define WIFI_SSID "VTR-8659428"
-#define WIFI_PASS "Lala9521"
-
-#define WIFI_CONNECT_TIMEOUT_MS 20000
-#define WIFI_RETRY_MAX 3
-
-/*
  * Receptor ESP-NOW:
  * - Si ACCEPT_ANY_CAMERA_MAC es 1, se aceptan mensajes de cualquier camara.
  * - Si es 0, se filtra por CAMERA_MAC_BYTES.
@@ -18,7 +8,7 @@
 #define ACCEPT_ANY_CAMERA_MAC 1
 #define CAMERA_MAC_BYTES {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF}
 
-/* Usado solo si el S3 no logra conectarse al AP WiFi. */
+/* Canal fijo ESP-NOW (ya no se conecta a WiFi AP). */
 #define ESPNOW_FALLBACK_CHANNEL 6
 #define ESPNOW_STATUS_TIMEOUT_MS 3000
 
@@ -40,7 +30,7 @@
 #define MAX_SPEED 255
 #define MIN_SPEED 80
 #define SPEED_STEP 20
-#define ROTATE_SPEED 200
+#define ROTATE_SPEED 170
 #define DIAGONAL_INNER_SPEED_PERCENT 70
 #define MOTOR_MAX_RPM 250.0f
 
@@ -50,7 +40,7 @@
 #define MOTOR_A_IS_LEFT 1
 
 /* Velocidad usada por ring_logic para avance seguro. */
-#define RING_FOLLOW_SPEED DEFAULT_SPEED
+#define RING_FOLLOW_SPEED 170
 
 /* Tareas periodicas. */
 #define ODOM_UPDATE_MS 50

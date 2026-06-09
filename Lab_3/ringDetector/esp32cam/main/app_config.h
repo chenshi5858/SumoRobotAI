@@ -45,17 +45,17 @@
 #define EDGE_ROI_X_END 72
 
 /* Solo bordes oscuros: Gy < -EDGE_DARK_THRESHOLD (transicion claro->oscuro). */
-#define EDGE_DARK_THRESHOLD 130
+#define EDGE_DARK_THRESHOLD 110
 
 /* Porcentaje minimo de pixeles de borde en la ROI para activar deteccion. */
-#define EDGE_MIN_PERCENT 6
+#define EDGE_MIN_PERCENT 8
 
 /*
  * Filtro anti-ruido: un borde negro real debe formar una franja horizontal
  * dentro de la ROI, no solo pixeles aislados con gradiente alto.
  */
 #define EDGE_MIN_ROW_PIXELS 6
-#define EDGE_MIN_ACTIVE_ROWS 2
+#define EDGE_MIN_ACTIVE_ROWS 4
 
 #define DEBOUNCE_COUNT 1
 
