@@ -1,0 +1,11 @@
+# Logs claros por defecto.
+CONFIG_LOG_DEFAULT_LEVEL_INFO=y
+
+# La tarea principal crea una tarea de vision separada, pero dejamos margen.
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=8192
+
+# Tick de 1 ms para retardos simples y estables.
+CONFIG_FREERTOS_HZ=1000
+
+# Buffer extra para cola de TX ESP-NOW (default 6).
+CONFIG_ESPNOW_QUEUE_SIZE=40
