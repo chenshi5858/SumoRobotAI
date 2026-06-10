@@ -26,11 +26,11 @@
 #define ANGULAR_SCALE 0.5f
 
 /* PWM y modelo aproximado de motor. */
-#define DEFAULT_SPEED 180
+#define DEFAULT_SPEED 185
 #define MAX_SPEED 255
 #define MIN_SPEED 80
-#define SPEED_STEP 20
-#define ROTATE_SPEED 170
+#define SPEED_STEP 210
+#define ROTATE_SPEED 210
 #define DIAGONAL_INNER_SPEED_PERCENT 70
 #define MOTOR_MAX_RPM 250.0f
 
@@ -40,7 +40,9 @@
 #define MOTOR_A_IS_LEFT 1
 
 /* Velocidad usada por ring_logic para avance seguro. */
-#define RING_FOLLOW_SPEED 170
+#define RING_FOLLOW_SPEED 180
+#define RING_PRE_TURN_PAUSE_MS 150
+#define RING_RECOVERY_PAUSE_MS 200
 
 /* Tareas periodicas. */
 #define ODOM_UPDATE_MS 50
