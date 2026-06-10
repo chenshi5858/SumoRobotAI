@@ -335,7 +335,7 @@ void move_forward(void) {
 }
 
 void rotate_fast(void) {
-    apply_wheel_command(1, ROTATE_SPEED, -1, ROTATE_SPEED);
+    apply_wheel_command(-1, ROTATE_SPEED, 1, ROTATE_SPEED);
     robot_state_set_motion("rotate_fast");
     ESP_LOGI(TAG, "ROTATE FAST (speed: %u)", ROTATE_SPEED);
 }
