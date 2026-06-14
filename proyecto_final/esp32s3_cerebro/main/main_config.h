@@ -1,0 +1,48 @@
+#pragma once
+
+#include "driver/gpio.h"
+#include "esp_adc/adc_continuous.h"
+
+#define UART1_RX_GPIO 40
+#define UART2_RX_GPIO 41
+#define UART_BAUD_RATE 115200
+
+#define MOTOR_A_PIN1 6
+#define MOTOR_A_PIN2 7
+#define MOTOR_B_PIN1 16
+#define MOTOR_B_PIN2 17
+#define MOTOR_A_ENA 9
+#define MOTOR_B_ENB 10
+
+#define WHEEL_RADIUS_M 0.034f
+#define WHEEL_BASE_M 0.13f
+#define ANGULAR_SCALE 0.5f
+
+#define DEFAULT_SPEED 185
+#define MAX_SPEED 255
+#define MIN_SPEED 80
+#define SPEED_STEP 210
+#define ROTATE_SPEED 185
+#define DIAGONAL_INNER_SPEED_PERCENT 70
+
+#define LEFT_MOTOR_SPEED_PERCENT 110
+#define RIGHT_MOTOR_SPEED_PERCENT 100
+#define MOTOR_MAX_RPM 250.0f
+
+#define MOTOR_A_FORWARD_SIGN 1
+#define MOTOR_B_FORWARD_SIGN -1
+#define MOTOR_A_IS_LEFT 1
+
+#define RING_FOLLOW_SPEED 180
+#define RING_PRE_TURN_PAUSE_MS 150
+#define RING_RECOVERY_PAUSE_MS 200
+#define ESPNOW_STATUS_TIMEOUT_MS 3000
+
+#define ODOM_UPDATE_MS 50
+#define POSE_TX_MS 200
+
+#define MIC_ADC_CHANNEL ADC_CHANNEL_3
+#define MIC_ADC_GPIO 4
+#define MIC_SAMPLE_RATE 16000
+#define MIC_FFT_SIZE 1024
+#define CONFIG_DSP_MAX_FFT_SIZE 1024

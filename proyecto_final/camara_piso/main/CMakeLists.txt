@@ -1,0 +1,14 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "camera_app.c"
+        "uart_comm.c"
+    INCLUDE_DIRS
+        "."
+        "../../shared"
+    PRIV_REQUIRES
+        nvs_flash
+        esp_timer
+        driver
+        espressif__esp32-camera
+)

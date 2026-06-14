@@ -1,0 +1,22 @@
+menu "Identifier detector"
+
+config IDENTIFIER_USE_CAMERA
+    bool "Use ESP-CAM as image source"
+    default y
+
+config IDENTIFIER_LED_GPIO
+    int "Detection LED GPIO"
+    default -1
+    help
+        GPIO driven high when the identifier is detected. Set to -1 to disable.
+
+config IDENTIFIER_MIN_MARGIN
+    int "Minimum margin over absent class"
+    default 0
+
+config IDENTIFIER_PERIOD_MS
+    int "Inference period in milliseconds"
+    default 500
+    range 20 10000
+
+endmenu
