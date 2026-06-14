@@ -30,8 +30,11 @@
 #define MAX_SPEED 255
 #define MIN_SPEED 80
 #define SPEED_STEP 210
-#define ROTATE_SPEED 210
+#define ROTATE_SPEED 185
 #define DIAGONAL_INNER_SPEED_PERCENT 70
+/* Calibracion individual: 100 mantiene el PWM, >100 aumenta, <100 reduce. */
+#define LEFT_MOTOR_SPEED_PERCENT 110
+#define RIGHT_MOTOR_SPEED_PERCENT 100
 #define MOTOR_MAX_RPM 250.0f
 
 /* Mapeo de orientacion de motores. */
@@ -46,5 +49,6 @@
 
 /* Tareas periodicas. */
 #define ODOM_UPDATE_MS 50
+
 #define POSE_TX_MS 200
 #define AVOID_ROTATE_MS 350
