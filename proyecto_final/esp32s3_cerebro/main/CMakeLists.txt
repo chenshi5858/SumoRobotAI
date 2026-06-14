@@ -1,0 +1,20 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "uart_receiver.c"
+        "motor_control.c"
+        "ring_logic.c"
+        "robot_state.c"
+        "microphone_handler.c"
+        "coordinator.c"
+    INCLUDE_DIRS
+        "."
+        "../../shared"
+    PRIV_REQUIRES
+        nvs_flash
+        esp_timer
+        driver
+        esp_driver_gpio
+        esp_driver_ledc
+        esp_adc
+)
