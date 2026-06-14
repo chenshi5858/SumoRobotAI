@@ -53,12 +53,13 @@ static bool debounce_edge_detection(bool raw_detected) {
 
 static void vision_task(void *arg) {
     (void)arg;
+    TickType_t last_wake_time = xTaskGetTickCount();
 
     while (1) {
         camera_fb_t *frame = esp_camera_fb_get();
         if (frame == NULL) {
             ESP_LOGW(TAG, "Camera capture failed");
-            vTaskDelay(pdMS_TO_TICKS(100));
+            vTaskDelayUntil(&last_wake_time, pdMS_TO_TICKS(CAPTURE_INTERVAL_MS));
             continue;
         }
 
@@ -76,30 +77,28 @@ static void vision_task(void *arg) {
         const char *status = edge_detected ? "1" : "0";
         const bool status_changed = strcmp(s_last_logged_status, status) != 0;
         const int64_t now = esp_timer_get_time() / 1000;
-        const bool time_to_send = (now - s_last_log_ms) > 500;
+        const bool time_to_log = (now - s_last_log_ms) > 500;
 
-        if (status_changed || time_to_send) {
-            esp_err_t err = send_status(status);
-            if (err != ESP_OK) {
-                ESP_LOGW(TAG, "ESP-NOW send(%s) failed: %s", status, esp_err_to_name(err));
-            } else {
-                ESP_LOGI(TAG,
-                         "Vision status=%s raw=%s edge=%" PRIu32 "/%" PRIu32 " (%" PRIu32 "%%) rows=%" PRIu32 " best=%" PRIu32 " score=%u",
-                         status,
-                         raw_edge_detected ? "1" : "0",
-                         metrics.edge_pixels,
-                         metrics.total_pixels,
-                         metrics.edge_percent,
-                         metrics.active_rows,
-                         metrics.best_row_edges,
-                         s_edge_score);
-            }
+        esp_err_t err = send_status(status);
+        if (err != ESP_OK && err != ESP_ERR_TIMEOUT) {
+            ESP_LOGW(TAG, "ESP-NOW send(%s) failed: %s", status, esp_err_to_name(err));
+        } else if (err == ESP_OK && (status_changed || time_to_log)) {
+            ESP_LOGI(TAG,
+                     "Vision status=%s raw=%s edge=%" PRIu32 "/%" PRIu32 " (%" PRIu32 "%%) rows=%" PRIu32 " best=%" PRIu32 " score=%u",
+                     status,
+                     raw_edge_detected ? "1" : "0",
+                     metrics.edge_pixels,
+                     metrics.total_pixels,
+                     metrics.edge_percent,
+                     metrics.active_rows,
+                     metrics.best_row_edges,
+                     s_edge_score);
             if (status_changed) {
                 strlcpy(s_last_logged_status, status, sizeof(s_last_logged_status));
             }
             s_last_log_ms = now;
         }
-        vTaskDelay(pdMS_TO_TICKS(CAPTURE_INTERVAL_MS));
+        vTaskDelayUntil(&last_wake_time, pdMS_TO_TICKS(CAPTURE_INTERVAL_MS));
     }
 }
 

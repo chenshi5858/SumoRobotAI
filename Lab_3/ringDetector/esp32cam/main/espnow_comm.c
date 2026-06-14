@@ -12,9 +12,12 @@
 #include "esp_now.h"
 #include "esp_wifi.h"
 #include "esp_netif.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/semphr.h"
 
 static const char *TAG = "espnow_tx";
 static const uint8_t s_peer_mac[ESP_NOW_ETH_ALEN] = ESPNOW_PEER_MAC_BYTES;
+static SemaphoreHandle_t s_tx_ready = NULL;
 
 static void format_mac(const uint8_t *mac, char *out, size_t out_len) {
     snprintf(out, out_len, "%02X:%02X:%02X:%02X:%02X:%02X",
@@ -23,9 +26,15 @@ static void format_mac(const uint8_t *mac, char *out, size_t out_len) {
 
 #if ESP_IDF_VERSION >= ESP_IDF_VERSION_VAL(6, 0, 0)
 static void on_espnow_send(const esp_now_send_info_t *tx_info, esp_now_send_status_t status) {
+    (void)tx_info;
+    (void)status;
+    xSemaphoreGive(s_tx_ready);
 }
 #else
 static void on_espnow_send(const uint8_t *mac_addr, esp_now_send_status_t status) {
+    (void)mac_addr;
+    (void)status;
+    xSemaphoreGive(s_tx_ready);
 }
 #endif
 
@@ -66,6 +75,12 @@ static esp_err_t init_wifi_for_espnow(void) {
 }
 
 esp_err_t init_espnow(void) {
+    s_tx_ready = xSemaphoreCreateBinary();
+    if (s_tx_ready == NULL) {
+        return ESP_ERR_NO_MEM;
+    }
+    xSemaphoreGive(s_tx_ready);
+
     esp_err_t err = init_wifi_for_espnow();
     if (err != ESP_OK) {
         ESP_LOGE(TAG, "WiFi init for ESP-NOW failed: %s", esp_err_to_name(err));
@@ -104,13 +119,22 @@ esp_err_t send_status(const char *status) {
         return ESP_ERR_INVALID_ARG;
     }
 
+    if (s_tx_ready == NULL) {
+        return ESP_ERR_INVALID_STATE;
+    }
+
     const size_t len = strlen(status) + 1;
     if (len > ESP_NOW_MAX_DATA_LEN) {
         return ESP_ERR_INVALID_SIZE;
     }
 
+    if (xSemaphoreTake(s_tx_ready, 0) != pdTRUE) {
+        return ESP_ERR_TIMEOUT;
+    }
+
     esp_err_t err = esp_now_send(s_peer_mac, (const uint8_t *)status, len);
     if (err != ESP_OK) {
+        xSemaphoreGive(s_tx_ready);
         ESP_LOGW(TAG, "send_status(%s) failed: %s", status, esp_err_to_name(err));
     }
 

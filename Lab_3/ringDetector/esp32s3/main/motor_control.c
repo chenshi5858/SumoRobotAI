@@ -259,28 +259,42 @@ static uint8_t diagonal_inner_speed(void) {
     return (uint8_t)scaled_speed;
 }
 
+static uint8_t compensate_motor(uint8_t pwm, uint16_t speed_percent) {
+    if (pwm == 0) {
+        return 0;
+    }
+
+    const uint16_t compensated =
+        ((uint16_t)pwm * speed_percent + 50U) / 100U;
+    return (uint8_t)(compensated > MAX_SPEED ? MAX_SPEED : compensated);
+}
+
 static void apply_wheel_command(int8_t left_dir, uint8_t left_pwm, int8_t right_dir, uint8_t right_pwm) {
     int8_t a_dir = 0;
     int8_t b_dir = 0;
     uint8_t a_pwm = 0;
     uint8_t b_pwm = 0;
+    const uint8_t compensated_left_pwm =
+        compensate_motor(left_pwm, LEFT_MOTOR_SPEED_PERCENT);
+    const uint8_t compensated_right_pwm =
+        compensate_motor(right_pwm, RIGHT_MOTOR_SPEED_PERCENT);
 
     if (MOTOR_A_IS_LEFT) {
         a_dir = left_dir * MOTOR_A_FORWARD_SIGN;
         b_dir = right_dir * MOTOR_B_FORWARD_SIGN;
-        a_pwm = left_pwm;
-        b_pwm = right_pwm;
+        a_pwm = compensated_left_pwm;
+        b_pwm = compensated_right_pwm;
     } else {
         a_dir = right_dir * MOTOR_A_FORWARD_SIGN;
         b_dir = left_dir * MOTOR_B_FORWARD_SIGN;
-        a_pwm = right_pwm;
-        b_pwm = left_pwm;
+        a_pwm = compensated_right_pwm;
+        b_pwm = compensated_left_pwm;
     }
 
     set_motor_dir_pins(MOTOR_A_PIN1, MOTOR_A_PIN2, a_dir);
     set_motor_dir_pins(MOTOR_B_PIN1, MOTOR_B_PIN2, b_dir);
     set_motor_speeds(a_pwm, b_pwm);
-    odom_set_command(left_dir, left_pwm, right_dir, right_pwm);
+    odom_set_command(left_dir, compensated_left_pwm, right_dir, compensated_right_pwm);
 }
 
 void move_robot(const char *cmd) {
@@ -335,9 +349,9 @@ void move_forward(void) {
 }
 
 void rotate_fast(void) {
-    apply_wheel_command(0, 0, 1, ROTATE_SPEED);
+    apply_wheel_command(-1, ROTATE_SPEED, 1, ROTATE_SPEED);
     robot_state_set_motion("rotate_fast");
-    ESP_LOGI(TAG, "ROTATE FAST pivot right wheel (speed: %u)", ROTATE_SPEED);
+    ESP_LOGI(TAG, "ROTATE FAST left in place (speed: %u)", ROTATE_SPEED);
 }
 
 void stop_motors(void) {

@@ -45,10 +45,10 @@
 #define EDGE_ROI_X_END 72
 
 /* Solo bordes oscuros: Gy < -EDGE_DARK_THRESHOLD (transicion claro->oscuro). */
-#define EDGE_DARK_THRESHOLD 110
+#define EDGE_DARK_THRESHOLD 95
 
 /* Porcentaje minimo de pixeles de borde en la ROI para activar deteccion. */
-#define EDGE_MIN_PERCENT 8
+#define EDGE_MIN_PERCENT 7
 
 /*
  * Filtro anti-ruido: un borde negro real debe formar una franja horizontal
@@ -59,5 +59,6 @@
 
 #define DEBOUNCE_COUNT 1
 
-/* 200 ms entre capturas; con debounce=1 responde en el primer frame valido. */
-#define CAPTURE_INTERVAL_MS 200
+/* Captura y envio de estado por ESP-NOW a 10 frames por segundo. */
+#define CAPTURE_FPS 18
+#define CAPTURE_INTERVAL_MS (1000 / CAPTURE_FPS)
