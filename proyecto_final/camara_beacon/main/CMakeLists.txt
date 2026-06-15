@@ -11,8 +11,10 @@ idf_component_register(
     REQUIRES
         esp_driver_gpio
         esp_driver_ledc
+        esp_driver_uart
         esp-tflite-micro
         esp32-camera
         esp_timer
+        nvs_flash
         driver
 )

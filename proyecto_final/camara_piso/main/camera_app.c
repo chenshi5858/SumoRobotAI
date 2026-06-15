@@ -30,13 +30,13 @@ esp_err_t init_camera(void) {
         .pin_href = CAM_PIN_HREF,
         .pin_pclk = CAM_PIN_PCLK,
 
-        .xclk_freq_hz = 20000000,
+        .xclk_freq_hz = 10000000,
         .ledc_timer = LEDC_TIMER_0,
         .ledc_channel = LEDC_CHANNEL_0,
         .pixel_format = PIXFORMAT_RGB565,
         .frame_size = FRAMESIZE_96X96,
         .jpeg_quality = 12,
-        .fb_count = 2,
+        .fb_count = 1,
         .fb_location = CAMERA_FB_IN_DRAM,
         .grab_mode = CAMERA_GRAB_LATEST,
     };

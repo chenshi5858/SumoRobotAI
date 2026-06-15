@@ -15,10 +15,8 @@
 #define FLOOR_SAFE  0
 #define FLOOR_EDGE  1
 
-#define BEACON_ABSENT  0
-#define BEACON_LEFT    1
-#define BEACON_CENTER  2
-#define BEACON_RIGHT   3
+#define BEACON_ABSENT   0
+#define BEACON_PRESENT  1
 
 #define MICROPHONE_CMD_FULL_FORWARD  0
 #define MICROPHONE_CMD_STOP          1

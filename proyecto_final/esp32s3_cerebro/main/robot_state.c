@@ -3,6 +3,7 @@
 #include <string.h>
 
 #include "esp_timer.h"
+#include "espnow_protocol.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/portmacro.h"
 
@@ -41,10 +42,8 @@ void robot_state_set_beacon(uint8_t class_id) {
     s_state.beacon_class_id = class_id;
     s_state.last_beacon_update_ms = esp_timer_get_time() / 1000;
     switch (class_id) {
-        case 0: strlcpy(s_state.beacon_pos, "ausente", sizeof(s_state.beacon_pos)); break;
-        case 1: strlcpy(s_state.beacon_pos, "izquierda", sizeof(s_state.beacon_pos)); break;
-        case 2: strlcpy(s_state.beacon_pos, "centro", sizeof(s_state.beacon_pos)); break;
-        case 3: strlcpy(s_state.beacon_pos, "derecha", sizeof(s_state.beacon_pos)); break;
+        case BEACON_ABSENT:  strlcpy(s_state.beacon_pos, "ausente", sizeof(s_state.beacon_pos)); break;
+        case BEACON_PRESENT: strlcpy(s_state.beacon_pos, "presente", sizeof(s_state.beacon_pos)); break;
         default: strlcpy(s_state.beacon_pos, "unknown", sizeof(s_state.beacon_pos)); break;
     }
     portEXIT_CRITICAL(&s_state_lock);
