@@ -54,10 +54,7 @@ static void init_adc(void) {
 static const char *cmd_name(mic_command_t cmd) {
     switch (cmd) {
         case MIC_CMD_FULL_FORWARD: return "FULL_FORWARD";
-        case MIC_CMD_STOP:         return "STOP";
-        case MIC_CMD_ROTATE_LEFT:  return "ROTATE_LEFT";
-        case MIC_CMD_ROTATE_RIGHT: return "ROTATE_RIGHT";
-        case MIC_CMD_BOOST:        return "BOOST";
+        case MIC_CMD_BACKWARD:     return "BACKWARD";
         default:                   return "NONE";
     }
 }

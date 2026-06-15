@@ -20,6 +20,42 @@ static adc_continuous_handle_t s_adc_handle = NULL;
 static float s_fft_buf[MIC_FFT_SIZE * 2];
 static float s_window[MIC_FFT_SIZE];
 
+typedef struct {
+    mic_command_t cmd;
+    float frequency_hz;
+    float magnitude;
+    float peak_to_noise_ratio;
+} mic_detection_t;
+
+static const char *command_name(mic_command_t cmd) {
+    switch (cmd) {
+        case MIC_CMD_FULL_FORWARD: return "FULL_FORWARD";
+        case MIC_CMD_BACKWARD:     return "BACKWARD";
+        default:                   return "NONE";
+    }
+}
+
+static bool send_command_event(mic_command_t cmd, bool active) {
+    if (s_cmd_queue == NULL) {
+        return false;
+    }
+
+    mic_command_event_t event = {
+        .cmd = cmd,
+        .active = active,
+    };
+
+    if (xQueueSend(s_cmd_queue, &event, pdMS_TO_TICKS(100)) != pdTRUE) {
+        ESP_LOGW(TAG, "Mic event queue full, dropping cmd=%d active=%d",
+                 (int)cmd, active);
+        return false;
+    }
+
+    ESP_LOGI(TAG, "Mic command %s: %s",
+             active ? "started" : "released", command_name(cmd));
+    return true;
+}
+
 static void generate_hann_window(void) {
     dsps_wind_hann_f32(s_window, MIC_FFT_SIZE);
 }
@@ -69,22 +105,36 @@ static esp_err_t init_adc_microphone(void) {
     return ESP_OK;
 }
 
-static mic_command_t detect_command(void) {
+static mic_detection_t detect_command(void) {
+    mic_detection_t detection = {
+        .cmd = MIC_CMD_NONE,
+    };
     uint8_t result[MIC_FFT_SIZE * sizeof(adc_digi_output_data_t)];
     uint32_t out_len = 0;
 
     esp_err_t err = adc_continuous_read(s_adc_handle, result, sizeof(result), &out_len, portMAX_DELAY);
     if (err != ESP_OK || out_len == 0) {
-        return MIC_CMD_NONE;
+        return detection;
     }
 
     size_t samples = out_len / sizeof(adc_digi_output_data_t);
     size_t fft_samples = (samples < MIC_FFT_SIZE) ? samples : MIC_FFT_SIZE;
+    if (fft_samples == 0) {
+        return detection;
+    }
+
+    float sample_mean = 0.0f;
+    for (size_t i = 0; i < fft_samples; i++) {
+        adc_digi_output_data_t *p =
+            (adc_digi_output_data_t *)&result[i * sizeof(adc_digi_output_data_t)];
+        sample_mean += (float)p->type2.data;
+    }
+    sample_mean /= fft_samples;
 
     memset(s_fft_buf, 0, sizeof(s_fft_buf));
     for (size_t i = 0; i < fft_samples; i++) {
         adc_digi_output_data_t *p = (adc_digi_output_data_t *)&result[i * sizeof(adc_digi_output_data_t)];
-        float val = (float)p->type2.data - 2048.0f;
+        float val = (float)p->type2.data - sample_mean;
         s_fft_buf[i * 2] = val * s_window[i];
         s_fft_buf[i * 2 + 1] = 0.0f;
     }
@@ -93,35 +143,122 @@ static mic_command_t detect_command(void) {
     dsps_bit_rev_fc32(s_fft_buf, fft_samples);
 
     float max_mag = 0;
+    float total_mag = 0;
     int max_idx = 0;
+    int analyzed_bins = 0;
     for (int i = 5; i < fft_samples / 2; i++) {
         float re = s_fft_buf[i * 2];
         float im = s_fft_buf[i * 2 + 1];
         float mag = re * re + im * im;
+        total_mag += mag;
+        analyzed_bins++;
         if (mag > max_mag) {
             max_mag = mag;
             max_idx = i;
         }
     }
 
-    float freq = (float)max_idx * MIC_SAMPLE_RATE / fft_samples;
-    return match_freq(freq, max_mag);
+    if (analyzed_bins <= 1 || max_mag < MIC_MAG_THRESHOLD) {
+        return detection;
+    }
+
+    const float noise_floor = (total_mag - max_mag) / (analyzed_bins - 1);
+    if (noise_floor > 0.0f && max_mag < noise_floor * MIC_PEAK_TO_NOISE_RATIO) {
+        return detection;
+    }
+
+    detection.frequency_hz = (float)max_idx * MIC_SAMPLE_RATE / fft_samples;
+    detection.magnitude = max_mag;
+    detection.peak_to_noise_ratio =
+        (noise_floor > 0.0f) ? max_mag / noise_floor : 0.0f;
+    detection.cmd = match_freq(detection.frequency_hz, max_mag);
+    return detection;
 }
 
 static void mic_task(void *arg) {
     (void)arg;
     generate_hann_window();
 
-    while (1) {
-        mic_command_t cmd = detect_command();
+    mic_command_t candidate = MIC_CMD_NONE;
+    mic_command_t active_cmd = MIC_CMD_NONE;
+    uint8_t confirm_count = 0;
+    uint8_t release_count = 0;
 
-        if (cmd != MIC_CMD_NONE && s_cmd_queue != NULL) {
-            if (xQueueSend(s_cmd_queue, &cmd, 0) != pdTRUE) {
-                ESP_LOGW(TAG, "Mic cmd queue full, dropping cmd=%d", (int)cmd);
+    while (1) {
+        mic_detection_t detection = detect_command();
+        mic_command_t cmd = detection.cmd;
+
+        if (active_cmd != MIC_CMD_NONE) {
+            if (cmd == MIC_CMD_NONE) {
+                if (++release_count >= MIC_RELEASE_FRAMES) {
+                    if (send_command_event(active_cmd, false)) {
+                        active_cmd = MIC_CMD_NONE;
+                        release_count = 0;
+                    } else {
+                        release_count = MIC_RELEASE_FRAMES;
+                    }
+                }
+                candidate = MIC_CMD_NONE;
+                confirm_count = 0;
+            } else if (cmd == active_cmd) {
+                candidate = MIC_CMD_NONE;
+                confirm_count = 0;
+                release_count = 0;
+            } else {
+                release_count = 0;
+                if (cmd == candidate) {
+                    confirm_count++;
+                } else {
+                    candidate = cmd;
+                    confirm_count = 1;
+                }
+
+                if (confirm_count >= MIC_CONFIRM_FRAMES) {
+                    mic_command_t previous_cmd = active_cmd;
+                    if (send_command_event(previous_cmd, false)) {
+                        if (send_command_event(cmd, true)) {
+                            active_cmd = cmd;
+                            ESP_LOGI(TAG,
+                                     "Mic command accepted: %s freq=%.1fHz mag=%.0f ratio=%.1f",
+                                     command_name(cmd),
+                                     detection.frequency_hz,
+                                     detection.magnitude,
+                                     detection.peak_to_noise_ratio);
+                        } else {
+                            active_cmd = MIC_CMD_NONE;
+                        }
+                    }
+                    candidate = MIC_CMD_NONE;
+                    confirm_count = 0;
+                }
+            }
+        } else if (cmd == MIC_CMD_NONE) {
+            candidate = MIC_CMD_NONE;
+            confirm_count = 0;
+        } else {
+            if (cmd == candidate) {
+                confirm_count++;
+            } else {
+                candidate = cmd;
+                confirm_count = 1;
+            }
+
+            if (confirm_count >= MIC_CONFIRM_FRAMES) {
+                if (send_command_event(cmd, true)) {
+                    ESP_LOGI(TAG,
+                             "Mic command accepted: %s freq=%.1fHz mag=%.0f ratio=%.1f",
+                             command_name(cmd),
+                             detection.frequency_hz,
+                             detection.magnitude,
+                             detection.peak_to_noise_ratio);
+                    active_cmd = cmd;
+                }
+                candidate = MIC_CMD_NONE;
+                confirm_count = 0;
             }
         }
 
-        vTaskDelay(pdMS_TO_TICKS(100));
+        vTaskDelay(pdMS_TO_TICKS(20));
     }
 }
 

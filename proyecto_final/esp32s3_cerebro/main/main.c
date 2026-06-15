@@ -40,7 +40,7 @@ void app_main(void) {
         return;
     }
 
-    QueueHandle_t mic_cmd_queue = xQueueCreate(8, sizeof(mic_command_t));
+    QueueHandle_t mic_cmd_queue = xQueueCreate(8, sizeof(mic_command_event_t));
     if (mic_cmd_queue == NULL) {
         ESP_LOGE(TAG, "Could not create mic command queue");
         return;
