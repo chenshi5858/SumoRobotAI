@@ -48,19 +48,15 @@ const char* IdentifierClassName(int class_id) {
     switch (class_id) {
         case kAbsentClass:
             return "ausente";
-        case kLeftClass:
-            return "izquierda";
-        case kCenterClass:
-            return "centro";
-        case kRightClass:
-            return "derecha";
+        case kPresentClass:
+            return "presente";
         default:
             return "desconocida";
     }
 }
 
 bool IdentifierDetector::Begin() {
-    g_model = tflite::GetModel(g_identifier_model_data);
+    g_model = tflite::GetModel(g_identifier_presence_model);
     if (g_model->version() != TFLITE_SCHEMA_VERSION) {
         ESP_LOGE(kTag, "model schema %d != supported schema %d",
                  g_model->version(), TFLITE_SCHEMA_VERSION);
@@ -75,13 +71,14 @@ bool IdentifierDetector::Begin() {
         return false;
     }
 
-    static tflite::MicroMutableOpResolver<6> resolver;
+    static tflite::MicroMutableOpResolver<7> resolver;
     resolver.AddConv2D();
     resolver.AddMaxPool2D();
     resolver.AddConcatenation();
     resolver.AddReshape();
     resolver.AddFullyConnected();
     resolver.AddQuantize();
+    resolver.AddLogistic();
 
     static tflite::MicroInterpreter static_interpreter(
         g_model, resolver, g_tensor_arena, kTensorArenaSize);
@@ -106,7 +103,7 @@ bool IdentifierDetector::Begin() {
         return false;
     }
 
-    if (output_->bytes < kClassCount) {
+    if (output_->bytes < 1) {
         ESP_LOGE(kTag, "unexpected output tensor size: %u", output_->bytes);
         return false;
     }
@@ -141,8 +138,8 @@ bool IdentifierDetector::FillInputTensor(const uint8_t* grayscale_image) {
             return false;
         }
         for (int i = 0; i < kImageElementCount; ++i) {
-            const float normalized = static_cast<float>(grayscale_image[i]) / 255.0f;
-            const int32_t q = static_cast<int32_t>(lroundf(normalized / scale)) + zero_point;
+            const float raw = static_cast<float>(grayscale_image[i]);
+            const int32_t q = static_cast<int32_t>(lroundf(raw / scale)) + zero_point;
             input_->data.int8[i] = static_cast<int8_t>(ClampInt32(q, -128, 127));
         }
         return true;
@@ -155,8 +152,8 @@ bool IdentifierDetector::FillInputTensor(const uint8_t* grayscale_image) {
             return false;
         }
         for (int i = 0; i < kImageElementCount; ++i) {
-            const float normalized = static_cast<float>(grayscale_image[i]) / 255.0f;
-            const int32_t q = static_cast<int32_t>(lroundf(normalized / scale)) + zero_point;
+            const float raw = static_cast<float>(grayscale_image[i]);
+            const int32_t q = static_cast<int32_t>(lroundf(raw / scale)) + zero_point;
             input_->data.uint8[i] = static_cast<uint8_t>(ClampInt32(q, 0, 255));
         }
         return true;
@@ -164,7 +161,7 @@ bool IdentifierDetector::FillInputTensor(const uint8_t* grayscale_image) {
 
     if (input_->type == kTfLiteFloat32) {
         for (int i = 0; i < kImageElementCount; ++i) {
-            input_->data.f[i] = static_cast<float>(grayscale_image[i]) / 255.0f;
+            input_->data.f[i] = static_cast<float>(grayscale_image[i]);
         }
         return true;
     }
@@ -176,38 +173,32 @@ bool IdentifierDetector::FillInputTensor(const uint8_t* grayscale_image) {
 bool IdentifierDetector::ReadOutputTensor(IdentifierResult* result) const {
     memset(result, 0, sizeof(*result));
 
-    int best_class = 0;
-    float best_score = -INFINITY;
-    for (int i = 0; i < kClassCount; ++i) {
-        float score = 0.0f;
-        int8_t raw = 0;
-        if (output_->type == kTfLiteInt8) {
-            raw = output_->data.int8[i];
-            score = (static_cast<int>(raw) - output_->params.zero_point) * output_->params.scale;
-        } else if (output_->type == kTfLiteUInt8) {
-            const uint8_t q = output_->data.uint8[i];
-            raw = static_cast<int8_t>(static_cast<int>(q) - 128);
-            score = (static_cast<int>(q) - output_->params.zero_point) * output_->params.scale;
-        } else if (output_->type == kTfLiteFloat32) {
-            score = output_->data.f[i];
-            raw = static_cast<int8_t>(ClampInt32(static_cast<int32_t>(lroundf(score)), -128, 127));
-        } else {
-            ESP_LOGE(kTag, "unsupported output tensor type: %d", output_->type);
-            return false;
-        }
-
-        result->raw_scores[i] = raw;
-        result->scores[i] = score;
-        if (score > best_score) {
-            best_score = score;
-            best_class = i;
-        }
+    float prob = 0.0f;
+    int8_t raw = 0;
+    if (output_->type == kTfLiteInt8) {
+        raw = output_->data.int8[0];
+        prob = (static_cast<int>(raw) - output_->params.zero_point) * output_->params.scale;
+    } else if (output_->type == kTfLiteUInt8) {
+        const uint8_t q = output_->data.uint8[0];
+        raw = static_cast<int8_t>(static_cast<int>(q) - 128);
+        prob = (static_cast<int>(q) - output_->params.zero_point) * output_->params.scale;
+    } else if (output_->type == kTfLiteFloat32) {
+        prob = output_->data.f[0];
+        raw = static_cast<int8_t>(ClampInt32(static_cast<int32_t>(lroundf(prob)), -128, 127));
+    } else {
+        ESP_LOGE(kTag, "unsupported output tensor type: %d", output_->type);
+        return false;
     }
 
-    result->class_id = best_class;
+    result->scores[kAbsentClass] = 1.0f - prob;
+    result->scores[kPresentClass] = prob;
+    result->raw_scores[kAbsentClass] = -raw;
+    result->raw_scores[kPresentClass] = raw;
+
+    result->class_id = (prob > 0.5f) ? kPresentClass : kAbsentClass;
     result->raw_margin_over_absent =
-        static_cast<int>(result->raw_scores[best_class]) - static_cast<int>(result->raw_scores[kAbsentClass]);
+        static_cast<int>(result->raw_scores[kPresentClass]) - static_cast<int>(result->raw_scores[kAbsentClass]);
     result->detected =
-        best_class != kAbsentClass && result->raw_margin_over_absent >= CONFIG_IDENTIFIER_MIN_MARGIN;
+        result->class_id == kPresentClass && result->raw_margin_over_absent >= CONFIG_IDENTIFIER_MIN_MARGIN;
     return true;
 }

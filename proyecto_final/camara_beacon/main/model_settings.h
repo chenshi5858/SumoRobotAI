@@ -7,12 +7,10 @@ constexpr int kImageWidth = 96;
 constexpr int kImageHeight = 96;
 constexpr int kImageChannels = 1;
 constexpr int kImageElementCount = kImageWidth * kImageHeight * kImageChannels;
-constexpr int kClassCount = 4;
+constexpr int kClassCount = 2;
 
 constexpr int kAbsentClass = 0;
-constexpr int kLeftClass = 1;
-constexpr int kCenterClass = 2;
-constexpr int kRightClass = 3;
+constexpr int kPresentClass = 1;
 
 const char* IdentifierClassName(int class_id);
 

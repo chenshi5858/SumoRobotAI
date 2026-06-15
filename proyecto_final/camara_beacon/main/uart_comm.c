@@ -10,7 +10,7 @@
 
 static const char *TAG = "uart_beacon";
 static const uart_port_t s_uart_num = UART_NUM_1;
-static const int UART_TX_GPIO = 4;
+static const int UART_TX_GPIO = 3;
 static const int UART_BAUD_RATE = 115200;
 
 esp_err_t uart_init(void) {

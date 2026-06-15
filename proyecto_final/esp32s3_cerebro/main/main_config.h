@@ -3,7 +3,7 @@
 #include "driver/gpio.h"
 #include "esp_adc/adc_continuous.h"
 
-#define UART1_RX_GPIO 40
+#define UART1_RX_GPIO 15
 #define UART2_RX_GPIO 41
 #define UART_BAUD_RATE 115200
 
@@ -45,4 +45,3 @@
 #define MIC_ADC_GPIO 4
 #define MIC_SAMPLE_RATE 16000
 #define MIC_FFT_SIZE 1024
-#define CONFIG_DSP_MAX_FFT_SIZE 1024
