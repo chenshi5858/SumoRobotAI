@@ -5,17 +5,22 @@
 #include <string.h>
 #include <math.h>
 
-#define MIC_MAG_THRESHOLD 100000.0f
-#define MIC_FREQ_TOL      100.0f
+#define MIC_MAG_THRESHOLD       5000000.0f
+#define MIC_PEAK_TO_NOISE_RATIO 12.0f
+#define MIC_FREQ_TOL            50.0f
+#define MIC_CONFIRM_FRAMES      3
+#define MIC_RELEASE_FRAMES      3
 
 typedef enum {
     MIC_CMD_NONE = 0,
     MIC_CMD_FULL_FORWARD,
-    MIC_CMD_STOP,
-    MIC_CMD_ROTATE_LEFT,
-    MIC_CMD_ROTATE_RIGHT,
-    MIC_CMD_BOOST,
+    MIC_CMD_BACKWARD,
 } mic_command_t;
+
+typedef struct {
+    mic_command_t cmd;
+    bool active;
+} mic_command_event_t;
 
 typedef struct {
     float freq_hz;
@@ -24,10 +29,7 @@ typedef struct {
 
 static const freq_cmd_entry_t FREQ_CMD_TABLE[] = {
     { .freq_hz =  678.0f, .cmd = MIC_CMD_FULL_FORWARD },
-    { .freq_hz = 1870.0f, .cmd = MIC_CMD_STOP          },
-    { .freq_hz = 1234.0f, .cmd = MIC_CMD_ROTATE_LEFT   },
-    { .freq_hz = 2456.0f, .cmd = MIC_CMD_ROTATE_RIGHT  },
-    { .freq_hz = 3120.0f, .cmd = MIC_CMD_BOOST         },
+    { .freq_hz =  300.0f, .cmd = MIC_CMD_BACKWARD     },
 };
 
 #define FREQ_CMD_TABLE_COUNT (sizeof(FREQ_CMD_TABLE) / sizeof(FREQ_CMD_TABLE[0]))

@@ -17,42 +17,47 @@ typedef struct {
     ring_context_t ring_ctx;
     int64_t beacon_last_seen_ms;
     uint8_t beacon_class_id;
-    int64_t mic_cmd_expires_ms;
+    mic_command_t active_mic_cmd;
+    bool mic_override_active;
     QueueHandle_t mic_cmd_queue;
 } coordinator_t;
 
 static coordinator_t s_coord = {0};
 
-static void handle_mic_command(mic_command_t cmd, int64_t now_ms) {
-    switch (cmd) {
+static void apply_mic_control(void) {
+    switch (s_coord.active_mic_cmd) {
         case MIC_CMD_FULL_FORWARD:
-            ESP_LOGI(TAG, "MIC CMD: FULL FORWARD");
-            motor_set_speed(MAX_SPEED);
-            move_forward_full();
-            s_coord.mic_cmd_expires_ms = now_ms + 2000;
+            if (motor_get_speed() != MAX_SPEED) {
+                motor_set_speed(MAX_SPEED);
+            }
+            move_forward();
             break;
-        case MIC_CMD_STOP:
-            ESP_LOGI(TAG, "MIC CMD: STOP");
-            stop_motors();
-            s_coord.mic_cmd_expires_ms = now_ms + 5000;
-            break;
-        case MIC_CMD_ROTATE_LEFT:
-            ESP_LOGI(TAG, "MIC CMD: ROTATE LEFT");
-            rotate_left();
-            s_coord.mic_cmd_expires_ms = now_ms + 1000;
-            break;
-        case MIC_CMD_ROTATE_RIGHT:
-            ESP_LOGI(TAG, "MIC CMD: ROTATE RIGHT");
-            rotate_right();
-            s_coord.mic_cmd_expires_ms = now_ms + 1000;
-            break;
-        case MIC_CMD_BOOST:
-            ESP_LOGI(TAG, "MIC CMD: BOOST SPEED");
-            motor_set_speed(MAX_SPEED);
-            s_coord.mic_cmd_expires_ms = now_ms + 3000;
+        case MIC_CMD_BACKWARD:
+            if (motor_get_speed() != MAX_SPEED) {
+                motor_set_speed(MAX_SPEED);
+            }
+            move_robot("back");
             break;
         default:
             break;
+    }
+}
+
+static void restore_ring_control(int64_t now_ms);
+
+static void handle_mic_event(const mic_command_event_t *event, int64_t now_ms) {
+    if (event->active) {
+        s_coord.active_mic_cmd = event->cmd;
+        s_coord.mic_override_active = true;
+        ESP_LOGI(TAG, "MIC CMD active: %s",
+                 event->cmd == MIC_CMD_FULL_FORWARD ? "FORWARD" : "BACKWARD");
+        apply_mic_control();
+    } else if (s_coord.mic_override_active &&
+               s_coord.active_mic_cmd == event->cmd) {
+        ESP_LOGI(TAG, "MIC CMD released");
+        s_coord.active_mic_cmd = MIC_CMD_NONE;
+        s_coord.mic_override_active = false;
+        restore_ring_control(now_ms);
     }
 }
 
@@ -61,9 +66,9 @@ static void process_mic_commands(int64_t now_ms) {
         return;
     }
 
-    mic_command_t cmd;
-    while (xQueueReceive(s_coord.mic_cmd_queue, &cmd, 0) == pdTRUE) {
-        handle_mic_command(cmd, now_ms);
+    mic_command_event_t event;
+    while (xQueueReceive(s_coord.mic_cmd_queue, &event, 0) == pdTRUE) {
+        handle_mic_event(&event, now_ms);
     }
 }
 
@@ -74,26 +79,23 @@ static void handle_floor_message(const camera_msg_t *cam_msg, int64_t now_ms) {
     if (strcmp(status, "1") == 0) {
         if (s_coord.ring_ctx.state == RING_STATE_SAFE ||
             s_coord.ring_ctx.state == RING_STATE_NO_LINK) {
-            ESP_LOGI(TAG, "EDGE detected: pausing %d ms before turn", RING_PRE_TURN_PAUSE_MS);
-            stop_motors();
-            s_coord.ring_ctx.state = RING_STATE_EDGE_WAIT_TURN;
-            s_coord.ring_ctx.wait_until_ms = now_ms + RING_PRE_TURN_PAUSE_MS;
+            ESP_LOGI(TAG, "EDGE detected: backing up for %d ms", RING_BACKUP_MS);
+            motor_set_speed(RING_BACKUP_SPEED);
+            move_robot("back");
+            s_coord.ring_ctx.state = RING_STATE_EDGE_BACKING;
+            s_coord.ring_ctx.wait_until_ms = now_ms + RING_BACKUP_MS;
             strlcpy(s_coord.ring_ctx.last_value, "1", sizeof(s_coord.ring_ctx.last_value));
         }
     } else if (strcmp(status, "0") == 0) {
         if (s_coord.ring_ctx.state == RING_STATE_EDGE_TURNING) {
-            ESP_LOGI(TAG, "SAFE after edge: recovery pause %d ms", RING_RECOVERY_PAUSE_MS);
-            stop_motors();
-            s_coord.ring_ctx.state = RING_STATE_EDGE_RECOVERY;
-            s_coord.ring_ctx.wait_until_ms = now_ms + RING_RECOVERY_PAUSE_MS;
-            strlcpy(s_coord.ring_ctx.last_value, "0", sizeof(s_coord.ring_ctx.last_value));
-        } else if (s_coord.ring_ctx.state == RING_STATE_EDGE_WAIT_TURN) {
-            ESP_LOGI(TAG, "SAFE before turn: resuming forward");
-            s_coord.ring_ctx.state = RING_STATE_SAFE;
-            s_coord.ring_ctx.wait_until_ms = -1;
-            motor_set_speed(RING_FOLLOW_SPEED);
-            move_forward();
-            strlcpy(s_coord.ring_ctx.last_value, "0", sizeof(s_coord.ring_ctx.last_value));
+            if (s_coord.ring_ctx.wait_until_ms > 0 &&
+                now_ms >= s_coord.ring_ctx.wait_until_ms) {
+                ESP_LOGI(TAG, "SAFE after minimum turn: recovery pause %d ms",
+                         RING_RECOVERY_PAUSE_MS);
+                stop_motors();
+                s_coord.ring_ctx.state = RING_STATE_EDGE_RECOVERY;
+                s_coord.ring_ctx.wait_until_ms = now_ms + RING_RECOVERY_PAUSE_MS;
+            }
         } else if (s_coord.ring_ctx.state == RING_STATE_NO_LINK) {
             ESP_LOGI(TAG, "SAFE (link established): moving forward");
             s_coord.ring_ctx.state = RING_STATE_SAFE;
@@ -111,13 +113,33 @@ static void handle_beacon_message(const camera_msg_t *cam_msg) {
 }
 
 static void process_ring_timers(int64_t now_ms) {
+    if (s_coord.ring_ctx.state == RING_STATE_EDGE_BACKING &&
+        s_coord.ring_ctx.wait_until_ms > 0 &&
+        now_ms >= s_coord.ring_ctx.wait_until_ms) {
+        ESP_LOGI(TAG, "Backup done: pausing %d ms before turn", RING_PRE_TURN_PAUSE_MS);
+        stop_motors();
+        s_coord.ring_ctx.state = RING_STATE_EDGE_WAIT_TURN;
+        s_coord.ring_ctx.wait_until_ms = now_ms + RING_PRE_TURN_PAUSE_MS;
+    }
+
     if (s_coord.ring_ctx.state == RING_STATE_EDGE_WAIT_TURN &&
         s_coord.ring_ctx.wait_until_ms > 0 &&
         now_ms >= s_coord.ring_ctx.wait_until_ms) {
-        ESP_LOGI(TAG, "Pre-turn done: rotating left");
+        ESP_LOGI(TAG, "Pre-turn done: rotating left for at least %d ms", RING_MIN_TURN_MS);
         rotate_fast();
         s_coord.ring_ctx.state = RING_STATE_EDGE_TURNING;
-        s_coord.ring_ctx.wait_until_ms = -1;
+        s_coord.ring_ctx.wait_until_ms = now_ms + RING_MIN_TURN_MS;
+    }
+
+    if (s_coord.ring_ctx.state == RING_STATE_EDGE_TURNING &&
+        s_coord.ring_ctx.wait_until_ms > 0 &&
+        now_ms >= s_coord.ring_ctx.wait_until_ms &&
+        strcmp(s_coord.ring_ctx.last_value, "0") == 0) {
+        ESP_LOGI(TAG, "Minimum turn done on SAFE floor: recovery pause %d ms",
+                 RING_RECOVERY_PAUSE_MS);
+        stop_motors();
+        s_coord.ring_ctx.state = RING_STATE_EDGE_RECOVERY;
+        s_coord.ring_ctx.wait_until_ms = now_ms + RING_RECOVERY_PAUSE_MS;
     }
 
     if (s_coord.ring_ctx.state == RING_STATE_EDGE_RECOVERY &&
@@ -139,6 +161,34 @@ static void process_ring_timers(int64_t now_ms) {
         s_coord.ring_ctx.wait_until_ms = -1;
         s_coord.ring_ctx.last_value[0] = '\0';
     }
+}
+
+static void apply_ring_control(int64_t now_ms) {
+    const char *action = ring_context_get_action(&s_coord.ring_ctx, now_ms);
+
+    if (strcmp(action, "forward") == 0) {
+        if (motor_get_speed() != RING_FOLLOW_SPEED) {
+            motor_set_speed(RING_FOLLOW_SPEED);
+        }
+        move_forward();
+    } else if (strcmp(action, "back") == 0) {
+        if (motor_get_speed() != RING_BACKUP_SPEED) {
+            motor_set_speed(RING_BACKUP_SPEED);
+        }
+        move_robot("back");
+    } else if (strcmp(action, "rotate_left") == 0) {
+        rotate_fast();
+    } else {
+        stop_motors();
+    }
+}
+
+static void restore_ring_control(int64_t now_ms) {
+    process_ring_timers(now_ms);
+
+    const char *action = ring_context_get_action(&s_coord.ring_ctx, now_ms);
+    ESP_LOGI(TAG, "MIC tone ended: restoring ring action=%s", action);
+    apply_ring_control(now_ms);
 }
 
 typedef struct {
@@ -168,10 +218,11 @@ static void coordinator_task(void *arg) {
 
         process_mic_commands(now_ms);
 
-        bool mic_active = (s_coord.mic_cmd_expires_ms > 0 && now_ms < s_coord.mic_cmd_expires_ms);
-
-        if (!mic_active) {
+        if (s_coord.mic_override_active) {
+            apply_mic_control();
+        } else {
             process_ring_timers(now_ms);
+            apply_ring_control(now_ms);
         }
 
         odom_update(ODOM_UPDATE_MS / 1000.0f);
@@ -188,7 +239,8 @@ esp_err_t coordinator_start(QueueHandle_t cam_queue, QueueHandle_t mic_cmd_queue
     ring_context_init(&s_coord.ring_ctx);
     s_coord.beacon_last_seen_ms = -1;
     s_coord.beacon_class_id = 0;
-    s_coord.mic_cmd_expires_ms = -1;
+    s_coord.active_mic_cmd = MIC_CMD_NONE;
+    s_coord.mic_override_active = false;
     s_coord.mic_cmd_queue = mic_cmd_queue;
 
     robot_state_set_ring_status("NO_LINK", NULL);

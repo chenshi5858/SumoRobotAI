@@ -33,6 +33,10 @@ const char *ring_context_get_action(const ring_context_t *ctx, int64_t now_ms) {
         return "stop";
     }
 
+    if (ctx->state == RING_STATE_EDGE_BACKING) {
+        return "back";
+    }
+
     if (ctx->state == RING_STATE_EDGE_WAIT_TURN) {
         if (ctx->wait_until_ms > 0 && now_ms >= ctx->wait_until_ms) {
             return "rotate_left";
