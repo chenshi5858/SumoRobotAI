@@ -1,0 +1,246 @@
+Command: make -j 14 all
+-- Component directory /home/chenshi/esp/idf/esp-idf/components/idf_test does not contain a CMakeLists.txt file. No component will be added
+-- Minimal build - OFF
+-- Building ESP-IDF components for target esp32
+NOTICE: Processing 5 dependencies:
+NOTICE: [1/5] espressif/esp-nn (1.2.3)
+NOTICE: [2/5] espressif/esp-tflite-micro (1.3.7)
+NOTICE: [3/5] espressif/esp32-camera (2.1.7)
+NOTICE: [4/5] espressif/esp_jpeg (1.3.1)
+NOTICE: [5/5] idf (6.1.0)
+-- ESP-TEE is currently supported only on the esp32c6;esp32h2;esp32c5;esp32c61 SoCs
+-- KCONFIG_REPORT_VERBOSITY not set, using default
+-- Project sdkconfig file /home/chenshi/embebidos_repo/Rep_SE_202601_grupo_Diego_Santiago_Chen/proyecto_final/camara_beacon/sdkconfig
+Loading defaults file /home/chenshi/embebidos_repo/Rep_SE_202601_grupo_Diego_Santiago_Chen/proyecto_final/camara_beacon/sdkconfig.defaults...
+-- Compiler supported targets: xtensa-esp-elf
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- App "camara_beacon" version: f4fe0480-dirty
+-- Setting up mbedtls configuration
+-- Linkage type is PUBLIC
+-- Adding linker script /home/chenshi/esp/idf/esp-idf/components/esp_system/ld/esp32/memory.ld.in
+--   -> Preprocessing .in script: /home/chenshi/esp/idf/esp-idf/components/esp_system/ld/esp32/memory.ld.in
+-- Adding linker script /home/chenshi/esp/idf/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+--   -> Preprocessing .in script: /home/chenshi/esp/idf/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+--   -> Applying ldgen processing: /home/chenshi/embebidos_repo/Rep_SE_202601_grupo_Diego_Santiago_Chen/proyecto_final/camara_beacon/build_offline/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script /home/chenshi/esp/idf/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/chenshi/esp/idf/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/chenshi/esp/idf/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/chenshi/esp/idf/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libc-funcs.ld
+-- Adding linker script /home/chenshi/esp/idf/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Component idf::esp_trace will be linked with -Wl,--whole-archive
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_blockdev esp_bootloader_format esp_coex esp_common esp_driver_ana_cmpr esp_driver_bitscrambler esp_driver_cam esp_driver_dac esp_driver_dma esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_i3c esp_driver_isp esp_driver_jpeg esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_ppa esp_driver_rmt esp_driver_sd_intf esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_touch_sens esp_driver_tsens esp_driver_twai esp_driver_uart esp_driver_usb_serial_jtag esp_eth esp_event esp_gdbstub esp_hal_ana_cmpr esp_hal_ana_conv esp_hal_cam esp_hal_clock esp_hal_dma esp_hal_emac esp_hal_gpio esp_hal_gpspi esp_hal_i2c esp_hal_i2s esp_hal_i3c esp_hal_ieee802154 esp_hal_jpeg esp_hal_lcd esp_hal_ledc esp_hal_mcpwm esp_hal_mspi esp_hal_parlio esp_hal_pcnt esp_hal_pmu esp_hal_ppa esp_hal_rmt esp_hal_rtc_timer esp_hal_sd esp_hal_security esp_hal_systimer esp_hal_timg esp_hal_touch_sens esp_hal_twai esp_hal_uart esp_hal_usb esp_hal_wdt esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_libc esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_security esp_stdio esp_system esp_timer esp_trace esp_usb_cdc_rom_console esp_wifi espcoredump espressif__esp-nn espressif__esp-tflite-micro espressif__esp32-camera espressif__esp_jpeg esptool_py fatfs freertos hal heap http_parser ieee802154 log lwip main mbedtls nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread rt sdmmc soc spi_flash spiffs tcp_transport ulp unity vfs wear_levelling wpa_supplicant xtensa
+-- Component paths: /home/chenshi/esp/idf/esp-idf/components/app_trace /home/chenshi/esp/idf/esp-idf/components/app_update /home/chenshi/esp/idf/esp-idf/components/bootloader /home/chenshi/esp/idf/esp-idf/components/bootloader_support /home/chenshi/esp/idf/esp-idf/components/bt /home/chenshi/esp/idf/esp-idf/components/cmock /home/chenshi/esp/idf/esp-idf/components/console /home/chenshi/esp/idf/esp-idf/components/cxx /home/chenshi/esp/idf/esp-idf/components/driver /home/chenshi/esp/idf/esp-idf/components/efuse /home/chenshi/esp/idf/esp-idf/components/esp-tls /home/chenshi/esp/idf/esp-idf/components/esp_adc /home/chenshi/esp/idf/esp-idf/components/esp_app_format /home/chenshi/esp/idf/esp-idf/components/esp_blockdev /home/chenshi/esp/idf/esp-idf/components/esp_bootloader_format /home/chenshi/esp/idf/esp-idf/components/esp_coex /home/chenshi/esp/idf/esp-idf/components/esp_common /home/chenshi/esp/idf/esp-idf/components/esp_driver_ana_cmpr /home/chenshi/esp/idf/esp-idf/components/esp_driver_bitscrambler /home/chenshi/esp/idf/esp-idf/components/esp_driver_cam /home/chenshi/esp/idf/esp-idf/components/esp_driver_dac /home/chenshi/esp/idf/esp-idf/components/esp_driver_dma /home/chenshi/esp/idf/esp-idf/components/esp_driver_gpio /home/chenshi/esp/idf/esp-idf/components/esp_driver_gptimer /home/chenshi/esp/idf/esp-idf/components/esp_driver_i2c /home/chenshi/esp/idf/esp-idf/components/esp_driver_i2s /home/chenshi/esp/idf/esp-idf/components/esp_driver_i3c /home/chenshi/esp/idf/esp-idf/components/esp_driver_isp /home/chenshi/esp/idf/esp-idf/components/esp_driver_jpeg /home/chenshi/esp/idf/esp-idf/components/esp_driver_ledc /home/chenshi/esp/idf/esp-idf/components/esp_driver_mcpwm /home/chenshi/esp/idf/esp-idf/components/esp_driver_parlio /home/chenshi/esp/idf/esp-idf/components/esp_driver_pcnt /home/chenshi/esp/idf/esp-idf/components/esp_driver_ppa /home/chenshi/esp/idf/esp-idf/components/esp_driver_rmt /home/chenshi/esp/idf/esp-idf/components/esp_driver_sd_intf /home/chenshi/esp/idf/esp-idf/components/esp_driver_sdio /home/chenshi/esp/idf/esp-idf/components/esp_driver_sdm /home/chenshi/esp/idf/esp-idf/components/esp_driver_sdmmc /home/chenshi/esp/idf/esp-idf/components/esp_driver_sdspi /home/chenshi/esp/idf/esp-idf/components/esp_driver_spi /home/chenshi/esp/idf/esp-idf/components/esp_driver_touch_sens /home/chenshi/esp/idf/esp-idf/components/esp_driver_tsens /home/chenshi/esp/idf/esp-idf/components/esp_driver_twai /home/chenshi/esp/idf/esp-idf/components/esp_driver_uart /home/chenshi/esp/idf/esp-idf/components/esp_driver_usb_serial_jtag /home/chenshi/esp/idf/esp-idf/components/esp_eth /home/chenshi/esp/idf/esp-idf/components/esp_event /home/chenshi/esp/idf/esp-idf/components/esp_gdbstub /home/chenshi/esp/idf/esp-idf/components/esp_hal_ana_cmpr /home/chenshi/esp/idf/esp-idf/components/esp_hal_ana_conv /home/chenshi/esp/idf/esp-idf/components/esp_hal_cam /home/chenshi/esp/idf/esp-idf/components/esp_hal_clock /home/chenshi/esp/idf/esp-idf/components/esp_hal_dma /home/chenshi/esp/idf/esp-idf/components/esp_hal_emac /home/chenshi/esp/idf/esp-idf/components/esp_hal_gpio /home/chenshi/esp/idf/esp-idf/components/esp_hal_gpspi /home/chenshi/esp/idf/esp-idf/components/esp_hal_i2c /home/chenshi/esp/idf/esp-idf/components/esp_hal_i2s /home/chenshi/esp/idf/esp-idf/components/esp_hal_i3c /home/chenshi/esp/idf/esp-idf/components/esp_hal_ieee802154 /home/chenshi/esp/idf/esp-idf/components/esp_hal_jpeg /home/chenshi/esp/idf/esp-idf/components/esp_hal_lcd /home/chenshi/esp/idf/esp-idf/components/esp_hal_ledc /home/chenshi/esp/idf/esp-idf/components/esp_hal_mcpwm /home/chenshi/esp/idf/esp-idf/components/esp_hal_mspi /home/chenshi/esp/idf/esp-idf/components/esp_hal_parlio /home/chenshi/esp/idf/esp-idf/components/esp_hal_pcnt /home/chenshi/esp/idf/esp-idf/components/esp_hal_pmu /home/chenshi/esp/idf/esp-idf/components/esp_hal_ppa /home/chenshi/esp/idf/esp-idf/components/esp_hal_rmt /home/chenshi/esp/idf/esp-idf/components/esp_hal_rtc_timer /home/chenshi/esp/idf/esp-idf/components/esp_hal_sd /home/chenshi/esp/idf/esp-idf/components/esp_hal_security /home/chenshi/esp/idf/esp-idf/components/esp_hal_systimer /home/chenshi/esp/idf/esp-idf/components/esp_hal_timg /home/chenshi/esp/idf/esp-idf/components/esp_hal_touch_sens /home/chenshi/esp/idf/esp-idf/components/esp_hal_twai /home/chenshi/esp/idf/esp-idf/components/esp_hal_uart /home/chenshi/esp/idf/esp-idf/components/esp_hal_usb /home/chenshi/esp/idf/esp-idf/components/esp_hal_wdt /home/chenshi/esp/idf/esp-idf/components/esp_hid /home/chenshi/esp/idf/esp-idf/components/esp_http_client /home/chenshi/esp/idf/esp-idf/components/esp_http_server /home/chenshi/esp/idf/esp-idf/components/esp_https_ota /home/chenshi/esp/idf/esp-idf/components/esp_https_server /home/chenshi/esp/idf/esp-idf/components/esp_hw_support /home/chenshi/esp/idf/esp-idf/components/esp_lcd /home/chenshi/esp/idf/esp-idf/components/esp_libc /home/chenshi/esp/idf/esp-idf/components/esp_local_ctrl /home/chenshi/esp/idf/esp-idf/components/esp_mm /home/chenshi/esp/idf/esp-idf/components/esp_netif /home/chenshi/esp/idf/esp-idf/components/esp_netif_stack /home/chenshi/esp/idf/esp-idf/components/esp_partition /home/chenshi/esp/idf/esp-idf/components/esp_phy /home/chenshi/esp/idf/esp-idf/components/esp_pm /home/chenshi/esp/idf/esp-idf/components/esp_psram /home/chenshi/esp/idf/esp-idf/components/esp_ringbuf /home/chenshi/esp/idf/esp-idf/components/esp_rom /home/chenshi/esp/idf/esp-idf/components/esp_security /home/chenshi/esp/idf/esp-idf/components/esp_stdio /home/chenshi/esp/idf/esp-idf/components/esp_system /home/chenshi/esp/idf/esp-idf/components/esp_timer /home/chenshi/esp/idf/esp-idf/components/esp_trace /home/chenshi/esp/idf/esp-idf/components/esp_usb_cdc_rom_console /home/chenshi/esp/idf/esp-idf/components/esp_wifi /home/chenshi/esp/idf/esp-idf/components/espcoredump /home/chenshi/embebidos_repo/Rep_SE_202601_grupo_Diego_Santiago_Chen/proyecto_final/camara_beacon/managed_components/espressif__esp-nn /home/chenshi/embebidos_repo/Rep_SE_202601_grupo_Diego_Santiago_Chen/proyecto_final/camara_beacon/managed_components/espressif__esp-tflite-micro /home/chenshi/embebidos_repo/Rep_SE_202601_grupo_Diego_Santiago_Chen/proyecto_final/camara_beacon/managed_components/espressif__esp32-camera /home/chenshi/embebidos_repo/Rep_SE_202601_grupo_Diego_Santiago_Chen/proyecto_final/camara_beacon/managed_components/espressif__esp_jpeg /home/chenshi/esp/idf/esp-idf/components/esptool_py /home/chenshi/esp/idf/esp-idf/components/fatfs /home/chenshi/esp/idf/esp-idf/components/freertos /home/chenshi/esp/idf/esp-idf/components/hal /home/chenshi/esp/idf/esp-idf/components/heap /home/chenshi/esp/idf/esp-idf/components/http_parser /home/chenshi/esp/idf/esp-idf/components/ieee802154 /home/chenshi/esp/idf/esp-idf/components/log /home/chenshi/esp/idf/esp-idf/components/lwip /home/chenshi/embebidos_repo/Rep_SE_202601_grupo_Diego_Santiago_Chen/proyecto_final/camara_beacon/main /home/chenshi/esp/idf/esp-idf/components/mbedtls /home/chenshi/esp/idf/esp-idf/components/nvs_flash /home/chenshi/esp/idf/esp-idf/components/nvs_sec_provider /home/chenshi/esp/idf/esp-idf/components/openthread /home/chenshi/esp/idf/esp-idf/components/partition_table /home/chenshi/esp/idf/esp-idf/components/perfmon /home/chenshi/esp/idf/esp-idf/components/protobuf-c /home/chenshi/esp/idf/esp-idf/components/protocomm /home/chenshi/esp/idf/esp-idf/components/pthread /home/chenshi/esp/idf/esp-idf/components/rt /home/chenshi/esp/idf/esp-idf/components/sdmmc /home/chenshi/esp/idf/esp-idf/components/soc /home/chenshi/esp/idf/esp-idf/components/spi_flash /home/chenshi/esp/idf/esp-idf/components/spiffs /home/chenshi/esp/idf/esp-idf/components/tcp_transport /home/chenshi/esp/idf/esp-idf/components/ulp /home/chenshi/esp/idf/esp-idf/components/unity /home/chenshi/esp/idf/esp-idf/components/vfs /home/chenshi/esp/idf/esp-idf/components/wear_levelling /home/chenshi/esp/idf/esp-idf/components/wpa_supplicant /home/chenshi/esp/idf/esp-idf/components/xtensa
+-- Configuring done (12.3s)
+-- Generating done (1.4s)
+-- Build files have been written to: /home/chenshi/embebidos_repo/Rep_SE_202601_grupo_Diego_Santiago_Chen/proyecto_final/camara_beacon/build_offline
+[  1%] Built target custom_bundle
+[  1%] Built target memory_ld_in_preprocess
+[  1%] Built target _project_elf_src
+[  1%] Built target sections_ld_in_preprocess
+[  1%] Built target partition_table_bin
+[  1%] Performing build step for 'bootloader'
+[  1%] Built target __idf_esp_https_ota
+[  2%] Built target __idf_esp_http_server
+[  2%] Built target __idf_esp_http_client
+[  3%] Built target __idf_tcp_transport
+[  3%] Built target __idf_esp_adc
+-- Component directory /home/chenshi/esp/idf/esp-idf/components/idf_test does not contain a CMakeLists.txt file. No component will be added
+[  3%] Built target __idf_esp_driver_i2s
+[  4%] Built target __idf_esp-tls
+[  4%] Built target __idf_http_parser
+[  4%] Built target __idf_esp_hal_i2c
+[  5%] Built target __idf_esp_gdbstub
+[  6%] Built target __idf_esp_wifi
+[  6%] Built target __idf_esp_coex
+[ 13%] Built target __idf_wpa_supplicant
+[ 14%] Built target __idf_esp_netif
+[ 21%] Built target __idf_lwip
+[ 22%] Built target __idf_vfs
+[ 23%] Built target __idf_esp_phy
+[ 24%] Built target __idf_nvs_flash
+[ 24%] Built target __idf_nvs_sec_provider
+[ 24%] Built target __idf_esp_event
+[ 24%] Built target __idf_esp_driver_uart
+[ 24%] Built target __idf_esp_psram
+-- Minimal build - OFF
+[ 25%] Built target __idf_esp_ringbuf
+[ 25%] Built target __idf_esp_timer
+[ 25%] Built target __idf_cxx
+[ 25%] Built target __idf_pthread
+[ 27%] Built target __idf_esp_libc
+[ 28%] Built target __idf_freertos
+[ 32%] Built target __idf_esp_hw_support
+[ 33%] Built target __idf_esp_hal_touch_sens
+[ 33%] Built target __idf_esp_hal_pmu
+[ 33%] Built target __idf_esp_hal_gpio
+[ 34%] Built target __idf_soc
+[ 34%] Built target __idf_heap
+[ 36%] Built target __idf_log
+[ 37%] Built target __idf_hal
+[ 37%] Built target __idf_esp_rom
+[ 37%] Built target __idf_esp_common
+-- Building ESP-IDF components for target esp32
+[ 40%] Built target __idf_esp_system
+[ 41%] Built target __idf_spi_flash
+[ 42%] Built target __idf_bootloader_support
+[ 42%] Built target __idf_esp_hal_ana_conv
+[ 42%] Built target __idf_esp_hal_i2s
+[ 42%] Built target __idf_esp_hal_wdt
+[ 42%] Built target __idf_esp_hal_timg
+[ 45%] Built target tfpsacrypto
+[ 47%] Built target mbedtls
+[ 48%] Built target mbedx509
+[ 54%] Built target builtin
+[ 54%] Built target p256m
+[ 54%] Built target everest
+[ 55%] Built target __idf_mbedtls
+[ 55%] Built target __idf_esp_driver_dma
+[ 55%] Built target __idf_esp_mm
+[ 55%] Built target __idf_esp_pm
+[ 55%] Built target __idf_esp_hal_uart
+[ 55%] Built target __idf_esp_driver_gpio
+[ 56%] Built target __idf_esp_security
+-- ESP-TEE is currently supported only on the esp32c6;esp32h2;esp32c5;esp32c61 SoCs
+[ 56%] Built target __idf_efuse
+[ 56%] Built target __idf_esp_partition
+[ 56%] Built target __idf_app_update
+[ 56%] Built target __idf_esp_bootloader_format
+[ 57%] Built target __idf_esp_app_format
+[ 58%] Built target __idf_esp_hal_security
+[ 58%] Built target __idf_esp_hal_mspi
+[ 59%] Built target __idf_esp_hal_clock
+[ 60%] Built target __idf_esp_hal_gpspi
+[ 60%] Built target __idf_esp_stdio
+[ 61%] Built target __idf_xtensa
+[ 61%] Built target __idf_esp_hal_ledc
+[ 62%] Built target __idf_esp_driver_spi
+[ 61%] Built target __idf_espressif__esp_jpeg
+[ 63%] Built target __idf_esp_driver_gptimer
+[ 63%] Built target __idf_esp_hal_twai
+[ 64%] Built target __idf_unity
+[ 65%] Built target __idf_espressif__esp-nn
+[ 65%] Built target __idf_esp_driver_i2c
+[ 66%] Built target __idf_esp_driver_dac
+[ 66%] Built target __idf_esp_driver_cam
+[ 66%] Built target __idf_esp_hal_mcpwm
+[ 67%] Built target __idf_esp_hal_pcnt
+[ 69%] Built target __idf_console
+[ 69%] Built target __idf_esp_driver_touch_sens
+[ 69%] Built target __idf_esp_driver_twai
+[ 70%] Built target __idf_esp_driver_sdm
+[ 70%] Built target __idf_esp_hal_sd
+[ 70%] Built target __idf_esp_hal_rmt
+[ 71%] Built target __idf_esp_hal_lcd
+[ 71%] Built target __idf_protobuf-c
+[ 73%] Built target __idf_perfmon
+[ 73%] Built target __idf_esp_https_server
+[ 72%] Built target __idf_esp_hid
+[ 73%] Built target __idf_wear_levelling
+[ 73%] Built target __idf_rt
+[ 73%] Built target __idf_esp_hal_emac
+[ 73%] Built target __idf_cmock
+[ 74%] Built target __idf_esp_driver_ledc
+[ 75%] Built target __idf_driver
+[ 76%] Built target __idf_spiffs
+[ 76%] Built target __idf_esp_driver_pcnt
+[ 76%] Built target __idf_esp_driver_mcpwm
+[ 77%] Built target __idf_esp_driver_rmt
+[ 78%] Built target __idf_sdmmc
+[ 78%] Built target __idf_esp_driver_sdio
+[ 79%] Built target __idf_protocomm
+[ 79%] Built target __idf_esp_lcd
+[ 80%] Built target __idf_esp_eth
+[ 80%] Built target __idf_esp_driver_sd_intf
+[ 80%] Built target __idf_esp_driver_sdspi
+[ 83%] Built target __idf_espressif__esp32-camera
+[ 84%] Built target __idf_esp_local_ctrl
+[ 84%] Built target __idf_esp_driver_sdmmc
+[ 85%] Built target __idf_fatfs
+-- KCONFIG_REPORT_VERBOSITY not set, using default
+-- Project sdkconfig file /home/chenshi/embebidos_repo/Rep_SE_202601_grupo_Diego_Santiago_Chen/proyecto_final/camara_beacon/sdkconfig
+[100%] Built target __idf_espressif__esp-tflite-micro
+[100%] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/skippool_presence_binary_model_data.cc.obj
+[100%] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/identifier_detector.cc.obj
+-- Compiler supported targets: xtensa-esp-elf
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Adding linker script /home/chenshi/esp/idf/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Bootloader project name: "bootloader" version: 1
+-- Adding linker script /home/chenshi/esp/idf/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/chenshi/esp/idf/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/chenshi/esp/idf/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/chenshi/esp/idf/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libc-funcs.ld
+-- Components: bootloader bootloader_support efuse esp_app_format esp_blockdev esp_bootloader_format esp_common esp_hal_ana_conv esp_hal_clock esp_hal_dma esp_hal_gpio esp_hal_gpspi esp_hal_i2s esp_hal_mspi esp_hal_pmu esp_hal_rtc_timer esp_hal_security esp_hal_systimer esp_hal_timg esp_hal_uart esp_hal_usb esp_hal_wdt esp_hw_support esp_libc esp_rom esp_security esp_stdio esp_system esptool_py freertos hal log main micro-ecc partition_table soc spi_flash xtensa
+-- Component paths: /home/chenshi/esp/idf/esp-idf/components/bootloader /home/chenshi/esp/idf/esp-idf/components/bootloader_support /home/chenshi/esp/idf/esp-idf/components/efuse /home/chenshi/esp/idf/esp-idf/components/esp_app_format /home/chenshi/esp/idf/esp-idf/components/esp_blockdev /home/chenshi/esp/idf/esp-idf/components/esp_bootloader_format /home/chenshi/esp/idf/esp-idf/components/esp_common /home/chenshi/esp/idf/esp-idf/components/esp_hal_ana_conv /home/chenshi/esp/idf/esp-idf/components/esp_hal_clock /home/chenshi/esp/idf/esp-idf/components/esp_hal_dma /home/chenshi/esp/idf/esp-idf/components/esp_hal_gpio /home/chenshi/esp/idf/esp-idf/components/esp_hal_gpspi /home/chenshi/esp/idf/esp-idf/components/esp_hal_i2s /home/chenshi/esp/idf/esp-idf/components/esp_hal_mspi /home/chenshi/esp/idf/esp-idf/components/esp_hal_pmu /home/chenshi/esp/idf/esp-idf/components/esp_hal_rtc_timer /home/chenshi/esp/idf/esp-idf/components/esp_hal_security /home/chenshi/esp/idf/esp-idf/components/esp_hal_systimer /home/chenshi/esp/idf/esp-idf/components/esp_hal_timg /home/chenshi/esp/idf/esp-idf/components/esp_hal_uart /home/chenshi/esp/idf/esp-idf/components/esp_hal_usb /home/chenshi/esp/idf/esp-idf/components/esp_hal_wdt /home/chenshi/esp/idf/esp-idf/components/esp_hw_support /home/chenshi/esp/idf/esp-idf/components/esp_libc /home/chenshi/esp/idf/esp-idf/components/esp_rom /home/chenshi/esp/idf/esp-idf/components/esp_security /home/chenshi/esp/idf/esp-idf/components/esp_stdio /home/chenshi/esp/idf/esp-idf/components/esp_system /home/chenshi/esp/idf/esp-idf/components/esptool_py /home/chenshi/esp/idf/esp-idf/components/freertos /home/chenshi/esp/idf/esp-idf/components/hal /home/chenshi/esp/idf/esp-idf/components/log /home/chenshi/esp/idf/esp-idf/components/bootloader/subproject/main /home/chenshi/esp/idf/esp-idf/components/bootloader/subproject/components/micro-ecc /home/chenshi/esp/idf/esp-idf/components/partition_table /home/chenshi/esp/idf/esp-idf/components/soc /home/chenshi/esp/idf/esp-idf/components/spi_flash /home/chenshi/esp/idf/esp-idf/components/xtensa
+-- Adding linker script /home/chenshi/esp/idf/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld.in
+--   -> Preprocessing .in script: /home/chenshi/esp/idf/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld.in
+-- Configuring done (4.8s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/chenshi/embebidos_repo/Rep_SE_202601_grupo_Diego_Santiago_Chen/proyecto_final/camara_beacon/build_offline/bootloader
+[  1%] Built target bootloader_ld_in_preprocess
+[  2%] Built target _project_elf_src
+[  9%] Built target __idf_log
+[ 16%] Built target __idf_esp_rom
+[ 17%] Built target __idf_esp_common
+[ 24%] Built target __idf_esp_hw_support
+[ 25%] Built target __idf_esp_system
+[ 30%] Built target __idf_efuse
+[ 47%] Built target __idf_bootloader_support
+[ 50%] Built target __idf_esp_security
+[ 52%] Built target __idf_esp_hal_security
+[ 56%] Built target __idf_esp_hal_ana_conv
+[ 58%] Built target __idf_esp_hal_i2s
+[ 61%] Built target __idf_esp_hal_uart
+[ 63%] Built target __idf_esp_hal_wdt
+[ 65%] Built target __idf_esp_hal_timg
+[ 67%] Built target __idf_micro-ecc
+[ 69%] Built target __idf_esp_bootloader_format
+[ 71%] Built target __idf_spi_flash
+[ 73%] Built target __idf_esp_hal_mspi
+[ 75%] Built target __idf_esp_hal_clock
+[ 79%] Built target __idf_esp_hal_gpspi
+[ 80%] Built target __idf_esp_hal_pmu
+[ 84%] Built target __idf_esp_hal_gpio
+[ 89%] Built target __idf_hal
+[ 94%] Built target __idf_soc
+[ 96%] Built target __idf_xtensa
+[ 97%] Built target __idf_main
+[ 98%] Built target bootloader.elf
+[100%] Built target gen_bootloader_binary
+[100%] Built target gen_project_binary
+Bootloader binary size 0x6610 bytes. 0x9f0 bytes (9%) free.
+[100%] Built target bootloader_check_size
+[100%] Built target app
+[100%] No install step for 'bootloader'
+[100%] Completed 'bootloader'
+[100%] Built target bootloader
+[100%] Linking C static library libmain.a
+[100%] Built target __idf_main
+[100%] Generating esp-idf/esp_system/ld/sections.ld
+[100%] Built target __ldgen_output_sections.ld
+[100%] Linking CXX executable camara_beacon.elf
+[100%] Built target camara_beacon.elf
+[100%] Generating binary image from built executable
+esptool v5.3.dev2
+Creating ESP32 image...
+Merged 3 ELF sections.
+Successfully created ESP32 image.
+Generated /home/chenshi/embebidos_repo/Rep_SE_202601_grupo_Diego_Santiago_Chen/proyecto_final/camara_beacon/build_offline/camara_beacon.bin
+[100%] Built target gen_camara_beacon_binary
+[100%] Built target gen_project_binary
+camara_beacon.bin binary size 0x65790 bytes. Smallest app partition is 0x100000 bytes. 0x9a870 bytes (60%) free.
+[100%] Built target app_check_size
+[100%] Built target app

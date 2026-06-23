@@ -1,0 +1,7 @@
+source "/home/chenshi/esp/idf/esp-idf/components/bootloader/Kconfig.projbuild"
+source "/home/chenshi/esp/idf/esp-idf/components/esp_app_format/Kconfig.projbuild"
+source "/home/chenshi/esp/idf/esp-idf/components/esp_rom/Kconfig.projbuild"
+source "/home/chenshi/esp/idf/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "/home/chenshi/esp/idf/esp-idf/components/partition_table/Kconfig.projbuild"
+source "/home/chenshi/embebidos_repo/Rep_SE_202601_grupo_Diego_Santiago_Chen/proyecto_final/camara_beacon/main/Kconfig.projbuild"
+source "/home/chenshi/embebidos_repo/Rep_SE_202601_grupo_Diego_Santiago_Chen/proyecto_final/camara_beacon/managed_components/espressif__esp-nn/Kconfig.projbuild"

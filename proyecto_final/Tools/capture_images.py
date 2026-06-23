@@ -1,7 +1,7 @@
-"""Capture absent-identifier images from ESP32-CAM over its serial port.
+"""Capture labeled identifier images from ESP32-CAM over its serial port.
 
 Every successful capture is saved as a 96x96 grayscale PNG and immediately
-added to etiquetas.txt with the presence label 0 (identifier absent).
+added to etiquetas.txt with the selected binary presence label.
 """
 
 import argparse
@@ -18,7 +18,9 @@ from PIL import Image
 IMG_W = 96
 IMG_H = 96
 IMAGE_BYTES = IMG_W * IMG_H
-IMAGE_NAME_RE = re.compile(r"^esp_(\d+)\.png$", re.IGNORECASE)
+IMAGE_NAME_RE = re.compile(
+    r"^esp_(\d+)\.(?:png|jpe?g|bmp|tiff?|webp)$", re.IGNORECASE
+)
 WINDOWS_TRAINING_ROOT = Path(
     r"C:\Users\chens\OneDrive\Escritorio\lab2embebidos\lab2embebidos"
 )
@@ -87,40 +89,55 @@ def existing_label_names(labels_path: Path) -> set[str]:
     return names
 
 
-def repair_missing_absent_labels(output_dir: Path, labels_path: Path) -> int:
-    """Add class-0 rows for PNG files left unlabeled by an interrupted run."""
+def repair_missing_labels(
+    output_dir: Path, labels_path: Path, presence_label: int
+) -> int:
+    """Add rows for images left unlabeled by an interrupted run."""
     known_names = existing_label_names(labels_path)
     missing = sorted(
         path.name
-        for path in output_dir.glob("esp_*.png")
+        for path in output_dir.glob("esp_*.*")
         if IMAGE_NAME_RE.match(path.name) and path.name not in known_names
     )
     if not missing:
         return 0
     with labels_path.open("a", encoding="utf-8", newline="\n") as labels_file:
         for name in missing:
-            labels_file.write(f"{name}, 0, 0\n")
+            labels_file.write(f"{name}, {presence_label}, 0\n")
     return len(missing)
 
 
-def next_image_number(output_dir: Path) -> int:
+def next_image_number(output_dir: Path, labels_path: Path) -> int:
     numbers = []
-    for path in output_dir.glob("esp_*.png"):
+    for path in output_dir.glob("esp_*.*"):
         match = IMAGE_NAME_RE.match(path.name)
+        if match:
+            numbers.append(int(match.group(1)))
+    for name in existing_label_names(labels_path):
+        match = IMAGE_NAME_RE.match(name)
         if match:
             numbers.append(int(match.group(1)))
     return max(numbers, default=0) + 1
 
 
-def save_absent_capture(raw: bytes, output_dir: Path, number: int) -> Path:
+def save_capture(
+    raw: bytes, output_dir: Path, number: int, presence_label: int
+) -> Path:
     filename = f"esp_{number:04d}.png"
     image_path = output_dir / filename
     labels_path = output_dir / "etiquetas.txt"
 
-    Image.frombytes("L", (IMG_W, IMG_H), raw).save(image_path, "PNG")
+    # Exclusive creation guarantees that an existing image is never replaced.
+    with image_path.open("xb") as image_file:
+        Image.frombytes("L", (IMG_W, IMG_H), raw).save(image_file, "PNG")
     with labels_path.open("a", encoding="utf-8", newline="\n") as labels_file:
-        labels_file.write(f"{filename}, 0, 0\n")
+        labels_file.write(f"{filename}, {presence_label}, 0\n")
     return image_path
+
+
+def save_absent_capture(raw: bytes, output_dir: Path, number: int) -> Path:
+    """Backward-compatible class-0 save helper."""
+    return save_capture(raw, output_dir, number, 0)
 
 
 def capture_images(
@@ -130,15 +147,16 @@ def capture_images(
     count: int,
     interval: float,
     manual: bool,
+    presence_label: int = 0,
 ) -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
     labels_path = output_dir / "etiquetas.txt"
     labels_path.touch(exist_ok=True)
-    repaired = repair_missing_absent_labels(output_dir, labels_path)
+    repaired = repair_missing_labels(output_dir, labels_path, presence_label)
     if repaired:
-        print(f"Recovered {repaired} missing class-0 label rows.")
+        print(f"Recovered {repaired} missing class-{presence_label} label rows.")
 
-    number = next_image_number(output_dir)
+    number = next_image_number(output_dir, labels_path)
     saved = 0
     ser = serial.Serial(port, baud, timeout=5)
     try:
@@ -150,7 +168,11 @@ def capture_images(
         print("Waiting for ESP32-CAM to boot...")
         wait_for_prompt(ser)
         print(f"Dataset directory: {output_dir}")
-        print("Automatic label for every capture: identifier absent (0, 0)")
+        class_name = "present" if presence_label == 1 else "absent"
+        print(
+            f"Automatic label for every capture: identifier {class_name} "
+            f"({presence_label}, 0)"
+        )
 
         for capture_index in range(count):
             if manual:
@@ -186,8 +208,11 @@ def capture_images(
                 print(f"  ERROR: expected {image_size} bytes, received {len(raw)}")
                 continue
 
-            image_path = save_absent_capture(raw, output_dir, number)
-            print(f"  Saved and labeled: {image_path.name}, 0, 0")
+            image_path = save_capture(raw, output_dir, number, presence_label)
+            print(
+                f"  Saved and labeled: {image_path.name}, "
+                f"{presence_label}, 0"
+            )
             number += 1
             saved += 1
 
@@ -202,9 +227,13 @@ def capture_images(
     print(f"Labels: {labels_path}")
 
 
-def main() -> None:
+def main(default_presence_label: int = 0) -> None:
+    class_name = "present" if default_presence_label == 1 else "absent"
     parser = argparse.ArgumentParser(
-        description="Capture ESP32-CAM images labeled automatically as identifier absent."
+        description=(
+            "Capture ESP32-CAM images labeled automatically as identifier "
+            f"{class_name}."
+        )
     )
     parser.add_argument("--port", "-p", default=None, help="Serial port, e.g. /dev/ttyUSB0 or COM5")
     parser.add_argument("--baud", "-b", type=int, default=115200)
@@ -235,7 +264,15 @@ def main() -> None:
         parser.error("--interval cannot be negative")
 
     port = args.port or find_serial_port()
-    capture_images(port, args.baud, args.output.expanduser(), args.count, args.interval, args.manual)
+    capture_images(
+        port,
+        args.baud,
+        args.output.expanduser(),
+        args.count,
+        args.interval,
+        args.manual,
+        default_presence_label,
+    )
 
 
 if __name__ == "__main__":
