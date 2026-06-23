@@ -12,6 +12,8 @@ constexpr int kClassCount = 2;
 constexpr int kAbsentClass = 0;
 constexpr int kPresentClass = 1;
 
+constexpr float kPresenceThreshold = 0.550f;
+
 const char* IdentifierClassName(int class_id);
 
 #endif  // MODEL_SETTINGS_H_

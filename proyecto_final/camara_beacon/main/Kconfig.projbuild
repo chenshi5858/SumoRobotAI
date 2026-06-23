@@ -16,7 +16,9 @@ config IDENTIFIER_MIN_MARGIN
 
 config IDENTIFIER_PERIOD_MS
     int "Inference period in milliseconds"
-    default 500
+    default 67
     range 20 10000
+    help
+        Target interval between inference starts. 67 ms is approximately 15 FPS.
 
 endmenu

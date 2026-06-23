@@ -6,7 +6,7 @@
 
 #include "esp_heap_caps.h"
 #include "esp_log.h"
-#include "identifier_model_data.h"
+#include "skippool_presence_binary_model_data.h"
 #include "sdkconfig.h"
 #include "tensorflow/lite/micro/micro_interpreter.h"
 #include "tensorflow/lite/micro/micro_log.h"
@@ -56,7 +56,7 @@ const char* IdentifierClassName(int class_id) {
 }
 
 bool IdentifierDetector::Begin() {
-    g_model = tflite::GetModel(g_identifier_presence_model);
+    g_model = tflite::GetModel(g_skippool_presence_low_rank_model);
     if (g_model->version() != TFLITE_SCHEMA_VERSION) {
         ESP_LOGE(kTag, "model schema %d != supported schema %d",
                  g_model->version(), TFLITE_SCHEMA_VERSION);
@@ -71,13 +71,14 @@ bool IdentifierDetector::Begin() {
         return false;
     }
 
-    static tflite::MicroMutableOpResolver<7> resolver;
+    static tflite::MicroMutableOpResolver<8> resolver;
+    resolver.AddMul();
     resolver.AddConv2D();
+    resolver.AddAveragePool2D();
     resolver.AddMaxPool2D();
     resolver.AddConcatenation();
     resolver.AddReshape();
     resolver.AddFullyConnected();
-    resolver.AddQuantize();
     resolver.AddLogistic();
 
     static tflite::MicroInterpreter static_interpreter(
@@ -195,7 +196,8 @@ bool IdentifierDetector::ReadOutputTensor(IdentifierResult* result) const {
     result->raw_scores[kAbsentClass] = -raw;
     result->raw_scores[kPresentClass] = raw;
 
-    result->class_id = (prob > 0.5f) ? kPresentClass : kAbsentClass;
+    result->class_id =
+        (prob >= kPresenceThreshold) ? kPresentClass : kAbsentClass;
     result->raw_margin_over_absent =
         static_cast<int>(result->raw_scores[kPresentClass]) - static_cast<int>(result->raw_scores[kAbsentClass]);
     result->detected =

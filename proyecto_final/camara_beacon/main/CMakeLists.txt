@@ -3,7 +3,7 @@ idf_component_register(
         "app_main.cc"
         "camera_provider.cc"
         "identifier_detector.cc"
-        "identifier_model_data.cc"
+        "skippool_presence_binary_model_data.cc"
         "uart_comm.c"
     INCLUDE_DIRS
         "."

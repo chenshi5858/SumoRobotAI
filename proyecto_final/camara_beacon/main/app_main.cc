@@ -22,12 +22,22 @@ constexpr char kTag[] = "beacon_cam";
 
 void LogResult(const IdentifierResult& result, int64_t elapsed_us) {
     ESP_LOGI(kTag,
-             "class=%d (%s) detected=%s margin=%d time=%lld us",
+             "class=%d (%s) detected=%s probability=%.1f%% margin=%d time=%lld us",
              result.class_id,
              IdentifierClassName(result.class_id),
              result.detected ? "yes" : "no",
+             static_cast<double>(result.scores[kPresentClass] * 100.0f),
              result.raw_margin_over_absent,
              elapsed_us);
+}
+
+void WaitForNextInference(TickType_t cycle_start) {
+    const TickType_t period = pdMS_TO_TICKS(CONFIG_IDENTIFIER_PERIOD_MS);
+    const TickType_t elapsed = xTaskGetTickCount() - cycle_start;
+
+    // Always block for at least one tick when inference misses its deadline so
+    // IDLE0 can run and feed the task watchdog.
+    vTaskDelay(elapsed < period ? period - elapsed : 1);
 }
 
 }  // namespace
@@ -57,10 +67,11 @@ extern "C" void app_main(void) {
     }
 
     static uint8_t image[kImageElementCount];
-
     while (true) {
+        const TickType_t cycle_start = xTaskGetTickCount();
+
         if (!CaptureCameraImage(image)) {
-            vTaskDelay(pdMS_TO_TICKS(CONFIG_IDENTIFIER_PERIOD_MS));
+            WaitForNextInference(cycle_start);
             continue;
         }
 
@@ -76,6 +87,6 @@ extern "C" void app_main(void) {
             uart_send_beacon_result(value, confidence);
         }
 
-        vTaskDelay(pdMS_TO_TICKS(CONFIG_IDENTIFIER_PERIOD_MS));
+        WaitForNextInference(cycle_start);
     }
 }

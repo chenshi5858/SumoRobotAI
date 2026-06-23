@@ -4,7 +4,7 @@
 #include "esp_adc/adc_continuous.h"
 
 #define UART1_RX_GPIO 15
-#define UART2_RX_GPIO 41
+#define UART2_RX_GPIO 5
 #define UART_BAUD_RATE 115200
 
 #define MOTOR_A_PIN1 6
@@ -40,6 +40,11 @@
 #define RING_MIN_TURN_MS 450
 #define RING_RECOVERY_PAUSE_MS 200
 #define ESPNOW_STATUS_TIMEOUT_MS 3000
+
+#define BEACON_STATUS_TIMEOUT_MS 2000
+#define COMBAT_ATTACK_SPEED 180
+#define BEACON_SEARCH_TURN_MS 150
+#define BEACON_SEARCH_PAUSE_MS 700
 
 #define ODOM_UPDATE_MS 50
 #define POSE_TX_MS 200
