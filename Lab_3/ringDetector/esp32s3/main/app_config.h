@@ -10,7 +10,6 @@
 
 /* Canal fijo ESP-NOW (ya no se conecta a WiFi AP). */
 #define ESPNOW_FALLBACK_CHANNEL 6
-#define ESPNOW_STATUS_TIMEOUT_MS 3000
 
 /* Motor pins heredados del proyecto Lab_3/4. Ajustar segun cableado real. */
 #define MOTOR_A_PIN1 6
@@ -33,7 +32,7 @@
 #define ROTATE_SPEED 185
 #define DIAGONAL_INNER_SPEED_PERCENT 70
 /* Calibracion individual: 100 mantiene el PWM, >100 aumenta, <100 reduce. */
-#define LEFT_MOTOR_SPEED_PERCENT 110
+#define LEFT_MOTOR_SPEED_PERCENT 118
 #define RIGHT_MOTOR_SPEED_PERCENT 100
 #define MOTOR_MAX_RPM 250.0f
 
@@ -46,6 +45,7 @@
 #define RING_FOLLOW_SPEED 180
 #define RING_PRE_TURN_PAUSE_MS 150
 #define RING_RECOVERY_PAUSE_MS 200
+#define ESPNOW_STATUS_TIMEOUT_MS 3000
 
 /* Tareas periodicas. */
 #define ODOM_UPDATE_MS 50

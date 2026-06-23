@@ -1,0 +1,7 @@
+dependencies:
+  espressif/esp32-camera:
+    version: "*"
+    override_path: "../../../../Lab_1/Ejercicio_7/esp32-camera"
+  espressif/esp_jpeg:
+    version: "*"
+    override_path: "../../../camara_beacon/managed_components/espressif__esp_jpeg"
