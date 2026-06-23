@@ -1,0 +1,122 @@
+Command: /home/chenshi/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/chenshi/esp/idf/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /home/chenshi/embebidos_repo/Rep_SE_202601_grupo_Diego_Santiago_Chen/proyecto_final/camara_beacon/build_offline/camara_beacon.elf /home/chenshi/embebidos_repo/Rep_SE_202601_grupo_Diego_Santiago_Chen/proyecto_final/camara_beacon/build_offline/bootloader/bootloader.elf -m '/home/chenshi/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python' '/home/chenshi/esp/idf/esp-idf/tools/idf.py' '-B' 'build_offline' '-p' '/dev/ttyUSB0'
+ets Jul 29 2019 1�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0040,len:6272
+load:0x40078000,len:15848
+load:0x40080400,len:3920
+entry 0x40080644
+[0;32mI (27) boot: ESP-IDF v6.1-dev-2938-g12f36a021f 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jun 23 2026 13:55:01[0m
+[0;32mI (28) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v3.1[0m
+[0;32mI (33) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (37) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (40) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (51) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (57) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (71) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (77) boot: End of partition table[0m
+[0;32mI (80) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=a7198h (684440) map[0m
+[0;32mI (332) esp_image: segment 1: paddr=000b71c0 vaddr=3ffb0000 size=04f34h ( 20276) load[0m
+[0;32mI (340) esp_image: segment 2: paddr=000bc0fc vaddr=40080000 size=03f1ch ( 16156) load[0m
+[0;32mI (347) esp_image: segment 3: paddr=000c0020 vaddr=400d0020 size=36974h (223604) map[0m
+[0;32mI (427) esp_image: segment 4: paddr=000f699c vaddr=40083f1c size=081d4h ( 33236) load[0m
+[0;32mI (440) esp_image: segment 5: paddr=000feb78 vaddr=50000000 size=00028h (    40) load[0m
+[0;32mI (447) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (448) boot: Disabling RNG early entropy source...[0m
+[0;32mI (458) cpu_start: Multicore app[0m
+[0;32mI (467) cpu_start: GPIO 3 and 1 are used as console UART I/O pins[0m
+[0;32mI (467) cpu_start: Pro cpu start user code[0m
+[0;32mI (467) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (469) app_init: Application information:[0m
+[0;32mI (473) app_init: Project name:     camara_beacon[0m
+[0;32mI (477) app_init: App version:      f4fe0480-dirty[0m
+[0;32mI (482) app_init: Compile time:     Jun 23 2026 13:55:22[0m
+[0;32mI (487) app_init: ELF file SHA256:  0793e7942...[0m
+[0;32mI (491) app_init: ESP-IDF:          v6.1-dev-2938-g12f36a021f[0m
+[0;32mI (496) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (500) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (504) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (508) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (514) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (519) heap_init: At 3FFB89C8 len 00027638 (157 KiB): DRAM[0m
+[0;32mI (525) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (530) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (536) heap_init: At 4008C0F0 len 00013F10 (79 KiB): IRAM[0m
+[0;32mI (542) spi_flash: detected chip: generic[0m
+[0;32mI (544) spi_flash: flash io: dio[0m
+[0;33mW (547) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (561) main_task: Started on CPU0[0m
+[0;32mI (564) main_task: Calling app_main()[0m
+[0;32mI (604) identifier_detector: model ready, arena=131072 bytes, input scale=1.000000 zero=-128[0m
+[0;32mI (607) cam_hal: cam init ok[0m
+[0;32mI (608) sccb-ng: pin_sda 26 pin_scl 27[0m
+[0;32mI (608) sccb-ng: sccb_i2c_port=1[0m
+[0;32mI (644) camera: Camera PID=0x3660 VER=0x00 MIDL=0x00 MIDH=0x00[0m
+[0;32mI (644) camera: Detected OV3660 camera[0m
+[0;32mI (644) camera: Detected camera at address=0x3c[0m
+[0;32mI (953) cam_hal: PSRAM DMA mode disabled[0m
+[0;32mI (953) esp32 ll_cam: node_size: 3072, nodes_per_line: 1, lines_per_node: 8, dma_half_buffer_min:  3072, dma_half_buffer: 12288,lines_per_half_buffer: 32, dma_buffer_size: 24576, image_size: 9216[0m
+[0;32mI (962) cam_hal: buffer_size: 24576, half_buffer_size: 12288, node_buffer_size: 3072, node_cnt: 8, total_cnt: 0[0m
+[0;32mI (972) cam_hal: Allocating 9216 Byte frame buffer in OnBoard RAM[0m
+[0;32mI (978) cam_hal: cam config ok[0m
+[0;32mI (993) ov3660: Calculated VCO: 160000000 Hz, PLLCLK: 160000000 Hz, SYSCLK: 40000000 Hz, PCLK: 10000000 Hz[0m
+[0;32mI (1011) uart_beacon: UART TX ready on GPIO3 (baud=115200)[0m
+[0;32mI (3305) beacon_cam: class=0 (ausente) detected=no probability=19.5% margin=-156 time=2143570 us[0m
+[0;32mI (5451) beacon_cam: class=0 (ausente) detected=no probability=3.1% margin=-240 time=2144473 us[0m
+[0;32mI (7596) beacon_cam: class=0 (ausente) detected=no probability=11.3% margin=-198 time=2143440 us[0m
+[1;31mE (8306) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (8306) task_wdt:  - IDLE0 (CPU 0)[0m
+[1;31mE (8306) task_wdt: Tasks currently running:[0m
+[1;31mE (8306) task_wdt: CPU 0: main[0m
+[1;31mE (8306) task_wdt: CPU 1: IDLE1[0m
+[1;31mE (8306) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400FD0F1:0x3FFB13C0 0x4008301D:0x3FFB1400 0x400EC3E6:0x3FFBA780 0x400E1A66:0x3FFBA880 0x400E5E52:0x3FFBADD0 0x400DC5D2:0x3FFBAE00 0x400DBD11:0x3FFBAE30 0x400DB1AD:0x3FFBAE50 0x400D5498:0x3FFBAED0
+
+[0;32mI (9777) beacon_cam: class=0 (ausente) detected=no probability=5.5% margin=-228 time=2179204 us[0m
+[0;32mI (11923) beacon_cam: class=0 (ausente) detected=no probability=2.3% margin=-244 time=2144468 us[0m
+[0;32mI (14070) beacon_cam: class=0 (ausente) detected=no probability=0.8% margin=-252 time=2143874 us[0m
+[0;32mI (16216) beacon_cam: class=0 (ausente) detected=no probability=46.9% margin=-16 time=2143967 us[0m
+[0;32mI (18362) beacon_cam: class=0 (ausente) detected=no probability=14.5% margin=-182 time=2143850 us[0m
+[0;32mI (20508) beacon_cam: class=0 (ausente) detected=no probability=26.6% margin=-120 time=2143834 us[0m
+[0;32mI (22654) beacon_cam: class=0 (ausente) detected=no probability=46.9% margin=-16 time=2144741 us[0m
+[0;32mI (24801) beacon_cam: class=1 (presente) detected=yes probability=96.5% margin=238 time=2143915 us[0m
+[0;32mI (26948) beacon_cam: class=0 (ausente) detected=no probability=6.2% margin=-224 time=2144858 us[0m
+[0;32mI (29094) beacon_cam: class=1 (presente) detected=yes probability=98.8% margin=250 time=2144423 us[0m
+[0;32mI (31240) beacon_cam: class=1 (presente) detected=yes probability=80.5% margin=156 time=2144121 us[0m
+[0;32mI (33386) beacon_cam: class=0 (ausente) detected=no probability=23.8% margin=-134 time=2144222 us[0m
+[0;32mI (35532) beacon_cam: class=0 (ausente) detected=no probability=0.0% margin=0 time=2143932 us[0m
+[0;32mI (37677) beacon_cam: class=0 (ausente) detected=no probability=0.8% margin=-252 time=2143561 us[0m
+[0;32mI (39823) beacon_cam: class=1 (presente) detected=yes probability=97.3% margin=242 time=2143610 us[0m
+[0;32mI (41970) beacon_cam: class=0 (ausente) detected=no probability=17.6% margin=-166 time=2144370 us[0m
+[0;32mI (44115) beacon_cam: class=0 (ausente) detected=no probability=12.9% margin=-190 time=2143687 us[0m
+[0;32mI (46262) beacon_cam: class=0 (ausente) detected=no probability=14.5% margin=-182 time=2144410 us[0m
+[1;31mE (46971) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (46971) task_wdt:  - IDLE0 (CPU 0)[0m
+[1;31mE (46971) task_wdt: Tasks currently running:[0m
+[1;31mE (46971) task_wdt: CPU 0: main[0m
+[1;31mE (46971) task_wdt: CPU 1: IDLE1[0m
+[1;31mE (46971) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400FD0F1:0x3FFB13C0 0x4008301D:0x3FFB1400 0x400EC435:0x3FFBA780 0x400E1A66:0x3FFBA880 0x400E5E52:0x3FFBADD0 0x400DC5D2:0x3FFBAE00 0x400DBD11:0x3FFBAE30 0x400DB1AD:0x3FFBAE50 0x400D5498:0x3FFBAED0
+
+[0;32mI (48443) beacon_cam: class=0 (ausente) detected=no probability=26.6% margin=-120 time=2179701 us[0m
+[0;32mI (50590) beacon_cam: class=0 (ausente) detected=no probability=2.0% margin=-246 time=2143992 us[0m
+[0;32mI (52736) beacon_cam: class=0 (ausente) detected=no probability=6.2% margin=-224 time=2144495 us[0m
+[0;32mI (54881) beacon_cam: class=0 (ausente) detected=no probability=2.0% margin=-246 time=2143843 us[0m
+[0;32mI (57027) beacon_cam: class=1 (presente) detected=yes probability=99.6% margin=254 time=2143743 us[0m
+[0;32mI (59174) beacon_cam: class=1 (presente) detected=yes probability=99.6% margin=254 time=2143846 us[0m
+[0;32mI (61319) beacon_cam: class=0 (ausente) detected=no probability=1.6% margin=-248 time=2143769 us[0m
+[0;32mI (63466) beacon_cam: class=0 (ausente) detected=no probability=16.0% margin=-174 time=2144555 us[0m
+[0;32mI (65612) beacon_cam: class=1 (presente) detected=yes probability=76.2% margin=134 time=2143711 us[0m
+[0;32mI (67760) beacon_cam: class=0 (ausente) detected=no probability=34.4% margin=-80 time=2144834 us[0m

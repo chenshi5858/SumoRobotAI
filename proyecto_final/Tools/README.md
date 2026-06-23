@@ -50,6 +50,19 @@ python3 proyecto_final/Tools/capture_images.py --port /dev/ttyUSB0 --count 200 -
 
 La numeración continúa entre ejecuciones y no sobrescribe capturas anteriores.
 
+## Capturas positivas
+
+Para guardar imágenes donde el identificador está presente, usa la herramienta
+positiva. Comparte la numeración con las imágenes anteriores, nunca las
+sobrescribe y agrega etiquetas con el formato `nombre.png, 1, 0`:
+
+```bash
+python proyecto_final/Tools/capture_positive_images.py \
+    --port /dev/ttyUSB0 \
+    --count 200 \
+    --manual
+```
+
 Cuando termines la sesión, prepara la carpeta que leen los entrenadores:
 
 ```bash

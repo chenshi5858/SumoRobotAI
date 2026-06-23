@@ -1,0 +1,409 @@
+Command: /home/chenshi/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python /home/chenshi/esp/idf/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /home/chenshi/embebidos_repo/Rep_SE_202601_grupo_Diego_Santiago_Chen/proyecto_final/camara_beacon/build_offline/camara_beacon.elf /home/chenshi/embebidos_repo/Rep_SE_202601_grupo_Diego_Santiago_Chen/proyecto_final/camara_beacon/build_offline/bootloader/bootloader.elf -m '/home/chenshi/esp/idf-tools/python_env/idf6.1_py3.12_env/bin/python' '/home/chenshi/esp/idf/esp-idf/tools/idf.py' '-B' 'build_offline' '-p' '/dev/ttyUSB0'
+ets Jul 29 2019 1�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0040,len:6272
+load:0x40078000,len:15848
+load:0x40080400,len:3920
+entry 0x40080644
+[0;32mI (27) boot: ESP-IDF v6.1-dev-2938-g12f36a021f 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jun 23 2026 13:55:01[0m
+[0;32mI (28) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v3.1[0m
+[0;32mI (33) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (37) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (40) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (51) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (57) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (71) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (77) boot: End of partition table[0m
+[0;32mI (80) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=1dd58h (122200) map[0m
+[0;32mI (131) esp_image: segment 1: paddr=0002dd80 vaddr=3ffb0000 size=02298h (  8856) load[0m
+[0;32mI (135) esp_image: segment 2: paddr=00030020 vaddr=400d0020 size=36974h (223604) map[0m
+[0;32mI (215) esp_image: segment 3: paddr=0006699c vaddr=3ffb2298 size=02c9ch ( 11420) load[0m
+[0;32mI (220) esp_image: segment 4: paddr=00069640 vaddr=40080000 size=0c0f0h ( 49392) load[0m
+[0;32mI (240) esp_image: segment 5: paddr=00075738 vaddr=50000000 size=00028h (    40) load[0m
+[0;32mI (247) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (247) boot: Disabling RNG early entropy source...[0m
+[0;32mI (258) cpu_start: Multicore app[0m
+[0;32mI (266) cpu_start: GPIO 3 and 1 are used as console UART I/O pins[0m
+[0;32mI (267) cpu_start: Pro cpu start user code[0m
+[0;32mI (267) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (268) app_init: Application information:[0m
+[0;32mI (272) app_init: Project name:     camara_beacon[0m
+[0;32mI (277) app_init: App version:      f4fe0480-dirty[0m
+[0;32mI (281) app_init: Compile time:     Jun 23 2026 13:55:22[0m
+[0;32mI (286) app_init: ELF file SHA256:  aa0d13737...[0m
+[0;32mI (291) app_init: ESP-IDF:          v6.1-dev-2938-g12f36a021f[0m
+[0;32mI (296) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (300) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (304) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (308) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (314) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (319) heap_init: At 3FFB89C8 len 00027638 (157 KiB): DRAM[0m
+[0;32mI (324) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (330) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (335) heap_init: At 4008C0F0 len 00013F10 (79 KiB): IRAM[0m
+[0;32mI (342) spi_flash: detected chip: generic[0m
+[0;32mI (344) spi_flash: flash io: dio[0m
+[0;33mW (347) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (360) main_task: Started on CPU0[0m
+[0;32mI (363) main_task: Calling app_main()[0m
+[0;32mI (392) identifier_detector: model ready, arena=131072 bytes, input scale=1.000000 zero=-128[0m
+[0;32mI (395) cam_hal: cam init ok[0m
+[0;32mI (396) sccb-ng: pin_sda 26 pin_scl 27[0m
+[0;32mI (396) sccb-ng: sccb_i2c_port=1[0m
+[0;32mI (432) camera: Camera PID=0x3660 VER=0x00 MIDL=0x00 MIDH=0x00[0m
+[0;32mI (432) camera: Detected OV3660 camera[0m
+[0;32mI (432) camera: Detected camera at address=0x3c[0m
+[0;32mI (741) cam_hal: PSRAM DMA mode disabled[0m
+[0;32mI (741) esp32 ll_cam: node_size: 3072, nodes_per_line: 1, lines_per_node: 8, dma_half_buffer_min:  3072, dma_half_buffer: 12288,lines_per_half_buffer: 32, dma_buffer_size: 24576, image_size: 9216[0m
+[0;32mI (750) cam_hal: buffer_size: 24576, half_buffer_size: 12288, node_buffer_size: 3072, node_cnt: 8, total_cnt: 0[0m
+[0;32mI (760) cam_hal: Allocating 9216 Byte frame buffer in OnBoard RAM[0m
+[0;32mI (766) cam_hal: cam config ok[0m
+[0;32mI (781) ov3660: Calculated VCO: 160000000 Hz, PLLCLK: 160000000 Hz, SYSCLK: 40000000 Hz, PCLK: 10000000 Hz[0m
+[0;32mI (799) uart_beacon: UART TX ready on GPIO3 (baud=115200)[0m
+[0;32mI (1079) beacon_cam: class=1 (presente) detected=yes probability=77.7% margin=142 time=129956 us[0m
+[0;32mI (1211) beacon_cam: class=0 (ausente) detected=no probability=39.8% margin=-52 time=129571 us[0m
+[0;32mI (1411) beacon_cam: class=0 (ausente) detected=no probability=19.5% margin=-156 time=129491 us[0m
+[0;32mI (1611) beacon_cam: class=1 (presente) detected=yes probability=58.2% margin=42 time=129491 us[0m
+[0;32mI (1811) beacon_cam: class=1 (presente) detected=yes probability=92.6% margin=218 time=129491 us[0m
+[0;32mI (2011) beacon_cam: class=1 (presente) detected=yes probability=64.1% margin=72 time=129491 us[0m
+[0;32mI (2211) beacon_cam: class=1 (presente) detected=yes probability=73.0% margin=118 time=129499 us[0m
+[0;32mI (2411) beacon_cam: class=1 (presente) detected=yes probability=66.0% margin=82 time=129499 us[0m
+[0;32mI (2611) beacon_cam: class=1 (presente) detected=yes probability=98.0% margin=246 time=129499 us[0m
+[0;32mI (2811) beacon_cam: class=0 (ausente) detected=no probability=54.3% margin=22 time=129507 us[0m
+[0;32mI (3011) beacon_cam: class=0 (ausente) detected=no probability=52.0% margin=10 time=129495 us[0m
+[0;32mI (3211) beacon_cam: class=0 (ausente) detected=no probability=52.0% margin=10 time=129491 us[0m
+[0;32mI (3411) beacon_cam: class=0 (ausente) detected=no probability=39.8% margin=-52 time=129499 us[0m
+[0;32mI (3611) beacon_cam: class=1 (presente) detected=yes probability=73.0% margin=118 time=129487 us[0m
+[0;32mI (3811) beacon_cam: class=1 (presente) detected=yes probability=79.3% margin=150 time=129495 us[0m
+[0;32mI (4011) beacon_cam: class=1 (presente) detected=yes probability=85.2% margin=180 time=129487 us[0m
+[0;32mI (4211) beacon_cam: class=1 (presente) detected=yes probability=79.3% margin=150 time=129495 us[0m
+[0;32mI (4411) beacon_cam: class=1 (presente) detected=yes probability=79.3% margin=150 time=129491 us[0m
+[0;32mI (4611) beacon_cam: class=0 (ausente) detected=no probability=32.0% margin=-92 time=129499 us[0m
+[0;32mI (4811) beacon_cam: class=0 (ausente) detected=no probability=12.1% margin=-194 time=129487 us[0m
+[0;32mI (5011) beacon_cam: class=0 (ausente) detected=no probability=1.2% margin=-250 time=129495 us[0m
+[0;32mI (5211) beacon_cam: class=1 (presente) detected=yes probability=58.2% margin=42 time=129491 us[0m
+[0;32mI (5411) beacon_cam: class=0 (ausente) detected=no probability=35.9% margin=-72 time=129503 us[0m
+[0;32mI (5611) beacon_cam: class=0 (ausente) detected=no probability=10.2% margin=-204 time=129487 us[0m
+[0;32mI (5811) beacon_cam: class=1 (presente) detected=yes probability=94.1% margin=226 time=129499 us[0m
+[0;32mI (6011) beacon_cam: class=1 (presente) detected=yes probability=71.5% margin=110 time=129499 us[0m
+[0;32mI (6211) beacon_cam: class=0 (ausente) detected=no probability=50.0% margin=0 time=129499 us[0m
+[0;32mI (6411) beacon_cam: class=0 (ausente) detected=no probability=52.0% margin=10 time=129491 us[0m
+[0;32mI (6611) beacon_cam: class=0 (ausente) detected=no probability=54.3% margin=22 time=129495 us[0m
+[0;32mI (6811) beacon_cam: class=1 (presente) detected=yes probability=69.5% margin=100 time=129491 us[0m
+[0;32mI (7011) beacon_cam: class=0 (ausente) detected=no probability=2.0% margin=-246 time=129491 us[0m
+[0;32mI (7211) beacon_cam: class=0 (ausente) detected=no probability=39.8% margin=-52 time=129487 us[0m
+[0;32mI (7411) beacon_cam: class=1 (presente) detected=yes probability=58.2% margin=42 time=129495 us[0m
+[0;32mI (7611) beacon_cam: class=1 (presente) detected=yes probability=76.2% margin=134 time=129487 us[0m
+[0;32mI (7811) beacon_cam: class=1 (presente) detected=yes probability=95.3% margin=232 time=129499 us[0m
+[0;32mI (8011) beacon_cam: class=0 (ausente) detected=no probability=19.5% margin=-156 time=129499 us[0m
+[0;32mI (8211) beacon_cam: class=0 (ausente) detected=no probability=13.7% margin=-186 time=129503 us[0m
+[0;32mI (8411) beacon_cam: class=0 (ausente) detected=no probability=12.1% margin=-194 time=129499 us[0m
+[0;32mI (8611) beacon_cam: class=0 (ausente) detected=no probability=1.2% margin=-250 time=129503 us[0m
+[0;32mI (8811) beacon_cam: class=0 (ausente) detected=no probability=41.8% margin=-42 time=129491 us[0m
+[0;32mI (9011) beacon_cam: class=0 (ausente) detected=no probability=4.3% margin=-234 time=129495 us[0m
+[0;32mI (9211) beacon_cam: class=0 (ausente) detected=no probability=0.8% margin=-252 time=129487 us[0m
+[0;32mI (9411) beacon_cam: class=0 (ausente) detected=no probability=12.1% margin=-194 time=129499 us[0m
+[0;32mI (9611) beacon_cam: class=0 (ausente) detected=no probability=12.9% margin=-190 time=129503 us[0m
+[0;32mI (9811) beacon_cam: class=0 (ausente) detected=no probability=5.5% margin=-228 time=129503 us[0m
+[0;32mI (10011) beacon_cam: class=0 (ausente) detected=no probability=12.1% margin=-194 time=129487 us[0m
+[0;32mI (10211) beacon_cam: class=1 (presente) detected=yes probability=89.8% margin=204 time=129491 us[0m
+[0;32mI (10411) beacon_cam: class=1 (presente) detected=yes probability=56.2% margin=32 time=129487 us[0m
+[0;32mI (10611) beacon_cam: class=0 (ausente) detected=no probability=9.0% margin=-210 time=129495 us[0m
+[0;32mI (10811) beacon_cam: class=0 (ausente) detected=no probability=18.4% margin=-162 time=129499 us[0m
+[0;32mI (11011) beacon_cam: class=0 (ausente) detected=no probability=20.7% margin=-150 time=129503 us[0m
+[0;32mI (11211) beacon_cam: class=0 (ausente) detected=no probability=22.3% margin=-142 time=129499 us[0m
+[0;32mI (11411) beacon_cam: class=0 (ausente) detected=no probability=20.7% margin=-150 time=129495 us[0m
+[0;32mI (11611) beacon_cam: class=0 (ausente) detected=no probability=25.4% margin=-126 time=129507 us[0m
+[0;32mI (11811) beacon_cam: class=0 (ausente) detected=no probability=20.7% margin=-150 time=129503 us[0m
+[0;32mI (12011) beacon_cam: class=0 (ausente) detected=no probability=23.8% margin=-134 time=129487 us[0m
+[0;32mI (12211) beacon_cam: class=0 (ausente) detected=no probability=30.5% margin=-100 time=129491 us[0m
+[0;32mI (12411) beacon_cam: class=1 (presente) detected=yes probability=69.5% margin=100 time=129491 us[0m
+[0;32mI (12611) beacon_cam: class=0 (ausente) detected=no probability=30.5% margin=-100 time=129495 us[0m
+[0;32mI (12811) beacon_cam: class=1 (presente) detected=yes probability=89.1% margin=200 time=129491 us[0m
+[0;32mI (13011) beacon_cam: class=0 (ausente) detected=no probability=50.0% margin=0 time=129491 us[0m
+[0;32mI (13211) beacon_cam: class=0 (ausente) detected=no probability=4.7% margin=-232 time=129499 us[0m
+[0;32mI (13411) beacon_cam: class=0 (ausente) detected=no probability=8.2% margin=-214 time=129491 us[0m
+[0;32mI (13611) beacon_cam: class=0 (ausente) detected=no probability=28.5% margin=-110 time=129487 us[0m
+[0;32mI (13811) beacon_cam: class=1 (presente) detected=yes probability=91.0% margin=210 time=129503 us[0m
+[0;32mI (14011) beacon_cam: class=0 (ausente) detected=no probability=17.2% margin=-168 time=129503 us[0m
+[0;32mI (14211) beacon_cam: class=0 (ausente) detected=no probability=10.9% margin=-200 time=129503 us[0m
+[0;32mI (14411) beacon_cam: class=0 (ausente) detected=no probability=16.0% margin=-174 time=129487 us[0m
+[0;32mI (14611) beacon_cam: class=0 (ausente) detected=no probability=12.1% margin=-194 time=129491 us[0m
+[0;32mI (14811) beacon_cam: class=0 (ausente) detected=no probability=20.7% margin=-150 time=129491 us[0m
+[0;32mI (15011) beacon_cam: class=1 (presente) detected=yes probability=56.2% margin=32 time=129503 us[0m
+[0;32mI (15211) beacon_cam: class=0 (ausente) detected=no probability=0.4% margin=-254 time=129499 us[0m
+[0;32mI (15411) beacon_cam: class=0 (ausente) detected=no probability=0.4% margin=-254 time=129491 us[0m
+[0;32mI (15611) beacon_cam: class=1 (presente) detected=yes probability=73.0% margin=118 time=129499 us[0m
+[0;32mI (15811) beacon_cam: class=0 (ausente) detected=no probability=16.0% margin=-174 time=129491 us[0m
+[0;32mI (16011) beacon_cam: class=1 (presente) detected=yes probability=58.2% margin=42 time=129491 us[0m
+[0;32mI (16211) beacon_cam: class=1 (presente) detected=yes probability=58.2% margin=42 time=129503 us[0m
+[0;32mI (16411) beacon_cam: class=0 (ausente) detected=no probability=25.4% margin=-126 time=129491 us[0m
+[0;32mI (16611) beacon_cam: class=0 (ausente) detected=no probability=10.2% margin=-204 time=129499 us[0m
+[0;32mI (16811) beacon_cam: class=0 (ausente) detected=no probability=27.0% margin=-118 time=129499 us[0m
+[0;32mI (17011) beacon_cam: class=1 (presente) detected=yes probability=62.1% margin=62 time=129499 us[0m
+[0;32mI (17211) beacon_cam: class=1 (presente) detected=yes probability=82.8% margin=168 time=129491 us[0m
+[0;32mI (17411) beacon_cam: class=1 (presente) detected=yes probability=87.9% margin=194 time=129491 us[0m
+[0;32mI (17611) beacon_cam: class=1 (presente) detected=yes probability=86.3% margin=186 time=129503 us[0m
+[0;32mI (17811) beacon_cam: class=0 (ausente) detected=no probability=35.9% margin=-72 time=129495 us[0m
+[0;32mI (18011) beacon_cam: class=1 (presente) detected=yes probability=56.2% margin=32 time=129487 us[0m
+[0;32mI (18211) beacon_cam: class=1 (presente) detected=yes probability=69.5% margin=100 time=129495 us[0m
+[0;32mI (18411) beacon_cam: class=0 (ausente) detected=no probability=32.0% margin=-92 time=129499 us[0m
+[0;32mI (18611) beacon_cam: class=0 (ausente) detected=no probability=37.9% margin=-62 time=129491 us[0m
+[0;32mI (18811) beacon_cam: class=0 (ausente) detected=no probability=14.8% margin=-180 time=129499 us[0m
+[0;32mI (19011) beacon_cam: class=0 (ausente) detected=no probability=30.5% margin=-100 time=129503 us[0m
+[0;32mI (19211) beacon_cam: class=0 (ausente) detected=no probability=30.5% margin=-100 time=129491 us[0m
+[0;32mI (19411) beacon_cam: class=1 (presente) detected=yes probability=71.5% margin=110 time=129491 us[0m
+[0;32mI (19611) beacon_cam: class=1 (presente) detected=yes probability=71.5% margin=110 time=129487 us[0m
+[0;32mI (19811) beacon_cam: class=1 (presente) detected=yes probability=62.1% margin=62 time=129499 us[0m
+[0;32mI (20011) beacon_cam: class=1 (presente) detected=yes probability=96.9% margin=240 time=129499 us[0m
+[0;32mI (20211) beacon_cam: class=0 (ausente) detected=no probability=3.1% margin=-240 time=129499 us[0m
+[0;32mI (20411) beacon_cam: class=1 (presente) detected=yes probability=98.4% margin=248 time=129499 us[0m
+[0;32mI (20611) beacon_cam: class=0 (ausente) detected=no probability=6.6% margin=-222 time=129499 us[0m
+[0;32mI (20811) beacon_cam: class=0 (ausente) detected=no probability=9.0% margin=-210 time=129503 us[0m
+[0;32mI (21011) beacon_cam: class=0 (ausente) detected=no probability=3.9% margin=-236 time=129499 us[0m
+[0;32mI (21211) beacon_cam: class=0 (ausente) detected=no probability=13.7% margin=-186 time=129491 us[0m
+[0;32mI (21411) beacon_cam: class=0 (ausente) detected=no probability=18.4% margin=-162 time=129491 us[0m
+[0;32mI (21611) beacon_cam: class=1 (presente) detected=yes probability=66.0% margin=82 time=129499 us[0m
+[0;32mI (21811) beacon_cam: class=1 (presente) detected=yes probability=56.2% margin=32 time=129491 us[0m
+[0;32mI (22011) beacon_cam: class=0 (ausente) detected=no probability=37.9% margin=-62 time=129499 us[0m
+[0;32mI (22211) beacon_cam: class=0 (ausente) detected=no probability=32.0% margin=-92 time=129499 us[0m
+[0;32mI (22411) beacon_cam: class=0 (ausente) detected=no probability=54.3% margin=22 time=129503 us[0m
+[0;32mI (22611) beacon_cam: class=0 (ausente) detected=no probability=37.9% margin=-62 time=129499 us[0m
+[0;32mI (22811) beacon_cam: class=1 (presente) detected=yes probability=71.5% margin=110 time=129499 us[0m
+[0;32mI (23011) beacon_cam: class=1 (presente) detected=yes probability=66.0% margin=82 time=129499 us[0m
+[0;32mI (23211) beacon_cam: class=0 (ausente) detected=no probability=7.0% margin=-220 time=129491 us[0m
+[0;32mI (23411) beacon_cam: class=1 (presente) detected=yes probability=85.2% margin=180 time=129499 us[0m
+[0;32mI (23611) beacon_cam: class=0 (ausente) detected=no probability=7.0% margin=-220 time=129507 us[0m
+[0;32mI (23811) beacon_cam: class=0 (ausente) detected=no probability=43.8% margin=-32 time=129499 us[0m
+[0;32mI (24011) beacon_cam: class=0 (ausente) detected=no probability=45.7% margin=-22 time=129503 us[0m
+[0;32mI (24211) beacon_cam: class=0 (ausente) detected=no probability=54.3% margin=22 time=129503 us[0m
+[0;32mI (24411) beacon_cam: class=1 (presente) detected=yes probability=74.6% margin=126 time=129503 us[0m
+[0;32mI (24611) beacon_cam: class=1 (presente) detected=yes probability=74.6% margin=126 time=129503 us[0m
+[0;32mI (24811) beacon_cam: class=1 (presente) detected=yes probability=66.0% margin=82 time=129499 us[0m
+[0;32mI (25011) beacon_cam: class=1 (presente) detected=yes probability=87.9% margin=194 time=129499 us[0m
+[0;32mI (25211) beacon_cam: class=0 (ausente) detected=no probability=5.1% margin=-230 time=129499 us[0m
+[0;32mI (25411) beacon_cam: class=0 (ausente) detected=no probability=2.0% margin=-246 time=129499 us[0m
+[0;32mI (25611) beacon_cam: class=0 (ausente) detected=no probability=2.0% margin=-246 time=129503 us[0m
+[0;32mI (25811) beacon_cam: class=0 (ausente) detected=no probability=2.3% margin=-244 time=129503 us[0m
+[0;32mI (26011) beacon_cam: class=0 (ausente) detected=no probability=0.8% margin=-252 time=129499 us[0m
+[0;32mI (26211) beacon_cam: class=0 (ausente) detected=no probability=0.0% margin=0 time=129499 us[0m
+[0;32mI (26411) beacon_cam: class=0 (ausente) detected=no probability=0.8% margin=-252 time=129487 us[0m
+[0;32mI (26611) beacon_cam: class=0 (ausente) detected=no probability=4.7% margin=-232 time=129499 us[0m
+[0;32mI (26811) beacon_cam: class=0 (ausente) detected=no probability=4.7% margin=-232 time=129487 us[0m
+[0;32mI (27011) beacon_cam: class=1 (presente) detected=yes probability=64.1% margin=72 time=129511 us[0m
+[0;32mI (27211) beacon_cam: class=0 (ausente) detected=no probability=50.0% margin=0 time=129503 us[0m
+[0;32mI (27411) beacon_cam: class=0 (ausente) detected=no probability=2.3% margin=-244 time=129499 us[0m
+[0;32mI (27611) beacon_cam: class=0 (ausente) detected=no probability=13.7% margin=-186 time=129491 us[0m
+[0;32mI (27811) beacon_cam: class=0 (ausente) detected=no probability=48.0% margin=-10 time=129495 us[0m
+[0;32mI (28011) beacon_cam: class=1 (presente) detected=yes probability=60.2% margin=52 time=129499 us[0m
+[0;32mI (28211) beacon_cam: class=1 (presente) detected=yes probability=60.2% margin=52 time=129503 us[0m
+[0;32mI (28411) beacon_cam: class=0 (ausente) detected=no probability=50.0% margin=0 time=129499 us[0m
+[0;32mI (28611) beacon_cam: class=0 (ausente) detected=no probability=50.0% margin=0 time=129499 us[0m
+[0;32mI (28811) beacon_cam: class=1 (presente) detected=yes probability=82.8% margin=168 time=129503 us[0m
+[0;32mI (29011) beacon_cam: class=1 (presente) detected=yes probability=58.2% margin=42 time=129503 us[0m
+[0;32mI (29211) beacon_cam: class=1 (presente) detected=yes probability=60.2% margin=52 time=129499 us[0m
+[0;32mI (29411) beacon_cam: class=1 (presente) detected=yes probability=69.5% margin=100 time=129503 us[0m
+[0;32mI (29611) beacon_cam: class=1 (presente) detected=yes probability=60.2% margin=52 time=129499 us[0m
+[0;32mI (29811) beacon_cam: class=1 (presente) detected=yes probability=84.0% margin=174 time=129499 us[0m
+[0;32mI (30011) beacon_cam: class=1 (presente) detected=yes probability=74.6% margin=126 time=129503 us[0m
+[0;32mI (30211) beacon_cam: class=1 (presente) detected=yes probability=74.6% margin=126 time=129503 us[0m
+[0;32mI (30411) beacon_cam: class=1 (presente) detected=yes probability=91.0% margin=210 time=129503 us[0m
+[0;32mI (30611) beacon_cam: class=1 (presente) detected=yes probability=79.3% margin=150 time=129507 us[0m
+[0;32mI (30811) beacon_cam: class=0 (ausente) detected=no probability=30.5% margin=-100 time=129507 us[0m
+[0;32mI (31011) beacon_cam: class=0 (ausente) detected=no probability=22.3% margin=-142 time=129503 us[0m
+[0;32mI (31211) beacon_cam: class=0 (ausente) detected=no probability=27.0% margin=-118 time=129499 us[0m
+[0;32mI (31411) beacon_cam: class=0 (ausente) detected=no probability=41.8% margin=-42 time=129503 us[0m
+[0;32mI (31611) beacon_cam: class=0 (ausente) detected=no probability=35.9% margin=-72 time=129503 us[0m
+[0;32mI (31811) beacon_cam: class=0 (ausente) detected=no probability=54.3% margin=22 time=129503 us[0m
+[0;32mI (32011) beacon_cam: class=1 (presente) detected=yes probability=62.1% margin=62 time=129499 us[0m
+[0;32mI (32211) beacon_cam: class=1 (presente) detected=yes probability=60.2% margin=52 time=129499 us[0m
+[0;32mI (32411) beacon_cam: class=0 (ausente) detected=no probability=20.7% margin=-150 time=129503 us[0m
+[0;32mI (32611) beacon_cam: class=0 (ausente) detected=no probability=23.8% margin=-134 time=129499 us[0m
+[0;32mI (32811) beacon_cam: class=0 (ausente) detected=no probability=3.9% margin=-236 time=129487 us[0m
+[0;32mI (33011) beacon_cam: class=0 (ausente) detected=no probability=1.2% margin=-250 time=129507 us[0m
+[0;32mI (33211) beacon_cam: class=0 (ausente) detected=no probability=25.4% margin=-126 time=129503 us[0m
+[0;32mI (33411) beacon_cam: class=0 (ausente) detected=no probability=34.0% margin=-82 time=129491 us[0m
+[0;32mI (33611) beacon_cam: class=0 (ausente) detected=no probability=43.8% margin=-32 time=129487 us[0m
+[0;32mI (33811) beacon_cam: class=0 (ausente) detected=no probability=32.0% margin=-92 time=129491 us[0m
+[0;32mI (34011) beacon_cam: class=0 (ausente) detected=no probability=39.8% margin=-52 time=129499 us[0m
+[0;32mI (34211) beacon_cam: class=0 (ausente) detected=no probability=10.2% margin=-204 time=129499 us[0m
+[0;32mI (34411) beacon_cam: class=0 (ausente) detected=no probability=23.8% margin=-134 time=129499 us[0m
+[0;32mI (34611) beacon_cam: class=0 (ausente) detected=no probability=28.5% margin=-110 time=129499 us[0m
+[0;32mI (34811) beacon_cam: class=0 (ausente) detected=no probability=19.5% margin=-156 time=129499 us[0m
+[0;32mI (35011) beacon_cam: class=0 (ausente) detected=no probability=23.8% margin=-134 time=129499 us[0m
+[0;32mI (35211) beacon_cam: class=0 (ausente) detected=no probability=16.0% margin=-174 time=129499 us[0m
+[0;32mI (35411) beacon_cam: class=0 (ausente) detected=no probability=17.2% margin=-168 time=129503 us[0m
+[0;32mI (35611) beacon_cam: class=0 (ausente) detected=no probability=16.0% margin=-174 time=129499 us[0m
+[0;32mI (35811) beacon_cam: class=0 (ausente) detected=no probability=17.2% margin=-168 time=129503 us[0m
+[0;32mI (36011) beacon_cam: class=0 (ausente) detected=no probability=27.0% margin=-118 time=129499 us[0m
+[0;32mI (36211) beacon_cam: class=0 (ausente) detected=no probability=22.3% margin=-142 time=129499 us[0m
+[0;32mI (36411) beacon_cam: class=0 (ausente) detected=no probability=22.3% margin=-142 time=129507 us[0m
+[0;32mI (36611) beacon_cam: class=0 (ausente) detected=no probability=18.4% margin=-162 time=129499 us[0m
+[0;32mI (36811) beacon_cam: class=0 (ausente) detected=no probability=20.7% margin=-150 time=129503 us[0m
+[0;32mI (37011) beacon_cam: class=0 (ausente) detected=no probability=18.4% margin=-162 time=129499 us[0m
+[0;32mI (37211) beacon_cam: class=0 (ausente) detected=no probability=12.9% margin=-190 time=129499 us[0m
+[0;32mI (37411) beacon_cam: class=0 (ausente) detected=no probability=12.1% margin=-194 time=129491 us[0m
+[0;32mI (37611) beacon_cam: class=0 (ausente) detected=no probability=8.2% margin=-214 time=129503 us[0m
+[0;32mI (37811) beacon_cam: class=0 (ausente) detected=no probability=10.2% margin=-204 time=129503 us[0m
+[0;32mI (38011) beacon_cam: class=0 (ausente) detected=no probability=9.4% margin=-208 time=129499 us[0m
+[0;32mI (38211) beacon_cam: class=0 (ausente) detected=no probability=12.1% margin=-194 time=129503 us[0m
+[0;32mI (38411) beacon_cam: class=0 (ausente) detected=no probability=37.9% margin=-62 time=129499 us[0m
+[0;32mI (38611) beacon_cam: class=0 (ausente) detected=no probability=8.2% margin=-214 time=129499 us[0m
+[0;32mI (38811) beacon_cam: class=0 (ausente) detected=no probability=9.0% margin=-210 time=129503 us[0m
+[0;32mI (39011) beacon_cam: class=0 (ausente) detected=no probability=22.3% margin=-142 time=129499 us[0m
+[0;32mI (39211) beacon_cam: class=0 (ausente) detected=no probability=20.7% margin=-150 time=129503 us[0m
+[0;32mI (39411) beacon_cam: class=0 (ausente) detected=no probability=25.4% margin=-126 time=129503 us[0m
+[0;32mI (39611) beacon_cam: class=0 (ausente) detected=no probability=10.2% margin=-204 time=129499 us[0m
+[0;32mI (39811) beacon_cam: class=0 (ausente) detected=no probability=12.1% margin=-194 time=129499 us[0m
+[0;32mI (40011) beacon_cam: class=0 (ausente) detected=no probability=50.0% margin=0 time=129503 us[0m
+[0;32mI (40211) beacon_cam: class=0 (ausente) detected=no probability=37.9% margin=-62 time=129499 us[0m
+[0;32mI (40411) beacon_cam: class=0 (ausente) detected=no probability=25.4% margin=-126 time=129503 us[0m
+[0;32mI (40611) beacon_cam: class=0 (ausente) detected=no probability=18.4% margin=-162 time=129499 us[0m
+[0;32mI (40811) beacon_cam: class=0 (ausente) detected=no probability=23.8% margin=-134 time=129499 us[0m
+[0;32mI (41011) beacon_cam: class=0 (ausente) detected=no probability=50.0% margin=0 time=129503 us[0m
+[0;32mI (41211) beacon_cam: class=0 (ausente) detected=no probability=3.9% margin=-236 time=129499 us[0m
+[0;32mI (41411) beacon_cam: class=0 (ausente) detected=no probability=3.5% margin=-238 time=129507 us[0m
+[0;32mI (41611) beacon_cam: class=0 (ausente) detected=no probability=30.5% margin=-100 time=129507 us[0m
+[0;32mI (41811) beacon_cam: class=0 (ausente) detected=no probability=27.0% margin=-118 time=129499 us[0m
+[0;32mI (42011) beacon_cam: class=0 (ausente) detected=no probability=28.5% margin=-110 time=129487 us[0m
+[0;32mI (42211) beacon_cam: class=0 (ausente) detected=no probability=30.5% margin=-100 time=129503 us[0m
+[0;32mI (42411) beacon_cam: class=0 (ausente) detected=no probability=30.5% margin=-100 time=129503 us[0m
+[0;32mI (42611) beacon_cam: class=0 (ausente) detected=no probability=27.0% margin=-118 time=129499 us[0m
+[0;32mI (42811) beacon_cam: class=0 (ausente) detected=no probability=23.8% margin=-134 time=129499 us[0m
+[0;32mI (43011) beacon_cam: class=0 (ausente) detected=no probability=25.4% margin=-126 time=129495 us[0m
+[0;32mI (43211) beacon_cam: class=0 (ausente) detected=no probability=25.4% margin=-126 time=129491 us[0m
+[0;32mI (43411) beacon_cam: class=0 (ausente) detected=no probability=25.4% margin=-126 time=129503 us[0m
+[0;32mI (43611) beacon_cam: class=0 (ausente) detected=no probability=25.4% margin=-126 time=129503 us[0m
+[0;32mI (43811) beacon_cam: class=0 (ausente) detected=no probability=27.0% margin=-118 time=129499 us[0m
+[0;32mI (44011) beacon_cam: class=0 (ausente) detected=no probability=27.0% margin=-118 time=129499 us[0m
+[0;32mI (44211) beacon_cam: class=0 (ausente) detected=no probability=22.3% margin=-142 time=129499 us[0m
+[0;32mI (44411) beacon_cam: class=0 (ausente) detected=no probability=22.3% margin=-142 time=129499 us[0m
+[0;32mI (44611) beacon_cam: class=0 (ausente) detected=no probability=20.7% margin=-150 time=129503 us[0m
+[0;32mI (44811) beacon_cam: class=0 (ausente) detected=no probability=20.7% margin=-150 time=129506 us[0m
+[0;32mI (45011) beacon_cam: class=0 (ausente) detected=no probability=28.5% margin=-110 time=129499 us[0m
+[0;32mI (45211) beacon_cam: class=0 (ausente) detected=no probability=28.5% margin=-110 time=129519 us[0m
+[0;32mI (45411) beacon_cam: class=0 (ausente) detected=no probability=27.0% margin=-118 time=129519 us[0m
+[0;32mI (45611) beacon_cam: class=0 (ausente) detected=no probability=28.5% margin=-110 time=129515 us[0m
+[0;32mI (45811) beacon_cam: class=0 (ausente) detected=no probability=28.5% margin=-110 time=129519 us[0m
+[0;32mI (46011) beacon_cam: class=0 (ausente) detected=no probability=32.0% margin=-92 time=129519 us[0m
+[0;32mI (46211) beacon_cam: class=0 (ausente) detected=no probability=25.4% margin=-126 time=129523 us[0m
+[0;32mI (46411) beacon_cam: class=0 (ausente) detected=no probability=43.8% margin=-32 time=129519 us[0m
+[0;32mI (46611) beacon_cam: class=0 (ausente) detected=no probability=18.4% margin=-162 time=129519 us[0m
+[0;32mI (46811) beacon_cam: class=0 (ausente) detected=no probability=19.5% margin=-156 time=129519 us[0m
+[0;32mI (47011) beacon_cam: class=0 (ausente) detected=no probability=23.8% margin=-134 time=129519 us[0m
+[0;32mI (47211) beacon_cam: class=0 (ausente) detected=no probability=27.0% margin=-118 time=129527 us[0m
+[0;32mI (47411) beacon_cam: class=0 (ausente) detected=no probability=28.5% margin=-110 time=129515 us[0m
+[0;32mI (47611) beacon_cam: class=0 (ausente) detected=no probability=37.9% margin=-62 time=129519 us[0m
+[0;32mI (47811) beacon_cam: class=0 (ausente) detected=no probability=35.9% margin=-72 time=129523 us[0m
+[0;32mI (48011) beacon_cam: class=0 (ausente) detected=no probability=41.8% margin=-42 time=129519 us[0m
+[0;32mI (48211) beacon_cam: class=0 (ausente) detected=no probability=41.8% margin=-42 time=129523 us[0m
+[0;32mI (48411) beacon_cam: class=0 (ausente) detected=no probability=30.5% margin=-100 time=129523 us[0m
+[0;32mI (48611) beacon_cam: class=1 (presente) detected=yes probability=58.2% margin=42 time=129523 us[0m
+[0;32mI (48811) beacon_cam: class=0 (ausente) detected=no probability=37.9% margin=-62 time=129519 us[0m
+[0;32mI (49011) beacon_cam: class=0 (ausente) detected=no probability=54.3% margin=22 time=129523 us[0m
+[0;32mI (49211) beacon_cam: class=0 (ausente) detected=no probability=34.0% margin=-82 time=129515 us[0m
+[0;32mI (49411) beacon_cam: class=0 (ausente) detected=no probability=28.5% margin=-110 time=129519 us[0m
+[0;32mI (49611) beacon_cam: class=0 (ausente) detected=no probability=34.0% margin=-82 time=129507 us[0m
+[0;32mI (49811) beacon_cam: class=0 (ausente) detected=no probability=54.3% margin=22 time=129519 us[0m
+[0;32mI (50011) beacon_cam: class=0 (ausente) detected=no probability=32.0% margin=-92 time=129515 us[0m
+[0;32mI (50211) beacon_cam: class=1 (presente) detected=yes probability=58.2% margin=42 time=129523 us[0m
+[0;32mI (50411) beacon_cam: class=0 (ausente) detected=no probability=48.0% margin=-10 time=129523 us[0m
+[0;32mI (50611) beacon_cam: class=0 (ausente) detected=no probability=35.9% margin=-72 time=129523 us[0m
+[0;32mI (50811) beacon_cam: class=0 (ausente) detected=no probability=43.8% margin=-32 time=129515 us[0m
+[0;32mI (51011) beacon_cam: class=1 (presente) detected=yes probability=66.0% margin=82 time=129519 us[0m
+[0;32mI (51211) beacon_cam: class=1 (presente) detected=yes probability=71.5% margin=110 time=129519 us[0m
+[0;32mI (51411) beacon_cam: class=1 (presente) detected=yes probability=76.2% margin=134 time=129519 us[0m
+[0;32mI (51611) beacon_cam: class=1 (presente) detected=yes probability=79.3% margin=150 time=129519 us[0m
+[0;32mI (51811) beacon_cam: class=1 (presente) detected=yes probability=66.0% margin=82 time=129519 us[0m
+[0;32mI (52011) beacon_cam: class=1 (presente) detected=yes probability=58.2% margin=42 time=129531 us[0m
+[0;32mI (52211) beacon_cam: class=1 (presente) detected=yes probability=56.2% margin=32 time=129519 us[0m
+[0;32mI (52411) beacon_cam: class=1 (presente) detected=yes probability=68.0% margin=92 time=129527 us[0m
+[0;32mI (52611) beacon_cam: class=1 (presente) detected=yes probability=68.0% margin=92 time=129515 us[0m
+[0;32mI (52811) beacon_cam: class=0 (ausente) detected=no probability=34.0% margin=-82 time=129519 us[0m
+[0;32mI (53011) beacon_cam: class=0 (ausente) detected=no probability=27.0% margin=-118 time=129523 us[0m
+[0;32mI (53211) beacon_cam: class=0 (ausente) detected=no probability=25.4% margin=-126 time=129531 us[0m
+[0;32mI (53411) beacon_cam: class=0 (ausente) detected=no probability=23.8% margin=-134 time=129523 us[0m
+[0;32mI (53611) beacon_cam: class=0 (ausente) detected=no probability=25.4% margin=-126 time=129531 us[0m
+[0;32mI (53811) beacon_cam: class=0 (ausente) detected=no probability=25.4% margin=-126 time=129527 us[0m
+[0;32mI (54011) beacon_cam: class=0 (ausente) detected=no probability=20.7% margin=-150 time=129531 us[0m
+[0;32mI (54211) beacon_cam: class=0 (ausente) detected=no probability=18.4% margin=-162 time=129535 us[0m
+[0;32mI (54411) beacon_cam: class=0 (ausente) detected=no probability=50.0% margin=0 time=129527 us[0m
+[0;32mI (54611) beacon_cam: class=0 (ausente) detected=no probability=34.0% margin=-82 time=129531 us[0m
+[0;32mI (54811) beacon_cam: class=0 (ausente) detected=no probability=28.5% margin=-110 time=129527 us[0m
+[0;32mI (55011) beacon_cam: class=0 (ausente) detected=no probability=5.9% margin=-226 time=129531 us[0m
+[0;32mI (55211) beacon_cam: class=0 (ausente) detected=no probability=16.0% margin=-174 time=129527 us[0m
+[0;32mI (55411) beacon_cam: class=0 (ausente) detected=no probability=22.3% margin=-142 time=129523 us[0m
+[0;32mI (55611) beacon_cam: class=0 (ausente) detected=no probability=23.8% margin=-134 time=129531 us[0m
+[0;32mI (55811) beacon_cam: class=0 (ausente) detected=no probability=23.8% margin=-134 time=129535 us[0m
+[0;32mI (56011) beacon_cam: class=0 (ausente) detected=no probability=25.4% margin=-126 time=129535 us[0m
+[0;32mI (56211) beacon_cam: class=0 (ausente) detected=no probability=23.8% margin=-134 time=129523 us[0m
+[0;32mI (56411) beacon_cam: class=0 (ausente) detected=no probability=22.3% margin=-142 time=129527 us[0m
+[0;32mI (56611) beacon_cam: class=0 (ausente) detected=no probability=25.4% margin=-126 time=129535 us[0m
+[0;32mI (56811) beacon_cam: class=0 (ausente) detected=no probability=27.0% margin=-118 time=129531 us[0m
+[0;32mI (57011) beacon_cam: class=0 (ausente) detected=no probability=25.4% margin=-126 time=129535 us[0m
+[0;32mI (57211) beacon_cam: class=0 (ausente) detected=no probability=27.0% margin=-118 time=129531 us[0m
+[0;32mI (57411) beacon_cam: class=0 (ausente) detected=no probability=28.5% margin=-110 time=129531 us[0m
+[0;32mI (57611) beacon_cam: class=0 (ausente) detected=no probability=28.5% margin=-110 time=129531 us[0m
+[0;32mI (57811) beacon_cam: class=0 (ausente) detected=no probability=28.5% margin=-110 time=129531 us[0m
+[0;32mI (58011) beacon_cam: class=0 (ausente) detected=no probability=32.0% margin=-92 time=129531 us[0m
+[0;32mI (58211) beacon_cam: class=0 (ausente) detected=no probability=30.5% margin=-100 time=129535 us[0m
+[0;32mI (58411) beacon_cam: class=0 (ausente) detected=no probability=28.5% margin=-110 time=129539 us[0m
+[0;32mI (58611) beacon_cam: class=0 (ausente) detected=no probability=27.0% margin=-118 time=129535 us[0m
+[0;32mI (58811) beacon_cam: class=0 (ausente) detected=no probability=35.9% margin=-72 time=129535 us[0m
+[0;32mI (59011) beacon_cam: class=0 (ausente) detected=no probability=34.0% margin=-82 time=129547 us[0m
+[0;32mI (59212) beacon_cam: class=0 (ausente) detected=no probability=34.0% margin=-82 time=129539 us[0m
+[0;32mI (59412) beacon_cam: class=0 (ausente) detected=no probability=32.0% margin=-92 time=129531 us[0m
+[0;32mI (59612) beacon_cam: class=0 (ausente) detected=no probability=28.5% margin=-110 time=129531 us[0m
+[0;32mI (59812) beacon_cam: class=0 (ausente) detected=no probability=27.0% margin=-118 time=129531 us[0m
+[0;32mI (60012) beacon_cam: class=0 (ausente) detected=no probability=28.5% margin=-110 time=129531 us[0m
+[0;32mI (60212) beacon_cam: class=0 (ausente) detected=no probability=28.5% margin=-110 time=129531 us[0m
+[0;32mI (60412) beacon_cam: class=0 (ausente) detected=no probability=25.4% margin=-126 time=129535 us[0m
+[0;32mI (60612) beacon_cam: class=0 (ausente) detected=no probability=27.0% margin=-118 time=129531 us[0m
+[0;32mI (60812) beacon_cam: class=0 (ausente) detected=no probability=23.8% margin=-134 time=129531 us[0m
+[0;32mI (61012) beacon_cam: class=0 (ausente) detected=no probability=35.9% margin=-72 time=129535 us[0m
+[0;32mI (61212) beacon_cam: class=1 (presente) detected=yes probability=71.5% margin=110 time=129531 us[0m
+[0;32mI (61412) beacon_cam: class=0 (ausente) detected=no probability=32.0% margin=-92 time=129531 us[0m
+[0;32mI (61612) beacon_cam: class=0 (ausente) detected=no probability=48.0% margin=-10 time=129535 us[0m
+[0;32mI (61812) beacon_cam: class=1 (presente) detected=yes probability=58.2% margin=42 time=129535 us[0m
+[0;32mI (62012) beacon_cam: class=1 (presente) detected=yes probability=56.2% margin=32 time=129531 us[0m
+[0;32mI (62212) beacon_cam: class=0 (ausente) detected=no probability=48.0% margin=-10 time=129535 us[0m
+[0;32mI (62412) beacon_cam: class=1 (presente) detected=yes probability=60.2% margin=52 time=129531 us[0m
+[0;32mI (62612) beacon_cam: class=0 (ausente) detected=no probability=37.9% margin=-62 time=129551 us[0m
+[0;32mI (62813) beacon_cam: class=0 (ausente) detected=no probability=41.8% margin=-42 time=129535 us[0m
+[0;32mI (63013) beacon_cam: class=0 (ausente) detected=no probability=19.5% margin=-156 time=129531 us[0m
+[0;32mI (63213) beacon_cam: class=0 (ausente) detected=no probability=17.2% margin=-168 time=129535 us[0m
+[0;32mI (63413) beacon_cam: class=0 (ausente) detected=no probability=28.5% margin=-110 time=129531 us[0m
+[0;32mI (63613) beacon_cam: class=0 (ausente) detected=no probability=23.8% margin=-134 time=129531 us[0m
+[0;32mI (63813) beacon_cam: class=0 (ausente) detected=no probability=22.3% margin=-142 time=129531 us[0m
+[0;32mI (64013) beacon_cam: class=0 (ausente) detected=no probability=30.5% margin=-100 time=129531 us[0m
+[0;32mI (64213) beacon_cam: class=0 (ausente) detected=no probability=43.8% margin=-32 time=129523 us[0m
+[0;32mI (64413) beacon_cam: class=0 (ausente) detected=no probability=34.0% margin=-82 time=129531 us[0m
+[0;32mI (64613) beacon_cam: class=0 (ausente) detected=no probability=30.5% margin=-100 time=129535 us[0m
+[0;32mI (64813) beacon_cam: class=0 (ausente) detected=no probability=25.4% margin=-126 time=129543 us[0m
+[0;32mI (65014) beacon_cam: class=0 (ausente) detected=no probability=35.9% margin=-72 time=129535 us[0m
+[0;32mI (65214) beacon_cam: class=0 (ausente) detected=no probability=48.0% margin=-10 time=129531 us[0m
+[0;32mI (65414) beacon_cam: class=0 (ausente) detected=no probability=45.7% margin=-22 time=129527 us[0m
+[0;32mI (65614) beacon_cam: class=0 (ausente) detected=no probability=30.5% margin=-100 time=129535 us[0m
+[0;32mI (65814) beacon_cam: class=0 (ausente) detected=no probability=20.7% margin=-150 time=129539 us[0m
+[0;32mI (66014) beacon_cam: class=0 (ausente) detected=no probability=30.5% margin=-100 time=129535 us[0m
+[0;32mI (66214) beacon_cam: class=0 (ausente) detected=no probability=50.0% margin=0 time=129535 us[0m
+[0;32mI (66414) beacon_cam: class=0 (ausente) detected=no probability=52.0% margin=10 time=129535 us[0m
+[0;32mI (66614) beacon_cam: class=1 (presente) detected=yes probability=86.3% margin=186 time=129535 us[0m
+[0;32mI (66814) beacon_cam: class=1 (presente) detected=yes probability=74.6% margin=126 time=129535 us[0m
+[0;32mI (67014) beacon_cam: class=1 (presente) detected=yes probability=71.5% margin=110 time=129531 us[0m
+[0;32mI (67214) beacon_cam: class=1 (presente) detected=yes probability=81.6% margin=162 time=129531 us[0m
+[0;32mI (67414) beacon_cam: class=1 (presente) detected=yes probability=80.5% margin=156 time=129531 us[0m
+[0;32mI (67614) beacon_cam: class=0 (ausente) detected=no probability=41.8% margin=-42 time=129531 us[0m
+[0;32mI (67814) beacon_cam: class=0 (ausente) detected=no probability=52.0% margin=10 time=129527 us[0m
+[0;32mI (68014) beacon_cam: class=1 (presente) detected=yes probability=81.6% margin=162 time=129531 us[0m
+[0;32mI (68214) beacon_cam: class=1 (presente) detected=yes probability=74.6% margin=126 time=129535 us[0m
+[0;32mI (68414) beacon_cam: class=1 (presente) detected=yes probability=56.2% margin=32 time=129539 us[0m
